@@ -17,10 +17,11 @@ from tradecraft import adapters
 
 _REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DETECTORS_DIR = os.path.join(_REPO, "detectors")
-# OSINT entity graph (shipped with the series website). Override via env.
+# OSINT entity graph. Defaults to the bundled sample snapshot (also exported by ratchet-mcp);
+# override via env to point at a fresher/other graph.
 ENTITIES_PATH = os.environ.get(
     "TRADECRAFT_ENTITIES",
-    os.path.join(_REPO, "..", "website", "data", "research-entities.json"),
+    os.path.join(_REPO, "data", "research-entities.json"),
 )
 AGENT_OUT = os.environ.get("AGENT_OUTPUT_DIR", os.path.join(_REPO, "agent_output"))
 _LENSES = None
