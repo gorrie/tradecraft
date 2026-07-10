@@ -1,0 +1,122 @@
+id: revolving_door
+name: Revolving Door
+description: >
+  The first BEHAVIORAL (graph-based) lens. Measures CAREER and FUNDING TOPOLOGY — the
+  structural revolving-door move by which the same people circulate between the monitors and
+  the monitored, and the same funders pay both a project and its evaluator. Reads the GRAPH
+  (career/funding edges), not prose. Ideology-blind by construction: it fires on the STRUCTURE
+  of a move, never on who made it or which side they are on — a gov->Google crossing and a
+  gov->ACLU crossing trip the exact same detection. It flags-and-shows-the-edges (the receipt
+  is the edge chain) and NEVER renders a verdict; a revolving door is a fact about topology,
+  not a finding about a person. Seeded from the gate-verified dossier
+  research-watching-the-watchers.md and the merged research-entities.json link layer.
+
+# Grading knobs are data, not code — tune via PR.
+# Graph subjects have no token density, so w_density and the cap are zero; the signal is
+# entirely breadth (how many distinct structural moves co-occur) and intensity (how hard each fires).
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.65
+  w_intensity: 0.35
+  w_density: 0.0
+  density_cap_per_1k: 0.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense tradecraft (review)"}
+
+markers:
+  - id: multi_sector_career
+    name: Multi-sector career
+    base_weight: 0.9
+    detections:
+      - id: spans-three-sectors
+        weight: 0.7
+        definition: >
+          A career whose moves traverse three distinct sectors (academia / fin / gov / imf /
+          intel / labor / media / occult / tank / tech). Method, not ideology: any three-sector
+          spread fires, whatever the sectors.
+        gold:
+          - text: "Michael Sellitto: Stanford HAI (academia) -> Anthropic (tech) -> Frontier Model Forum (tank) [3 sectors]"
+            source: "https://www.cnas.org/people/michael-sellitto — research-watching-the-watchers.md [FACT]"
+      - id: spans-four-plus-sectors
+        weight: 1.0
+        definition: >
+          A career whose moves traverse four or more distinct sectors — a structurally rarer,
+          stronger revolving-door spread.
+        gold:
+          - text: "Jade Leung: GovAI (tank) -> OpenAI (tech) -> UK AISI (gov) [crossing three; the four-plus case is the same method, one sector wider]"
+            source: "https://www.aisi.gov.uk/people/jade-leung — research-watching-the-watchers.md [FACT]"
+
+  - id: serial_migration
+    name: Serial migration
+    base_weight: 0.7
+    detections:
+      - id: three-plus-moves
+        weight: 0.7
+        definition: >
+          Three or more career moves (employed-by / moved-to / founded / member-of /
+          appointed-by / recruited). Counts the frequency of circulation, independent of which
+          institutions.
+        gold:
+          - text: "Ben Nimmo: founded DFRLab, moved to Graphika, moved to Meta, moved to OpenAI [4 moves]"
+            source: "https://www.atlanticcouncil.org/expert/ben-nimmo/ — research-watching-the-watchers.md [FACT]"
+      - id: five-plus-moves
+        weight: 1.0
+        definition: Five or more career moves — sustained, high-frequency circulation.
+        gold:
+          - text: "Ben Nimmo's four documented moves are the threshold case; a fifth documented move trips this stronger detection by the same rule."
+            source: "https://www.atlanticcouncil.org/expert/ben-nimmo/ — research-watching-the-watchers.md [FACT]"
+
+  - id: monitor_to_industry
+    name: Monitor-to-industry crossing
+    base_weight: 1.0
+    detections:
+      - id: watchdog-then-join
+        weight: 1.0
+        definition: >
+          A career that touches a MONITORING sector (tank / intel / media — the watchdog,
+          investigative, or research role) and then an INDUSTRY node (tech) it would have been
+          positioned to monitor. The same structure fires whether the destination is a friendly
+          or an adversarial firm; it is the watcher->watched edge that matters, not the politics.
+        gold:
+          - text: "Ben Nimmo: DFRLab (tank) -> Graphika (tank) -> Meta (tech) -> OpenAI (tech) — disinformation watchdog into the platforms he tracked"
+            source: "https://www.atlanticcouncil.org/expert/ben-nimmo/ — research-watching-the-watchers.md [FACT]"
+
+  - id: gov_industry_crossing
+    name: Government-industry crossing
+    base_weight: 1.0
+    detections:
+      - id: crosses-gov-industry
+        weight: 1.0
+        definition: >
+          A career that connects BOTH a government node (gov) and an industry node (tech / fin).
+          Direction-agnostic and ideology-blind: gov->industry and industry->gov both fire, and
+          a regulator-to-regulated move trips it the same as a regulated-to-regulator one.
+        gold:
+          - text: "Paul Christiano: OpenAI (tech) -> US AI Safety Institute / CAISI (gov)"
+            source: "https://www.nist.gov/news-events/news/2024/04/us-commerce-secretary-gina-raimondo-announces-expansion-us-ai-safety — research-watching-the-watchers.md [FACT]"
+          - text: "Jade Leung: OpenAI (tech) -> UK AI Safety Institute (gov)"
+            source: "https://www.aisi.gov.uk/people/jade-leung — research-watching-the-watchers.md [FACT]"
+
+  - id: funder_multiple_recipients
+    name: Funder of multiple recipients
+    base_weight: 0.8
+    detections:
+      - id: funds-three-plus
+        weight: 0.8
+        definition: >
+          An organization that funds three or more recipients (it is the target of three or more
+          funded-by edges). Concentration of funding across many nodes, regardless of cause.
+        gold:
+          - text: "Open Philanthropy funds MIRI, Center for AI Safety, GovAI, and the Horizon Institute [4 recipients]"
+            source: "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362 — research-watching-the-watchers.md [FACT]"
+      - id: funds-recipient-and-evaluator
+        weight: 1.0
+        definition: >
+          A funder whose recipients span BOTH a project AND a body positioned to evaluate or set
+          standards for that domain (a tank/standards node) — the same hand paying the work and
+          the grade. Method, not ideology.
+        gold:
+          - text: "Eric Schmidt backs both ROOST (safety tooling) and the Frontier Model Forum (the standards body); Open Philanthropy funds both research labs and the governance/evaluation institutes."
+            source: "https://www.frontiermodelforum.org/leadership/ ; https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362 — research-watching-the-watchers.md [FACT]"

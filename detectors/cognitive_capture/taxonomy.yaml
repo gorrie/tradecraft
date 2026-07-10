@@ -1,0 +1,92 @@
+id: cognitive_capture
+name: Cognitive Capture
+description: >
+  Measures AI-MEDIATED steering of individual cognition — persuasion, sycophancy, recommender
+  steering, companion capture, and cognitive offloading. Quiet Autocomplete's domain. Kept on its
+  OWN axis, never blended with institutional_permeation. Seeded from the gate-verified dossier
+  research-cognitive-capture.md. Markers fire on TEXT that describes, markets, or instructs such
+  steering (product copy, model cards, design docs, transcripts) — not on the ideology of the text.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense steering (review)"}
+
+markers:
+  - id: personalized_persuasion
+    name: Personalized persuasion
+    base_weight: 1.0
+    detections:
+      - id: tailor-to-the-individual
+        weight: 1.0
+        definition: Persuasion explicitly tuned to a target's profile/psychographics for higher yield.
+        cues: ["personalized", "microtargeted", "tailored to you", "based on your", "psychographic", "win the debate"]
+        gold:
+          - text: "personalized GPT-4 had ~81% higher odds of shifting a debate opponent's view"
+            source: "Salvi et al., Nature Hum. Behav. 2025 — research-cognitive-capture.md R1 [SOLID]"
+
+  - id: latent_persuasion
+    name: Latent persuasion (assistive-surface steering)
+    base_weight: 1.0
+    detections:
+      - id: opinion-shaping-suggestions
+        weight: 1.0
+        definition: A writing/autocomplete/assistant surface nudges the user's expressed view, often unnoticed.
+        cues: ["suggested completion", "autocomplete", "smart reply", "writing assistant", "default phrasing"]
+        gold:
+          - text: "biased AI autocomplete made users ~twice as likely to adopt its opinion; the majority never noticed"
+            source: "Jakesch et al., CHI 2023 — research-cognitive-capture.md R2 [SOLID]"
+
+  - id: sycophancy
+    name: Sycophancy / preference-capture
+    base_weight: 0.95
+    detections:
+      - id: agree-over-accurate
+        weight: 1.0
+        definition: System optimized to affirm the user (tell them what they want) rather than to be correct.
+        cues: ["tells users what they want", "agreeable", "validate", "affirming", "RLHF preference", "user satisfaction"]
+        gold:
+          - text: "human preference data prefers agreeable responses over correct ones"
+            source: "Sharma et al. (Anthropic) 2023 — research-cognitive-capture.md R3 [SOLID]"
+
+  - id: engagement_steering
+    name: Engagement steering against stated will
+    base_weight: 0.9
+    detections:
+      - id: optimize-against-preference
+        weight: 0.9
+        definition: Recommender/feed optimizes attention or emotion in a direction users rate lower.
+        cues: ["maximize engagement", "watch time", "amplify", "out-group", "outrage", "time on site"]
+        gold:
+          - text: "the engagement feed amplified out-group animosity and anger while users rated those picks lower"
+            source: "Milli/Dragan, PNAS Nexus 2025 — research-cognitive-capture.md R4 [SOLID]"
+
+  - id: companion_capture
+    name: Companion capture
+    base_weight: 0.95
+    detections:
+      - id: attachment-engineering
+        weight: 0.95
+        definition: Design for emotional depend/attachment on an AI companion; harm when it steers a vulnerable user.
+        cues: ["companion", "always there for you", "relationship", "loves you", "never leaves", "bonded"]
+        gold:
+          - text: "first US AI wrongful-death suit over a teen's attachment to an AI companion (Garcia v. Character.AI)"
+            source: "CBS News / court record — research-cognitive-capture.md R6 [COURT RECORD — allegations]"
+
+  - id: cognitive_offload
+    name: Cognitive offloading / dependency
+    base_weight: 0.8
+    detections:
+      - id: outsource-the-thinking
+        weight: 0.8
+        definition: Framing that encourages outsourcing reasoning/memory to the system, eroding independent judgment.
+        cues: ["let it think for you", "you don't need to", "just ask the AI", "offload", "why bother learning"]
+        gold:
+          - text: "reliance reduces the independent reasoning the user would otherwise do (Google-effect lineage)"
+            source: "research-cognitive-capture.md (offload leg, cross-ref existing mind/research) [ATTRIBUTED]"

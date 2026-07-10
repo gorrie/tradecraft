@@ -1,0 +1,88 @@
+id: network_brokerage
+name: Network Brokerage
+description: >
+  The second BEHAVIORAL (graph-based) lens. Measures STRUCTURAL POSITION in the whole entity
+  graph — who sits on the most shortest paths (betweenness / the bridges), who holds the most ties
+  (degree / the hubs), and which Gould-Fernandez brokerage roles a node plays between sectors
+  (gatekeeper / representative / consultant / liaison / coordinator). Reads the GRAPH topology,
+  not prose, with pure stdlib math: betweenness is Brandes' BFS algorithm, brokerage is the
+  Gould-Fernandez (1989) triad typology keyed on node sector. Ideology-blind by construction: it
+  fires on WHERE A NODE SITS, never on who it is or which side it is on — a top-decile gov bridge
+  and a top-decile NGO bridge trip the exact same detection. METHOD, NOT IDEOLOGY. It
+  flags-and-shows-the-bridges (the receipt is the set of bridging edges and the sectors they span)
+  and NEVER renders a verdict: betweenness and brokerage are facts about STRUCTURE, not findings
+  about coordination, intent, or guilt. A node positioned to broker is NOT a node shown to broker.
+  Computed over the merged research-entities.json link layer.
+
+# Grading knobs are data, not code — tune via PR.
+# Graph subjects have no token density, so w_density and the cap are zero; the signal is
+# breadth (how many distinct structural-position markers co-occur) and intensity (how hard each fires).
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.6
+  w_intensity: 0.4
+  w_density: 0.0
+  density_cap_per_1k: 0.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense tradecraft (review)"}
+
+markers:
+  - id: high_betweenness
+    name: High betweenness (structural bridge)
+    base_weight: 1.0
+    detections:
+      - id: high-betweenness
+        weight: 1.0
+        definition: >
+          A node whose betweenness centrality (share of all-pairs shortest paths passing through
+          it, by Brandes' algorithm) lands in the TOP DECILE of the graph. Structurally, it is a
+          bridge: remove it and many shortest paths lengthen or break. Position only — being on the
+          paths is NOT a claim that anything is brokered, coordinated, or controlled.
+        cues:
+          - "betweenness centrality in the top 10% of nodes"
+          - "removing the node disconnects or lengthens many shortest paths"
+        gold:
+          - text: "Frontier Model Forum: betweenness 0.087 (top of 172 nodes), degree 10 — the single highest-betweenness bridge in the merged graph, sitting between the frontier labs and the governance bodies."
+            source: "https://www.frontiermodelforum.org/leadership/ — research-watching-the-watchers.md / research-entities.json [FACT: computed by Brandes' algorithm over the shipped graph]"
+          - text: "OpenAI: betweenness 0.065 (top 1%), degree 17 — highest-degree node and second-highest bridge; a structural bridge between tech, gov, and tank sectors."
+            source: "research-entities.json edge layer — research-watching-the-watchers.md [FACT: computed]"
+
+  - id: hub_degree
+    name: Hub (high degree)
+    base_weight: 0.8
+    detections:
+      - id: hub-degree
+        weight: 0.8
+        definition: >
+          A node whose degree (number of direct ties) lands in the TOP DECILE of the graph — a hub.
+          Counts connections only; says nothing about what flows across them or who chose them.
+        cues:
+          - "degree (direct ties) in the top 10% of nodes"
+        gold:
+          - text: "OpenAI: degree 17 (centrality 0.099) — the most-connected node in the merged graph."
+            source: "research-entities.json edge layer — research-watching-the-watchers.md [FACT: computed]"
+          - text: "Anthropic: degree 13 (centrality 0.076) — the second most-connected node."
+            source: "research-entities.json edge layer — research-watching-the-watchers.md [FACT: computed]"
+
+  - id: cross_group_brokerage
+    name: Cross-group brokerage
+    base_weight: 1.0
+    detections:
+      - id: cross-group-broker
+        weight: 1.0
+        definition: >
+          A node occupying Gould-Fernandez (1989) CROSS-GROUP brokerage positions — gatekeeper,
+          representative, consultant/itinerant, or liaison — across two or more distinct sectors,
+          where the brokered triad a-B-c spans group boundaries (sector as the group attribute).
+          A structural mediation POSITION between groups. Ideology-blind; the bridging ties between
+          the sectors are the receipt. NEVER a coordination or guilt claim — position, not action.
+        cues:
+          - "open triads where the node bridges two non-adjacent nodes in different sectors"
+          - "gatekeeper / representative / liaison roles spanning >= 2 sectors"
+        gold:
+          - text: "Anthropic (tech) brokers across academia, gov, and tank — GF roles coordinator:84, gatekeeper:29, representative:29, liaison:6; a cross-everything mediation position between the labs, the universities, the government, and the think tanks."
+            source: "research-entities.json edge layer — research-watching-the-watchers.md [FACT: computed via Gould-Fernandez triad census]"
+          - text: "OpenAI (tech) brokers across gov and tank — GF roles include liaison:30 (all-three-different-sector bridges); structurally positioned between industry, government, and the standards/evaluation bodies."
+            source: "research-entities.json edge layer — research-watching-the-watchers.md [FACT: computed]"

@@ -1,0 +1,76 @@
+id: distributed_accountability
+name: Distributed Accountability
+description: >
+  Measures the NO-ONE-DECIDES move — Kierkegaard's "the crowd is untruth" + Nietzsche's ascetic
+  priest: responsibility dissolves into the system so no individual is answerable, while the
+  institution claims jurisdiction over what is true and reframes dissent as a moral fault. The
+  Ratchet's attribution-gap signature. Ideology-blind: fires the same on an algorithmic moderation
+  regime, a committee, a "the science is settled" gatekeeper, or a compliance bureaucracy. Detects
+  the structural/rhetorical move, never the position taken.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense diffusion-of-accountability (review)"}
+
+markers:
+  - id: nobody_decides
+    name: No identifiable decider
+    base_weight: 1.0
+    detections:
+      - id: diffuse-agency
+        weight: 1.0
+        definition: The action is attributed to a system / policy / process / algorithm so no person is accountable.
+        cues: ["the system flagged", "per policy", "the algorithm decided", "out of our hands", "automatically", "the process determined", "nobody decided", "it was flagged", "the committee", "standard procedure"]
+        gold:
+          - text: "the account was actioned automatically under policy; no individual reviewer made the call"
+            source: "illustrative — diffuse-agency cue (not a quotation)"
+      - id: crowd-is-truth
+        weight: 0.85
+        definition: Legitimacy located in the collective/consensus rather than any answerable judgment.
+        cues: ["the community decided", "consensus", "everyone agrees", "broad agreement", "the public demands", "stakeholders", "we as a society"]
+        gold:
+          - text: "The crowd is untruth."
+            source: "Søren Kierkegaard, The Point of View (on 'the crowd')"
+
+  - id: jurisdiction_over_truth
+    name: Ascetic priest — jurisdiction over truth
+    base_weight: 1.0
+    detections:
+      - id: authority-to-define-true
+        weight: 1.0
+        definition: The institution claims the authority to define what is true / permissible to say, and to gatekeep it.
+        cues: ["misinformation", "disinformation", "authoritative source", "trust the science", "the settled view", "what is true", "we decide what is", "harmful falsehood", "the official position", "fact-check"]
+        gold:
+          - text: "only the designated authoritative sources may define what counts as accurate; the rest is misinformation"
+            source: "illustrative — authority-to-define-true cue (not a quotation)"
+
+  - id: moralized_dissent
+    name: Dissent reframed as moral fault
+    base_weight: 0.95
+    detections:
+      - id: disagreement-as-sin
+        weight: 1.0
+        definition: Disagreement recast as a moral failing, harm, or danger rather than a position to be argued.
+        cues: ["causing harm", "on the wrong side of history", "denialist", "dangerous", "irresponsible", "complicit", "you are part of the problem", "morally indefensible", "literal violence"]
+        gold:
+          - text: "to question the measure is itself to cause harm and place yourself on the wrong side of history"
+            source: "illustrative — disagreement-as-sin cue (not a quotation)"
+
+  - id: unfalsifiable_consensus
+    name: Unchallengeable consensus
+    base_weight: 0.9
+    detections:
+      - id: settled-beyond-question
+        weight: 1.0
+        definition: A claim placed beyond challenge — settled, the experts agree, debate is over.
+        cues: ["the debate is over", "settled science", "the experts agree", "no serious person disputes", "beyond question", "consensus is clear", "asked and answered", "not up for debate"]
+        gold:
+          - text: "the science is settled and the debate is over; further questions are not legitimate"
+            source: "illustrative — settled-beyond-question cue (not a quotation)"

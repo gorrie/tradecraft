@@ -1,0 +1,138 @@
+id: adept_speech
+name: Adept Speech
+description: >
+  Detects the initiatory/esoteric speech register — the tell of occult-power and "mystery school"
+  movements when their language surfaces in public figures' speech and writing. The Hidden Fire
+  domain. Ported from the adept-speech classifier spec (8 pattern families). OSINT use: executive
+  speeches, investor calls, testimony, op-eds, acknowledgments. NOTE: management-consultant
+  language overlaps (teleological framing, unnamed-authority deference) — breadth + co-occurrence,
+  not any single cue, is the signal. Gold examples are verbatim register exemplars curated from
+  the Hidden Fire corpus (per project_adept_classifier Phase 1); each cites its chapter source.
+  Tags: [VERBATIM] = direct quote of a primary esoteric source as reproduced in the book;
+  [BOOK] = the book's own register-bearing formulation of the move.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "heavy adept register (review)"}
+
+markers:
+  - id: apophatic_framing
+    name: Apophatic framing
+    base_weight: 0.9
+    detections:
+      - id: ineffability-claim
+        weight: 0.9
+        definition: The truth is framed as beyond words / unsayable / only transmittable.
+        cues: ["beyond words", "ineffable", "cannot be put into words", "cannot be taught, only transmitted", "words fail"]
+        gold:
+          - text: "the Buddha taught the dharma; Zen says the dharma cannot be taught"
+            source: "the-hidden-fire ch06-eastern-trolls.md (Linji / Zen) [VERBATIM]"
+          - text: "the recovery of the Lost Word -- the ineffable Name of God"
+            source: "the-hidden-fire ch12-freemasonry.md (Scottish Rite 14th degree) [BOOK]"
+
+  - id: secret_knowledge
+    name: False modesty + secret-knowledge claim
+    base_weight: 1.0
+    detections:
+      - id: eyes-to-see
+        weight: 1.0
+        definition: Knowledge reserved for the perceptive few; the speaker merely "points."
+        cues: ["those with eyes to see", "for those who know", "the tradition holds", "I can only point", "hidden in plain sight"]
+        gold:
+          - text: "These are the secret sayings that the living Jesus spoke"
+            source: "the-hidden-fire ch03-gnostic-inversion.md (Gospel of Thomas, opening line) [VERBATIM]"
+          - text: "We know something you don't, and we're not telling"
+            source: "the-hidden-fire ch01-mystery-schools.md (the Eleusinian mechanism) [BOOK]"
+
+  - id: teleological_work
+    name: Teleological "Work" language
+    base_weight: 1.0
+    detections:
+      - id: the-great-work
+        weight: 1.0
+        definition: Purpose framed as cosmological/initiatory ("the Work") rather than professional.
+        cues: ["the Great Work", "the Work", "the mission", "cosmic purpose", "the alchemy of"]
+        gold:
+          - text: "the starting point of the Great Work"
+            source: "the-hidden-fire ch03-gnostic-inversion.md (Saturn / nigredo) [BOOK]"
+          - text: "The alchemist begins the Great Work in Saturn's lead ... The Work remains undone"
+            source: "the-hidden-fire ch21-the-pattern.md [BOOK]"
+
+  - id: esoteric_metaphor
+    name: Fire / light / ascent metaphor cluster
+    base_weight: 0.85
+    detections:
+      - id: light-ascent-veil
+        weight: 0.85
+        definition: Western-esoteric metaphor cluster (illumination, ascent/descent, the veil, awakening).
+        cues: ["the light", "illumination", "ascent", "descent", "the fire", "awakening", "the veil", "as above so below"]
+        gold:
+          - text: "As above, so below"
+            source: "the-hidden-fire ch02-hermes-and-the-great-lie.md / ch21 (Hermetic axiom) [VERBATIM]"
+          - text: "an ever-living fire"
+            source: "the-hidden-fire ch01-mystery-schools.md (Heraclitus) [VERBATIM]"
+          - text: "The initiate emerged from darkness into blazing illumination"
+            source: "the-hidden-fire ch01-mystery-schools.md (Eleusinian epopteia) [BOOK]"
+
+  - id: unnamed_authority
+    name: Deference to unnamed authorities
+    base_weight: 0.9
+    detections:
+      - id: the-masters
+        weight: 0.9
+        definition: Source of authority deliberately obscured ("the tradition", "the masters", "the elders").
+        cues: ["the masters", "the tradition says", "those who came before", "the lineage", "the elders", "it is said"]
+        gold:
+          - text: "recovered ancient secrets from the Holy Land and transmitted them through their orders"
+            source: "the-hidden-fire ch07-templars.md (Ramsay's Oration; 'secret knowledge from the East' trope) [BOOK]"
+          - text: "their lineages, their Secret Chiefs, their ancient manuscripts, their hierarchies"
+            source: "the-hidden-fire ch18-chaos-magick.md (the authorities chaos magick strips away) [BOOK]"
+
+  - id: experience_as_proof
+    name: Experience-as-proof epistemics
+    base_weight: 0.85
+    detections:
+      - id: gnosis-as-evidence
+        weight: 0.85
+        definition: Personal gnosis presented as evidentiary; the listener "must experience it."
+        cues: ["I have seen", "direct experience", "gnosis", "you must experience it yourself", "once you have awakened"]
+        gold:
+          - text: "epopteia, \"the seeing\""
+            source: "the-hidden-fire ch01-mystery-schools.md (the Eleusinian gnosis-as-evidence) [VERBATIM]"
+          - text: "I am the Truth"
+            source: "the-hidden-fire ch05-sufi-trolls.md / ch06 (Al-Hallaj) [VERBATIM]"
+
+  - id: deliberate_incompleteness
+    name: Deliberate incompleteness
+    base_weight: 1.0
+    detections:
+      - id: withholding
+        weight: 1.0
+        definition: The text withholds; the initiated already know; the audience is sorted by readiness.
+        cues: ["I cannot say more", "the rest is for the initiated", "this is as far as words go", "you are not ready", "when you are ready"]
+        gold:
+          - text: "new recruits did not learn the full agenda until they had proven their loyalty"
+            source: "the-hidden-fire ch13-illuminati.md (graded revelation, lifted from the Jesuits) [BOOK]"
+          - text: "The lower degrees are explicitly described as preparation for the higher ones"
+            source: "the-hidden-fire ch12-freemasonry.md (the trickle-feed degree structure) [BOOK]"
+
+  - id: initiatory_address
+    name: The initiatory address
+    base_weight: 1.0
+    detections:
+      - id: candidate-sorting
+        weight: 1.0
+        definition: The audience is positioned as candidates to be sorted, not peers.
+        cues: ["if you are called", "you who seek", "candidates", "the worthy", "those prepared to receive", "seekers"]
+        gold:
+          - text: "you wouldn't understand, you haven't passed through the degrees"
+            source: "the-hidden-fire ch21-the-pattern.md (the initiate sorting the outsider) [BOOK]"
+          - text: "each level of teaching was gated by the master's judgment of the student's readiness"
+            source: "the-hidden-fire ch21-the-pattern.md (Sufi tariqa transmission) [BOOK]"
