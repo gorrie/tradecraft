@@ -16,9 +16,9 @@ from tradecraft.structural import detect_subject, score_subject  # noqa: E402
 from tradecraft.schema import DetectionHit  # noqa: E402
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# evil-robots-series/tradecraft/  ->  evil-robots-series/website/data/research-entities.json
-SERIES_ROOT = os.path.dirname(REPO_ROOT)
-GRAPH = os.path.join(SERIES_ROOT, "website", "data", "research-entities.json")
+# Bundled sample graph (a snapshot of the research entity graph, also exported by ratchet-mcp).
+# Overridable with TRADECRAFT_GRAPH for running the lens against a fresher/other graph.
+GRAPH = os.environ.get("TRADECRAFT_GRAPH", os.path.join(REPO_ROOT, "data", "research-entities.json"))
 TAXONOMY = os.path.join(REPO_ROOT, "detectors", "revolving_door", "taxonomy.yaml")
 
 
