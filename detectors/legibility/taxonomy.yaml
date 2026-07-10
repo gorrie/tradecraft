@@ -1,0 +1,97 @@
+id: legibility
+name: Legibility as Control
+description: >
+  Measures the LEGIBILITY move — James C. Scott's "Seeing Like a State": rendering a complex, local,
+  tacit reality into a simplified, standardized, centrally-readable form, because what the center can
+  see it can manage, tax, and exclude. The structural backbone of The Ratchet (the click before the
+  pawl). Ideology-blind by construction: fires the same on a public-health registry, a corporate
+  data-lake, a content-moderation taxonomy, or a five-year plan. Detects the RHETORICAL move
+  (standardize / register / make-visible / manage-to-the-metric), never the policy's team.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense legibility tradecraft (review)"}
+
+markers:
+  - id: legibility_imperative
+    name: Make-it-visible imperative
+    base_weight: 1.0
+    detections:
+      - id: render-visible
+        weight: 1.0
+        definition: Framing that the center must be able to SEE / read the whole, as a precondition of acting on it.
+        cues: [legible, legibility, "make visible", "bring into view", "full visibility", "see the whole", "from the center", "shine a light on", "single pane of glass", observability]
+        gold:
+          - text: "Legibility is a condition of manipulation."
+            source: "James C. Scott, Seeing Like a State (1998)"
+          - text: "we need full visibility into the population before we can keep it safe"
+            source: "illustrative — render-visible cue (not a quotation)"
+      - id: mandatory-registration
+        weight: 0.9
+        definition: Requiring that people/things be registered, enumerated, catalogued, on-the-record.
+        cues: [register, registry, "must be registered", "on the record", enumerated, catalogued, licensing, "single source of truth", "central database", "unique identifier"]
+        gold:
+          - text: "every device, account, and transaction is enrolled in a single authoritative registry"
+            source: "illustrative — mandatory-registration cue (not a quotation)"
+
+  - id: standardization_grid
+    name: Standardization / the grid
+    base_weight: 1.0
+    detections:
+      - id: impose-uniformity
+        weight: 1.0
+        definition: Collapsing local/varied practice into one uniform format, standard, or grid the center defines.
+        cues: [standardize, standardization, uniform, "one format", "common standard", interoperable, normalize, "the grid", "harmonize", "rationalize"]
+        gold:
+          - text: "officials created a standard grid whereby local practice could be centrally recorded and monitored"
+            source: "James C. Scott, Seeing Like a State (1998) — paraphrase of the core thesis"
+      - id: erase-local-knowledge
+        weight: 0.85
+        definition: Treating local, tacit, messy variety as disorder to be cleaned up / simplified away.
+        cues: ["messy reality", "local exceptions", "tidy up", "clean up the patchwork", "eliminate ambiguity", "simplify", "one set of rules for everyone", "no special cases"]
+        gold:
+          - text: "the patchwork of local arrangements is simply too messy to administer and must be simplified"
+            source: "illustrative — erase-local-knowledge cue (not a quotation)"
+
+  - id: metric_as_reality
+    name: The metric becomes the territory
+    base_weight: 0.95
+    detections:
+      - id: manage-to-the-metric
+        weight: 1.0
+        definition: Treating the simplified measure as the thing itself — managing, optimizing, or excluding by the number.
+        cues: ["what gets measured", "the metric", "the score", "the dashboard", "hit the target", "optimize the number", "by the numbers", "data-driven", proxy, "risk score"]
+        gold:
+          - text: "if the risk score is over the threshold, access is denied — the score is the decision"
+            source: "illustrative — manage-to-the-metric cue (not a quotation)"
+
+  - id: mandatory_identification
+    name: Identity as the gate
+    base_weight: 0.95
+    detections:
+      - id: id-as-precondition
+        weight: 1.0
+        definition: Making verified identity / disclosure the precondition of participating at all.
+        cues: ["verified identity", "real name", "prove who you are", "no anonymity", "know your customer", credential, attestation, "digital ID", "identity-first", "authenticated to participate"]
+        gold:
+          - text: "no one may post, pay, or travel without an authenticated, verified digital identity"
+            source: "illustrative — id-as-precondition cue (not a quotation)"
+
+  - id: high_modernist_confidence
+    name: High-modernist confidence
+    base_weight: 0.9
+    detections:
+      - id: design-over-organic
+        weight: 1.0
+        definition: Expert/rational-design certainty that a centrally-engineered scheme improves on messy organic order.
+        cues: ["rational design", "scientific administration", "evidence-based", "best practices", "from first principles", "the experts", "centrally planned", "engineer society", "optimal allocation", "we know better"]
+        gold:
+          - text: "a rationally designed system, administered by experts, will allocate far better than the spontaneous muddle it replaces"
+            source: "illustrative — design-over-organic cue (high-modernist register per Scott)"

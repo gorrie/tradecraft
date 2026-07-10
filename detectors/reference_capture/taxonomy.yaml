@@ -1,0 +1,145 @@
+id: reference_capture
+name: Reference-Institution Capture
+description: >
+  Measures CAPTURE ACTIONS against a reference / knowledge institution — the tradecraft by which
+  an opaque, pseudonymously-governed information commons (encyclopedia, catalog, standards body)
+  is steered by whoever shows up organized: an ideological editing bloc, a paid reputation-laundering
+  industry, or a state "disinformation" apparatus. Action-measured and ideology-blind by construction:
+  it fires on the documented MOVE (who did what to the record), never on the political label of the
+  editor. It deliberately does NOT fire on legitimate, examinable governance or on an institution's own
+  self-correction (both-sides sanction, caught-and-banned paid rings) — those are the calibration
+  negatives. Seeded from the gate-verified dossier research-wikipedia-capture.md and its parent
+  capture-mechanism-universal.md. This is The Ratchet's reference-institution instance and the seed
+  lens for the capture leaderboard.
+
+# Grading knobs are data, not code — tune via PR.
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense capture (review)"}
+
+markers:
+  - id: pseudonymous_enforcement
+    name: Pseudonymous / unaccountable enforcement
+    base_weight: 1.0
+    detections:
+      - id: anonymous-authority
+        weight: 1.0
+        definition: Decisive editorial/enforcement power held by anonymous or pseudonymous actors whose identity is undisclosed and unaccountable.
+        cues: ["anonymous administrators", "anonymous mob", "pseudonymous", "a few hundred", "small clique", "unaccountable", "no one can name", "faceless moderators"]
+        gold:
+          - text: "a relatively small clique of anonymous administrators ... a few hundred anonymous demagogues"
+            source: "Larry Sanger, Washington Examiner op-ed 2026 — research-wikipedia-capture.md §2 [ATTRIBUTED]"
+      - id: resist-deanonymization
+        weight: 0.85
+        definition: Proposals to make the enforcing corps identifiable are the most-opposed reform — anonymity is defended as the load-bearing condition.
+        cues: ["disclose their real identities", "reveal identities", "real-name", "oppose transparency", "keep anonymity", "de-anonymize"]
+        gold:
+          - text: "a proposal to require advanced editors to disclose their real identities ... drew particular opposition"
+            source: "Larry Sanger 'Nine Theses' (Sept 2025) — research-wikipedia-capture.md §1 [FACT]"
+
+  - id: discretionary_rule_elasticity
+    name: Discretionary-rule elasticity
+    base_weight: 1.0
+    detections:
+      - id: elastic-charge
+        weight: 1.0
+        definition: An elastic conduct rule applied by unexaminable enforcers so the charge can mean whatever is needed to remove dissent.
+        cues: ["not here to build", "vague rules", "vague threats", "vague alliances", "not compatible with the community", "disruptive", "tendentious", "civility"]
+        gold:
+          - text: "vague rules, vague threats, and vague alliances"
+            source: "Larry Sanger, Washington Examiner op-ed 2026 — research-wikipedia-capture.md §2 [ATTRIBUTED]"
+      - id: penalty-without-adjudication
+        weight: 0.85
+        definition: A maximal penalty imposed without formal charges, neutral adjudication, or a real appeal.
+        cues: ["kangaroo court", "show trial", "no due process", "no neutral adjudication", "no formal charges", "no appeal"]
+        gold:
+          - text: "a 'kangaroo court' ... no 'formal charges, due process, or neutral adjudication'"
+            source: "Larry Sanger on his June 2026 ban — research-wikipedia-capture.md §1 [FACT]"
+
+  - id: offwiki_coordination
+    name: Off-platform coordination to swing consensus
+    base_weight: 1.0
+    detections:
+      - id: canvassing-mobilization
+        weight: 0.9
+        definition: Mobilizing an off-platform audience, or running an off-platform "war room," to swing an internal consensus.
+        cues: ["canvassing", "off-platform", "off-wiki", "mobilize followers", "brigading", "war room", "coordinate off-site", "Discord channel"]
+        gold:
+          - text: "off-wiki coordination through email and social media ... 'war rooms' with weekly meetings to coordinate editing"
+            source: "Wikipedia ArbCom Palestine-Israel finding, 2024-25 — research-wikipedia-capture.md §3 [FACT]"
+      - id: coordinated-bloc-editing
+        weight: 0.85
+        definition: A coordinated bloc numerically dominating a topic area until enforcers ratify its version.
+        cues: ["gang of", "coordinated group of editors", "veteran editors", "swarm", "monopolize", "dominate the discussion", "coordinated bursts"]
+        gold:
+          - text: "a 'Gang of 40' ... roughly forty veteran editors coordinated to shape thousands of ... articles"
+            source: "Ashley Rindsberg / Pirate Wires 2024 — research-wikipedia-capture.md §3 [ATTRIBUTED]"
+
+  - id: paid_covert_editing
+    name: Paid covert editing / reputation laundering
+    base_weight: 1.0
+    detections:
+      - id: sockpuppet-ring
+        weight: 1.0
+        definition: A network of covert accounts run for paying clients — undisclosed paid editing / "black hat" work.
+        cues: ["sockpuppet", "paid editing", "black hat", "undisclosed paid", "reputation laundering", "PR firm", "subcontractors"]
+        gold:
+          - text: "a network of some twenty-six sockpuppet accounts ... banned under suspicion of paid editing"
+            source: "Bureau of Investigative Journalism, Jan 2026 (Portland/Web3) — research-wikipedia-capture.md §4 [FACT]"
+      - id: client-image-management
+        weight: 0.85
+        definition: Burying critical material or polishing an entry on behalf of a paying government or corporate client.
+        cues: ["burying critical", "scrub", "polish the image", "on behalf of", "for clients including", "obscuring", "promote one faction"]
+        gold:
+          - text: "burying critical reporting on Qatar ahead of the 2022 World Cup ... on behalf of clients"
+            source: "Bureau of Investigative Journalism, Jan 2026 — research-wikipedia-capture.md §4 [FACT]"
+
+  - id: institutional_ip_editing
+    name: Self-serving edits from institutional IP space
+    base_weight: 0.9
+    detections:
+      - id: state-corp-ip-edits
+        weight: 0.9
+        definition: Edits to an organization's own topics traced to that organization's IP ranges (state or corporate).
+        cues: ["IP address", "IP range", "traced to", "edited from", "Langley", "corporate headquarters", "address space"]
+        gold:
+          - text: "edits originating from CIA address space — to the article on the 2003 invasion of Iraq"
+            source: "WikiScanner (Virgil Griffith), 2007 — research-wikipedia-capture.md §6 [FACT]"
+
+  - id: state_moderation_coordination
+    name: State "disinformation" coordination
+    base_weight: 1.0
+    detections:
+      - id: govt-clearinghouse
+        weight: 0.95
+        definition: The institution coordinates its threat/"disinformation" posture with government — a clearinghouse routing state preferences into the record.
+        cues: ["active approach to disinformation", "conversations with government", "clearinghouse", "coordinate with government", "flag to government", "threat identification"]
+        gold:
+          - text: "a very active approach to disinformation and misinformation ... through conversations with government"
+            source: "Katherine Maher, Atlantic Council 2021 (verbatim transcript) — research-wikipedia-capture.md §5 [FACT]"
+
+  - id: authority_override_ratchet
+    name: Authority override / one-way ratchet
+    base_weight: 1.0
+    detections:
+      - id: authority-overruled
+        weight: 0.95
+        definition: A founder's or nominal authority's action is reversed by the entrenched enforcing corps — real power sits below the nominal.
+        cues: ["overruled", "reinstated within hours", "unblocked ... re-established", "reversed by consensus", "founder ... banned"]
+        gold:
+          - text: "briefly unblocked Sanger — administrators reinstated the ban within hours"
+            source: "Wales intervention, June 2026 — research-wikipedia-capture.md §1 [FACT]"
+      - id: permanent-exclusion-no-exit
+        weight: 0.85
+        definition: An indefinite/permanent exclusion, or a "moratorium" freezing contested language, with no rollback condition.
+        cues: ["indefinite ban", "permanently blocked", "banned for life", "no rollback", "moratorium", "frozen in place", "locked for a year"]
+        gold:
+          - text: "an indefinite, effectively permanent ban ... contested language frozen in place by moratorium"
+            source: "research-wikipedia-capture.md §1, §7 [FACT/ATTRIBUTED]"

@@ -1,0 +1,14 @@
+# Portable local agent. Talks to the host's Ollama (reuse already-pulled abliterated models).
+#   docker compose build
+#   docker compose run --rm agent "Grade <text> for institutional_permeation and report markers"
+#
+# To make it fully self-contained, add an `ollama` service and set OLLAMA_BASE=http://ollama:11434
+# (you'd then `ollama pull` the abliterated model into that service's volume).
+services:
+  agent:
+    build: .
+    environment:
+      - OLLAMA_BASE=http://host.docker.internal:11434
+      - TRADECRAFT_LOCAL_MODEL=huihui_ai/qwen2.5-abliterate:14b
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

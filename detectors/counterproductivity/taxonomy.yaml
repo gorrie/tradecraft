@@ -1,0 +1,83 @@
+id: counterproductivity
+name: Counterproductivity / Iatrogenesis
+description: >
+  Measures the IATROGENIC move — Ivan Illich's counterproductivity: past a threshold an institution
+  produces the very harm it was built to prevent, makes its service compulsory (radical monopoly),
+  and renders the layperson dependent and incompetent (disabling professions). The Ratchet's
+  failure-mode signature — the institution becomes the obstacle to its own stated purpose. Ideology-
+  blind: fires the same on a safety regulator, a medical system, a content-moderation regime, or a
+  development program. Detects the rhetorical/structural move, never the cause it serves.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense counterproductivity (review)"}
+
+markers:
+  - id: iatrogenic_reversal
+    name: The remedy produces the harm
+    base_weight: 1.0
+    detections:
+      - id: cure-becomes-disease
+        weight: 1.0
+        definition: The intervention is shown/claimed to generate the very harm it was meant to prevent.
+        cues: ["the cure became the disease", "made it worse", "produced the opposite", "the remedy is the harm", "iatrogenic", "the safety measure made it less safe", "backfired", "the fix created"]
+        gold:
+          - text: "the medical establishment has become a major threat to health"
+            source: "Ivan Illich, Medical Nemesis (1975)"
+          - text: "the surveillance built to stop the threat became the larger threat"
+            source: "illustrative — cure-becomes-disease cue (not a quotation)"
+
+  - id: radical_monopoly
+    name: Radical monopoly
+    base_weight: 1.0
+    detections:
+      - id: compulsory-only-option
+        weight: 1.0
+        definition: The institution makes its service the sole compulsory channel, disabling self-provision or alternatives.
+        cues: ["radical monopoly", "the only option", "mandatory", "compulsory", "no alternative", "you must go through", "disables self-provision", "outlaw the alternative", "single channel"]
+        gold:
+          - text: "a radical monopoly ... when one industrial product crowds out non-industrial activities which until then had also satisfied the need"
+            source: "Ivan Illich, Tools for Conviviality (1973)"
+
+  - id: counterproductivity_threshold
+    name: Past-the-threshold negative returns
+    base_weight: 0.95
+    detections:
+      - id: more-yields-less
+        weight: 1.0
+        definition: Beyond a point, more of the intervention yields less of the good (diminishing/negative returns).
+        cues: ["beyond a certain threshold", "diminishing returns", "negative returns", "second watershed", "more is worse", "past the point", "counterproductive beyond", "overshoots"]
+        gold:
+          - text: "beyond a certain threshold, the intervention turns counterproductive and begins to defeat its own end"
+            source: "illustrative — more-yields-less cue (Illich's two-watersheds thesis)"
+
+  - id: disabling_professionalization
+    name: Disabling professions / manufactured dependence
+    base_weight: 0.95
+    detections:
+      - id: expert-dependence
+        weight: 1.0
+        definition: Credential/expert capture that renders laypeople dependent and incompetent to act for themselves.
+        cues: ["disabling profession", "leave it to the experts", "only a licensed", "you are not qualified", "manufactured dependence", "deskilled", "cannot do it yourself", "defer to the professional", "needs assessment"]
+        gold:
+          - text: "the disabling professions ... claim the authority to define a person's needs and the only legitimate way to meet them"
+            source: "Ivan Illich, Disabling Professions (1977) — paraphrase of the thesis"
+
+  - id: purpose_inversion
+    name: Means become ends (self-perpetuation)
+    base_weight: 0.9
+    detections:
+      - id: institution-as-obstacle
+        weight: 1.0
+        definition: The institution now serves its own perpetuation/growth over the mission it was built for.
+        cues: ["became an obstacle to", "serves itself", "self-perpetuating", "the mission is now the budget", "exists to exist", "no success condition", "expands to justify itself", "the process is the product"]
+        gold:
+          - text: "the institution now optimizes for its own continuation rather than the outcome it was chartered to deliver"
+            source: "illustrative — institution-as-obstacle cue (not a quotation)"

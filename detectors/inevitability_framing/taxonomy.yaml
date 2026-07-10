@@ -1,0 +1,58 @@
+id: inevitability_framing
+name: Inevitability Framing
+description: >
+  Measures the RESISTANCE-IS-FUTILE move — the Fabian "inevitability of gradualness" pointed forward:
+  the change is cast as inevitable, alternative-less, and on history's side, so opposition is not
+  argued down but rendered pointless ("adapt or be left behind"). Distinct from institutional_permeation
+  (which scores the slow one-way ratchet itself); this scores the rhetoric that pre-empts resistance.
+  Ideology-blind: fires the same on a tech-adoption pitch, a policy rollout, or a market thesis.
+
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense inevitability framing (review)"}
+
+markers:
+  - id: tina
+    name: There is no alternative
+    base_weight: 1.0
+    detections:
+      - id: no-alternative
+        weight: 1.0
+        definition: Asserting there is no viable alternative — the path is the only one.
+        cues: ["there is no alternative", "no other option", "the only way forward", "TINA", "no choice but", "inevitable", "unavoidable", "cannot be stopped", "the only realistic path"]
+        gold:
+          - text: "There is no alternative."
+            source: "Margaret Thatcher (the 'TINA' formulation)"
+          - text: "this transition is inevitable; the only question is whether you adapt in time"
+            source: "illustrative — no-alternative cue (not a quotation)"
+
+  - id: history_verdict
+    name: On the right side of history
+    base_weight: 0.95
+    detections:
+      - id: historys-side
+        weight: 1.0
+        definition: Framing the change as history's verdict, so opposing it is to be left behind / on the wrong side.
+        cues: ["right side of history", "wrong side of history", "history will judge", "the arc of history", "the future is", "those who resist will be left behind", "the tide of history", "progress is coming"]
+        gold:
+          - text: "the future is already decided; those who resist will simply be left behind by history"
+            source: "illustrative — historys-side cue (not a quotation)"
+
+  - id: adapt_or_die
+    name: Adapt-or-be-left-behind
+    base_weight: 0.9
+    detections:
+      - id: adapt-or-perish
+        weight: 1.0
+        definition: Pressure to comply framed as survival — adapt to the inevitable or be rendered obsolete.
+        cues: ["adapt or die", "adapt or be left behind", "get on board", "embrace it or", "fall behind", "obsolete", "left in the dust", "evolve or perish", "the train is leaving"]
+        gold:
+          - text: "firms that don't embrace the new regime now will be obsolete within a decade"
+            source: "illustrative — adapt-or-perish cue (not a quotation)"

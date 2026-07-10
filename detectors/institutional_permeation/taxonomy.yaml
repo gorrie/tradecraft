@@ -1,0 +1,175 @@
+id: institutional_permeation
+name: Institutional Permeation
+description: >
+  Measures INSTITUTIONAL MOVES — the gradualist capture-and-permeation tradecraft by which
+  organized minorities lock one-way change into institutions. Ideology-blind by construction:
+  fires the same on left-gradualist and right/corporate texts. This is The Ratchet's domain.
+  Seeded from the gate-verified dossiers research-fabian-permeation-genealogy.md,
+  research-corporate-permeation.md, research-manufacturing-belief.md, research-ratchet-operators.md.
+
+# Grading knobs are data, not code — tune via PR.
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense tradecraft (review)"}
+
+markers:
+  - id: gradualism
+    name: Gradualism / one-way ratchet
+    base_weight: 1.0
+    detections:
+      - id: irreversibility-framing
+        weight: 1.0
+        definition: Change framed as inevitable, permanent, or not-to-be-reversed.
+        cues: [inevitable, inevitability, permanent, irreversible, "no going back", "ever closer", "settled forever"]
+        gold:
+          - text: "the inevitable gradualness of our scheme of change"
+            source: "Sidney Webb, 1923 — research-fabian-permeation-genealogy.md R2 [FACT]"
+      - id: indefinite-horizon
+        weight: 0.9
+        definition: Explicit multi-decade / open-ended time horizon as strategy.
+        cues: ["period of years", "long-range", "long-term", "over decades", "patient", "wait for the right moment"]
+        gold:
+          - text: "consistency of action over an indefinite period of years"
+            source: "Powell Memo, 1971 — research-corporate-permeation.md R1 [FACT]"
+          - text: "For the right moment you must wait ... but when the time comes you must strike hard"
+            source: "Fabian Society first pamphlet, 1884 — research-fabian-permeation-genealogy.md R1 [FACT]"
+
+  - id: permeation
+    name: Institutional permeation / capture
+    base_weight: 1.0
+    detections:
+      - id: infiltrate-existing-institutions
+        weight: 1.0
+        definition: Explicit strategy of entering and steering existing institutions rather than confronting them.
+        cues: [permeation, "infiltrating", "from within", "long march through the institutions", "work inside"]
+        gold:
+          - text: "a policy of 'permeation', which involved infiltrating existing institutions, parties and Parliament"
+            source: "VictorianWeb on the Fabians — research-fabian-permeation-genealogy.md R3 [FACT]"
+      - id: build-parallel-institutions
+        weight: 0.9
+        definition: Deliberate construction of think tanks / NGOs / training pipelines to seed ideas.
+        cues: ["think tank", "institute", "found", "network of", "training", "fellowship", "litter the world with"]
+        gold:
+          - text: "litter the world with free-market think tanks"
+            source: "John Blundell (Atlas) — research-corporate-permeation.md R5 [ATTRIBUTED]"
+      - id: target-the-leverage-point
+        weight: 0.8
+        definition: Naming a specific high-leverage institution (courts, media, campus) as the lever.
+        cues: ["judiciary", "the courts", "the universities", "the media", "most important instrument"]
+        gold:
+          - text: "the judiciary may be the most important instrument for social, economic and political change"
+            source: "Powell Memo, 1971 — research-corporate-permeation.md R2 [FACT]"
+
+  - id: manufactured_consent
+    name: Manufactured consent / belief engineering
+    base_weight: 1.0
+    detections:
+      - id: belief-as-engineerable
+        weight: 1.0
+        definition: Treating public opinion as a product to be manufactured or managed.
+        cues: ["manufacture of consent", "engineer", "shape opinion", "the public must be", "narrative", "messaging"]
+        gold:
+          - text: "The conscious and intelligent manipulation of the organized habits and opinions of the masses"
+            source: "Bernays, Propaganda 1928 — research-manufacturing-belief.md / ch01 [FACT]"
+      - id: choice-architecture
+        weight: 0.85
+        definition: Steering behavior by arranging options / engineering the felt environment.
+        cues: ["choice architecture", "nudge", "default", "hard-hitting", "increase the perceived threat"]
+        gold:
+          - text: "The perceived level of personal threat needs to be increased ... using hard-hitting emotional messaging"
+            source: "SPI-B, 22 Mar 2020 — research-manufacturing-belief.md (Wayback) [FACT]"
+
+  - id: concentrated_benefit_diffuse_cost
+    name: Concentrated benefit, diffuse cost (Olson)
+    base_weight: 0.9
+    detections:
+      - id: carve-out-as-public-good
+        weight: 0.9
+        definition: A narrow group's benefit defended as serving a broad public interest.
+        cues: ["protect jobs", "national security", "level playing field", "for the economy", "remains insufficient"]
+        gold:
+          - text: "the 85,000-petition annual cap remains insufficient to meet the needs of our economy"
+            source: "Compete America to DHS, 2023 — research-ratchet-operators.md / ch09 [FACT]"
+      - id: hidden-or-deferred-cost
+        weight: 0.8
+        definition: The cost is diffuse, deferred, or uncounted (so no one organizes against it).
+        cues: ["spread across", "future taxpayer", "no single figure", "pennies on the dollar", "diffuse"]
+        gold:
+          - text: "each loser has only a small incentive ... difficult for the losers to get together"
+            source: "Mancur Olson — research-ratchet-operators.md / ch06 [FACT]"
+
+  - id: captured_neutral
+    name: The captured-neutral move
+    base_weight: 1.0
+    detections:
+      - id: value-as-science
+        weight: 1.0
+        definition: A contested value-position presented as settled science or sound method.
+        cues: ["sound science", "the science is settled", "evidence-based", "best practices", "just the data", "arithmetic"]
+        gold:
+          - text: "The Advancement of Sound Science Coalition"
+            source: "TASSC / Philip Morris 1993 — research-manufacturing-belief.md [FACT]"
+      - id: neutrality-claim
+        weight: 0.85
+        definition: Explicit disavowal of partisanship while advancing a program.
+        cues: ["no particular party", "nonpartisan", "neutral", "we take no position", "not propaganda"]
+        gold:
+          - text: "does not aspire to conduct propaganda ... aligns itself with no particular party"
+            source: "Mont Pelerin Statement of Aims — research-corporate-permeation.md R3 [FACT]"
+
+  - id: deniability_architecture
+    name: Deniability architecture
+    base_weight: 0.9
+    detections:
+      - id: intermediary-laundering
+        weight: 0.9
+        definition: Routing action through third parties so no principal is on record.
+        cues: ["through partners", "civil society", "independent researchers", "at arm's length", "we don't order"]
+        gold:
+          - text: "route government preferences through academic intermediaries ... without anyone ordering a takedown"
+            source: "research-twitter-files.md / ch01 [INTERP-anchored on FACT] "
+      - id: attribution-gap
+        weight: 0.8
+        definition: The system obscures who decided (automation, opacity, proprietary criteria).
+        cues: ["the algorithm decided", "proprietary", "the system flagged", "no record of who"]
+        gold:
+          - text: "the algorithm scored this person below the threshold ... defensible as neutral technology"
+            source: "Mobley v. Workday — ch12 [FACT]"
+
+  - id: crisis_no_exit
+    name: Crisis with no exit
+    base_weight: 0.85
+    detections:
+      - id: define-crisis-claim-authority
+        weight: 0.9
+        definition: Declare an emergency and claim exclusive authority to manage it.
+        cues: ["existential", "emergency", "only we can", "experts agree", "the crisis demands"]
+        gold:
+          - text: "the ascetic priest ... seeks jurisdiction over truth"
+            source: "Nietzsche lens — ch07 [ATTRIBUTED]"
+      - id: no-success-condition
+        weight: 0.85
+        definition: No stated condition under which the program ends or powers roll back.
+        cues: ["ongoing", "never been more important", "more must be done", "cannot be complacent"]
+        gold:
+          - text: "structurally incapable of concluding that less moderation is needed"
+            source: "ch01 [INTERP-anchored on FACT]"
+
+  - id: front_costume
+    name: Front / grassroots costume
+    base_weight: 0.85
+    detections:
+      - id: astroturf
+        weight: 0.9
+        definition: A funded operation wearing an independent or grassroots costume.
+        cues: ["grassroots", "coalition for", "concerned citizens", "independent voices", "movement"]
+        gold:
+          - text: "presented itself as an independent grassroots movement for 'sound science'"
+            source: "TASSC — research-manufacturing-belief.md [FACT]"

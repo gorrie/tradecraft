@@ -1,0 +1,8 @@
+# Core grader + tests need only the stdlib. These are for loading lenses and live scoring.
+PyYAML>=6.0,<7.0
+anthropic>=0.40,<1.0
+requests>=2.31,<3.0
+Flask>=3.0,<4.0        # web/server.py — the detect() HTTP endpoint (cue floor needs no key)
+
+# Dev:
+#   pytest>=8.0
