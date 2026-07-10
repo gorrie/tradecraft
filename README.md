@@ -101,6 +101,24 @@ Every detection cites the gold example (and its source) that defines it.
 `v0.1` scaffold — core schema, grader, two seeded lenses, grader tests. See `detectors/` for the
 taxonomies and `tradecraft/grader.py` for the scoring model.
 
+## Related projects
+
+Tradecraft is the prose-grader in a three-repo capture-measurement toolkit:
+
+- **[ratchet-mcp](https://github.com/gorrie/ratchet-mcp)** — MCP server + curated
+  dataset of named persons/institutions across the US control grid. It calls
+  Tradecraft's TEXT lenses (`grade_person_texts`) to profile a dataset person's
+  own words; Tradecraft supplies the prose half, ratchet-mcp the graph half.
+- **[bias-study](https://github.com/gorrie/bias-study)** — a reproducible audit of
+  institutional-skepticism framing across 36+ LLMs. Its **[The Wash](https://github.com/gorrie/bias-study/blob/main/results/THE-WASH-2026-06-10.md)**
+  instrument validates a low-flinch abliterated judge — exactly the kind of
+  context-reading model Tradecraft's `verified_cue_receipts` verify step runs as
+  its `local`/`cloud` backend to reject false-positive cue hits. The Wash proves
+  *why* an ordinary aligned model is a poor referee; Tradecraft is what consumes a
+  good one.
+- **[evilrobots.lol](https://evilrobots.lol)** — the narrative companion (Evil
+  Robots Series, 4LULZ), including the public Capture Leaderboard this grader feeds.
+
 ## License
 
 Apache-2.0 — governed by the `LICENSE` at the repository root.
