@@ -1,0 +1,5398 @@
+{
+  "_meta": {
+    "title": "Research Entities — OSINT entity/relationship dataset (Maltego-style link layer)",
+    "description": "Entity/relationship graph extracted from six research dossiers (The Ratchet + The Hidden Fire). Schema is a superset of the revolving-door graph.js model, adding entity 'type', 'topics' tags, and TYPED edges. Entities flagged 'existing_in_revolving_door': true reuse the exact id from static/tech/revolving-door/graph.js so the two graphs merge without duplication. Every entity and every edge carries at least one source URL drawn verbatim from the dossiers.",
+    "source_dossiers": [
+      "books/the-ratchet/research-western-demographic-transformation.md",
+      "books/the-ratchet/research-ratchet-operators.md",
+      "books/the-ratchet/research-fiscal-ratchets.md",
+      "books/the-ratchet/research-manufacturing-belief.md",
+      "books/the-ratchet/research-institutional-knowledge-capture.md",
+      "books/the-hidden-fire/research-occult-science-paperclip.md",
+      "evil-robots-series/research/research-watching-the-watchers.md",
+      "research-watching-the-watchers.md (funding/eval cross-tab, 2026-06-29)"
+    ],
+    "topic_vocabulary": [
+      "demographic-transformation",
+      "ratchet-operators",
+      "fiscal",
+      "manufacturing-belief",
+      "institutional-bias",
+      "occult-paperclip",
+      "ai-content-policy"
+    ],
+    "generated": "2026-06-29"
+  },
+  "entities": [
+    {
+      "id": "ONS",
+      "name": "UK Office for National Statistics",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "UK official statistics authority that ran the 2021 Census of England and Wales, the primary record for the London/E&W composition figures.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Census2021EW",
+      "name": "2021 Census of England and Wales",
+      "type": "event",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "First census in which London's White British ethnic-identity group fell below 37% (36.8%) and the national 'White' share fell below 82% (81.7%); London 40.6% foreign-born.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "London",
+      "name": "London",
+      "type": "place",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Per ONS 2021 Census, 36.8% White British and 40.6% foreign-born; the only English region where White British is a minority.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "USCensusBureau",
+      "name": "US Census Bureau",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "US federal statistics agency; source of QuickFacts and ACS figures for Dearborn, Detroit, and Baltimore, and the historical largest-cities population series.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.census.gov/quickfacts/fact/table/dearborncitymichigan/PST045224"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Dearborn",
+      "name": "Dearborn, Michigan",
+      "type": "place",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "First Arab-American-majority US city (54.5% MENA ancestry, 2020 Census) and ~70% US-born; the point is domestic representation, not foreign nationals.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.census.gov/quickfacts/fact/table/dearborncitymichigan/PST045224"
+        },
+        {
+          "type": "news",
+          "url": "https://www.clickondetroit.com/news/local/2023/09/26/census-data-shows-arab-american-population-in-dearborn-now-makes-up-majority-of-people-living-there/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Hammoud",
+      "name": "Abdullah Hammoud",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Elected mayor of Dearborn Nov 2, 2021, sworn in Jan 1, 2022, becoming the first Arab-American and first Muslim mayor of the US city with the highest concentration of Arab Americans.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.detroitnews.com/story/news/local/wayne-county/2022/01/15/dearborn-swear-first-arab-american-muslim-mayor/6525163001/"
+        },
+        {
+          "type": "official",
+          "url": "https://www.aaiusa.org/library/abdullah-hammoud-mayor-of-dearborn-michigan"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Dabaja",
+      "name": "Susan Dabaja",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Dearborn City Council President and runner-up in the 2021 mayoral race; the 2021 cycle produced an Arab-American/Muslim-majority City Council.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Dearborn_mayoral_election"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Detroit",
+      "name": "Detroit, Michigan",
+      "type": "place",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation",
+        "ratchet-operators",
+        "fiscal"
+      ],
+      "summary": "Population collapsed from 1,849,568 (1950) to 639,111 (2020); 6.6% foreign-born; filed the largest municipal bankruptcy in US history (2013). A control case: catastrophic decline with essentially no immigration.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.census.gov/quickfacts/fact/table/detroitcitymichigan/PST045224"
+        },
+        {
+          "type": "news",
+          "url": "https://www.npr.org/sections/thetwo-way/2013/07/18/203374030/detroit-files-for-bankruptcy"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DetroitBankruptcy2013",
+      "name": "Detroit Chapter 9 Bankruptcy (2013)",
+      "type": "event",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation",
+        "fiscal"
+      ],
+      "summary": "Filed July 18, 2013 with an estimated $18.5 billion in debt and liabilities — the largest municipal bankruptcy in US history; ruled eligible Dec 3, 2013.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.npr.org/sections/thetwo-way/2013/07/18/203374030/detroit-files-for-bankruptcy"
+        },
+        {
+          "type": "official",
+          "url": "https://www.chicagofed.org/publications/chicago-fed-letter/2013/november-316"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Kilpatrick",
+      "name": "Kwame Kilpatrick",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Former Detroit mayor sentenced October 2013 to 28 years in federal prison for a racketeering conspiracy involving extortion, bribery, and fraud (the 'Kilpatrick enterprise').",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.fbi.gov/news/stories/public-corruption-inside-the-kwame-kilpatrick-case1"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Baltimore",
+      "name": "Baltimore, Maryland",
+      "type": "place",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation",
+        "ratchet-operators"
+      ],
+      "summary": "Declined from 620,961 (2010) to 585,708 (2020); 9.3% foreign-born; a domestic-decline-plus-corruption control case, with two convicted mayors.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.census.gov/quickfacts/fact/table/baltimorecitymaryland/PST045224"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Pugh",
+      "name": "Catherine Pugh",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Baltimore mayor 2016–2019, sentenced Feb 27, 2020 to three years in federal prison after pleading guilty to conspiracy and tax evasion in the 'Healthy Holly' self-dealing book scheme.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.cbsnews.com/news/catherine-pugh-former-baltimore-mayor-sentenced-3-years-healthy-holly-book-scheme-today-2020-02-27/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Dixon",
+      "name": "Sheila Dixon",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Baltimore mayor 2007–2010, convicted Dec 1, 2009 of one misdemeanor embezzlement count (misappropriated gift cards donated for needy families) and resigned Feb 4, 2010.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sheila_Dixon"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "HartCeller1965",
+      "name": "Immigration and Nationality Act of 1965 (Hart-Celler)",
+      "type": "law",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Signed Oct 3, 1965; abolished the National Origins Formula and prioritized family reunification. US foreign-born rose 9.6M (1965) to ~45M (2015); European-descent share fell 84% to 62%.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://history.house.gov/Historical-Highlights/1951-2000/Immigration-and-Nationality-Act-of-1965/"
+        },
+        {
+          "type": "academic",
+          "url": "https://www.migrationpolicy.org/article/fifty-years-1965-immigration-and-nationality-act-continues-reshape-united-states"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "LBJ",
+      "name": "Lyndon B. Johnson",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "US President who signed the Immigration and Nationality Act of 1965 into law at the Statue of Liberty on October 3, 1965.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://history.house.gov/Historical-Highlights/1951-2000/Immigration-and-Nationality-Act-of-1965/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MPI",
+      "name": "Migration Policy Institute",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Nonpartisan migration think tank; source for the 50-year demographic outcome data of the 1965 Act (foreign-born 9.6M to 45M; 84% to 62% European descent).",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.migrationpolicy.org/article/fifty-years-1965-immigration-and-nationality-act-continues-reshape-united-states"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BritishNationalityAct1948",
+      "name": "British Nationality Act 1948",
+      "type": "law",
+      "sector": "gov",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "Established Commonwealth citizens' right of entry to the UK, the start of the postwar trajectory progressively restricted by the 1962/1968/1971 Acts.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "RenaudCamus",
+      "name": "Renaud Camus",
+      "type": "person",
+      "sector": "media",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "French writer who originated the modern 'Great Replacement' term in Le Grand Remplacement (2011), arguing European populations are being deliberately replaced as elite policy. Carried by the book ONLY as an attributed, contested thesis, never as fact.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Replacement"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GreatReplacementThesis",
+      "name": "Great Replacement thesis",
+      "type": "publication",
+      "sector": "media",
+      "topics": [
+        "demographic-transformation"
+      ],
+      "summary": "The claim, originated by Renaud Camus (2011), that Western demographic change is a deliberate, coordinated plan; documented as an attributed political thesis, explicitly NOT asserted as established fact — the empirical record does not establish coordination or intent.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Replacement"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MancurOlson",
+      "name": "Mancur Olson",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Economist who formalized the distributional-coalition mechanism in The Logic of Collective Action (1965) and The Rise and Decline of Nations (1982) — the scholarly spine for why concentrated interests beat diffuse ones.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.econlib.org/library/enc/bios/olson.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "LogicOfCollectiveAction",
+      "name": "The Logic of Collective Action (1965)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Olson's 1965 book: large groups won't act in their common interest without a selective incentive, while small concentrated-stake groups organize easily — the free-rider asymmetry behind every ratchet operator.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.econlib.org/library/enc/bios/olson.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "RiseAndDeclineOfNations",
+      "name": "The Rise and Decline of Nations (1982)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Olson's 1982 book: stable societies accumulate 'distributional coalitions' producing 'institutional sclerosis' and falling growth; Germany/Japan grew fast post-1945 because WWII destroyed their entrenched lobbies.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.econlib.org/library/enc/bios/olson.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "WorldBank",
+      "name": "World Bank",
+      "type": "org",
+      "sector": "imf",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Co-publisher (with S&P Global) of the Container Port Performance Index ranking ports by efficiency; US ports rank near the global floor.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.worldbank.org/en/topic/transport/publication/cppi-2024"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "SPGlobal",
+      "name": "S&P Global Market Intelligence",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Co-publisher with the World Bank of the Container Port Performance Index (CPPI).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.worldbank.org/en/news/press-release/2025/09/22/port-performance-varies-across-the-globe-amid-continuing-shocks"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CPPI",
+      "name": "Container Port Performance Index",
+      "type": "publication",
+      "sector": "imf",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "World Bank / S&P Global port-efficiency ranking; CPPI 2024 put US gateways near the bottom (NY-NJ 139th, Long Beach 318th, LA 359th) vs East Asian automated terminals at the top.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.worldbank.org/en/topic/transport/publication/cppi-2024"
+        },
+        {
+          "type": "news",
+          "url": "https://gcaptain.com/east-asia-container-ports-dominate-global-efficiency-rankings-as-u-s-lags/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ILA",
+      "name": "International Longshoremen's Association",
+      "type": "org",
+      "sector": "labor",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "East/Gulf-coast dockworkers' union whose contracts are the chokepoint vetoing port automation; struck Oct 2024 explicitly over semi-automated cranes (RMGs).",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_United_States_port_strike"
+        },
+        {
+          "type": "news",
+          "url": "https://maritime-executive.com/article/ila-says-contract-talks-at-impasse-over-rmgs-as-usmx-argues-modernization"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ILWU",
+      "name": "International Longshore and Warehouse Union",
+      "type": "org",
+      "sector": "labor",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "West-coast dockworkers' union with the same anti-automation posture; the 1960 M&M Agreement traded technology for payouts, and the 2002 PMA lockout over scanners ended via Taft-Hartley.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pacific_Maritime_Association"
+        },
+        {
+          "type": "news",
+          "url": "https://www.historylink.org/File/8692"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "USMX",
+      "name": "United States Maritime Alliance",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Employer group that negotiates with the ILA; framed semi-automated rail-mounted gantry cranes as modernization, safety, and efficiency during the 2024 dispute.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.supplychaindive.com/news/ila-usmx-contract-negotiations-challenge-automation-concerns/732874/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PMA",
+      "name": "Pacific Maritime Association",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "West-coast employer association that locked out the ILWU for 11 days in 2002 over scanner/bar-coding automation; the lockout ended when President George W. Bush invoked Taft-Hartley.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pacific_Maritime_Association"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PortStrike2024",
+      "name": "2024 United States Port Strike",
+      "type": "event",
+      "sector": "labor",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Oct 1–3, 2024; ~45,000+ ILA members shut ~36 East/Gulf ports at impasse over automation. The final six-year deal carried a 62% wage increase and only limited automation tied to job guarantees.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_United_States_port_strike"
+        },
+        {
+          "type": "news",
+          "url": "https://www.freightwaves.com/news/ila-members-overwhelmingly-approve-new-contract-covering-east-gulf-coast-ports"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JonesAct",
+      "name": "Merchant Marine Act of 1920 (Jones Act)",
+      "type": "law",
+      "sector": "gov",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Section 27 requires domestic waterborne cargo to move on US-built, -owned, -flagged, -crewed vessels. Cato estimates a 6–8x ship-construction premium and tens of billions/year in cost; the protected fleet has shrunk under the protection.",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.congress.gov/crs-product/R45725"
+        },
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Merchant_Marine_Act_of_1920"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Cato",
+      "name": "Cato Institute",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Free-market think tank; source (attributed) for the Jones Act ship-cost premium, the fleet decline 193 (2000) to 99 (2016), and the ~$1.4B/year Puerto Rico cost estimate.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.cato.org/publications/policy-analysis/jones-act-burden-america-can-no-longer-bear"
+        },
+        {
+          "type": "tank",
+          "url": "https://www.cato.org/research-briefs-economic-policy/effect-jones-act-puerto-rico"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "USITC",
+      "name": "US International Trade Commission",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Estimated (attributed) the annual gain from Jones Act repeal to Puerto Rico, Alaska, and Hawaii residents at $5–15 billion.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.grassrootinstitute.org/2017/04/the-jones-act-in-perspective/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GAO",
+      "name": "US Government Accountability Office",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "ratchet-operators",
+        "manufacturing-belief"
+      ],
+      "summary": "Federal audit agency; estimated ~$163M/yr extra Alaska shipping cost (1988) and reviewed Jones Act Puerto Rico effects (GAO-13-260); separately found federal PR/advertising runs ~$1 billion/year.",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.gao.gov/products/gao-13-260"
+        },
+        {
+          "type": "gov-record",
+          "url": "https://www.gao.gov/products/gao-16-877r"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "FDR",
+      "name": "Franklin D. Roosevelt",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "US President whose Aug 16, 1937 letter to Luther Steward stated that collective bargaining 'as usually understood, cannot be transplanted into the public service.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.fdrlibrary.org/unions"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GeorgeMeany",
+      "name": "George Meany",
+      "type": "person",
+      "sector": "labor",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "AFL-CIO president who said in 1955 that 'it is impossible to bargain collectively with the government.'",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_Meany"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ManhattanInstitute",
+      "name": "Manhattan Institute",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ratchet-operators",
+        "fiscal"
+      ],
+      "summary": "Think tank; source (attributed) for the ~$535B California unfunded public-pension liability figure and the public-sector-union conflict-of-interest framing.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://manhattan.institute/article/how-public-unions-took-taxpayers-hostage"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Hoover",
+      "name": "Hoover Institution",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ratchet-operators",
+        "fiscal"
+      ],
+      "summary": "Stanford-affiliated think tank; source (attributed) for the public-sector-union conflict-of-interest argument and for California fiscal analysis (Rauh-Ludwig revenue-volatility study).",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.hoover.org/research/case-against-public-sector-unions"
+        },
+        {
+          "type": "tank",
+          "url": "https://www.hoover.org/sites/default/files/research/docs/Rauh-Ludwig_WebreadyPDF.pdf"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Brookings",
+      "name": "Brookings Institution",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Think tank; source (attributed) for the finding that mandatory collective-bargaining rights substantially increase government pension contributions.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.brookings.edu/articles/public-employee-pensions-and-collective-bargaining-rights-evidence-from-state-and-local-government-finances/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "EPI",
+      "name": "Economic Policy Institute",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ratchet-operators"
+      ],
+      "summary": "Think tank carrying the counter-view that public-sector bargaining narrows pay gaps and that pension shortfalls owe more to investment-return assumptions than to bargaining.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.epi.org/publication/unions-public-sector-pay-gap/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "California",
+      "name": "State of California",
+      "type": "place",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Swung from a ~$100B surplus (2022) to a ~$73B deficit (2024-25) on a tax base bolted to top-bracket capital gains; cannot print money, so it balances via borrowing, deferrals, and fund shifts — a forced-accommodation ratchet.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://lao.ca.gov/Publications/Report/4850"
+        },
+        {
+          "type": "news",
+          "url": "https://calmatters.org/politics/2025/11/california-budget-lao-forecast/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "LAO",
+      "name": "California Legislative Analyst's Office",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "California's nonpartisan fiscal office; pegged the 2024-25 deficit at $58B then revised to $73B, and documents the top-1%/capital-gains revenue concentration and volatility.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://lao.ca.gov/Publications/Report/4850"
+        },
+        {
+          "type": "official",
+          "url": "https://lao.ca.gov/publications/report/3703"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CalPERS",
+      "name": "CalPERS",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "California public-employee pension system; state plans funded ~75.3% at June 30, 2024 with a prior-year unfunded liability reported around $186 billion. Benefits protected by the one-way 'California Rule.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.calpers.ca.gov/sites/default/files/spf/docs/board-agendas/202411/financeadmin/item06a-01_a.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CalSTRS",
+      "name": "CalSTRS",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "California teachers' pension system; funded ~76.7% at June 30, 2024 with an ~$88.7B unfunded actuarial obligation and a funding plan targeting full funding by 2046.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.calstrs.com/files/c335d7b3e/TRB+2024-11+Item+06.01+-+Review+of+Funding+Levels+and+Risks+Report.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "StanfordPensionTracker",
+      "name": "Stanford Pension Tracker (SIEPR)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Stanford Institute for Economic Policy Research tool that pegs (attributed) California state-and-local pension debt at roughly $1 trillion on a market-value (risk-free-rate) basis, far above the plans' own actuarial figures.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://news.stanford.edu/2015/10/15/cali-pension-tracker-101515"
+        },
+        {
+          "type": "academic",
+          "url": "https://west.stanford.edu/news/new-california-pension-data-now-available-pension-tracker"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CaliforniaPolicyCenter",
+      "name": "California Policy Center",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Think tank that estimated (attributed) total California state and local government liabilities (pensions, OPEB, bonds, other debt) at roughly $1.6 trillion.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://californiapolicycenter.org/california-state-and-local-liabilities-total-1-6-trillion/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CBO",
+      "name": "Congressional Budget Office",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Nonpartisan federal budget office; its March 2025 Long-Term Budget Outlook projects federal debt held by the public rising from ~100% of GDP (FY2025) to 156% by 2055.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cbo.gov/publication/61270"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CRFB",
+      "name": "Committee for a Responsible Federal Budget",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Fiscal-policy group analyzing CBO's outlooks; notes a later baseline pushing debt to 175% of GDP and that each successive outlook revises the long-run debt share upward.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.crfb.org/papers/analysis-cbos-march-2025-long-term-budget-outlook"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SSA",
+      "name": "Social Security Administration",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Administers Social Security; the 2025 Trustees Report projects OASI depletion in 2033 (77% payable) and combined OASDI in 2034 (81% payable). Trust funds hold special-issue intragovernmental Treasury IOUs, not cash.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ssa.gov/oact/trsum/"
+        },
+        {
+          "type": "official",
+          "url": "https://www.ssa.gov/oact/progdata/fundFAQ.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SSMedicareTrustees2025",
+      "name": "2025 Social Security & Medicare Trustees Report",
+      "type": "publication",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Projects OASI trust fund depletion in 2033 (~77% of benefits payable), combined OASDI in 2034 (~81%), and Medicare Hospital Insurance (Part A) insolvency in 2033 — dates that tend to move earlier each year.",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.congress.gov/crs-product/IF13045"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "FedReserve",
+      "name": "Federal Reserve",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "US central bank; the monetization backstop for federal debt. Its balance sheet expanded from under $1T (2008) to ~$4.5T after QE and a peak near $8.9–9.0T in 2022, a large share Treasury securities.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm"
+        },
+        {
+          "type": "official",
+          "url": "https://fred.stlouisfed.org/series/WALCL"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Treasury",
+      "name": "US Treasury / Bureau of the Fiscal Service",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "fiscal"
+      ],
+      "summary": "Issues the special-issue intragovernmental Treasury securities held by the Social Security/Medicare trust funds and must redeem them by taxing, borrowing, or monetary accommodation.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "WalterLippmann",
+      "name": "Walter Lippmann",
+      "type": "person",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Political journalist who coined 'the manufacture of consent' in Public Opinion (1922), arguing a specialized class must supply the public's 'pictures in our heads.'",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://www.gutenberg.org/ebooks/6456"
+        },
+        {
+          "type": "reference",
+          "url": "https://www.britannica.com/biography/Walter-Lippmann"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PublicOpinion1922",
+      "name": "Public Opinion (1922)",
+      "type": "publication",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Lippmann's 1922 book containing 'the manufacture of consent' passage; the intellectual seed of the belief-management profession.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://www.gutenberg.org/ebooks/6456"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "EdwardBernays",
+      "name": "Edward Bernays",
+      "type": "person",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Freud's nephew and 'father of public relations'; turned Lippmann's idea into a paid profession and authored Propaganda (1928), which calls manufactured consent an 'invisible government.' Engineered the Torches of Freedom campaign.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/BernaysPropaganda"
+        },
+        {
+          "type": "reference",
+          "url": "https://www.britannica.com/biography/Edward-Bernays"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Propaganda1928",
+      "name": "Propaganda (1928)",
+      "type": "publication",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Bernays' canonical statement that the 'conscious and intelligent manipulation of the organized habits and opinions of the masses' constitutes an 'invisible government.'",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/BernaysPropaganda"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "TorchesOfFreedom",
+      "name": "Torches of Freedom campaign (1929)",
+      "type": "event",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Bernays' 1929 stunt for the American Tobacco Company framing women smoking Lucky Strikes as a feminist gesture — the textbook case of paid engineering of a belief against the believer's own health interest.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "AmericanTobacco",
+      "name": "American Tobacco Company",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "George Washington Hill's tobacco firm that hired Bernays for the Torches of Freedom campaign to open the female cigarette market.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "EdwardHerman",
+      "name": "Edward S. Herman",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Co-author (with Chomsky) of Manufacturing Consent (1988), which inverted Lippmann's phrase into an indictment via the five-filter 'propaganda model.'",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/manufacturingcon0000herm"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "NoamChomsky",
+      "name": "Noam Chomsky",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Co-author of Manufacturing Consent (1988); the propaganda model is presented as his and Herman's attributed framework, not as established fact about every newsroom.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://chomsky.info/consent01/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ManufacturingConsent1988",
+      "name": "Manufacturing Consent (1988)",
+      "type": "publication",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Herman & Chomsky's book arguing mass media serve elite interests through a structural five-filter 'propaganda model' (ownership, advertising, sourcing, flak, ideological enemy) — an attributed framework.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/manufacturingcon0000herm"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "TASSC",
+      "name": "The Advancement of Sound Science Coalition",
+      "type": "org",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Front group created in 1993 by APCO Associates for Philip Morris, presented as an independent grassroots 'sound science' coalition but designed to discredit EPA findings on secondhand smoke and seed regulatory-science doubt.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "APCO",
+      "name": "APCO Associates",
+      "type": "org",
+      "sector": "media",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "PR firm that created TASSC for Philip Morris in 1993.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PhilipMorris",
+      "name": "Philip Morris",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Tobacco company for which APCO created the TASSC 'sound science' front group, per peer-reviewed studies built on litigation-discovered internal documents.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MerchantsOfDoubt",
+      "name": "Merchants of Doubt (2010)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Oreskes & Conway's book documenting how the same operatives and 'the science isn't settled' technique moved from tobacco to acid rain to ozone to climate.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/merchantsofdoubt0000ores"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "UCS",
+      "name": "Union of Concerned Scientists",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Advocacy group that documented (attributed), using ExxonMobil's own funding records, ~$16M (1998–2005) to ~43 groups to 'manufacture uncertainty' about climate science, modeled on the tobacco playbook.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.ucs.org/resources/smoke-mirrors-hot-air"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ExxonMobil",
+      "name": "ExxonMobil",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Oil company that, per UCS's account of its own disclosures, funded an array of advocacy groups to seed climate-science doubt; the 'manufacture uncertainty' characterization is attributed to UCS, not asserted as proven intent.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.ucs.org/resources/smoke-mirrors-hot-air"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "RichardThaler",
+      "name": "Richard Thaler",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Co-author of Nudge (2008) and 2017 Nobel laureate; argued 'choice architects' can predictably steer behavior ('libertarian paternalism'), now mainstream policy doctrine.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://yalebooks.yale.edu/book/9780300262285/nudge/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CassSunstein",
+      "name": "Cass Sunstein",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Co-author of Nudge (2008); 'libertarian paternalism' / choice-architecture theory underpinning state nudge units.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://yalebooks.yale.edu/book/9780300262285/nudge/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Nudge2008",
+      "name": "Nudge (2008)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Thaler & Sunstein's book founding the choice-architecture / 'libertarian paternalism' framework now embedded in government behavioral-insights units.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://yalebooks.yale.edu/book/9780300262285/nudge/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BIT",
+      "name": "Behavioural Insights Team (UK Nudge Unit)",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Created in the UK Cabinet Office in 2010 to apply choice-architecture to policy; later spun out as a partly government-owned company.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.gov.uk/government/organisations/behavioural-insights-team"
+        },
+        {
+          "type": "official",
+          "url": "https://www.bi.team/about-us/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SPIB",
+      "name": "Scientific Pandemic Influenza Group on Behaviours (SPI-B)",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "UK behavioural advisory subgroup to SAGE; its 22 March 2020 options paper recommended raising public fear via 'hard-hitting emotional messaging' to drive compliance — a documented specimen of state belief engineering.",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SPIBPaper2020",
+      "name": "SPI-B 'Options for increasing adherence' paper (22 March 2020)",
+      "type": "publication",
+      "sector": "gov",
+      "topics": [
+        "manufacturing-belief"
+      ],
+      "summary": "Verbatim recommendation that 'the perceived level of personal threat needs to be increased among those who are complacent, using hard-hitting emotional messaging.'",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GEC",
+      "name": "State Department Global Engagement Center",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "manufacturing-belief",
+        "institutional-bias"
+      ],
+      "summary": "State Department counter-messaging body that ran at roughly $61 million/year with ~120 staff, funding outside messaging organizations.",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.gao.gov/products/gao-16-877r"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Langbert",
+      "name": "Mitchell Langbert",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Brooklyn College economist; lead/co-author of the 2016 (11.5:1 D:R across five fields) and 2018 (10.4:1 across 51 liberal-arts colleges; 78.2% of departments with zero registered Republicans) faculty voter-registration studies.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology"
+        },
+        {
+          "type": "academic",
+          "url": "https://gwern.net/doc/sociology/false-preference/2018-langbert.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DanielKlein",
+      "name": "Daniel Klein",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "George Mason economist; co-author of the 2016 faculty voter-registration study finding an overall 11.5:1 Democrat-to-Republican ratio.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Langbert2016",
+      "name": "Langbert, Quain & Klein (2016) faculty voter-registration study",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Matched 7,243 professors at 40 universities to voter records across five social-science fields; overall 11.5:1 D:R (Economics 4.5:1, History 33.5:1, Journalism 20.0:1, Law 8.6:1, Psychology 17.4:1).",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://econjwatch.org/file_download/944/LangbertQuainKleinSept2016.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "HeterodoxAcademy",
+      "name": "Heterodox Academy",
+      "type": "org",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Viewpoint-diversity advocacy org (founded 2015 by Haidt, Rosenkranz, Martin); its survey-of-surveys finds left-leaning faculty outnumber right 2:1 to 82:1, while flagging that the most rigorous studies show the lowest imbalance.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://heterodoxacademy.org/reports/how-politically-diverse-are-university-faculty/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JonathanHaidt",
+      "name": "Jonathan Haidt",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Co-founder (2015) of Heterodox Academy, the viewpoint-diversity advocacy organization.",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://heterodoxacademy.org/reports/how-politically-diverse-are-university-faculty/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "HERIFacultySurvey",
+      "name": "UCLA HERI Faculty Survey",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Longest-running faculty survey; share self-identifying liberal/far-left rose from 42% (1990) to 60% (2014), the documented leftward trend.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://heri.ucla.edu/monographs/HERI-FAC2014-monograph.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "AmericanJournalistSurvey",
+      "name": "The American Journalist survey series",
+      "type": "publication",
+      "sector": "media",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Half-century longitudinal survey (Weaver/Willnat/Wilhoit); journalists identifying as Republican fell 18% (2002) to 7.1% (2013) to 3.4% (2022), with independents above 51%.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.theamericanjournalist.org/post/american-journalist-findings"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DavidWeaver",
+      "name": "David H. Weaver",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Indiana University researcher; principal of the 'American Journalist' survey series documenting the collapse of Republican identification among US journalists.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://mediaschool.indiana.edu/news-events/news/item.html?n=2022-american-journalist-survey-expands-on-half-century-of-research"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CenterForPublicIntegrity",
+      "name": "Center for Public Integrity",
+      "type": "org",
+      "sector": "media",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Analyzed (attributed) 2016-cycle FEC contributions by self-identified journalists and reported that more than 96% of identified donations benefited Hillary Clinton — a contributions analysis, not a population census.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://publicintegrity.org/politics/journalists-shower-hillary-clinton-with-campaign-cash/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DavidRozado",
+      "name": "David Rozado",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Researcher whose peer-reviewed studies found most aligned LLMs test left-of-center (14 of 15 instruments for ChatGPT, 2023; 24 LLMs, 2024) while base/foundation models do not, and that fine-tuning steers measured orientation either way.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621"
+        },
+        {
+          "type": "academic",
+          "url": "https://web.archive.org/web/20260506175649/https://www.mdpi.com/2076-0760/12/3/148"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Rozado2024",
+      "name": "Rozado (2024) 'The political preferences of LLMs'",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "PLOS ONE study: most conversational LLMs register left-of-center, but five base/foundation models do not — the base-vs-aligned contrast locating the lean in post-training (alignment), not the raw corpus.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Rozado2023",
+      "name": "Rozado (2023) 'The Political Biases of ChatGPT'",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Social Sciences (MDPI) study in which 14 of 15 political-orientation instruments diagnosed ChatGPT's answers as left-leaning.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://web.archive.org/web/20260506175649/https://www.mdpi.com/2076-0760/12/3/148"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Anthropic",
+      "name": "Anthropic",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "AI lab; authored the RLHF 'Helpful and Harmless Assistant' and Constitutional AI papers cited as the documented alignment methods through which the institutional skew is theorized to reach models.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/"
+        },
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2204.05862"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "ConstitutionalAIPaper",
+      "name": "Constitutional AI (Bai et al., 2022)",
+      "type": "publication",
+      "sector": "tech",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Anthropic paper documenting harmlessness training from a written set of principles; the alignment layer whose harm-taxonomy political asymmetry is the inferred (not asserted) mechanism for the model lean.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2212.08073"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GorrieBiasStudy",
+      "name": "Gorrie Cross-Model Bias Study (The Hedge Is the Bias)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "institutional-bias"
+      ],
+      "summary": "Ian Gorrie's multi-vendor LLM audit (36+ models, 13 vendor families) showing the both-sides hedge is itself the bias signature, unmasking dose-responsively as the fairness instruction is removed; US-closed frontier models unmask most.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/gorrie/bias-study"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JackParsons",
+      "name": "Jack Parsons",
+      "type": "person",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Co-founder of JPL and Aerojet and a practicing Thelemite; led the OTO Agape Lodge and performed the 1945–46 Babalon Working. The documented nexus of cutting-edge propulsion chemistry and ceremonial magic. Died June 17, 1952.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        },
+        {
+          "type": "news",
+          "url": "https://www.sciencehistory.org/stories/disappearing-pod/the-sex-cult-antichrist-who-rocketed-us-to-space-part-1/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "AleisterCrowley",
+      "name": "Aleister Crowley",
+      "type": "person",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "English occultist (1875–1947), founder of Thelema and head of the OTO, author of The Book of the Law; his documented influence is on occult culture and named followers such as Parsons, not on states or weapons programs.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "OTO",
+      "name": "Ordo Templi Orientis (OTO)",
+      "type": "org",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Crowley's occult order; Parsons joined its Californian Agape Lodge in 1941 and led it from 1942.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BabalonWorking",
+      "name": "Babalon Working (1945–46)",
+      "type": "event",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Parsons' Dec 1945–March 1946 ritual sequence to invoke the goddess Babalon; his partner in the rituals was L. Ron Hubbard, then a US Navy officer.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Babalon_Working"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "LRonHubbard",
+      "name": "L. Ron Hubbard",
+      "type": "person",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "US Navy officer (later founder of Scientology) who participated with Parsons in the 1945–46 Babalon Working, per Parsons's papers.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Babalon_Working"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JPL",
+      "name": "Jet Propulsion Laboratory",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "American rocketry research lab co-founded by Jack Parsons, whose castable solid-propellant work was foundational to US rocketry.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "OperationPaperclip",
+      "name": "Operation Paperclip",
+      "type": "program",
+      "sector": "intel",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Postwar US program that secretly recruited ~1,600 German scientists, engineers, and technicians (including Wernher von Braun); the JIOA laundered Nazi-party records to circumvent Truman's ban on importing active Nazis.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        },
+        {
+          "type": "official",
+          "url": "https://www.cia.gov/resources/csi/static/Review-Operation-Paperclip.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JIOA",
+      "name": "Joint Intelligence Objectives Agency",
+      "type": "org",
+      "sector": "intel",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Subcommittee of the Joint Intelligence Committee that ran Operation Paperclip and, per Jacobsen, altered/'laundered' the scientists' files to make ineligible men admissible.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Truman",
+      "name": "Harry S. Truman",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "US President who authorized Paperclip recruitment in 1945 but barred bringing over active Nazis or Nazi supporters — the restriction the JIOA circumvented.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "VonBraun",
+      "name": "Wernher von Braun",
+      "type": "person",
+      "sector": "intel",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "German rocket engineer imported via Paperclip; a Nazi Party member holding the SS rank of Sturmbannführer, whose V-2 rockets were built at Mittelwerk using forced labor from the Mittelbau-Dora camp.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wernher_von_Braun"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "AnnieJacobsen",
+      "name": "Annie Jacobsen",
+      "type": "person",
+      "sector": "media",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Author of Operation Paperclip (2014), which documents (attributed) that the JIOA laundered the recruited scientists' files to circumvent Truman's restriction.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.npr.org/2014/02/15/275877755"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ThuleSociety",
+      "name": "Thule Society",
+      "type": "org",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Post-WWI Munich occultist/voelkisch group tied to the Germanenorden that sponsored the Deutsche Arbeiterpartei, a Nazi Party precursor; its real footprint was political-nationalist organizing with a thin occult veneer, not a magical command center.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thule_Society"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Ahnenerbe",
+      "name": "SS-Ahnenerbe",
+      "type": "org",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "SS research body founded 1935 under Himmler producing pseudo-scholarship for Nazi racial ideology; the documented reality is bureaucratized racial mythology, NOT the pop-myth of supernatural-weapons hunts.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahnenerbe"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GoodrickClarke",
+      "name": "Nicholas Goodrick-Clarke",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Professor of Western Esotericism; author of The Occult Roots of Nazism (1985), the standard academic treatment, who concluded the occult fringe's influence on Hitler 'must have been negligible' — the corrective to the sensational genre.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Occult_Roots_of_Nazism"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "OccultRootsOfNazism",
+      "name": "The Occult Roots of Nazism (1985)",
+      "type": "publication",
+      "sector": "academia",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Goodrick-Clarke's study tracing the real pre-Nazi esoteric fringe (Ariosophy, von List, the Thule Society) precisely to show how marginal and non-determinative it was.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Occult_Roots_of_Nazism"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BookOfEnoch",
+      "name": "Book of Enoch (1 Enoch) — Book of the Watchers",
+      "type": "publication",
+      "sector": "occult",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Second Temple text (1 Enoch 6–8) in which the Watchers descend and teach humanity 'forbidden knowledge' (Azazel teaches metalworking); the deep mythic ancestor of the 'forbidden technology from spiritual beings' frame. Reported as a documented text, never as literal fact.",
+      "sources": [
+        {
+          "type": "reference",
+          "url": "https://readingacts.com/2016/05/31/the-fallen-angels-1-enoch-6-8/"
+        },
+        {
+          "type": "reference",
+          "url": "https://www.thetorah.com/article/the-benei-elohim-the-watchers-and-the-origins-of-evil"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "TuckerCarlson",
+      "name": "Tucker Carlson",
+      "type": "person",
+      "sector": "media",
+      "topics": [
+        "occult-paperclip"
+      ],
+      "summary": "Broadcaster who, on the record (Nov 2024 War Room appearance), called nuclear weapons 'demonic' and argued nuclear technology has a non-human origin, and has called UFOs/UAP 'spiritual entities.' Documented as a promoter of the belief, attributed to his own dated words — never asserted true.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://skepticalinquirer.org/exclusive/nuclear-weapons-are-demonic-claims-tucker-carlson/"
+        },
+        {
+          "type": "news",
+          "url": "https://newrepublic.com/post/187896/tucker-carlson-rant-demons-nuclear-bombs"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "OpenAI",
+      "name": "OpenAI",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Frontier AI lab; founding member of the Frontier Model Forum and a primary alumni source across the content-policy apparatus. Its Model Spec and Usage Policy govern what its models say and refuse.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Google",
+      "name": "Google / Alphabet",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Frontier AI company (DeepMind parent); founding member of the Frontier Model Forum and backer of ROOST. Its Feb 2025 AI Principles revision removed explicit pledges not to build weapons or surveillance tech.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://ai.google/responsibility/principles/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Microsoft",
+      "name": "Microsoft",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Frontier AI company and founding member of the Frontier Model Forum; signatory to the EU AI Act GPAI Code of Practice and the confirmed NewsGuard browser/search customer.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Meta",
+      "name": "Meta",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Frontier AI company that joined the Frontier Model Forum (May 2024); declined to sign the EU AI Act GPAI Code of Practice. Its consumer platforms built much of the trust-and-safety apparatus now feeding the labs.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "DeepMind",
+      "name": "DeepMind",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Google's frontier AI lab; its model-behavior side is led by Anca Dragan (VP/Head AI Safety & Alignment) and Rohin Shah (lead, AGI Safety & Alignment), who characterize safety as advisory rather than a hard veto.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "xAI",
+      "name": "xAI",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Frontier AI company that is NOT a Frontier Model Forum member and has no publicly named Head of Trust & Safety / Model Policy; enforcement is set by Musk, system-prompt engineers, and a $1-salary safety adviser, with incidents attributed to 'unauthorized modifications.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/xai-org/grok-prompts"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Amazon",
+      "name": "Amazon",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Joined the Frontier Model Forum (May 2024); among the first signatories of the EU AI Office AI Pact.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Apple",
+      "name": "Apple Inc.",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Funder of the Atlantic Council's DFRLab; declined to sign the EU AI Office AI Pact.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Schmidt",
+      "name": "Eric Schmidt",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Named funder of the Frontier Model Forum AI Safety Fund and a backer of the ROOST initiative; recurs across nominally-independent apparatus nodes as a funder.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        },
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Hoffman",
+      "name": "Reid Hoffman",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Contributed $10M to the 2017 Berkman Klein Ethics & Governance of AI Fund ($27M total); later an OpenAI board member and Inflection co-founder.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Amodei",
+      "name": "Dario Amodei",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "OpenAI VP Research who co-founded Anthropic with six other ex-OpenAI figures (the Amodeis, Kaplan, McCandlish, Clark); part of the lab-to-lab alignment diaspora centered on OpenAI alumni.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jan_Leike"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Stamos",
+      "name": "Alex Stamos",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Ex-Facebook CSO who founded the Stanford Internet Observatory (2019); after its 2024 wind-down amid House Judiciary subpoenas, moved to SentinelOne then Corridor. A commissioner of the Aspen Commission on Information Disorder.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "DiResta",
+      "name": "Renee DiResta",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Jane Street equity-derivatives trader turned researcher; a self-documented no-moderation-origin counter-example who moved from the Stanford Internet Observatory to Georgetown McCourt after the SIO wind-down.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.reneediresta.com/about/"
+        },
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Navaroli",
+      "name": "Anika Collier Navaroli",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "JD (UNC); Color of Change to Twitter/Twitch policy to Columbia Journalism. An example of the law-degree substrate under the apparatus and of the door running backwards (industry to academy).",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anika_Collier_Navaroli"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "Musk",
+      "name": "Elon Musk",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Sets xAI enforcement together with system-prompt engineers and a $1-salary safety adviser; xAI has no publicly named Head of Trust & Safety / Model Policy.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/xai-org/grok-prompts"
+        }
+      ],
+      "existing_in_revolving_door": true
+    },
+    {
+      "id": "AmandaAskell",
+      "name": "Amanda Askell",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "NYU philosophy PhD; ex-OpenAI policy team (GPT-3 co-author, 2018-21), then Anthropic (2021). Leads Claude's 'character' and is lead author of Claude's Constitution.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/research/claude-character"
+        },
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/claude-new-constitution"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JoeCarlsmith",
+      "name": "Joe Carlsmith",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Oxford philosophy PhD; led Worldview Investigations at Open Philanthropy (2019-2025), then Anthropic (Nov 2025). Co-lead author of Claude's Constitution; in his own words 'helping with the design of Claude's character/constitution/spec.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ClaudesConstitution",
+      "name": "Claude's Constitution (Jan 2026)",
+      "type": "publication",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Anthropic document (Jan 21 2026, ~23,000 words) with a named-author credit line led by Amanda Askell and Joe Carlsmith; states it is 'directly shaping Claude's behavior.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JoanneJang",
+      "name": "Joanne Jang",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Stanford CS; founded OpenAI's 'Model Behavior' team and championed the Model Spec. Left to found OAI Labs (Sept 2025); Model Behavior folded into Post-Training.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ModelSpec",
+      "name": "OpenAI Model Spec",
+      "type": "publication",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "OpenAI's published specification of intended model behavior, championed by Joanne Jang; states 'AI lab employees should not be the arbiters of what people should and shouldn't be allowed to create.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "AndreaVallone",
+      "name": "Andrea Vallone",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Led OpenAI Model Policy (mental-health / emotional-reliance behavior); co-author of 'From Hard Refusals to Safe-Completions' (GPT-5 doctrine). Departed end-2025.",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2508.09224"
+        },
+        {
+          "type": "news",
+          "url": "https://www.wired.com/story/openai-research-lead-mental-health-quietly-departs/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JacobKlein",
+      "name": "Jacob Klein",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Anthropic Head of Threat Intelligence; built Coinbase Trust & Safety from inception, then Google Strategic Threat Intelligence (counter-violent-extremism strategy), then Anthropic.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cyberuk.uk/2026/speaker/2191327/jacob-klein"
+        },
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ClaraTsao",
+      "name": "Clara Tsao",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Microsoft/Apple/Sony, then DHS Senior Advisor Emerging Tech and CTO of two US-government counter-influence task forces; nonresident expert at GMF/DFRLab; co-founder and board member of TSPA.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://dfrlab.org/staff/clara-tsao/"
+        },
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DelHarvey",
+      "name": "Del Harvey",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Pseudonymous figure; per her self-bio an anti-child-exploitation law-enforcement liaison who became Twitter's 25th employee and led Trust & Safety for 13 years; TSPA board chair. Origin presented as reported, not name-verified.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DaveWillner",
+      "name": "Dave Willner",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Wrote Facebook's first content rulebook (joined 2008), then Head of Community Policy at Airbnb, then first Head of Trust & Safety at OpenAI (2022-23); later safety advisor and non-resident fellow at the Stanford Cyber Policy Center.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.propublica.org/article/facebook-hate-speech-censorship-internal-documents-algorithms"
+        },
+        {
+          "type": "news",
+          "url": "https://techcrunch.com/2023/07/21/openais-head-of-trust-and-safety-dave-willner-steps-down/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CharlotteWillner",
+      "name": "Charlotte Willner",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Built Facebook's first safety-operations team, then led Pinterest Trust & Safety; founding Executive Director of TSPA / the Trust & Safety Foundation.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DanHendrycks",
+      "name": "Dan Hendrycks",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Director of the Center for AI Safety and an xAI/Scale adviser (the $1-salary xAI safety adviser); Open-Philanthropy-funded but states on record he was 'never an EA adherent.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/xai-org/grok-prompts"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ChrisLehane",
+      "name": "Chris Lehane",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "OpenAI Chief Global Affairs Officer; Clinton WH Counsel's office to Gore 2000 to Airbnb Head of Global Policy (2015-22) to Haun Ventures to OpenAI (Aug 2024). Authored OpenAI's White House AI Action Plan submission ('democratic AI' vs 'autocratic AI').",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chris_Lehane"
+        },
+        {
+          "type": "official",
+          "url": "https://cdn.openai.com/global-affairs/ostp-rfi/ec680b75-d539-4653-b297-8bcf6e5f7686/openai-response-ostp-nsf-rfi-notice-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JackClark",
+      "name": "Jack Clark",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Anthropic co-founder (Head of Public Benefit, ex-Head of Policy); ex-OpenAI Policy Director; founding Stanford AI Index; inaugural US National AI Advisory Committee. Testimony framed AI built in democracies vs 'inescapably... authoritarianism.'",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/the-anthropic-institute"
+        },
+        {
+          "type": "gov-record",
+          "url": "https://docs.house.gov/meetings/ZS/ZS00/20250625/118428/HHRG-119-ZS00-Wstate-ClarkJ-20250625.pdf"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MichaelSellitto",
+      "name": "Michael Sellitto",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Anthropic Head of Global Affairs; NSC Director for Cybersecurity Policy (2015-18), Special Assistant to State Deputy Secretaries Burns and Blinken, founding Deputy Director of Stanford HAI, then Anthropic. Sits on the Frontier Model Forum board.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cnas.org/people/michael-sellitto"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SarahHeck",
+      "name": "Sarah Heck",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Anthropic Head of Public Policy; Obama-era NSC / White House / State Dept, then Head of Entrepreneurship at Stripe, then Anthropic.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/the-anthropic-institute"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BenNimmo",
+      "name": "Ben Nimmo",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "DFRLab co-founder, then Graphika, then Meta, then OpenAI Principal Investigator / head of investigations; the highest-value watchdog-to-lab pipeline, each move confirmed by the employer.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ChrisMeserole",
+      "name": "Chris Meserole",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Executive Director of the Frontier Model Forum; previously Director of AI & Emerging Tech at Brookings, the cleanest think-tank to lab-consortium pipeline.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        },
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/updates/announcing-chris-meserole/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CamilleFrancois",
+      "name": "Camille Francois",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Ex-Graphika, ex-Google Jigsaw; president of ROOST (launched Feb 2025, Paris). A watchdog-to-lab-funded-org connector node.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "JadeLeung",
+      "name": "Jade Leung",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "CTO of the UK AI Security Institute; GovAI/Oxford to OpenAI Governance Lead to UK AISI. A load-bearing lab-to-government safety-post exhibit.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        },
+        {
+          "type": "official",
+          "url": "https://www.governance.ai/team/jade-leung"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PaulChristiano",
+      "name": "Paul Christiano",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Head of AI Safety at the US AI Safety Institute (NIST/CAISI); LessWrong since ~2009 to OpenAI RLHF/alignment lead to founder of ARC/METR to US AISI. A lab-to-government safety-post exhibit.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/04/us-commerce-secretary-gina-raimondo-announces-expansion-us-ai-safety"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GeoffreyIrving",
+      "name": "Geoffrey Irving",
+      "type": "person",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Chief Scientist of the UK AI Security Institute; ex-OpenAI and ex-DeepMind (provenance from personal bios, attributed).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "HoldenKarnofsky",
+      "name": "Holden Karnofsky",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "GiveWell to co-founder of Open Philanthropy to Anthropic; a contributor to Claude's Constitution and, by his own 2023 disclosure, married to Daniela Amodei.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.com/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MarkusAnderljung",
+      "name": "Markus Anderljung",
+      "type": "person",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "GovAI; vice-chair of the EU AI Act GPAI Code of Practice working group (WG4).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "KateKlonick",
+      "name": "Kate Klonick",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "JD/PhD law; Berkman affiliate; chronicler-architect of Facebook's Oversight Board. Shapes the rules from the academy without lab employment.",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kate_Klonick"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "YoshuaBengio",
+      "name": "Yoshua Bengio",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "WG3 (Safety) chair of the EU AI Act GPAI Code of Practice and lead author of the International AI Safety Report (Jan 2025); reached AI-risk concern independently of Effective Altruism.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        },
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2501.17805"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "YoelRoth",
+      "name": "Yoel Roth",
+      "type": "person",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Named in the apparatus's honest-findings section as one of the figures who ran the door backwards (industry to academy), illustrating that movement in the content-policy circuit is multi-directional.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "FrontierModelForum",
+      "name": "Frontier Model Forum",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "501(c)(6) founded Jul 2023 by Microsoft/Google/Anthropic/OpenAI (plus Amazon and Meta, May 2024); xAI is not a member. ED Chris Meserole; its AI Safety Fund ($10M+) funders include McGovern Foundation, Packard, Eric Schmidt, and Jaan Tallinn, managed by the Meridian Institute.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        },
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/updates/announcing-chris-meserole/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "PartnershipOnAI",
+      "name": "Partnership on AI",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Multi-stakeholder body (2016); CEO Rebecca Finlay, board includes Helen King (DeepMind). Anthropic is absent from PAI; OpenAI did not leave it (Access Now did, 2020).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://partnershiponai.org/partners/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MLCommons",
+      "name": "MLCommons / AILuminate",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "AILuminate safety benchmark (v1.0 Dec 2024; 12 hazard categories). President Peter Mattson (Google), ED Rebecca Weiss; OpenAI and Anthropic are not named contributors.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://mlcommons.org/benchmarks/ailuminate/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CAISI",
+      "name": "US AI Safety Institute / CAISI (NIST)",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Renamed Center for AI Standards and Innovation (NIST/Commerce) Jun 2025; inaugural leaders Elizabeth Kelly (departed Feb 2025) and Paul Christiano (Head of AI Safety, ex-OpenAI). Signed model-access MoUs with Anthropic and OpenAI (Aug 2024).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/caisi"
+        },
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "UKAISI",
+      "name": "UK AI Security Institute",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "DSIT body renamed from UK AI Safety Institute (Feb 2025); chaired by Ian Hogarth. Has the strongest gov-lab ties of any state body: CTO Jade Leung (ex-OpenAI) and Chief Scientist Geoffrey Irving (ex-OpenAI/DeepMind).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "EUAIOffice",
+      "name": "EU AI Office",
+      "type": "org",
+      "sector": "gov",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "EU body directed by Lucilla Sioli; its AI Pact first signatories include OpenAI, Google, Microsoft, and Amazon, while Apple and Meta declined.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "TSPA",
+      "name": "Trust & Safety Professional Association (TSPA)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Founding supporters include Airbnb, Automattic, Cloudflare, Facebook, Google/YouTube, Twitter, Match, Omidyar, Pinterest, Slack, and Wikimedia. ED Charlotte Willner, board chair Del Harvey, board includes Clara Tsao; the densest single-org cluster on the enforcement side.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.tspa.org/2020/06/17/new-organizations-dedicated-to-online-trust-and-safety/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "TrustSafetyFoundation",
+      "name": "Trust & Safety Foundation",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Sister foundation to TSPA, seeded by a $2M gift from Cognizant (Facebook's outsourced-moderation vendor).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.tspa.org/2020/06/17/new-organizations-dedicated-to-online-trust-and-safety/"
+        },
+        {
+          "type": "news",
+          "url": "https://news.cognizant.com/2020-06-17-Cognizant-Contributes-2-Million-to-TSF"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Cognizant",
+      "name": "Cognizant",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Facebook's outsourced content-moderation vendor; gave the $2M seed gift that funded the Trust & Safety Foundation.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://news.cognizant.com/2020-06-17-Cognizant-Contributes-2-Million-to-TSF"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "StanfordHAI",
+      "name": "Stanford HAI",
+      "type": "org",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Stanford Institute for Human-Centered AI; its founding Deputy Director Michael Sellitto moved to Anthropic Global Affairs, making it a bridge node between the Statecraft Wing and the academy.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cnas.org/people/michael-sellitto"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "StanfordInternetObservatory",
+      "name": "Stanford Internet Observatory",
+      "type": "org",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Founded 2019 by Alex Stamos; wound down in 2024 amid House Judiciary subpoenas (Stanford disputes 'dismantled'). Outputs included EIP's 'The Long Fuse,' the Virality Project, and the LAION-5B CSAM finding.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "BerkmanKlein",
+      "name": "Berkman Klein Center (Harvard)",
+      "type": "org",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Harvard center whose 2017 Ethics & Governance of AI Fund ($27M) included $10M from Reid Hoffman and $10M from Omidyar; faculty director Zittrain, ED Alex Pascal (ex-White House AI).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "DFRLab",
+      "name": "Atlantic Council DFRLab",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Atlantic Council Digital Forensic Research Lab, directed by Graham Brookie; an EIP founding member funded by State/DoD plus AWS/Apple/Google/Microsoft/Meta. Ben Nimmo co-founded it before the watchdog-to-lab pipeline to OpenAI.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "Graphika",
+      "name": "Graphika",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Network-analysis firm in the watchdog layer; a way-station in the careers of Ben Nimmo (to Meta/OpenAI) and Camille Francois (to ROOST).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "ROOST",
+      "name": "ROOST",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Open-source online-safety-tools initiative launched Feb 2025 in Paris (>$27M); backed by OpenAI, Google, Discord, Roblox, and Eric Schmidt; led by Camille Francois.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CSISWadhwani",
+      "name": "CSIS Wadhwani AI Center",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "CSIS center funded by a $5M Wadhwani gift; its AI Council is co-chaired by Brad Smith (Microsoft), with OpenAI and Meta among FY2025 donors.",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.csis.org/about/financial-information/donors/corporations"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GeorgetownCSET",
+      "name": "Georgetown CSET",
+      "type": "org",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Georgetown center within the academic layer of the apparatus; part of the SIO diaspora destination set (DiResta moved to Georgetown).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "OpenPhilanthropy",
+      "name": "Open Philanthropy",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Moskovitz/Tuna funder (per Politico's account) that funds MIRI (~$14.76M), CAIS (~$10.6M), and GovAI, and created the Horizon Institute for Public Service (~$2.9M seed) that places AI fellows in congressional offices and agencies.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "GovAI",
+      "name": "Centre for the Governance of AI (GovAI)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Oxford-rooted AI governance organization; an Open-Philanthropy-funded seed org and an on-ramp in the EA/rationalist career substrate (e.g. Jade Leung, Markus Anderljung).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        },
+        {
+          "type": "official",
+          "url": "https://www.governance.ai/team/jade-leung"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MIRI",
+      "name": "Machine Intelligence Research Institute (MIRI)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Rationalist-milieu AI research org funded by Open Philanthropy (~$14.76M); part of the corrected EA/rationalist recruitment substrate feeding lab and government safety leadership.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "CenterForAISafety",
+      "name": "Center for AI Safety (CAIS)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "AI-safety org directed by Dan Hendrycks; funded by Open Philanthropy (~$10.6M).",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "HorizonInstitute",
+      "name": "Horizon Institute for Public Service",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Org created by Open Philanthropy (~$2.9M seed) that places AI fellows in congressional offices and agencies; per Politico (Oct 2023), the single most documented lab-to-government placement mechanism.",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "NewsGuard",
+      "name": "NewsGuard",
+      "type": "org",
+      "sector": "media",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Ratings firm whose 'NewsGuard for AI' offers training/guardrail data to generative-AI services; names no frontier-lab licensee (its confirmed customer is Microsoft, for browser/search).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.csis.org/about/financial-information/donors/corporations"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "MeridianInstitute",
+      "name": "Meridian Institute",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Manages the Frontier Model Forum AI Safety Fund (funders include the McGovern Foundation, Packard, Eric Schmidt, and Jaan Tallinn).",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ],
+      "existing_in_revolving_door": false
+    },
+    {
+      "id": "SchmidtSciences",
+      "name": "Schmidt Sciences",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Eric Schmidt's philanthropy (distinct from Schmidt personally); named funder of the FMF AI Safety Fund and of METR.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "id": "Tallinn",
+      "name": "Jaan Tallinn",
+      "type": "person",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Skype co-founder; funds AI-safety orgs incl. the FMF AI Safety Fund and (via the Survival and Flourishing Fund) METR.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "id": "McGovernFoundation",
+      "name": "Patrick J. McGovern Foundation",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Philanthropic partner of the FMF AI Safety Fund.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "id": "PackardFoundation",
+      "name": "David and Lucile Packard Foundation",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Philanthropic partner of the FMF AI Safety Fund.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "id": "AISafetyFund",
+      "name": "AI Safety Fund (FMF)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "$10M+ research fund (est. Oct 2023) administered by the Frontier Model Forum; Dec-2025 cohort 11 grantees / $5M+. NOTE: Hewlett is NOT a listed partner.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "id": "METR",
+      "name": "METR (Model Evaluation & Threat Research)",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Third-party frontier-model evaluator; ex-ARC Evals (spun out Sep 2023), founder Beth Barnes (ex-OpenAI); pre-deployment testing for OpenAI/Anthropic; funder-client overlap with the UK AI Security Institute.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://metr.org/about"
+        }
+      ]
+    },
+    {
+      "id": "ApolloResearch",
+      "name": "Apollo Research",
+      "type": "org",
+      "sector": "tank",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Eval org specializing in deception/scheming evaluations (founder Marius Hobbhahn); cited in OpenAI's o1 system card.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.apolloresearch.ai/research/scheming-reasoning-evaluations"
+        }
+      ]
+    },
+    {
+      "id": "GraySwan",
+      "name": "Gray Swan AI",
+      "type": "org",
+      "sector": "tech",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Adversarial-eval / red-team vendor (2024); co-founded by Zico Kolter, who also chairs OpenAI's board Safety & Security Committee.",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.grayswan.ai/about"
+        }
+      ]
+    },
+    {
+      "id": "OmidyarNetwork",
+      "name": "Omidyar Network",
+      "type": "org",
+      "sector": "fin",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "Co-funded Berkman Klein's 2017 Ethics & Governance of AI Fund ($10M).",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ]
+    },
+    {
+      "id": "ZicoKolter",
+      "name": "Zico Kolter",
+      "type": "person",
+      "sector": "academia",
+      "topics": [
+        "ai-content-policy"
+      ],
+      "summary": "CMU professor; Gray Swan AI co-founder; chairs OpenAI's board Safety & Security Committee (reported release-halt authority).",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://openai.com/index/zico-kolter-joins-openais-board-of-directors/"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "Census2021EW",
+      "target": "London",
+      "rel": "part-of",
+      "year": 2021,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+        }
+      ]
+    },
+    {
+      "source": "ONS",
+      "target": "Census2021EW",
+      "rel": "authored",
+      "year": 2021,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/bulletins/ethnicgroupenglandandwales/census2021"
+        }
+      ]
+    },
+    {
+      "source": "USCensusBureau",
+      "target": "Dearborn",
+      "rel": "influenced",
+      "year": 2020,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.census.gov/quickfacts/fact/table/dearborncitymichigan/PST045224"
+        }
+      ]
+    },
+    {
+      "source": "Hammoud",
+      "target": "Dearborn",
+      "rel": "appointed-by",
+      "year": 2022,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.detroitnews.com/story/news/local/wayne-county/2022/01/15/dearborn-swear-first-arab-american-muslim-mayor/6525163001/"
+        }
+      ]
+    },
+    {
+      "source": "Dabaja",
+      "target": "Dearborn",
+      "rel": "member-of",
+      "year": 2021,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Dearborn_mayoral_election"
+        }
+      ]
+    },
+    {
+      "source": "DetroitBankruptcy2013",
+      "target": "Detroit",
+      "rel": "part-of",
+      "year": 2013,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.npr.org/sections/thetwo-way/2013/07/18/203374030/detroit-files-for-bankruptcy"
+        }
+      ]
+    },
+    {
+      "source": "Kilpatrick",
+      "target": "Detroit",
+      "rel": "appointed-by",
+      "year": 2008,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.fbi.gov/news/stories/public-corruption-inside-the-kwame-kilpatrick-case1"
+        }
+      ]
+    },
+    {
+      "source": "Pugh",
+      "target": "Baltimore",
+      "rel": "appointed-by",
+      "year": 2016,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.cbsnews.com/news/catherine-pugh-former-baltimore-mayor-sentenced-3-years-healthy-holly-book-scheme-today-2020-02-27/"
+        }
+      ]
+    },
+    {
+      "source": "Dixon",
+      "target": "Baltimore",
+      "rel": "appointed-by",
+      "year": 2007,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sheila_Dixon"
+        }
+      ]
+    },
+    {
+      "source": "LBJ",
+      "target": "HartCeller1965",
+      "rel": "authored",
+      "year": 1965,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://history.house.gov/Historical-Highlights/1951-2000/Immigration-and-Nationality-Act-of-1965/"
+        }
+      ]
+    },
+    {
+      "source": "HartCeller1965",
+      "target": "USCensusBureau",
+      "rel": "influenced",
+      "year": 1965,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.migrationpolicy.org/article/fifty-years-1965-immigration-and-nationality-act-continues-reshape-united-states"
+        }
+      ]
+    },
+    {
+      "source": "MPI",
+      "target": "HartCeller1965",
+      "rel": "authored",
+      "year": 2015,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.migrationpolicy.org/article/fifty-years-1965-immigration-and-nationality-act-continues-reshape-united-states"
+        }
+      ]
+    },
+    {
+      "source": "BritishNationalityAct1948",
+      "target": "London",
+      "rel": "influenced",
+      "year": 1948,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021"
+        }
+      ]
+    },
+    {
+      "source": "RenaudCamus",
+      "target": "GreatReplacementThesis",
+      "rel": "authored",
+      "year": 2011,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Replacement"
+        }
+      ]
+    },
+    {
+      "source": "GreatReplacementThesis",
+      "target": "HartCeller1965",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Replacement"
+        }
+      ]
+    },
+    {
+      "source": "MancurOlson",
+      "target": "LogicOfCollectiveAction",
+      "rel": "authored",
+      "year": 1965,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.econlib.org/library/enc/bios/olson.html"
+        }
+      ]
+    },
+    {
+      "source": "MancurOlson",
+      "target": "RiseAndDeclineOfNations",
+      "rel": "authored",
+      "year": 1982,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://www.econlib.org/library/enc/bios/olson.html"
+        }
+      ]
+    },
+    {
+      "source": "WorldBank",
+      "target": "CPPI",
+      "rel": "authored",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.worldbank.org/en/topic/transport/publication/cppi-2024"
+        }
+      ]
+    },
+    {
+      "source": "SPGlobal",
+      "target": "CPPI",
+      "rel": "authored",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.worldbank.org/en/news/press-release/2025/09/22/port-performance-varies-across-the-globe-amid-continuing-shocks"
+        }
+      ]
+    },
+    {
+      "source": "ILA",
+      "target": "PortStrike2024",
+      "rel": "part-of",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_United_States_port_strike"
+        }
+      ]
+    },
+    {
+      "source": "ILA",
+      "target": "USMX",
+      "rel": "opposed-by",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.supplychaindive.com/news/ila-usmx-contract-negotiations-challenge-automation-concerns/732874/"
+        }
+      ]
+    },
+    {
+      "source": "ILWU",
+      "target": "PMA",
+      "rel": "opposed-by",
+      "year": 2002,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pacific_Maritime_Association"
+        }
+      ]
+    },
+    {
+      "source": "ILA",
+      "target": "JonesAct",
+      "rel": "lobbied-for",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.congress.gov/crs-product/R45725"
+        }
+      ]
+    },
+    {
+      "source": "ILWU",
+      "target": "JonesAct",
+      "rel": "lobbied-for",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.congress.gov/crs-product/R45725"
+        }
+      ]
+    },
+    {
+      "source": "Cato",
+      "target": "JonesAct",
+      "rel": "opposed-by",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.cato.org/publications/policy-analysis/jones-act-burden-america-can-no-longer-bear"
+        }
+      ]
+    },
+    {
+      "source": "USITC",
+      "target": "JonesAct",
+      "rel": "opposed-by",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.grassrootinstitute.org/2017/04/the-jones-act-in-perspective/"
+        }
+      ]
+    },
+    {
+      "source": "GAO",
+      "target": "JonesAct",
+      "rel": "influenced",
+      "year": 1988,
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.gao.gov/products/gao-13-260"
+        }
+      ]
+    },
+    {
+      "source": "FDR",
+      "target": "GeorgeMeany",
+      "rel": "allied-with",
+      "year": 1955,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.fdrlibrary.org/unions"
+        }
+      ]
+    },
+    {
+      "source": "Brookings",
+      "target": "CalPERS",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.brookings.edu/articles/public-employee-pensions-and-collective-bargaining-rights-evidence-from-state-and-local-government-finances/"
+        }
+      ]
+    },
+    {
+      "source": "ManhattanInstitute",
+      "target": "California",
+      "rel": "opposed-by",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://manhattan.institute/article/how-public-unions-took-taxpayers-hostage"
+        }
+      ]
+    },
+    {
+      "source": "Hoover",
+      "target": "California",
+      "rel": "opposed-by",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.hoover.org/research/case-against-public-sector-unions"
+        }
+      ]
+    },
+    {
+      "source": "LAO",
+      "target": "California",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://lao.ca.gov/Publications/Report/4850"
+        }
+      ]
+    },
+    {
+      "source": "CalPERS",
+      "target": "California",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.calpers.ca.gov/sites/default/files/spf/docs/board-agendas/202411/financeadmin/item06a-01_a.pdf"
+        }
+      ]
+    },
+    {
+      "source": "CalSTRS",
+      "target": "California",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.calstrs.com/files/c335d7b3e/TRB+2024-11+Item+06.01+-+Review+of+Funding+Levels+and+Risks+Report.pdf"
+        }
+      ]
+    },
+    {
+      "source": "StanfordPensionTracker",
+      "target": "California",
+      "rel": "influenced",
+      "year": 2015,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://news.stanford.edu/2015/10/15/cali-pension-tracker-101515"
+        }
+      ]
+    },
+    {
+      "source": "CaliforniaPolicyCenter",
+      "target": "California",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://californiapolicycenter.org/california-state-and-local-liabilities-total-1-6-trillion/"
+        }
+      ]
+    },
+    {
+      "source": "CBO",
+      "target": "SSMedicareTrustees2025",
+      "rel": "influenced",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cbo.gov/publication/61270"
+        }
+      ]
+    },
+    {
+      "source": "CRFB",
+      "target": "CBO",
+      "rel": "influenced",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.crfb.org/papers/analysis-cbos-march-2025-long-term-budget-outlook"
+        }
+      ]
+    },
+    {
+      "source": "SSA",
+      "target": "SSMedicareTrustees2025",
+      "rel": "authored",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.congress.gov/crs-product/IF13045"
+        }
+      ]
+    },
+    {
+      "source": "SSA",
+      "target": "Treasury",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.ssa.gov/oact/progdata/fundFAQ.html"
+        }
+      ]
+    },
+    {
+      "source": "Treasury",
+      "target": "FedReserve",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.federalreserve.gov/monetarypolicy/bst_recenttrends.htm"
+        }
+      ]
+    },
+    {
+      "source": "EdwardBernays",
+      "target": "WalterLippmann",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://www.gutenberg.org/ebooks/6456"
+        }
+      ]
+    },
+    {
+      "source": "WalterLippmann",
+      "target": "PublicOpinion1922",
+      "rel": "authored",
+      "year": 1922,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://www.gutenberg.org/ebooks/6456"
+        }
+      ]
+    },
+    {
+      "source": "EdwardBernays",
+      "target": "Propaganda1928",
+      "rel": "authored",
+      "year": 1928,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/BernaysPropaganda"
+        }
+      ]
+    },
+    {
+      "source": "EdwardBernays",
+      "target": "TorchesOfFreedom",
+      "rel": "founded",
+      "year": 1929,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+        }
+      ]
+    },
+    {
+      "source": "AmericanTobacco",
+      "target": "EdwardBernays",
+      "rel": "employed-by",
+      "year": 1929,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+        }
+      ]
+    },
+    {
+      "source": "TorchesOfFreedom",
+      "target": "AmericanTobacco",
+      "rel": "funded-by",
+      "year": 1929,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+        }
+      ]
+    },
+    {
+      "source": "EdwardHerman",
+      "target": "ManufacturingConsent1988",
+      "rel": "authored",
+      "year": 1988,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://archive.org/details/manufacturingcon0000herm"
+        }
+      ]
+    },
+    {
+      "source": "NoamChomsky",
+      "target": "ManufacturingConsent1988",
+      "rel": "authored",
+      "year": 1988,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://chomsky.info/consent01/"
+        }
+      ]
+    },
+    {
+      "source": "ManufacturingConsent1988",
+      "target": "PublicOpinion1922",
+      "rel": "opposed-by",
+      "year": 1988,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "https://chomsky.info/consent01/"
+        }
+      ]
+    },
+    {
+      "source": "APCO",
+      "target": "TASSC",
+      "rel": "founded",
+      "year": 1993,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ]
+    },
+    {
+      "source": "APCO",
+      "target": "PhilipMorris",
+      "rel": "employed-by",
+      "year": 1993,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ]
+    },
+    {
+      "source": "TASSC",
+      "target": "PhilipMorris",
+      "rel": "funded-by",
+      "year": 1993,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+        }
+      ]
+    },
+    {
+      "source": "UCS",
+      "target": "ExxonMobil",
+      "rel": "opposed-by",
+      "year": 2007,
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://www.ucs.org/resources/smoke-mirrors-hot-air"
+        }
+      ]
+    },
+    {
+      "source": "RichardThaler",
+      "target": "Nudge2008",
+      "rel": "authored",
+      "year": 2008,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://yalebooks.yale.edu/book/9780300262285/nudge/"
+        }
+      ]
+    },
+    {
+      "source": "CassSunstein",
+      "target": "Nudge2008",
+      "rel": "authored",
+      "year": 2008,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://yalebooks.yale.edu/book/9780300262285/nudge/"
+        }
+      ]
+    },
+    {
+      "source": "BIT",
+      "target": "Nudge2008",
+      "rel": "influenced",
+      "year": 2010,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.bi.team/about-us/"
+        }
+      ]
+    },
+    {
+      "source": "SPIB",
+      "target": "SPIBPaper2020",
+      "rel": "authored",
+      "year": 2020,
+      "sources": [
+        {
+          "type": "primary",
+          "url": "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf"
+        }
+      ]
+    },
+    {
+      "source": "GAO",
+      "target": "GEC",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "gov-record",
+          "url": "https://www.gao.gov/products/gao-16-877r"
+        }
+      ]
+    },
+    {
+      "source": "Langbert",
+      "target": "Langbert2016",
+      "rel": "authored",
+      "year": 2016,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology"
+        }
+      ]
+    },
+    {
+      "source": "DanielKlein",
+      "target": "Langbert2016",
+      "rel": "authored",
+      "year": 2016,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://econjwatch.org/file_download/944/LangbertQuainKleinSept2016.pdf"
+        }
+      ]
+    },
+    {
+      "source": "JonathanHaidt",
+      "target": "HeterodoxAcademy",
+      "rel": "founded",
+      "year": 2015,
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://heterodoxacademy.org/reports/how-politically-diverse-are-university-faculty/"
+        }
+      ]
+    },
+    {
+      "source": "HeterodoxAcademy",
+      "target": "Langbert2016",
+      "rel": "influenced",
+      "sources": [
+        {
+          "type": "tank",
+          "url": "https://heterodoxacademy.org/reports/how-politically-diverse-are-university-faculty/"
+        }
+      ]
+    },
+    {
+      "source": "DavidWeaver",
+      "target": "AmericanJournalistSurvey",
+      "rel": "authored",
+      "year": 2022,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://mediaschool.indiana.edu/news-events/news/item.html?n=2022-american-journalist-survey-expands-on-half-century-of-research"
+        }
+      ]
+    },
+    {
+      "source": "DavidRozado",
+      "target": "Rozado2023",
+      "rel": "authored",
+      "year": 2023,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://web.archive.org/web/20260506175649/https://www.mdpi.com/2076-0760/12/3/148"
+        }
+      ]
+    },
+    {
+      "source": "DavidRozado",
+      "target": "Rozado2024",
+      "rel": "authored",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621"
+        }
+      ]
+    },
+    {
+      "source": "Anthropic",
+      "target": "ConstitutionalAIPaper",
+      "rel": "authored",
+      "year": 2022,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2212.08073"
+        }
+      ]
+    },
+    {
+      "source": "GorrieBiasStudy",
+      "target": "Anthropic",
+      "rel": "influenced",
+      "year": 2026,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/gorrie/bias-study"
+        }
+      ]
+    },
+    {
+      "source": "Rozado2024",
+      "target": "ConstitutionalAIPaper",
+      "rel": "influenced",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621"
+        }
+      ]
+    },
+    {
+      "source": "JackParsons",
+      "target": "JPL",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ]
+    },
+    {
+      "source": "JackParsons",
+      "target": "OTO",
+      "rel": "member-of",
+      "year": 1941,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ]
+    },
+    {
+      "source": "AleisterCrowley",
+      "target": "OTO",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ]
+    },
+    {
+      "source": "AleisterCrowley",
+      "target": "JackParsons",
+      "rel": "influenced",
+      "year": 1939,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jack_Parsons"
+        }
+      ]
+    },
+    {
+      "source": "JackParsons",
+      "target": "BabalonWorking",
+      "rel": "founded",
+      "year": 1945,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Babalon_Working"
+        }
+      ]
+    },
+    {
+      "source": "LRonHubbard",
+      "target": "BabalonWorking",
+      "rel": "part-of",
+      "year": 1945,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Babalon_Working"
+        }
+      ]
+    },
+    {
+      "source": "OperationPaperclip",
+      "target": "JIOA",
+      "rel": "part-of",
+      "year": 1945,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        }
+      ]
+    },
+    {
+      "source": "Truman",
+      "target": "OperationPaperclip",
+      "rel": "appointed-by",
+      "year": 1945,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        }
+      ]
+    },
+    {
+      "source": "JIOA",
+      "target": "VonBraun",
+      "rel": "recruited",
+      "year": 1945,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Paperclip"
+        }
+      ]
+    },
+    {
+      "source": "AnnieJacobsen",
+      "target": "OperationPaperclip",
+      "rel": "authored",
+      "year": 2014,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.npr.org/2014/02/15/275877755"
+        }
+      ]
+    },
+    {
+      "source": "ThuleSociety",
+      "target": "Ahnenerbe",
+      "rel": "allied-with",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thule_Society"
+        }
+      ]
+    },
+    {
+      "source": "GoodrickClarke",
+      "target": "OccultRootsOfNazism",
+      "rel": "authored",
+      "year": 1985,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Occult_Roots_of_Nazism"
+        }
+      ]
+    },
+    {
+      "source": "OccultRootsOfNazism",
+      "target": "ThuleSociety",
+      "rel": "influenced",
+      "year": 1985,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Occult_Roots_of_Nazism"
+        }
+      ]
+    },
+    {
+      "source": "TuckerCarlson",
+      "target": "BookOfEnoch",
+      "rel": "influenced",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://skepticalinquirer.org/exclusive/nuclear-weapons-are-demonic-claims-tucker-carlson/"
+        }
+      ]
+    },
+    {
+      "source": "AmandaAskell",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "year": 2018,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/research/claude-character"
+        }
+      ]
+    },
+    {
+      "source": "AmandaAskell",
+      "target": "Anthropic",
+      "rel": "moved-to",
+      "year": 2021,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/research/claude-character"
+        }
+      ]
+    },
+    {
+      "source": "AmandaAskell",
+      "target": "ClaudesConstitution",
+      "rel": "authored",
+      "year": 2026,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/claude-new-constitution"
+        }
+      ]
+    },
+    {
+      "source": "JoeCarlsmith",
+      "target": "OpenPhilanthropy",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to"
+        }
+      ]
+    },
+    {
+      "source": "JoeCarlsmith",
+      "target": "Anthropic",
+      "rel": "moved-to",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to"
+        }
+      ]
+    },
+    {
+      "source": "JoeCarlsmith",
+      "target": "ClaudesConstitution",
+      "rel": "authored",
+      "year": 2026,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.substack.com/p/leaving-open-philanthropy-going-to"
+        }
+      ]
+    },
+    {
+      "source": "HoldenKarnofsky",
+      "target": "ClaudesConstitution",
+      "rel": "authored",
+      "year": 2026,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf"
+        }
+      ]
+    },
+    {
+      "source": "ClaudesConstitution",
+      "target": "Anthropic",
+      "rel": "part-of",
+      "year": 2026,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/claude-new-constitution"
+        }
+      ]
+    },
+    {
+      "source": "JoanneJang",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ]
+    },
+    {
+      "source": "JoanneJang",
+      "target": "ModelSpec",
+      "rel": "authored",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ]
+    },
+    {
+      "source": "ModelSpec",
+      "target": "OpenAI",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://model-spec.openai.com/2025-12-18.html"
+        }
+      ]
+    },
+    {
+      "source": "AndreaVallone",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "academic",
+          "url": "https://arxiv.org/abs/2508.09224"
+        }
+      ]
+    },
+    {
+      "source": "JacobKlein",
+      "target": "Anthropic",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025"
+        }
+      ]
+    },
+    {
+      "source": "JacobKlein",
+      "target": "Google",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cyberuk.uk/2026/speaker/2191327/jacob-klein"
+        }
+      ]
+    },
+    {
+      "source": "ClaraTsao",
+      "target": "TSPA",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "ClaraTsao",
+      "target": "TSPA",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "ClaraTsao",
+      "target": "DFRLab",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://dfrlab.org/staff/clara-tsao/"
+        }
+      ]
+    },
+    {
+      "source": "DelHarvey",
+      "target": "TSPA",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "DaveWillner",
+      "target": "Meta",
+      "rel": "employed-by",
+      "year": 2008,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.propublica.org/article/facebook-hate-speech-censorship-internal-documents-algorithms"
+        }
+      ]
+    },
+    {
+      "source": "DaveWillner",
+      "target": "OpenAI",
+      "rel": "moved-to",
+      "year": 2022,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://techcrunch.com/2023/07/21/openais-head-of-trust-and-safety-dave-willner-steps-down/"
+        }
+      ]
+    },
+    {
+      "source": "CharlotteWillner",
+      "target": "Meta",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "CharlotteWillner",
+      "target": "TSPA",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "CharlotteWillner",
+      "target": "TrustSafetyFoundation",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.tspa.org/about-tspa/team/"
+        }
+      ]
+    },
+    {
+      "source": "DanHendrycks",
+      "target": "CenterForAISafety",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ]
+    },
+    {
+      "source": "DanHendrycks",
+      "target": "xAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://github.com/xai-org/grok-prompts"
+        }
+      ]
+    },
+    {
+      "source": "ChrisLehane",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chris_Lehane"
+        }
+      ]
+    },
+    {
+      "source": "JackClark",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/the-anthropic-institute"
+        }
+      ]
+    },
+    {
+      "source": "JackClark",
+      "target": "Anthropic",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/the-anthropic-institute"
+        }
+      ]
+    },
+    {
+      "source": "Amodei",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jan_Leike"
+        }
+      ]
+    },
+    {
+      "source": "Amodei",
+      "target": "Anthropic",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jan_Leike"
+        }
+      ]
+    },
+    {
+      "source": "MichaelSellitto",
+      "target": "StanfordHAI",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cnas.org/people/michael-sellitto"
+        }
+      ]
+    },
+    {
+      "source": "MichaelSellitto",
+      "target": "Anthropic",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cnas.org/people/michael-sellitto"
+        }
+      ]
+    },
+    {
+      "source": "MichaelSellitto",
+      "target": "FrontierModelForum",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.cnas.org/people/michael-sellitto"
+        }
+      ]
+    },
+    {
+      "source": "SarahHeck",
+      "target": "Anthropic",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.anthropic.com/news/the-anthropic-institute"
+        }
+      ]
+    },
+    {
+      "source": "BenNimmo",
+      "target": "DFRLab",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "BenNimmo",
+      "target": "Graphika",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "BenNimmo",
+      "target": "Meta",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "BenNimmo",
+      "target": "OpenAI",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "ChrisMeserole",
+      "target": "Brookings",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/updates/announcing-chris-meserole/"
+        }
+      ]
+    },
+    {
+      "source": "ChrisMeserole",
+      "target": "FrontierModelForum",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/updates/announcing-chris-meserole/"
+        }
+      ]
+    },
+    {
+      "source": "CamilleFrancois",
+      "target": "Graphika",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ]
+    },
+    {
+      "source": "CamilleFrancois",
+      "target": "ROOST",
+      "rel": "moved-to",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ]
+    },
+    {
+      "source": "JadeLeung",
+      "target": "GovAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.governance.ai/team/jade-leung"
+        }
+      ]
+    },
+    {
+      "source": "JadeLeung",
+      "target": "OpenAI",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ]
+    },
+    {
+      "source": "JadeLeung",
+      "target": "UKAISI",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ]
+    },
+    {
+      "source": "PaulChristiano",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/04/us-commerce-secretary-gina-raimondo-announces-expansion-us-ai-safety"
+        }
+      ]
+    },
+    {
+      "source": "PaulChristiano",
+      "target": "CAISI",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/04/us-commerce-secretary-gina-raimondo-announces-expansion-us-ai-safety"
+        }
+      ]
+    },
+    {
+      "source": "GeoffreyIrving",
+      "target": "OpenAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ]
+    },
+    {
+      "source": "GeoffreyIrving",
+      "target": "UKAISI",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.aisi.gov.uk/people/jade-leung"
+        }
+      ]
+    },
+    {
+      "source": "HoldenKarnofsky",
+      "target": "OpenPhilanthropy",
+      "rel": "founded",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.com/"
+        }
+      ]
+    },
+    {
+      "source": "HoldenKarnofsky",
+      "target": "Anthropic",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://joecarlsmith.com/"
+        }
+      ]
+    },
+    {
+      "source": "MarkusAnderljung",
+      "target": "GovAI",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "target": "FrontierModelForum",
+      "rel": "founded",
+      "year": 2023,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "Google",
+      "target": "FrontierModelForum",
+      "rel": "founded",
+      "year": 2023,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "Microsoft",
+      "target": "FrontierModelForum",
+      "rel": "founded",
+      "year": 2023,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "Anthropic",
+      "target": "FrontierModelForum",
+      "rel": "founded",
+      "year": 2023,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "Amazon",
+      "target": "FrontierModelForum",
+      "rel": "member-of",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "Meta",
+      "target": "FrontierModelForum",
+      "rel": "member-of",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "DeepMind",
+      "target": "PartnershipOnAI",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://partnershiponai.org/partners/"
+        }
+      ]
+    },
+    {
+      "source": "Google",
+      "target": "MLCommons",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://mlcommons.org/benchmarks/ailuminate/"
+        }
+      ]
+    },
+    {
+      "source": "Anthropic",
+      "target": "CAISI",
+      "rel": "allied-with",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research"
+        }
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "target": "CAISI",
+      "rel": "allied-with",
+      "year": 2024,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research"
+        }
+      ]
+    },
+    {
+      "source": "OpenAI",
+      "target": "EUAIOffice",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ]
+    },
+    {
+      "source": "MarkusAnderljung",
+      "target": "EUAIOffice",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ]
+    },
+    {
+      "source": "YoshuaBengio",
+      "target": "EUAIOffice",
+      "rel": "member-of",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/meet-chairs-leading-development-first-general-purpose-ai-code-practice"
+        }
+      ]
+    },
+    {
+      "source": "TrustSafetyFoundation",
+      "target": "TSPA",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.tspa.org/2020/06/17/new-organizations-dedicated-to-online-trust-and-safety/"
+        }
+      ]
+    },
+    {
+      "source": "TrustSafetyFoundation",
+      "target": "Cognizant",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://news.cognizant.com/2020-06-17-Cognizant-Contributes-2-Million-to-TSF"
+        }
+      ]
+    },
+    {
+      "source": "TSPA",
+      "target": "Meta",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.tspa.org/2020/06/17/new-organizations-dedicated-to-online-trust-and-safety/"
+        }
+      ]
+    },
+    {
+      "source": "TSPA",
+      "target": "Google",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.tspa.org/2020/06/17/new-organizations-dedicated-to-online-trust-and-safety/"
+        }
+      ]
+    },
+    {
+      "source": "StanfordInternetObservatory",
+      "target": "StanfordHAI",
+      "rel": "part-of",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ]
+    },
+    {
+      "source": "Stamos",
+      "target": "StanfordInternetObservatory",
+      "rel": "founded",
+      "year": 2019,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ]
+    },
+    {
+      "source": "DiResta",
+      "target": "StanfordInternetObservatory",
+      "rel": "employed-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ]
+    },
+    {
+      "source": "DiResta",
+      "target": "GeorgetownCSET",
+      "rel": "moved-to",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/"
+        }
+      ]
+    },
+    {
+      "source": "BerkmanKlein",
+      "target": "Hoffman",
+      "rel": "funded-by",
+      "year": 2017,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ]
+    },
+    {
+      "source": "DFRLab",
+      "target": "Apple",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "DFRLab",
+      "target": "Google",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "DFRLab",
+      "target": "Microsoft",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "DFRLab",
+      "target": "Meta",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+        }
+      ]
+    },
+    {
+      "source": "ROOST",
+      "target": "OpenAI",
+      "rel": "funded-by",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ]
+    },
+    {
+      "source": "ROOST",
+      "target": "Google",
+      "rel": "funded-by",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ]
+    },
+    {
+      "source": "ROOST",
+      "target": "Schmidt",
+      "rel": "funded-by",
+      "year": 2025,
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.prnewswire.com/news-releases/leading-technology-companies-and-foundations-back-new-initiative-to-provide-free-open-source-tools-for-a-safer-internet-in-the-ai-era-302371243.html"
+        }
+      ]
+    },
+    {
+      "source": "FrontierModelForum",
+      "target": "Schmidt",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "FrontierModelForum",
+      "target": "MeridianInstitute",
+      "rel": "allied-with",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.frontiermodelforum.org/leadership/"
+        }
+      ]
+    },
+    {
+      "source": "MIRI",
+      "target": "OpenPhilanthropy",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ]
+    },
+    {
+      "source": "CenterForAISafety",
+      "target": "OpenPhilanthropy",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ]
+    },
+    {
+      "source": "GovAI",
+      "target": "OpenPhilanthropy",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ]
+    },
+    {
+      "source": "HorizonInstitute",
+      "target": "OpenPhilanthropy",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "news",
+          "url": "https://www.politico.com/news/2023/10/13/open-philanthropy-funding-ai-policy-00121362"
+        }
+      ]
+    },
+    {
+      "source": "CSISWadhwani",
+      "target": "Microsoft",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.csis.org/about/financial-information/donors/corporations"
+        }
+      ]
+    },
+    {
+      "source": "CSISWadhwani",
+      "target": "OpenAI",
+      "rel": "funded-by",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.csis.org/about/financial-information/donors/corporations"
+        }
+      ]
+    },
+    {
+      "source": "NewsGuard",
+      "target": "Microsoft",
+      "rel": "allied-with",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.csis.org/about/financial-information/donors/corporations"
+        }
+      ]
+    },
+    {
+      "source": "SchmidtSciences",
+      "target": "AISafetyFund",
+      "rel": "funds",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "source": "Tallinn",
+      "target": "AISafetyFund",
+      "rel": "funds",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "source": "McGovernFoundation",
+      "target": "AISafetyFund",
+      "rel": "funds",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "source": "PackardFoundation",
+      "target": "AISafetyFund",
+      "rel": "funds",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "source": "AISafetyFund",
+      "target": "FrontierModelForum",
+      "rel": "administered-by",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.frontiermodelforum.org/ai-safety-fund/"
+        }
+      ]
+    },
+    {
+      "source": "SchmidtSciences",
+      "target": "METR",
+      "rel": "funds",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://metr.org/about"
+        }
+      ]
+    },
+    {
+      "source": "Hoffman",
+      "target": "BerkmanKlein",
+      "rel": "funded-ethics-governance-ai-fund-2017",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ]
+    },
+    {
+      "source": "OmidyarNetwork",
+      "target": "BerkmanKlein",
+      "rel": "funded-ethics-governance-ai-fund-2017",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://legacy.knightfoundation.org/press/releases/knight-foundation-omidyar-network-and-linkedin-founder-reid-hoffman-create-27-million-fund-to-research-artificial-intelligence-for-the-public-interest/"
+        }
+      ]
+    },
+    {
+      "source": "ZicoKolter",
+      "target": "GraySwan",
+      "rel": "co-founder",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://www.grayswan.ai/about"
+        }
+      ]
+    },
+    {
+      "source": "ZicoKolter",
+      "target": "OpenAI",
+      "rel": "chairs-board-safety-security-committee",
+      "sources": [
+        {
+          "type": "press",
+          "url": "https://openai.com/index/zico-kolter-joins-openais-board-of-directors/"
+        }
+      ]
+    }
+  ]
+}
