@@ -1,0 +1,89 @@
+id: costly_signal
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Costly Signal / Cost Theater
+description: >
+  Measures the SIGNAL ECONOMY of a text — what the speaker claims to have staked, and the
+  rhetorical methods that keep conviction while zeroing its price. Doctrine: rhetoric is
+  unreadable under weaponized deniability; the one class of evidence a deniability shield
+  cannot launder is a cost actually paid (a refused plea, a sentence served, a career spent).
+  This lens does NOT verdict sincerity. It surfaces (a) STATED STAKES — claims of price
+  accepted or paid, flagged so the receipts layer can check whether payment actually happened
+  (the Capture Leaderboard's assurance axis is the verification path) — and (b) COST-DODGES —
+  methods that simulate skin in the game or pre-position an exit from it. Markers are read
+  separately; a high index means "dense cost-talk", never "honest" or "dishonest".
+  Ideology-blind by construction: fires the same on a dissident, a general, and a brand.
+  Seeded from the weev primary-source video archive ((internal transcript corpus))
+  and the classical record.
+
+# Grading knobs are data, not code — tune via PR.
+config:
+  marker_present_threshold: 0.30
+  w_breadth: 0.55
+  w_intensity: 0.30
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+    - {min: 0.0,  label: incidental}
+    - {min: 35.0, label: notable}
+    - {min: 60.0, label: "dense cost-talk (check receipts)"}
+
+markers:
+  - id: stated_stake
+    name: Stated stake (price named and accepted)
+    base_weight: 1.0
+    detections:
+      - id: price-accepted
+        weight: 1.0
+        definition: >
+          Speaker names a concrete personal cost (prison, ruin, death, livelihood) and
+          explicitly accepts it as the price of the stated position. Surfaced for receipt
+          verification — the claim is the flag; payment is the evidence.
+        cues: ["willing to go to prison", "whatever the consequences", "ethically obligated",
+               "even if it destroys me", "if I'm destroyed",
+               "obey God rather than you", "not even if I have to die"]
+        gold:
+          - text: "I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy"
+            source: "Plato, Apology 29d (Jowett trans.) — the stake was paid in hemlock, 399 BC [FACT]"
+          - text: "I'm ethically obligated to fight this case all the way to the end. It doesn't matter if I'm destroyed or this ends terribly. This is about our right to criticize companies based on their own publications."
+            source: "Andrew Auernheimer, HuffPost Live, Nov 29 2012 (https://www.youtube.com/watch?v=37oBowW7vyQ; local archive (internal transcript corpus)) — plea refused, 41 months served before venue vacatur [FACT]"
+      - id: price-paid-reference
+        weight: 0.9
+        definition: >
+          Speaker points to an already-incurred or imminent, independently verifiable cost as
+          the credential for the position (distinct from vague sacrifice talk — the cost is
+          concrete, dated, and checkable).
+        cues: ["going to prison for", "served my sentence",
+               "paid for it with", "took the sentence"]
+        gold:
+          - text: "I'm going to prison for arithmetic. I added one to a number on a public web server, and I aggregated this data and I gave it to a journalist."
+            source: "Andrew Auernheimer, courthouse statement before sentencing, Mar 18 2013 (https://www.youtube.com/watch?v=kZZGEfnH9kE; corroborated by TechCrunch, Mar 19 2013) — sentenced to 41 months that day [FACT]"
+
+  - id: deniability_shield
+    name: Deniability shield (pre-positioned cost escape)
+    base_weight: 1.0
+    detections:
+      - id: retroactive-satire
+        weight: 1.0
+        definition: >
+          Prior statements are recategorized as non-serious (satire, jokes, performance,
+          "internet culture") at the moment cost arrives. The method fires on the
+          recategorization move itself, not on whether it is truthful — a genuine satirist
+          and a caught operator produce the same sentence; the receipts decide.
+        cues: ["it was satire", "obviously a joke", "taken out of context as fact",
+               "satirical websites", "just trolling", "performance art", "never meant literally"]
+        gold:
+          - text: "they presented things from internet culture, from literally things I wrote for satirical websites, as factual statements"
+            source: "Andrew Auernheimer, HuffPost Live, Nov 29 2012 (https://www.youtube.com/watch?v=37oBowW7vyQ; local archive (internal transcript corpus)) — the recategorization move performed on camera [FACT]"
+
+# TODO (no receipt, no merge — proposed via issue with gold examples before adding):
+#   cost_displacement / borrowed-martyrdom — invoking others' paid costs as authority for an
+#     unpriced position ("people died for this").
+#   deniability_shield / unfalsifiable-jest — simultaneous claim of meaning and not-meaning,
+#     the shield weev's profile documents ("I don't mean it" as unfalsifiable posture).
+#   stated_stake / risk-free-courage — conviction language whose speaker is structurally
+#     unexposed (institutional protection, anonymity, alignment with paymaster).

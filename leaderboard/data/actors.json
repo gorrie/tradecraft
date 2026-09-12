@@ -1,0 +1,23 @@
+{
+  "_meta": {
+    "what": "The closed vocabulary for the leaderboard's `actor` field — WHO ran a capture action.",
+    "why": "score.py has always validated `marker` against its declared lens and `lens` against the detector set, and `actor` against nothing. 150 published records ran on an open vocabulary, so a typo or a freelance new faction would have shipped silently and split a bar in two. Declared here, enforced in score.py::validate, and read by website/tools/gen-crosstab.py rather than copied into it.",
+    "discipline": "Symmetric by construction. The board's whole claim is method-not-ideology, which is falsifiable only if the actor vocabulary can name capture run from any direction — so movement families come in opposed pairs (progressive_left / religious_right, revolutionary_vanguard / hindu_nationalist) and the institutional families are ideologically empty (state, technocratic, commercial_pr, internal_clique). An actor value is a description of who acted, never a verdict on whether they were right.",
+    "adding_one": "Add it here with a definition first, then use it. The build fails the other way round, which is the point.",
+    "declared": 12
+  },
+  "actors": {
+    "state": "A state acting through its own organs — ministries, agencies, regulators, security services.",
+    "state_leninist": "A Leninist party-state and the transmission belts it runs through unions, fronts and diaspora organisations.",
+    "revolutionary_vanguard": "A self-appointed vanguard leading a movement it holds incapable of leading itself.",
+    "commercial_pr": "Commercial public relations, and the industries buying it, operating on a target institution.",
+    "technocratic": "Expert and standards bodies governing through procedure, delegated rulemaking and definitional control.",
+    "trust_safety": "Platform trust-and-safety functions and the government or NGO referral channels feeding them.",
+    "internal_clique": "An unaccountable in-group operating inside an institution it does not own or answer to.",
+    "ideological_bloc": "An organised ideological coalition operating across several institutions at once.",
+    "progressive_left": "Movement organisations of the progressive left acting on an institution.",
+    "religious_right": "Movement organisations of the religious right acting on an institution.",
+    "theocratic": "A clerical authority exercising state or quasi-state power.",
+    "hindu_nationalist": "Hindu-nationalist movement organisations and their diaspora arms."
+  }
+}

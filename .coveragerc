@@ -1,0 +1,44 @@
+# Coverage scope for the 100% gate in .github/workflows/ci.yml.
+#
+# The gate is 100% on the code that SHIPS. That is a real standard and it stays at 100 --
+# lowering the number would be the loosening this repository refuses everywhere else. What this
+# file does instead is say precisely which code the number is about, and why anything outside it
+# is outside.
+#
+# EXCLUDED, with reasons that are checkable rather than convenient:
+#
+#   tradecraft/embed_find.py
+#     The embedding find stage. MEASURED AT CHANCE on 2026-08-27
+#     (eval/RESULTS-2026-08-27-embedding-find-stage.md) and reported as a negative result: it
+#     does not work, nothing in the shipping path calls it, and its dependencies (numpy,
+#     sentence-transformers) are deliberately absent from requirements.txt, which promises the
+#     core grader and its tests need only the stdlib. So it cannot even be imported in CI.
+#     Testing a module that is measured not to work, in order to move a number, is the
+#     definition of a green build bought rather than earned -- and a fake-model suite written to
+#     do exactly that was deleted on 2026-09-03 rather than committed.
+#     THE TRIGGER TO DELETE THIS EXCLUSION: the module is either fixed and put on the shipping
+#     path, or removed. Neither has happened. Until one does, it is dead weight the gate should
+#     not be pretending to measure.
+#
+# Everything else in the package is at 100%, including the paths reached only by adding tests
+# for them on 2026-09-03: corpus enumeration's malformed-record and unreadable-file branches,
+# the Gould-Fernandez role census, verify-mode validation, suffix-absorption limits, and typed
+# graph-edge passthrough. Those were real branches with quiet failure modes, not filler.
+
+[run]
+source = tradecraft
+omit =
+    tradecraft/embed_find.py
+
+[report]
+fail_under = 100
+show_missing = True
+exclude_lines =
+    # CLI entry points are exercised by running the tool, not by importing it. Excluding the
+    # guard line itself, never the functions it calls.
+    if __name__ == .__main__.:
+    # Defensive branches that are unreachable through the public API. `spread()`'s exhaustion
+    # break is the one case: it can only run when the requested limit exceeds the corpus, and
+    # the early return at the top of the function already handles that. Kept in the source
+    # because a future caller could reach it; not counted, because today nothing can.
+    pragma: no cover

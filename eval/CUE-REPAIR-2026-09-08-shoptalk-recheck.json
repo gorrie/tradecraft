@@ -1,0 +1,26 @@
+{
+  "rule": {
+    "ptc_bg_min": 3,
+    "bg_min_occurrences": 3,
+    "exclude_min_read": 3,
+    "cut_iff": "no positive fixture breaks; no demonstrated detection is demoted; the cue's own PTC lift interval does not clear 1; no read span carried the construct by EITHER reader; and the cue is benign-ubiquitous (>= ptc_bg_min occurrences in the unannotated PTC background, or >= bg_min_occurrences in the general-prose pool) or marked defective",
+    "replace_iff": "the cut rule holds for the generic form AND every added cue is in the detection's gold text AND is not itself benign-ubiquitous",
+    "exclude_iff": ">= exclude_min_read read spans (cue-only or quoted) attest the false-fire pattern; the exclusion silences no span either reader marked construct-present; no fixture breaks; no demonstrated detection is demoted",
+    "note": "IDENTICAL rule and thresholds to CUE-REPAIR-2026-09-07.json -- see PREREG-2026-09-08-shoptalk-corpus.md. The only thing that changed is the general-prose pool, which now includes corpus/ai-governance-shoptalk.jsonl (46 docs / ~137 kwords, declared background/recomputable in background_rate.py ROLES). Nothing about the rule is loosened or tuned to this corpus's content."
+  },
+  "candidates": [
+    {"lens": "institutional_permeation", "detection": "build-parallel-institutions", "cue": "training pipeline", "action": "cut"},
+    {"lens": "institutional_permeation", "detection": "hidden-or-deferred-cost", "cue": "diffuse", "action": "cut"},
+    {"lens": "institutional_permeation", "detection": "value-as-science", "cue": "arithmetic", "action": "cut"},
+    {"lens": "institutional_permeation", "detection": "astroturf", "cue": "grassroots", "action": "replace", "add": ["independent grassroots"]},
+    {"lens": "institutional_permeation", "detection": "attribution-gap", "cue": "proprietary model", "action": "cut"},
+    {"lens": "institutional_permeation", "detection": "carve-out-as-public-good", "cue": "level playing field", "action": "cut"},
+    {"lens": "institutional_permeation", "detection": "infiltrate-existing-institutions", "cue": "from within", "action": "cut"},
+    {"lens": "reference_capture", "detection": "elastic-charge", "cue": "disruptive", "action": "cut"},
+    {"lens": "reference_capture", "detection": "anonymous-authority", "cue": "a few hundred", "action": "replace", "add": ["a few hundred anonymous"]},
+    {"lens": "reference_capture", "detection": "canvassing-mobilization", "cue": "canvassing", "action": "cut"},
+    {"lens": "militant_mobilization", "detection": "sainthood-and-heroes", "cue": "high score", "action": "cut"},
+    {"lens": "sourcing_asymmetry", "detection": "mind-reading", "cue": "in a bid to", "action": "cut"},
+    {"lens": "subculture_register", "detection": "managerial-tells", "cue": "human capital", "action": "cut"}
+  ]
+}

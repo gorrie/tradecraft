@@ -1,0 +1,264 @@
+{
+ "frozen_at": "2026-09-07 (first run; sha of texts.jsonl 685322306849adc5)",
+ "seed": 20260907,
+ "sample_n": 40,
+ "pool": 45,
+ "rare_lens_hits": 11,
+ "rows": [
+  {
+   "n": 1,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|3882|3893"
+  },
+  {
+   "n": 2,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|4870|4881"
+  },
+  {
+   "n": 3,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|6158|6169"
+  },
+  {
+   "n": 4,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|7145|7156"
+  },
+  {
+   "n": 5,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|14953|14964"
+  },
+  {
+   "n": 6,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|subculture_register|rationalist-tells|5480|5501"
+  },
+  {
+   "n": 7,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|subculture_register|eacc-tells|15332|15337"
+  },
+  {
+   "n": 8,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|institutional_permeation|define-crisis-claim-authority|5754|5765"
+  },
+  {
+   "n": 9,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|reference_capture|elastic-charge|9284|9294"
+  },
+  {
+   "n": 10,
+   "how": "sampled",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|reference_capture|elastic-charge|9541|9551"
+  },
+  {
+   "n": 11,
+   "how": "sampled",
+   "key": "Hendrycks|x-1971656854288978344|subculture_register|rationalist-tells|1|25"
+  },
+  {
+   "n": 12,
+   "how": "sampled",
+   "key": "Hendrycks|x-1979629629125316836|institutional_permeation|hidden-or-deferred-cost|202|209"
+  },
+  {
+   "n": 13,
+   "how": "sampled",
+   "key": "Hobbhahn|x-2062597758662402415|subculture_register|rationalist-tells|25|45"
+  },
+  {
+   "n": 14,
+   "how": "sampled",
+   "key": "Hobbhahn|x-2070558795789467751|institutional_permeation|build-parallel-institutions|72|89"
+  },
+  {
+   "n": 15,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar|institutional_permeation|hidden-or-deferred-cost|1160|1167"
+  },
+  {
+   "n": 16,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar|reference_capture|elastic-charge|9597|9607"
+  },
+  {
+   "n": 17,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-453-breaking-ai-agents|institutional_permeation|irreversibility-framing|16198|16211"
+  },
+  {
+   "n": 18,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth|institutional_permeation|infiltrate-existing-institutions|17306|17317"
+  },
+  {
+   "n": 19,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon|institutional_permeation|value-as-science|1440|1450"
+  },
+  {
+   "n": 20,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|institutional_permeation|define-crisis-claim-authority|7407|7418"
+  },
+  {
+   "n": 21,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|reference_capture|anonymous-authority|11993|12006"
+  },
+  {
+   "n": 22,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult|institutional_permeation|define-crisis-claim-authority|17798|17809"
+  },
+  {
+   "n": 23,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult|subculture_register|managerial-tells|19472|19485"
+  },
+  {
+   "n": 24,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-460-reward-hacking-society|institutional_permeation|define-crisis-claim-authority|5621|5632"
+  },
+  {
+   "n": 25,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|institutional_permeation|astroturf|5409|5419"
+  },
+  {
+   "n": 26,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|reference_capture|canvassing-mobilization|4189|4199"
+  },
+  {
+   "n": 27,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|reference_capture|canvassing-mobilization|4321|4331"
+  },
+  {
+   "n": 28,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-463-self-improving-robots|institutional_permeation|define-crisis-claim-authority|9784|9795"
+  },
+  {
+   "n": 29,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|institutional_permeation|build-parallel-institutions|1587|1604"
+  },
+  {
+   "n": 30,
+   "how": "sampled",
+   "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|institutional_permeation|attribution-gap|10181|10199"
+  },
+  {
+   "n": 31,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values|institutional_permeation|infiltrate-existing-institutions|1661|1672"
+  },
+  {
+   "n": 32,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values|reference_capture|anonymous-authority|4672|4686"
+  },
+  {
+   "n": 33,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|institutional_permeation|carve-out-as-public-good|5153|5172"
+  },
+  {
+   "n": 34,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|3624|3645"
+  },
+  {
+   "n": 35,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|8218|8238"
+  },
+  {
+   "n": 36,
+   "how": "sampled",
+   "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|9275|9296"
+  },
+  {
+   "n": 37,
+   "how": "sampled",
+   "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2062|subculture_register|rationalist-tells|2645|2651"
+  },
+  {
+   "n": 38,
+   "how": "sampled",
+   "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2062|subculture_register|rationalist-tells|3582|3588"
+  },
+  {
+   "n": 39,
+   "how": "sampled",
+   "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2289|institutional_permeation|define-crisis-claim-authority|13581|13592"
+  },
+  {
+   "n": 40,
+   "how": "sampled",
+   "key": "YoshuaBengio|x-26|institutional_permeation|define-crisis-claim-authority|436|447"
+  },
+  {
+   "n": 41,
+   "how": "rare-lens: every hit read",
+   "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|adept_speech|candidate-sorting|13013|13022"
+  },
+  {
+   "n": 42,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-2045204607971074116|inevitability_framing|no-alternative|64|77"
+  },
+  {
+   "n": 43,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-455-automating-ai-research|sourcing_asymmetry|mind-reading|26259|26275"
+  },
+  {
+   "n": 44,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|rollback_asymmetry|new-normal-floor|20499|20513"
+  },
+  {
+   "n": 45,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-460-reward-hacking-society|militant_mobilization|sainthood-and-heroes|3122|3133"
+  },
+  {
+   "n": 46,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|sourcing_asymmetry|mind-reading|18641|18657"
+  },
+  {
+   "n": 47,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/import-ai-463-self-improving-robots|militant_mobilization|reframe-target-as-vermin-or-nazi|11030|11041"
+  },
+  {
+   "n": 48,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|militant_mobilization|sainthood-and-heroes|3118|3128"
+  },
+  {
+   "n": 49,
+   "how": "rare-lens: every hit read",
+   "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|sourcing_asymmetry|mind-reading|17252|17263"
+  },
+  {
+   "n": 50,
+   "how": "rare-lens: every hit read",
+   "key": "Jang|x-https://reservoirsamples.substack.com/p/thoughts-on-setting-policy-for-new|adept_speech|candidate-sorting|482|491"
+  },
+  {
+   "n": 51,
+   "how": "rare-lens: every hit read",
+   "key": "Summers|summers-treasury-integration-barriers|inevitability_framing|no-alternative|3|16"
+  }
+ ]
+}

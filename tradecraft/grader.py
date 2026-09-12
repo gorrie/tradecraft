@@ -41,17 +41,35 @@ def grade_document_for_lens(
     cfg = taxonomy.config
     hits = list(hits)
 
-    # Per-marker raw strength: capped weighted sum of confidences for that marker's hits.
+    # TWO DIFFERENT SUMS, and keeping them apart is the point.
+    #
+    # 2026-09-02: the matcher used to return one hit per detection, so `total_weighted` was
+    # bounded by how many DETECTIONS matched -- typically 1 -- and `density = total_weighted /
+    # (tokens/1000)` reduced to `k / document_length`. It was an inverse-length term wearing
+    # the docstring of a rate. Measured across the corpus, `subculture_register`'s index
+    # correlated -1.000 with length. The matcher now returns every occurrence.
+    #
+    # But occurrences must NOT flow into breadth and intensity. Those answer "which markers
+    # are present" and "how strongly", and a document repeating one cue forty times would
+    # otherwise cap its marker score and read as broad and intense on the strength of a single
+    # phrase. So marker scoring counts each DETECTION once, at its strongest hit, and only
+    # density sees the occurrence count. Letting repetition drive intensity would have made
+    # intensity a second, worse copy of density.
     marker_scores: dict[str, float] = {m.id: 0.0 for m in taxonomy.markers}
+    best_per_detection: dict[str, float] = {}
     total_weighted = 0.0
     for h in hits:
         det = taxonomy.detection(h.detection_id)
         if det is None:
             continue  # unknown detection id: ignore, don't crash (taxonomy may have moved)
-        marker_id = taxonomy.marker_of(h.detection_id)
         contribution = max(0.0, min(1.0, h.confidence)) * det.weight
+        total_weighted += contribution                      # every occurrence: the RATE
+        prev = best_per_detection.get(h.detection_id, 0.0)
+        if contribution > prev:
+            best_per_detection[h.detection_id] = contribution
+    for detection_id, contribution in best_per_detection.items():
+        marker_id = taxonomy.marker_of(detection_id)        # once per detection: PRESENCE
         marker_scores[marker_id] = min(1.0, marker_scores[marker_id] + contribution)
-        total_weighted += contribution
 
     markers_present = [
         mid for mid, s in marker_scores.items() if s >= cfg.marker_present_threshold
@@ -97,15 +115,25 @@ def grade_document(
     subject: Optional[str] = None,
     url: Optional[str] = None,
     date: Optional[str] = None,
+    text: Optional[str] = None,
 ) -> DocumentProfile:
-    """Score one document across every lens. Returns a profile (one index per lens)."""
+    """Score one document across every lens. Returns a profile (one index per lens).
+
+    `text` is optional and is used only to attach the script/charset profile. It is not scored
+    and cannot change any index -- callers that already hold hits but not the source text (the
+    web export, for one) keep working and simply carry no script profile.
+    """
     results = {
         lens_id: grade_document_for_lens(tax, hits_by_lens.get(lens_id, []), token_count)
         for lens_id, tax in lenses.items()
     }
+    script = None
+    if text:
+        from .script_profile import profile as script_profile
+        script = script_profile(text)
     return DocumentProfile(
         doc_id=doc_id, subject=subject, url=url, date=date,
-        token_count=token_count, lenses=results,
+        token_count=token_count, lenses=results, script=script,
     )
 
 
@@ -154,4 +182,32 @@ def grade_subject(profiles: list[DocumentProfile], subject: str) -> SubjectProfi
         n_documents=len(profiles),
         per_lens=per_lens,
         timeline=timeline,
+        script=_script_summary(profiles),
     )
+
+
+def _script_summary(profiles: list[DocumentProfile]) -> Optional[dict]:
+    """Aggregate the per-document script profiles across a subject.
+
+    Counted in DOCUMENTS rather than in words, deliberately. A subject with one document full
+    of confusable substitutions is a different object from one whose whole corpus carries them,
+    and a word count would flatten that distinction into a single large number. Returns None
+    when no profile carried a script read, so the field distinguishes "nothing found" from "not
+    measured" -- the same discipline the floors contract uses.
+    """
+    scored = [p.script for p in profiles if p.script]
+    if not scored:
+        return None
+    scripts: dict[str, int] = {}
+    for s in scored:
+        for name in s.get("scripts", {}):
+            scripts[name] = scripts.get(name, 0) + 1
+    return {
+        "documents_profiled": len(scored),
+        "scripts_seen": dict(sorted(scripts.items(), key=lambda kv: -kv[1])),
+        "documents_multiscript": sum(1 for s in scored if s.get("script_count", 0) > 1),
+        "documents_with_mixed_script_words": sum(
+            1 for s in scored if s.get("mixed_script_total")),
+        "documents_with_confusables": sum(1 for s in scored if s.get("confusable_total")),
+        "documents_with_invisibles": sum(1 for s in scored if s.get("invisibles")),
+    }

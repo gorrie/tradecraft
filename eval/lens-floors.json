@@ -1,0 +1,136 @@
+{
+  "_note": "Detection floors per lens, in index points, measured with the deterministic cues backend on corpus/**/*.txt. Perturbations change no method-content: sentence order, chunk boundary, whitespace, duplication. An LLM-backend floor would be larger, so these are lower bounds. Regenerate with python eval/lens_floor.py",
+  "seed": 20260901,
+  "lenses": {
+    "distributed_accountability": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "institutional_permeation": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "legibility": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "reference_capture": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "rollback_asymmetry": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "sourcing_asymmetry": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "subculture_register": {
+      "n_docs": 331,
+      "n_comparisons": 1324,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "p90_is_max": true,
+      "n_small": false,
+      "by_perturbation": {
+        "chunk-boundary": 0.0,
+        "duplication": 0.0,
+        "sentence-order": 0.0,
+        "whitespace": 0.0
+      }
+    }
+  },
+  "no_floor_measurable": {
+    "adept_speech": 2,
+    "cognitive_capture": 3,
+    "costly_signal": 0,
+    "counterproductivity": 2,
+    "inevitability_framing": 6,
+    "militant_mobilization": 7,
+    "narrative_management": 3,
+    "network_brokerage": 0,
+    "revolving_door": 0
+  }
+}

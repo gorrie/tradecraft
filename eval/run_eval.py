@@ -41,6 +41,7 @@ def main() -> int:
         fixtures = json.load(fh)
 
     pos_hit = pos_total = neg_quiet = neg_total = cover_hit = cover_total = skipped = 0
+    forbid_ok = forbid_total = 0
     for fx in fixtures:
         if floor_only and fx.get("min_backend") == "llm":
             skipped += 1
@@ -53,6 +54,25 @@ def main() -> int:
         fired = bool(mr.markers_present)
         ok = fired == fx["should_fire"]
         cov = ""
+
+        # CROSS-CAMP SEPARATION. `forbid_markers` asserts that specific markers stay quiet
+        # while the lens may legitimately fire others. The shibboleth method requires exactly
+        # this -- "a shibboleth must identify ITS discourse, not activist-speak generally", so
+        # a camp's cues have to be shown quiet on the OTHER camps' primary works -- and
+        # lens-level `should_fire` could not express it.
+        #
+        # Found by needing it, 2026-09-03: the Marxist-Leninist camp's cross-camp negative is
+        # the Communist Manifesto, which SHOULD fire `revolutionary_left` (Marx is that camp's
+        # canon) and must NOT fire `tankie_mlm`. Written as a lens-level negative it failed,
+        # correctly, and the fixture rather than the detector was wrong.
+        forbidden = [m for m in (fx.get("forbid_markers") or []) if m in mr.markers_present]
+        if fx.get("forbid_markers"):
+            forbid_total += 1
+            forbid_ok += int(not forbidden)
+            cov = ("  forbid:OK" if not forbidden
+                   else "  forbid:LEAK " + ",".join(forbidden))
+            ok = ok and not forbidden
+
         if fx["should_fire"]:
             pos_total += 1
             pos_hit += int(fired)
@@ -60,7 +80,7 @@ def main() -> int:
                 c = any(m in mr.markers_present for m in fx["expect_any"])
                 cover_total += 1
                 cover_hit += int(c)
-                cov = "  cover:OK" if c else "  cover:MISS"
+                cov = ("  cover:OK" if c else "  cover:MISS") + cov
         else:
             neg_total += 1
             neg_quiet += int(not fired)
@@ -73,10 +93,14 @@ def main() -> int:
     print(f"negatives quiet:   {neg_quiet}/{neg_total}   (false-positive check)")
     if cover_total:
         print(f"marker coverage:   {cover_hit}/{cover_total}   (an expected marker fired)")
+    if forbid_total:
+        print(f"cross-camp quiet:  {forbid_ok}/{forbid_total}   "
+              f"(forbidden markers stayed quiet)")
     if skipped:
         print(f"skipped (need model): {skipped}   (run with cloud/auto/local to assert these)")
     print(f"backend: {backend}")
-    failures = (pos_total - pos_hit) + (neg_total - neg_quiet)
+    failures = ((pos_total - pos_hit) + (neg_total - neg_quiet)
+                + (forbid_total - forbid_ok))
     if strict and failures:
         print(f"STRICT: {failures} fixture(s) failed the gate")
         return 1

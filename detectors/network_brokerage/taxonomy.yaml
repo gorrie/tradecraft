@@ -1,4 +1,10 @@
 id: network_brokerage
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: graph               # reads the career/funding graph via structural.py, not prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
 name: Network Brokerage
 description: >
   The second BEHAVIORAL (graph-based) lens. Measures STRUCTURAL POSITION in the whole entity

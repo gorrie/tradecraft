@@ -34,14 +34,15 @@ def _openrouter_key() -> str:
     key = os.environ.get("OPENROUTER_API_KEY")
     if key:
         return key
-    envp = os.path.expanduser("~/.config/tradecraft/.env")
+    # Operator-named env file; no default.
+    envp = os.environ.get("TRADECRAFT_ENV_FILE", "")
     if os.path.isfile(envp):
         with open(envp, "r", encoding="utf-8") as fh:
             for line in fh:
                 s = line.strip()
                 if s.startswith("OPENROUTER_API_KEY") and "=" in s:
                     return s.split("=", 1)[1].strip().strip('"').strip("'")
-    raise RuntimeError("OPENROUTER_API_KEY not set (env or ~/.config/tradecraft/.env)")
+    raise RuntimeError("OPENROUTER_API_KEY not set (environment, or an env file named by TRADECRAFT_ENV_FILE)")
 
 
 def cloud(prompt: str, system: Optional[str], *, model: str, json_mode: bool) -> str:

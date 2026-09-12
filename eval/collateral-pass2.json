@@ -1,0 +1,2427 @@
+{
+ "institutions": {
+  "Behavioural Insights Team (UK Nudge Unit)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 3,
+   "id": "BIT",
+   "lenses": {},
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 3
+    },
+    "scored_texts": 3
+   },
+   "urls": [
+    "https://www.bi.team/press-releases/nesta-acquires-behavioural-insights-team-to-help-tackle-societys-biggest-social-challenges/",
+    "https://www.bi.team/publications/east-four-simple-ways-to-apply-behavioural-insights/",
+    "https://www.gov.uk/government/organisations/behavioural-insights-team"
+   ],
+   "words": 1781
+  },
+  "EU AI Office (Code of Practice)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 1,
+   "id": null,
+   "lenses": {
+    "institutional_permeation": {
+     "detections": {
+      "intermediary-laundering": 1
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 25.8,
+     "occurrences": 1,
+     "one_cue": false,
+     "per_1k": 0.947,
+     "per_1k_ci95": [
+      0.024,
+      5.2762
+     ],
+     "top_detection": {
+      "id": "intermediary-laundering",
+      "share": 1.0
+     },
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "scored_texts": 1
+   },
+   "urls": [
+    "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice"
+   ],
+   "words": 1056
+  },
+  "EU Code of Practice on Disinformation (DSA)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 3,
+   "id": null,
+   "lenses": {
+    "distributed_accountability": {
+     "detections": {
+      "authority-to-define-true": 1
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 143.3,
+     "occurrences": 1,
+     "one_cue": false,
+     "per_1k": 0.3511,
+     "per_1k_ci95": [
+      0.0089,
+      1.9563
+     ],
+     "top_detection": {
+      "id": "authority-to-define-true",
+      "share": 1.0
+     },
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "intermediary-laundering": 5
+     },
+     "docs_fired": 3,
+     "in_quotes": 0,
+     "min_detectable_ratio": 14.4,
+     "occurrences": 5,
+     "one_cue": true,
+     "per_1k": 1.7556,
+     "per_1k_ci95": [
+      0.57,
+      4.097
+     ],
+     "top_detection": {
+      "id": "intermediary-laundering",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 49,
+    "attributed": 4,
+    "bands": {
+     "High": 2,
+     "Moderate": 1
+    },
+    "scored_texts": 3
+   },
+   "urls": [
+    "https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation",
+    "https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+    "https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct"
+   ],
+   "words": 2848
+  },
+  "Election Integrity Partnership (EIP)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 1,
+   "id": null,
+   "lenses": {
+    "institutional_permeation": {
+     "detections": {
+      "astroturf": 1,
+      "intermediary-laundering": 5
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 17.5,
+     "occurrences": 6,
+     "one_cue": true,
+     "per_1k": 3.8437,
+     "per_1k_ci95": [
+      1.4106,
+      8.3661
+     ],
+     "top_detection": {
+      "id": "intermediary-laundering",
+      "share": 0.8333
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 18,
+    "attributed": 2,
+    "bands": {
+     "Moderate": 1
+    },
+    "scored_texts": 1
+   },
+   "urls": [
+    "https://www.eipartnership.net/report"
+   ],
+   "words": 1561
+  },
+  "Frontier Model Forum (FMF)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 5,
+   "id": null,
+   "lenses": {
+    "institutional_permeation": {
+     "detections": {
+      "intermediary-laundering": 15
+     },
+     "docs_fired": 4,
+     "in_quotes": 3,
+     "min_detectable_ratio": 10.3,
+     "occurrences": 15,
+     "one_cue": true,
+     "per_1k": 3.7793,
+     "per_1k_ci95": [
+      2.1152,
+      6.2334
+     ],
+     "top_detection": {
+      "id": "intermediary-laundering",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 5
+    },
+    "scored_texts": 5
+   },
+   "urls": [
+    "https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/",
+    "https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/",
+    "https://www.frontiermodelforum.org/",
+    "https://www.frontiermodelforum.org/membership/",
+    "https://www.frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum/"
+   ],
+   "words": 3969
+  },
+  "Leninist democratic centralism": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 7,
+   "id": null,
+   "lenses": {
+    "institutional_permeation": {
+     "detections": {
+      "irreversibility-framing": 1
+     },
+     "docs_fired": 1,
+     "in_quotes": 1,
+     "min_detectable_ratio": 2.8,
+     "occurrences": 1,
+     "one_cue": false,
+     "per_1k": 0.0147,
+     "per_1k_ci95": [
+      0.0004,
+      0.0818
+     ],
+     "top_detection": {
+      "id": "irreversibility-framing",
+      "share": 1.0
+     },
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {
+      "unanswered-accusation": 1,
+      "unsourced-assertion": 4
+     },
+     "docs_fired": 2,
+     "in_quotes": 0,
+     "min_detectable_ratio": 2.8,
+     "occurrences": 5,
+     "one_cue": true,
+     "per_1k": 0.0734,
+     "per_1k_ci95": [
+      0.0238,
+      0.1713
+     ],
+     "top_detection": {
+      "id": "unsourced-assertion",
+      "share": 0.8
+     },
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "marxist-situationist-tells": 160,
+      "tankie-tells": 30
+     },
+     "docs_fired": 5,
+     "in_quotes": 4,
+     "min_detectable_ratio": 4.4,
+     "occurrences": 190,
+     "one_cue": true,
+     "per_1k": 2.7897,
+     "per_1k_ci95": [
+      2.4071,
+      3.2158
+     ],
+     "top_detection": {
+      "id": "marxist-situationist-tells",
+      "share": 0.8421
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry"
+   ],
+   "scanner": {
+    "asserted": 54,
+    "attributed": 4,
+    "bands": {
+     "Low": 7
+    },
+    "scored_texts": 7
+   },
+   "urls": [
+    "https://www.marxists.org/archive/lenin/works/1901/witbd/index.htm",
+    "https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm",
+    "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm",
+    "https://www.marxists.org/archive/lenin/works/1921/mar/08.htm",
+    "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   ],
+   "words": 68108
+  },
+  "New Left (long march through the institutions)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 1,
+   "id": null,
+   "lenses": {
+    "counterproductivity": {
+     "detections": {
+      "institution-as-obstacle": 1
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 1,
+     "one_cue": false,
+     "per_1k": 0.0949,
+     "per_1k_ci95": [
+      0.0024,
+      0.5287
+     ],
+     "top_detection": {
+      "id": "institution-as-obstacle",
+      "share": 1.0
+     },
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {
+      "faction-selective-tolerance": 5
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 9.1,
+     "occurrences": 5,
+     "one_cue": true,
+     "per_1k": 0.4744,
+     "per_1k_ci95": [
+      0.154,
+      1.1072
+     ],
+     "top_detection": {
+      "id": "faction-selective-tolerance",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    },
+    "subculture_register": {
+     "detections": {
+      "marxist-situationist-tells": 6
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 12.1,
+     "occurrences": 6,
+     "one_cue": true,
+     "per_1k": 0.5693,
+     "per_1k_ci95": [
+      0.2089,
+      1.2392
+     ],
+     "top_detection": {
+      "id": "marxist-situationist-tells",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "rollback_asymmetry",
+    "sourcing_asymmetry"
+   ],
+   "scanner": {
+    "asserted": 40,
+    "attributed": 2,
+    "bands": {
+     "Low": 1
+    },
+    "scored_texts": 1
+   },
+   "urls": [
+    "https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html"
+   ],
+   "words": 10539
+  },
+  "NewsGuard": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 2,
+   "id": "NewsGuard",
+   "lenses": {
+    "subculture_register": {
+     "detections": {
+      "disinfo-tells": 6
+     },
+     "docs_fired": 2,
+     "in_quotes": 1,
+     "min_detectable_ratio": 48.9,
+     "occurrences": 6,
+     "one_cue": true,
+     "per_1k": 3.4443,
+     "per_1k_ci95": [
+      1.264,
+      7.4968
+     ],
+     "top_detection": {
+      "id": "disinfo-tells",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry"
+   ],
+   "scanner": {
+    "asserted": 35,
+    "attributed": 8,
+    "bands": {
+     "High": 1,
+     "Low": 1
+    },
+    "scored_texts": 2
+   },
+   "urls": [
+    "https://www.newsguardtech.com/",
+    "https://www.newsguardtech.com/press/newsguard-wins-pentagon-state-department-contest-for-detecting-covid-19-misinformation-and-disinformation/"
+   ],
+   "words": 1742
+  },
+  "SPI-B (UK SAGE behavioural subgroup)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 1,
+   "id": null,
+   "lenses": {},
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "scored_texts": 1
+   },
+   "urls": [
+    "https://www.gov.uk/government/publications/options-for-increasing-adherence-to-social-distancing-measures-22-march-2020"
+   ],
+   "words": 476
+  },
+  "Soviet Communist Party (wooden language)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 1,
+   "id": null,
+   "lenses": {
+    "sourcing_asymmetry": {
+     "detections": {
+      "unsourced-assertion": 1
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 6.5,
+     "occurrences": 1,
+     "one_cue": false,
+     "per_1k": 0.1146,
+     "per_1k_ci95": [
+      0.0029,
+      0.6387
+     ],
+     "top_detection": {
+      "id": "unsourced-assertion",
+      "share": 1.0
+     },
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "marxist-situationist-tells": 28
+     },
+     "docs_fired": 1,
+     "in_quotes": 3,
+     "min_detectable_ratio": 14.6,
+     "occurrences": 28,
+     "one_cue": true,
+     "per_1k": 3.2095,
+     "per_1k_ci95": [
+      2.1327,
+      4.6387
+     ],
+     "top_detection": {
+      "id": "marxist-situationist-tells",
+      "share": 1.0
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry"
+   ],
+   "scanner": {
+    "asserted": 7,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "scored_texts": 1
+   },
+   "urls": [
+    "https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm"
+   ],
+   "words": 8724
+  },
+  "Stanford Internet Observatory": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 2,
+   "id": "SIO",
+   "lenses": {
+    "institutional_permeation": {
+     "detections": {
+      "astroturf": 1,
+      "intermediary-laundering": 5
+     },
+     "docs_fired": 1,
+     "in_quotes": 0,
+     "min_detectable_ratio": 13.8,
+     "occurrences": 6,
+     "one_cue": true,
+     "per_1k": 3.0411,
+     "per_1k_ci95": [
+      1.116,
+      6.6191
+     ],
+     "top_detection": {
+      "id": "intermediary-laundering",
+      "share": 0.8333
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 24,
+    "attributed": 2,
+    "bands": {
+     "Moderate": 2
+    },
+    "scored_texts": 2
+   },
+   "urls": [
+    "https://www.eipartnership.net/report",
+    "https://www.viralityproject.org"
+   ],
+   "words": 1973
+  },
+  "US AI Safety Institute (NIST / CAISI)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 2,
+   "id": null,
+   "lenses": {},
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 2
+    },
+    "scored_texts": 2
+   },
+   "urls": [
+    "https://www.nist.gov/caisi",
+    "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research"
+   ],
+   "words": 1067
+  },
+  "Wikipedia (English)": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 3,
+   "id": null,
+   "lenses": {
+    "reference_capture": {
+     "detections": {
+      "canvassing-mobilization": 1,
+      "state-corp-ip-edits": 7
+     },
+     "docs_fired": 2,
+     "in_quotes": 6,
+     "min_detectable_ratio": 12.7,
+     "occurrences": 8,
+     "one_cue": true,
+     "per_1k": 1.063,
+     "per_1k_ci95": [
+      0.4589,
+      2.0945
+     ],
+     "top_detection": {
+      "id": "state-corp-ip-edits",
+      "share": 0.875
+     },
+     "verdict": "above background"
+    }
+   },
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 5,
+    "attributed": 0,
+    "bands": {
+     "Low": 3
+    },
+    "scored_texts": 3
+   },
+   "urls": [
+    "https://en.wikipedia.org/wiki/Arbitration_Committee_(Wikipedia)",
+    "https://en.wikipedia.org/wiki/WikiScanner",
+    "https://en.wikipedia.org/wiki/Wikipedia:Arbitration/Index/Palestine-Israel_articles"
+   ],
+   "words": 7526
+  },
+  "World Health Organization": {
+   "caveat": "The institution's own published text, graded by the literal cue matcher against each lens's general-prose background. What the text exhibits; not a finding about intent.",
+   "docs": 2,
+   "id": "WHO",
+   "lenses": {},
+   "lenses_zero": [
+    "adept_speech",
+    "cognitive_capture",
+    "costly_signal",
+    "counterproductivity",
+    "distributed_accountability",
+    "inevitability_framing",
+    "institutional_permeation",
+    "legibility",
+    "militant_mobilization",
+    "narrative_management",
+    "reference_capture",
+    "rollback_asymmetry",
+    "sourcing_asymmetry",
+    "subculture_register"
+   ],
+   "scanner": {
+    "asserted": 0,
+    "attributed": 0,
+    "bands": {
+     "Low": 2
+    },
+    "scored_texts": 2
+   },
+   "urls": [
+    "https://iris.who.int/items/5ba20db4-745b-4188-9da1-f55f5332013e",
+    "https://www.who.int/about/funding/invest-in-who/investment-case-2.0/current-state"
+   ],
+   "words": 1116
+  }
+ },
+ "lenses": {
+  "adept_speech": {
+   "background": {
+    "docs_fired": 1,
+    "docs_n": 217,
+    "docs_rate": 0.0046,
+    "docs_wilson95": [
+     0.0008,
+     0.0256
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.001,
+    "per_1k_ci95": [
+     0.0,
+     0.0055
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 1
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0356,
+   "min_detectable_ratio": 35.6,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "cognitive_capture": {
+   "background": {
+    "docs_fired": 1,
+    "docs_n": 217,
+    "docs_rate": 0.0046,
+    "docs_wilson95": [
+     0.0008,
+     0.0256
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0356,
+   "min_detectable_ratio": 12.3,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "costly_signal": {
+   "background": {
+    "docs_fired": 0,
+    "docs_n": 217,
+    "docs_rate": 0.0,
+    "docs_wilson95": [
+     0.0,
+     0.0174
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0,
+    "per_1k_ci95": [
+     0.0,
+     0.0036
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 0
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0267,
+   "min_detectable_ratio": null,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "counterproductivity": {
+   "background": {
+    "docs_fired": 0,
+    "docs_n": 217,
+    "docs_rate": 0.0,
+    "docs_wilson95": [
+     0.0,
+     0.0174
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0,
+    "per_1k_ci95": [
+     0.0,
+     0.0036
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 0
+   },
+   "detections": {
+    "institution-as-obstacle": 1
+   },
+   "docs_fired": 1,
+   "docs_n": 34,
+   "docs_rate": 0.0294,
+   "docs_wilson95": [
+    0.0052,
+    0.1492
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0267,
+   "min_detectable_ratio": null,
+   "occurrences": 1,
+   "one_cue": false,
+   "per_1k": 0.0089,
+   "per_1k_ci95": [
+    0.0002,
+    0.0495
+   ],
+   "state": "receipts-only",
+   "top_detection": {
+    "id": "institution-as-obstacle",
+    "share": 1.0
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "distributed_accountability": {
+   "background": {
+    "docs_fired": 5,
+    "docs_n": 217,
+    "docs_rate": 0.023,
+    "docs_wilson95": [
+     0.0099,
+     0.0528
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0049,
+    "per_1k_ci95": [
+     0.0016,
+     0.0114
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 5
+   },
+   "detections": {
+    "authority-to-define-true": 1
+   },
+   "docs_fired": 1,
+   "docs_n": 34,
+   "docs_rate": 0.0294,
+   "docs_wilson95": [
+    0.0052,
+    0.1492
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0444,
+   "min_detectable_ratio": 9.1,
+   "occurrences": 1,
+   "one_cue": false,
+   "per_1k": 0.0089,
+   "per_1k_ci95": [
+    0.0002,
+    0.0495
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "authority-to-define-true",
+    "share": 1.0
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "inevitability_framing": {
+   "background": {
+    "docs_fired": 4,
+    "docs_n": 217,
+    "docs_rate": 0.0184,
+    "docs_wilson95": [
+     0.0072,
+     0.0464
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0059,
+    "per_1k_ci95": [
+     0.0021,
+     0.0129
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 6
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0444,
+   "min_detectable_ratio": 7.5,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "institutional_permeation": {
+   "background": {
+    "docs_fired": 35,
+    "docs_n": 217,
+    "docs_rate": 0.1613,
+    "docs_wilson95": [
+     0.1183,
+     0.216
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": true,
+    "per_1k": 0.0734,
+    "per_1k_ci95": [
+     0.0491,
+     0.1022
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 75
+   },
+   "detections": {
+    "astroturf": 2,
+    "intermediary-laundering": 31,
+    "irreversibility-framing": 1
+   },
+   "docs_fired": 11,
+   "docs_n": 34,
+   "docs_rate": 0.3235,
+   "docs_wilson95": [
+    0.1913,
+    0.4916
+   ],
+   "in_quotes": 4,
+   "in_quotes_share": 0.1176,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.1778,
+   "min_detectable_ratio": 2.4,
+   "occurrences": 34,
+   "one_cue": true,
+   "per_1k": 0.3023,
+   "per_1k_ci95": [
+    0.2093,
+    0.4224
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "intermediary-laundering",
+    "share": 0.9118
+   },
+   "verdict": "above background"
+  },
+  "legibility": {
+   "background": {
+    "docs_fired": 13,
+    "docs_n": 217,
+    "docs_rate": 0.0599,
+    "docs_wilson95": [
+     0.0353,
+     0.0998
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0186,
+    "per_1k_ci95": [
+     0.0112,
+     0.029
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 19
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0711,
+   "min_detectable_ratio": 3.8,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "index-bearing",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "militant_mobilization": {
+   "background": {
+    "docs_fired": 4,
+    "docs_n": 217,
+    "docs_rate": 0.0184,
+    "docs_wilson95": [
+     0.0072,
+     0.0464
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0039,
+    "per_1k_ci95": [
+     0.0011,
+     0.01
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 4
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0444,
+   "min_detectable_ratio": 11.4,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "narrative_management": {
+   "background": {
+    "docs_fired": 3,
+    "docs_n": 217,
+    "docs_rate": 0.0138,
+    "docs_wilson95": [
+     0.0047,
+     0.0399
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0356,
+   "min_detectable_ratio": 12.3,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "reference_capture": {
+   "background": {
+    "docs_fired": 20,
+    "docs_n": 217,
+    "docs_rate": 0.0922,
+    "docs_wilson95": [
+     0.0605,
+     0.1381
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": true,
+    "per_1k": 0.0313,
+    "per_1k_ci95": [
+     0.0113,
+     0.0574
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 32
+   },
+   "detections": {
+    "canvassing-mobilization": 1,
+    "faction-selective-tolerance": 5,
+    "state-corp-ip-edits": 7
+   },
+   "docs_fired": 3,
+   "docs_n": 34,
+   "docs_rate": 0.0882,
+   "docs_wilson95": [
+    0.0305,
+    0.2296
+   ],
+   "in_quotes": 6,
+   "in_quotes_share": 0.4615,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.1156,
+   "min_detectable_ratio": 3.7,
+   "occurrences": 13,
+   "one_cue": false,
+   "per_1k": 0.1156,
+   "per_1k_ci95": [
+    0.0615,
+    0.1976
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "state-corp-ip-edits",
+    "share": 0.5385
+   },
+   "verdict": "above background"
+  },
+  "rollback_asymmetry": {
+   "background": {
+    "docs_fired": 3,
+    "docs_n": 217,
+    "docs_rate": 0.0138,
+    "docs_wilson95": [
+     0.0047,
+     0.0399
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 34,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.1015
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.0356,
+   "min_detectable_ratio": 12.3,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0328
+   ],
+   "state": "index-bearing",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "sourcing_asymmetry": {
+   "background": {
+    "docs_fired": 35,
+    "docs_n": 217,
+    "docs_rate": 0.1613,
+    "docs_wilson95": [
+     0.1183,
+     0.216
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0528,
+    "per_1k_ci95": [
+     0.0397,
+     0.0689
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 54
+   },
+   "detections": {
+    "unanswered-accusation": 1,
+    "unsourced-assertion": 5
+   },
+   "docs_fired": 3,
+   "docs_n": 34,
+   "docs_rate": 0.0882,
+   "docs_wilson95": [
+    0.0305,
+    0.2296
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.1333,
+   "min_detectable_ratio": 2.5,
+   "occurrences": 6,
+   "one_cue": true,
+   "per_1k": 0.0533,
+   "per_1k_ci95": [
+    0.0196,
+    0.1161
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "unsourced-assertion",
+    "share": 0.8333
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "subculture_register": {
+   "background": {
+    "docs_fired": 15,
+    "docs_n": 217,
+    "docs_rate": 0.0691,
+    "docs_wilson95": [
+     0.0423,
+     0.1109
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0235,
+    "per_1k_ci95": [
+     0.015,
+     0.0349
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 24
+   },
+   "detections": {
+    "disinfo-tells": 6,
+    "marxist-situationist-tells": 194,
+    "tankie-tells": 30
+   },
+   "docs_fired": 9,
+   "docs_n": 34,
+   "docs_rate": 0.2647,
+   "docs_wilson95": [
+    0.146,
+    0.4312
+   ],
+   "in_quotes": 8,
+   "in_quotes_share": 0.0348,
+   "kwords": 112.5,
+   "min_detectable_per_1k": 0.08,
+   "min_detectable_ratio": 3.4,
+   "occurrences": 230,
+   "one_cue": true,
+   "per_1k": 2.0447,
+   "per_1k_ci95": [
+    1.789,
+    2.3267
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "marxist-situationist-tells",
+    "share": 0.8435
+   },
+   "verdict": "above background"
+  }
+ },
+ "meta": {
+  "detectors": {
+   "capture_scanner": "ran",
+   "tradecraft_cues": "ran",
+   "tradecraft_llm_find_stage": "NOT RUN (GPU held; fabrication rate open)"
+  },
+  "graded": {
+   "docs": 34,
+   "institutions": 14,
+   "words": 112486
+  },
+  "prereg": "PREREG-2026-09-07-collateral-pass2.md",
+  "ruling": {
+   "by_class": {
+    "own": 31,
+    "own-archived": 9,
+    "own-landing": 4,
+    "third-party": 150
+   },
+   "file": "receipt-url-ruling.json",
+   "institutions_total": 36,
+   "institutions_with_own_output": [
+    "Behavioural Insights Team (UK Nudge Unit)",
+    "EU AI Office (Code of Practice)",
+    "EU Code of Practice on Disinformation (DSA)",
+    "Election Integrity Partnership (EIP)",
+    "Frontier Model Forum (FMF)",
+    "Leninist democratic centralism",
+    "New Left (long march through the institutions)",
+    "NewsGuard",
+    "SPI-B (UK SAGE behavioural subgroup)",
+    "Scientific publishing (big-five oligopoly)",
+    "Soviet Communist Party (wooden language)",
+    "Stanford Internet Observatory",
+    "US AI Safety Institute (NIST / CAISI)",
+    "US Food and Drug Administration (drug review)",
+    "Wikipedia (English)",
+    "World Health Organization"
+   ]
+  },
+  "seed": 20260908,
+  "store": {
+   "by_status": {
+    "http 429": 1,
+    "non-text": 3,
+    "ok": 33,
+    "stub": 2
+   },
+   "fetched": [
+    "2026-09-07"
+   ],
+   "file": "collateral-own-output.jsonl",
+   "urls": 39
+  },
+  "taxonomy_sha256_16": "5f9f9a7d5a2b787b",
+  "what": "each board institution's OWN public output -- own-host pages and archived primary texts of its principals, per receipt-url-ruling.json; never third-party reporting"
+ },
+ "not_graded": [
+  {
+   "institutions": [
+    "SPI-B (UK SAGE behavioural subgroup)"
+   ],
+   "status": "http 429",
+   "url": "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf",
+   "words": 0
+  },
+  {
+   "institutions": [
+    "SPI-B (UK SAGE behavioural subgroup)"
+   ],
+   "status": "non-text",
+   "url": "https://assets.publishing.service.gov.uk/media/5ecd084586650c76acac37e0/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf",
+   "words": 0
+  },
+  {
+   "institutions": [
+    "Behavioural Insights Team (UK Nudge Unit)"
+   ],
+   "status": "stub",
+   "url": "https://www.bi.team/about-us/",
+   "words": 73
+  },
+  {
+   "institutions": [
+    "US Food and Drug Administration (drug review)"
+   ],
+   "status": "non-text",
+   "url": "https://www.fda.gov/media/151712/download",
+   "words": 0
+  },
+  {
+   "institutions": [
+    "Scientific publishing (big-five oligopoly)"
+   ],
+   "status": "stub",
+   "url": "https://www.nature.com/articles/d41586-023-01391-5",
+   "words": 48
+  },
+  {
+   "institutions": [
+    "Scientific publishing (big-five oligopoly)"
+   ],
+   "status": "non-text",
+   "url": "https://www.sec.gov/Archives/edgar/data/929869/000092986924000024/tmb-20231231xex99d1.pdf",
+   "words": 0
+  }
+ ],
+ "own_landing_not_graded": [
+  {
+   "institution": "ExxonMobil",
+   "url": "http://www.climatefiles.com/exxonmobil/",
+   "why": "an archive INDEX of Exxon's internal documents; the documents are PDFs, the page is the archive's"
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "http://www.climatefiles.com/trade-group/global-climate-coalition/",
+   "why": "archive index for the GCC's documents; the page is the archive's, the documents are PDFs"
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://archive.org/details/BernaysPropaganda",
+   "why": "landing page for a primary work; the text is not on the page"
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://www.gutenberg.org/ebooks/61364",
+   "why": "landing page for a primary work; the text is not on the page"
+  }
+ ],
+ "precision_sample": {
+  "dropped": [],
+  "frozen_at": "2026-09-07 (first run; sha of texts.jsonl 685322306849adc5)",
+  "frozen_n": 42,
+  "pool": 288,
+  "rare_lens_hits": 2,
+  "rows": [
+   {
+    "context": "…y intermediary services. In addition, codes of conduct provide a forum for exchange among platforms of different sizes, [[civil society]] organisations, researchers and other stakeholders, which help hold the signatories accountable to their commitments. Mo…",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "EU Code of Practice on Disinformation (DSA)|EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct|institutional_permeation|intermediary-laundering|834|847",
+    "lens": "institutional_permeation",
+    "n": 1,
+    "person_id": "EU Code of Practice on Disinformation (DSA)",
+    "span": "civil society",
+    "text_id": "EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct"
+   },
+   {
+    "context": "…f defending the 2020 election against voting-related mis- and disinformation, it bridged the gap between government and [[civil society]], helped to strengthen platform standards for combating election-related misinformation, and shared its findings with it…",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Election Integrity Partnership (EIP)|Election Integrity Partnership (EIP)|https://www.eipartnership.net/report|institutional_permeation|intermediary-laundering|1793|1806",
+    "lens": "institutional_permeation",
+    "n": 2,
+    "person_id": "Election Integrity Partnership (EIP)",
+    "span": "civil society",
+    "text_id": "Election Integrity Partnership (EIP)|https://www.eipartnership.net/report",
+    "url": "https://www.eipartnership.net/report"
+   },
+   {
+    "context": "…charter, governance and funding with a working group and executive board to lead these efforts. We plan to consult with [[civil society]] and governments in the coming weeks on the design of the Forum and on meaningful ways to collaborate. The Frontier Mode…",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/|institutional_permeation|intermediary-laundering|6344|6357",
+    "lens": "institutional_permeation",
+    "n": 3,
+    "person_id": "Frontier Model Forum (FMF)",
+    "span": "civil society",
+    "text_id": "Frontier Model Forum (FMF)|https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/",
+    "url": "https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/"
+   },
+   {
+    "context": "…ial risks, (ii) identify safety best practices for frontier models, (iii) share knowledge with policymakers, academics, [[civil society]] , and others to advance responsible AI development; and (iv) support efforts to leverage AI to address society’s bigges…",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/|institutional_permeation|intermediary-laundering|2424|2437",
+    "lens": "institutional_permeation",
+    "n": 4,
+    "person_id": "Frontier Model Forum (FMF)",
+    "span": "civil society",
+    "text_id": "Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/",
+    "url": "https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/"
+   },
+   {
+    "context": "… U . S . -EU Trade and Technology Council. The Forum will also seek to build on the valuable work of existing industry, [[civil society]] , and research efforts across each of its workstreams. Initiatives such as the Partnership on AI and MLCommons continue…",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/|institutional_permeation|intermediary-laundering|9261|9274",
+    "lens": "institutional_permeation",
+    "n": 5,
+    "person_id": "Frontier Model Forum (FMF)",
+    "span": "civil society",
+    "text_id": "Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/",
+    "url": "https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/"
+   },
+   {
+    "context": "… a political revolution”, but that this does not require building a strong organisation of revolutionaries to train the [[proletariat]] in steadfast and stubborn struggle. All we need do is to snatch up our old friend, the “accessible” cudgel. To drop met…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm|subculture_register|marxist-situationist-tells|13462|13473",
+    "lens": "subculture_register",
+    "n": 6,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm"
+   },
+   {
+    "context": "…of the working-class environment and the freshness of socialist convictions with professional skill, without which. the [[proletariat]] cannot wage a stubborn struggle against its excellently trained enemies. In this way alone do the working masses produc…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm|subculture_register|marxist-situationist-tells|75286|75297",
+    "lens": "subculture_register",
+    "n": 7,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm"
+   },
+   {
+    "context": "…demand much greater unity and concentration of forces on the part of the proletariat, and under the dictatorship of the [[proletariat]] they are a far greater danger than all the Denikins, Kolchaks and Yudeniches put together. It would be fatal to be delu…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|26890|26901",
+    "lens": "subculture_register",
+    "n": 8,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…ection, the war with Poland was a considerable setback for us. Britain was ready to sign a trade agreement. The British [[bourgeoisie]] wanted it, but court circles in Britain were against it and hampered it, and the war with Poland delayed it. It so happ…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|30925|30936",
+    "lens": "subculture_register",
+    "n": 9,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…ricted trade and invariable hostility to the dictatorship of the proletariat. This mood has had a wide influence on the [[proletariat]]. It has had an effect on factories in Moscow and a number of provincial centres. This petty-bourgeois counter-revolutio…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|38650|38661",
+    "lens": "subculture_register",
+    "n": 10,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…chist elements against the workers. This, if successful, will lead directly to the overthrow of the dictatorship of the [[proletariat]] and, consequently, to the restoration of capitalism and of the old landowner and capitalist regime. The political dange…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|41820|41831",
+    "lens": "subculture_register",
+    "n": 11,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…ious proletar iat’s relations with the small proprietors when the proletarian revolution unfolds in a country where the [[proletariat]] is in a minority, and the petty bourgeoisie, in a majority. In such a country the proletariat’s role is to direct the t…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|42919|42930",
+    "lens": "subculture_register",
+    "n": 12,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…ds in a country where the proletariat is in a minority, and the petty bourgeoisie, in a majority. In such a country the [[proletariat]]’s role is to direct the transition of these small proprietors to socialised and collective work. Theoretically this is …",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|43013|43024",
+    "lens": "subculture_register",
+    "n": 13,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm"
+   },
+   {
+    "context": "…about words that will be caught up here, in Moscow, tomorrow, and immediately carried by the grapevine telegraph to the [[bourgeoisie]]. Tomorrow all the gossips in the Soviet offices will be rubbing their hands in glee and repeating your words with delig…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm|subculture_register|marxist-situationist-tells|34976|34987",
+    "lens": "subculture_register",
+    "n": 14,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm"
+   },
+   {
+    "context": "…y which will have no classes, and will consist only of producers. [23] Do we now have classes? Yes, we do. Do we have a [[class struggle]]? Yes, and a most furious one! To come in the midst of this furious class struggle and talk about an “All-Russia Congres…",
+    "cue": "'class struggle'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm|subculture_register|marxist-situationist-tells|44513|44527",
+    "lens": "subculture_register",
+    "n": 15,
+    "person_id": "Leninist democratic centralism",
+    "span": "class struggle",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm",
+    "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm"
+   },
+   {
+    "context": "…iat would have been much more powerful and many mistakes and weaknesses could have been avoided. The struggles that the [[proletariat]] now face in a different historical situation will be far more fateful than those of 1871. The Second Congress of the Co…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|1305|1316",
+    "lens": "subculture_register",
+    "n": 16,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…eginning of the imperialist war in 1914, the parties of the social traitors in every country, in supporting their ‘own’ [[bourgeoisie]], could point to corresponding expressions of the will of the working class. But in the process they forgot that, even i…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|4757|4768",
+    "lens": "subculture_register",
+    "n": 17,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…pisode but serve as the starting point for the permanent communist construction of society by the proletariat. The same [[class struggle]] demands in the same way the centralisation and common leadership of the different forms of the proletarian movement (tr…",
+    "cue": "'class struggle'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|7534|7548",
+    "lens": "subculture_register",
+    "n": 18,
+    "person_id": "Leninist democratic centralism",
+    "span": "class struggle",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…e individual battle units of the proletariat who are advancing on the different battlefields. The class struggle of the [[proletariat]] demands a concerted agitation that illuminates the different stages of the struggle from a uniform point of view and at…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|8085|8096",
+    "lens": "subculture_register",
+    "n": 19,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…is policies into deeds. The revolutionary syndicalists and industrialists want to fight against the dictatorship of the [[bourgeoisie]], but do not know how. They do not see that without an independent political party the working class is a rump without a…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|9518|9529",
+    "lens": "subculture_register",
+    "n": 20,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…ism and industrialism mean a step forward only in comparison with the old, musty, counter-revolutionary ideology of the [[Second International]]. In comparison however with revolutionary Marxism, that is to say with communism, syndicalism and industrialism mean a …",
+    "cue": "'second international'",
+    "detection": "tankie-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|tankie-tells|9798|9818",
+    "lens": "subculture_register",
+    "n": 21,
+    "person_id": "Leninist democratic centralism",
+    "span": "Second International",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…vinces the workers that the idea of not joining a party on principle is consciously encouraged among the workers by the [[bourgeoisie]] and their assistants to divert the proletarians from the organised struggle for socialism. 8. The old ‘classical’ divis…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|12996|13007",
+    "lens": "subculture_register",
+    "n": 22,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "… the Communist Party in the proletarian revolution. If the ‘left’ Communists of Germany (cf. their appeal to the German [[proletariat]] of April 14, 1920 signed ‘Communist Workers’ Party of Germany') declare: ‘That the Party too adapts more and more to th…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|14300|14311",
+    "lens": "subculture_register",
+    "n": 23,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…rs must fire and lead the majority of the working class by their own example. 11. The need for a political party of the [[proletariat]] will only disappear with the complete dissolution of the classes. On the way to the final victory of communism it is po…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|18011|18022",
+    "lens": "subculture_register",
+    "n": 24,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…ability to act and favours the petty-bourgeois, anarchist, liquidationist tendencies. 17. In the countries in which the [[bourgeoisie]] or counter-revolutionary social democracy is still in power, the Communist Parties must learn to link the illegal work …",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|20951|20962",
+    "lens": "subculture_register",
+    "n": 25,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…t for communism a Communist cell must be formed immediately. Only the unity of the Communists gives the vanguard of the [[proletariat]] the possibility of leading the whole working class. An Communist Party cells that work in non-party organisations are u…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|22326|22337",
+    "lens": "subculture_register",
+    "n": 26,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm"
+   },
+   {
+    "context": "…rent. Now we do not want to be a propaganda society, now we want to become a fighting organisation of the international [[proletariat]]. We want to organise ourselves as a fighting organisation that not only propagates communism but also wants to turn it …",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|6116|6127",
+    "lens": "subculture_register",
+    "n": 27,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…ight wing led by Kautsky, Hilferding and Str�bel. Crispien was at Lucerne with Hilferding and did not want to leave the [[Second International]]. There is a right wing. People say to us: ‘Who bothers about Kautsky now? Nobody.’ To that I reply: That is not true. K…",
+    "cue": "'second international'",
+    "detection": "tankie-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|24178|24198",
+    "lens": "subculture_register",
+    "n": 28,
+    "person_id": "Leninist democratic centralism",
+    "span": "Second International",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…o the specifically Russian form of the dictatorship has been elevated to the level of a principle for the international [[proletariat]]. In this, the form stifles the content and renders the course of the revolution more difficult by failing to give suffi…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|29017|29028",
+    "lens": "subculture_register",
+    "n": 29,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…s revolution. But the whole question is how we are to abolish militarism without shedding our own blood and that of the [[bourgeoisie]]. I come now to the Norwegian Party. The party headquarters tolerates a right wing within the party. Scheflo stated in t…",
+    "cue": "'bourgeoisie'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|39079|39090",
+    "lens": "subculture_register",
+    "n": 30,
+    "person_id": "Leninist democratic centralism",
+    "span": "bourgeoisie",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…to be laid before all the members of the Social Democratic Party in a ballot. In the ballot it was decided to leave the [[Second International]] but not, however, to join the Communist International, but on the contrary to give the party leadership the authority a…",
+    "cue": "'second international'",
+    "detection": "tankie-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|79207|79227",
+    "lens": "subculture_register",
+    "n": 31,
+    "person_id": "Leninist democratic centralism",
+    "span": "Second International",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "… hesitation in recent times, this policy of rushing hither and thither that we have seen during the withdrawal from the [[Second International]]. As you know, it decided to associate itself with Kienthal and Zimmerwald, and when we revolutionary workers insisted t…",
+    "cue": "'second international'",
+    "detection": "tankie-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|80065|80085",
+    "lens": "subculture_register",
+    "n": 32,
+    "person_id": "Leninist democratic centralism",
+    "span": "Second International",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…ist International are asked why we do not remain in the Socialist Party, we reply: ‘The war has split the international [[proletariat]] into two opposed camps, into the counter-revolutionary camp on the one hand, which is represented by the labour aristoc…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|83514|83525",
+    "lens": "subculture_register",
+    "n": 33,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "… Part of these credits was destined for the counter-revolutionary expeditions of Kolchak and Denikin. While the Russian [[proletariat]] was fighting desperately against these international robbers, the representatives of the French Socialist Party were vo…",
+    "cue": "'proletariat'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|87060|87071",
+    "lens": "subculture_register",
+    "n": 34,
+    "person_id": "Leninist democratic centralism",
+    "span": "proletariat",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…e hand the social patriots and on the other hand the social democrats would have to be removed, these supporters of the [[Second International]] who think it is possible to achieve the liberation of the proletariat without armed class struggle, without the necessi…",
+    "cue": "'second international'",
+    "detection": "tankie-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|94662|94682",
+    "lens": "subculture_register",
+    "n": 35,
+    "person_id": "Leninist democratic centralism",
+    "span": "Second International",
+    "text_id": "Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+    "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm"
+   },
+   {
+    "context": "…uld be and was anticipated whether the movement would serve the revamping of the old order or the emergence of the new. [[Liberating tolerance]], then, would mean intolerance against movements from the Right and toleration of movements from the Left. As to the sco…",
+    "cue": "'liberating tolerance'",
+    "detection": "faction-selective-tolerance",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "New Left (long march through the institutions)|New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html|reference_capture|faction-selective-tolerance|44639|44659",
+    "lens": "reference_capture",
+    "n": 36,
+    "person_id": "New Left (long march through the institutions)",
+    "span": "Liberating tolerance",
+    "text_id": "New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html",
+    "url": "https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html"
+   },
+   {
+    "context": "…r even kulak, mentality, as long as there still exists a certain degree of material inequality. Can it be said that the [[class struggle]] in the collective farms is equivalent to the class struggle in the absence of collective farms? No, it cannot. The mist…",
+    "cue": "'class struggle'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Soviet Communist Party (wooden language)|Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm|subculture_register|marxist-situationist-tells|37820|37834",
+    "lens": "subculture_register",
+    "n": 37,
+    "person_id": "Soviet Communist Party (wooden language)",
+    "span": "class struggle",
+    "text_id": "Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm",
+    "url": "https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm"
+   },
+   {
+    "context": "…r and middle peasants are united in collective farms on the basis of the socialisation of the principal instruments and [[means of production]]. It implies, finally, that it is a struggle between members of collective farms, some of whom have not yet rid themselv…",
+    "cue": "'means of production'",
+    "detection": "marxist-situationist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Soviet Communist Party (wooden language)|Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm|subculture_register|marxist-situationist-tells|38718|38737",
+    "lens": "subculture_register",
+    "n": 38,
+    "person_id": "Soviet Communist Party (wooden language)",
+    "span": "means of production",
+    "text_id": "Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm",
+    "url": "https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm"
+   },
+   {
+    "context": "…nto the efficacy of internal policy interventions (such as labeling) and share those results with external researchers, [[civil society]], and the public. Increase the amount and granularity of data regarding interventions, takedowns, and labeling to allow …",
+    "cue": "'civil society'",
+    "detection": "intermediary-laundering",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Stanford Internet Observatory|SIO|https://www.eipartnership.net/report|institutional_permeation|intermediary-laundering|9678|9691",
+    "lens": "institutional_permeation",
+    "n": 39,
+    "person_id": "Stanford Internet Observatory",
+    "span": "civil society",
+    "text_id": "SIO|https://www.eipartnership.net/report",
+    "url": "https://www.eipartnership.net/report"
+   },
+   {
+    "context": "…d jerk 12 times to the entry on George W. Bush.\" During the period of May 27 to June 4, 2008, edits originating from an [[IP address]] belonging to Industry Canada were made to the Jim Prentice (Federal Minister of Industry ) article on Wikipedia. The ed…",
+    "cue": "'IP address'",
+    "detection": "state-corp-ip-edits",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Wikipedia (English)|Wikipedia (English)|https://en.wikipedia.org/wiki/WikiScanner|reference_capture|state-corp-ip-edits|8791|8801",
+    "lens": "reference_capture",
+    "n": 40,
+    "person_id": "Wikipedia (English)",
+    "span": "IP address",
+    "text_id": "Wikipedia (English)|https://en.wikipedia.org/wiki/WikiScanner",
+    "url": "https://en.wikipedia.org/wiki/WikiScanner"
+   },
+   {
+    "context": "…better protected from disinformation through enhanced tools to recognise, understand and flag disinformation, to access [[authoritative sources]], and through media literacy initiatives. In particular, the Code will ensure that safe design practices are put in plac…",
+    "cue": "'authoritative source'",
+    "detection": "authority-to-define-true",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "EU Code of Practice on Disinformation (DSA)|EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation|distributed_accountability|authority-to-define-true|5081|5102",
+    "lens": "distributed_accountability",
+    "n": 41,
+    "person_id": "EU Code of Practice on Disinformation (DSA)",
+    "span": "authoritative sources",
+    "text_id": "EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation"
+   },
+   {
+    "context": "…stic administration of public opinion, without terror and (normally) without censorship. In such cases, the majority is [[self-perpetuating]] while perpetuating the vested interests which made it a majority. In its very structure this majority is 'closed', petr…",
+    "cue": "'self-perpetuating'",
+    "detection": "institution-as-obstacle",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "New Left (long march through the institutions)|New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html|counterproductivity|institution-as-obstacle|59051|59068",
+    "lens": "counterproductivity",
+    "n": 42,
+    "person_id": "New Left (long march through the institutions)",
+    "span": "self-perpetuating",
+    "text_id": "New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html",
+    "url": "https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html"
+   }
+  ],
+  "sample_n": 40,
+  "seed": 20260907,
+  "surviving": 42,
+  "unsampled_new": 243
+ },
+ "scanner": {
+  "asserted_total": 232,
+  "attributed_total": 22,
+  "bands": {
+   "High": 3,
+   "Low": 27,
+   "Moderate": 4
+  },
+  "high_band_texts": [
+   {
+    "degree": 74,
+    "id": "NewsGuard|https://www.newsguardtech.com/press/newsguard-wins-pentagon-state-department-contest-for-detecting-covid-19-misinformation-and-disinformation/",
+    "person_id": "NewsGuard",
+    "url": "https://www.newsguardtech.com/press/newsguard-wins-pentagon-state-department-contest-for-detecting-covid-19-misinformation-and-disinformation/",
+    "words": 1576
+   },
+   {
+    "degree": 72,
+    "id": "EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation",
+    "person_id": "EU Code of Practice on Disinformation (DSA)",
+    "url": "https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation",
+    "words": 506
+   },
+   {
+    "degree": 70,
+    "id": "EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+    "person_id": "EU Code of Practice on Disinformation (DSA)",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+    "words": 1521
+   }
+  ],
+  "min_words": 100,
+  "per_person": {
+   "Behavioural Insights Team (UK Nudge Unit)": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 3
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 3,
+    "texts": 3,
+    "words": 1781
+   },
+   "EU AI Office (Code of Practice)": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 1,
+    "texts": 1,
+    "words": 1056
+   },
+   "EU Code of Practice on Disinformation (DSA)": {
+    "asserted": 49,
+    "asserted_per_1k": 17.2051,
+    "attributed": 4,
+    "bands": {
+     "High": 2,
+     "Moderate": 1
+    },
+    "declared_pct": 8,
+    "decorative_emphasis": 0,
+    "max_degree": 72,
+    "scored_texts": 3,
+    "texts": 3,
+    "words": 2848
+   },
+   "Election Integrity Partnership (EIP)": {
+    "asserted": 18,
+    "asserted_per_1k": 11.5311,
+    "attributed": 2,
+    "bands": {
+     "Moderate": 1
+    },
+    "declared_pct": 10,
+    "decorative_emphasis": 0,
+    "max_degree": 38,
+    "scored_texts": 1,
+    "texts": 1,
+    "words": 1561
+   },
+   "Frontier Model Forum (FMF)": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 5
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 5,
+    "texts": 5,
+    "words": 3969
+   },
+   "Leninist democratic centralism": {
+    "asserted": 54,
+    "asserted_per_1k": 0.7929,
+    "attributed": 4,
+    "bands": {
+     "Low": 7
+    },
+    "declared_pct": 7,
+    "decorative_emphasis": 0,
+    "max_degree": 5,
+    "scored_texts": 7,
+    "texts": 7,
+    "words": 68108
+   },
+   "New Left (long march through the institutions)": {
+    "asserted": 40,
+    "asserted_per_1k": 3.7954,
+    "attributed": 2,
+    "bands": {
+     "Low": 1
+    },
+    "declared_pct": 5,
+    "decorative_emphasis": 0,
+    "max_degree": 13,
+    "scored_texts": 1,
+    "texts": 1,
+    "words": 10539
+   },
+   "NewsGuard": {
+    "asserted": 35,
+    "asserted_per_1k": 20.0918,
+    "attributed": 8,
+    "bands": {
+     "High": 1,
+     "Low": 1
+    },
+    "declared_pct": 19,
+    "decorative_emphasis": 0,
+    "max_degree": 74,
+    "scored_texts": 2,
+    "texts": 2,
+    "words": 1742
+   },
+   "SPI-B (UK SAGE behavioural subgroup)": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 1,
+    "texts": 1,
+    "words": 476
+   },
+   "Soviet Communist Party (wooden language)": {
+    "asserted": 7,
+    "asserted_per_1k": 0.8024,
+    "attributed": 0,
+    "bands": {
+     "Low": 1
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 3,
+    "scored_texts": 1,
+    "texts": 1,
+    "words": 8724
+   },
+   "Stanford Internet Observatory": {
+    "asserted": 24,
+    "asserted_per_1k": 12.1642,
+    "attributed": 2,
+    "bands": {
+     "Moderate": 2
+    },
+    "declared_pct": 8,
+    "decorative_emphasis": 0,
+    "max_degree": 49,
+    "scored_texts": 2,
+    "texts": 2,
+    "words": 1973
+   },
+   "US AI Safety Institute (NIST / CAISI)": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 2
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 2,
+    "texts": 2,
+    "words": 1067
+   },
+   "Wikipedia (English)": {
+    "asserted": 5,
+    "asserted_per_1k": 0.6644,
+    "attributed": 0,
+    "bands": {
+     "Low": 3
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 4,
+    "scored_texts": 3,
+    "texts": 3,
+    "words": 7526
+   },
+   "World Health Organization": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 2
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": 0,
+    "scored_texts": 2,
+    "texts": 2,
+    "words": 1116
+   }
+  },
+  "scored_texts": 34,
+  "texts": 34
+ }
+}

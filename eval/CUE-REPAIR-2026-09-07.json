@@ -1,0 +1,36 @@
+{
+ "_what": "The pre-registered cue-repair plan measured and applied by eval/cue_repair_eval.py. Candidates come from the collateral hand-read (RESULTS-2026-09-07-collateral-eval.md): every cue whose read spans were cue-only or quoted, plus the one defective cue. The RULE decides; nothing here is a verdict. Actions: cut (remove the cue), replace (remove it, add the gold-attested narrower phrasing), exclude (keep it, add match-local `excludes` for the attested false-fire pattern). See PREREG-2026-09-07-cue-repair.md.",
+ "rule": {
+  "ptc_bg_min": 3,
+  "bg_min_occurrences": 3,
+  "exclude_min_read": 3,
+  "cut_iff": "no positive fixture breaks; no demonstrated detection is demoted; the cue's own PTC lift interval does not clear 1; no read span carried the construct by EITHER reader; and the cue is benign-ubiquitous (>= ptc_bg_min occurrences in the unannotated PTC background, or >= bg_min_occurrences in the general-prose pool) or marked defective",
+  "replace_iff": "the cut rule holds for the generic form AND every added cue is in the detection's gold text AND is not itself benign-ubiquitous",
+  "exclude_iff": ">= exclude_min_read read spans (cue-only or quoted) attest the false-fire pattern; the exclusion silences no span either reader marked construct-present; no fixture breaks; no demonstrated detection is demoted"
+ },
+ "matcher_rule": {
+  "name": "contraction guard",
+  "text": "a bounded match whose end is followed by an apostrophe (' or U+2019) and a letter is rejected unless the tail is an accepted suffix ('s); implemented identically in tradecraft/detect.py (_find_bounded, CONTRACTION_GUARD) and website/static/tech/instrument/engine.js (findBounded); blast radius measured with --boundary on PTC, the background pool, the fixtures and the collateral"
+ },
+ "candidates": [
+  {"lens": "adept_speech", "detection": "candidate-sorting", "cue": "you haven", "action": "cut",
+   "defective": "a prefix of the contraction \"you haven't\"; the gold phrase is already carried by `passed through the degrees`"},
+  {"lens": "institutional_permeation", "detection": "define-crisis-claim-authority", "cue": "existential", "action": "exclude",
+   "excludes": ["existential risk", "existential crisis"]},
+  {"lens": "institutional_permeation", "detection": "build-parallel-institutions", "cue": "training pipeline", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "hidden-or-deferred-cost", "cue": "diffuse", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "value-as-science", "cue": "arithmetic", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "astroturf", "cue": "grassroots", "action": "replace", "add": ["independent grassroots"]},
+  {"lens": "institutional_permeation", "detection": "attribution-gap", "cue": "proprietary model", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "carve-out-as-public-good", "cue": "level playing field", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "infiltrate-existing-institutions", "cue": "from within", "action": "cut"},
+  {"lens": "institutional_permeation", "detection": "irreversibility-framing", "cue": "inevitability", "action": "cut"},
+  {"lens": "reference_capture", "detection": "elastic-charge", "cue": "disruptive", "action": "cut"},
+  {"lens": "reference_capture", "detection": "anonymous-authority", "cue": "a few hundred", "action": "replace", "add": ["a few hundred anonymous"]},
+  {"lens": "reference_capture", "detection": "canvassing-mobilization", "cue": "canvassing", "action": "cut"},
+  {"lens": "militant_mobilization", "detection": "sainthood-and-heroes", "cue": "high score", "action": "cut"},
+  {"lens": "sourcing_asymmetry", "detection": "mind-reading", "cue": "in an attempt to", "action": "cut"},
+  {"lens": "sourcing_asymmetry", "detection": "mind-reading", "cue": "in a bid to", "action": "cut"},
+  {"lens": "subculture_register", "detection": "managerial-tells", "cue": "human capital", "action": "cut"}
+ ]
+}

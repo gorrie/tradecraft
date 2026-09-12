@@ -1,0 +1,1310 @@
+[
+ {
+  "institution": "Wikipedia (English)",
+  "fact": 4.1,
+  "unverified": 1.62,
+  "by_actor": {
+   "internal_clique": 2.86,
+   "ideological_bloc": 0.78,
+   "commercial_pr": 0.5,
+   "state": 1.58
+  },
+  "markers": [
+   "authority_override_ratchet",
+   "discretionary_rule_elasticity",
+   "institutional_ip_editing",
+   "offwiki_coordination",
+   "paid_covert_editing",
+   "pseudonymous_enforcement",
+   "state_moderation_coordination"
+  ],
+  "records": [
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "pseudonymous_enforcement",
+    "move": "permeation",
+    "actor": "internal_clique",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "administrators and the Arbitration Committee operate under pseudonyms; real-identity disclosure is not required",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Arbitration_Committee_(Wikipedia)"
+    ],
+    "note": "Structural: pseudonymous governance corps.",
+    "lens": "reference_capture",
+    "score": 0.8
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "pseudonymous_enforcement",
+    "move": "permeation",
+    "actor": "internal_clique",
+    "assurance": "ATTRIBUTED",
+    "severity": 1.0,
+    "self_correction": 0.0,
+    "span": "a relatively small clique of anonymous administrators ... a few hundred anonymous demagogues",
+    "receipts": [
+     "https://www.washingtonexaminer.com/op-eds/4638304/larry-sanger-wikipedia-co-founder-banned-anonymous-mob/"
+    ],
+    "note": "Sanger's characterization — attributed, not asserted.",
+    "lens": "reference_capture",
+    "score": 0.6
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "discretionary_rule_elasticity",
+    "move": "language",
+    "actor": "internal_clique",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "vague rules, vague threats, and vague alliances",
+    "receipts": [
+     "https://www.washingtonexaminer.com/op-eds/4638304/larry-sanger-wikipedia-co-founder-banned-anonymous-mob/"
+    ],
+    "note": "Sanger; the elastic-charge move.",
+    "lens": "reference_capture",
+    "score": 0.51
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "offwiki_coordination",
+    "move": "language",
+    "actor": "ideological_bloc",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "a 'Gang of 40' ... roughly forty veteran editors coordinated to shape thousands of articles",
+    "receipts": [
+     "https://www.algemeiner.com/2024/12/04/wikipedias-quiet-revolution-how-coordinated-group-editors-reshaped-israeli-palestinian-narrative/"
+    ],
+    "note": "Rindsberg accusation — attributed.",
+    "lens": "reference_capture",
+    "score": 0.51
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "offwiki_coordination",
+    "move": "language",
+    "actor": "ideological_bloc",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.7,
+    "span": "ArbCom found off-wiki war rooms and sanctioned editors on BOTH sides (six pro-Palestine, two pro-Israel)",
+    "receipts": [
+     "https://www.timesofisrael.com/edit-wars-over-israel-spur-rare-ban-of-8-wikipedia-editors-from-both-sides/",
+     "https://en.wikipedia.org/wiki/Wikipedia:Arbitration/Index/Palestine-Israel_articles"
+    ],
+    "note": "The immune response fired hard (both sides) -> high self-correction credit.",
+    "lens": "reference_capture",
+    "score": 0.27
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "paid_covert_editing",
+    "move": "language",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 1.0,
+    "self_correction": 0.5,
+    "span": "Portland/Web3 ran ~26 sockpuppets for clients (Qatar, Gates Foundation, Libya); the ring was banned",
+    "receipts": [
+     "https://www.thebureauinvestigates.com/stories/2026-01-14/london-pr-firm-rewrites-wikipedia-for-governments-and-billionaires"
+    ],
+    "note": "Caught and banned -> partial self-correction.",
+    "lens": "reference_capture",
+    "score": 0.5
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "institutional_ip_editing",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.3,
+    "span": "edits to the 2003 Iraq-invasion article traced to CIA IP address space (WikiScanner, 2007)",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/WikiScanner"
+    ],
+    "note": "Publicly exposed by WikiScanner -> some transparency credit.",
+    "lens": "reference_capture",
+    "score": 0.63
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "state_moderation_coordination",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.95,
+    "self_correction": 0.0,
+    "span": "a very active approach to disinformation and misinformation ... through conversations with government",
+    "receipts": [
+     "https://www.atlanticcouncil.org/news/transcripts/katherine-maher-on-how-big-tech-can-be-as-trusted-as-wikipedia/"
+    ],
+    "note": "Maher, verbatim; no institutional pushback on record.",
+    "lens": "reference_capture",
+    "score": 0.95
+   },
+   {
+    "institution": "Wikipedia (English)",
+    "marker": "authority_override_ratchet",
+    "move": "ratchet",
+    "actor": "internal_clique",
+    "assurance": "FACT",
+    "severity": 0.95,
+    "self_correction": 0.0,
+    "span": "co-founder Wales briefly unblocked Sanger; administrators reinstated the indefinite ban within hours",
+    "receipts": [
+     "https://www.404media.co/wikipedia-cofounder-larry-sanger-banned-from-site-for-canvassaing/"
+    ],
+    "note": "Nominal authority overruled -> the ratchet held.",
+    "lens": "reference_capture",
+    "score": 0.95
+   }
+  ],
+  "sc_credits": [
+   0.7,
+   0.5,
+   0.3
+  ],
+  "self_correction_mean": 0.5
+ },
+ {
+  "institution": "Fabian Society",
+  "fact": 1.75,
+  "unverified": 0.0,
+  "by_actor": {
+   "progressive_left": 1.75
+  },
+  "markers": [
+   "gradualism",
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Fabian Society",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "progressive_left",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.0,
+    "span": "a policy of 'permeation', infiltrating existing institutions, parties and Parliament rather than confronting them",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Fabian_Society"
+    ],
+    "note": "Self-named program; the cleanest non-revolutionary permeation template.",
+    "score": 0.9
+   },
+   {
+    "institution": "Fabian Society",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "progressive_left",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "Sidney Webb's 'the inevitability of gradualness' - transformation framed as inevitable historical progress, pre-loading the conclusion",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Fabian_Society"
+    ],
+    "note": "Inevitabilist framing = the ratchet's rhetorical lock.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "The Advancement of Sound Science Coalition (TASSC)",
+  "fact": 1.75,
+  "unverified": 0.0,
+  "by_actor": {
+   "commercial_pr": 1.75
+  },
+  "markers": [
+   "captured_neutral",
+   "front_costume"
+  ],
+  "records": [
+   {
+    "institution": "The Advancement of Sound Science Coalition (TASSC)",
+    "lens": "institutional_permeation",
+    "marker": "front_costume",
+    "move": "language",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.0,
+    "span": "APCO created TASSC (1993) for Philip Morris - 'presented itself as an independent grassroots movement for sound science'",
+    "receipts": [
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+    ],
+    "note": "Documented via litigation-discovered internal tobacco documents (peer-reviewed).",
+    "score": 0.9
+   },
+   {
+    "institution": "The Advancement of Sound Science Coalition (TASSC)",
+    "lens": "institutional_permeation",
+    "marker": "captured_neutral",
+    "move": "language",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "a corporate value-position (discredit EPA secondhand-smoke findings) dressed as settled 'sound science'",
+    "receipts": [
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/"
+    ],
+    "note": "Value-as-science: the captured-neutral move for hire.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "CCP United Front Work Department",
+  "fact": 1.7,
+  "unverified": 0.0,
+  "by_actor": {
+   "state_leninist": 1.7
+  },
+  "markers": [
+   "front_costume",
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "CCP United Front Work Department",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.0,
+    "span": "co-opting and mobilizing non-Party elites at home and abroad to advance Party aims",
+    "receipts": [
+     "https://www.uscc.gov/research/chinas-overseas-united-front-work-background-and-implications-united-states",
+     "https://en.wikipedia.org/wiki/United_Front_Work_Department"
+    ],
+    "note": "US-gov sources are interested parties; lean on the self-described function, not threat-inflation.",
+    "score": 0.9
+   },
+   {
+    "institution": "CCP United Front Work Department",
+    "lens": "institutional_permeation",
+    "marker": "front_costume",
+    "move": "language",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "downplaying direct associations with the CCP - the affiliation is masked while the proxy operates",
+    "receipts": [
+     "https://www.uscc.gov/research/chinas-overseas-united-front-work-background-and-implications-united-states"
+    ],
+    "note": "Front/costume: the operation wears an independent face.",
+    "score": 0.8
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Islamic Republic of Iran (clerical governance)",
+  "fact": 1.7,
+  "unverified": 0.0,
+  "by_actor": {
+   "theocratic": 1.7
+  },
+  "markers": [
+   "authority_override_ratchet",
+   "discretionary_rule_elasticity"
+  ],
+  "records": [
+   {
+    "institution": "Islamic Republic of Iran (clerical governance)",
+    "marker": "authority_override_ratchet",
+    "move": "ratchet",
+    "actor": "theocratic",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.0,
+    "span": "under velayat-e faqih (Constitution Arts. 57 & 110) the unelected Supreme Leader supervises all branches; the Guardian Council he appoints vets and disqualifies election candidates and its eligibility rulings are final",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Guardian_Council"
+    ],
+    "note": "Constitutional structure of the state; the second altar case alongside Seven Mountains - a self-authorizing clerical mandate.",
+    "lens": "reference_capture",
+    "score": 0.9
+   },
+   {
+    "institution": "Islamic Republic of Iran (clerical governance)",
+    "marker": "discretionary_rule_elasticity",
+    "move": "language",
+    "actor": "theocratic",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "the Council may bar any candidate deemed insufficiently committed to Islam or the constitutional order - an elastic loyalty test applied without appeal (in 2009, 4 of 476 presidential applicants were approved)",
+    "receipts": [
+     "https://www.hrw.org/legacy/backgrounder/mena/iran0605/2.htm",
+     "https://en.wikipedia.org/wiki/Guardian_Council"
+    ],
+    "note": "Elastic conduct standard by unexaminable enforcers - the reference-capture template in a theocratic register.",
+    "lens": "reference_capture",
+    "score": 0.8
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Seven Mountains Mandate",
+  "fact": 1.65,
+  "unverified": 0.0,
+  "by_actor": {
+   "religious_right": 1.65
+  },
+  "markers": [
+   "gradualism",
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Seven Mountains Mandate",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "religious_right",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "seven 'mountains' - family, religion, education, media, arts, business, government - reframed by Wallnau (2013) as spheres to be taken top-down",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Seven_Mountain_Mandate",
+     "https://theconversation.com/what-is-the-seven-mountains-mandate-and-how-is-it-linked-to-political-extremism-in-the-us-260034"
+    ],
+    "note": "Structural twin of the Fabian move, opposite faction; dominionism label attributed to scholars.",
+    "score": 0.85
+   },
+   {
+    "institution": "Seven Mountains Mandate",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "religious_right",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "Wallnau (2013) reframed the seven spheres as 'mountains' to be taken top-down through dominion - transformation as inevitabilist theology",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Seven_Mountain_Mandate",
+     "https://theconversation.com/what-is-the-seven-mountains-mandate-and-how-is-it-linked-to-political-extremism-in-the-us-260034"
+    ],
+    "note": "Dominionism label attributed to scholars; the top-down 'mountains' reframing is Wallnau's own. Religious-right ratchet.",
+    "score": 0.8
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Rashtriya Swayamsevak Sangh (RSS)",
+  "fact": 1.65,
+  "unverified": 0.0,
+  "by_actor": {
+   "hindu_nationalist": 1.65
+  },
+  "markers": [
+   "gradualism",
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Rashtriya Swayamsevak Sangh (RSS)",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "hindu_nationalist",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "~83,000 shakhas by 2025 - daily local branches for ideological formation; permeation as a generationally-compounding mass-membership drill",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Rashtriya_Swayamsevak_Sangh",
+     "https://thediplomat.com/2025/09/the-rss-at-100-the-pan-hindutva-force-behind-modis-bjp/"
+    ],
+    "note": "Non-Western, non-Abrahamic instance of the identical branch-by-branch move.",
+    "score": 0.85
+   },
+   {
+    "institution": "Rashtriya Swayamsevak Sangh (RSS)",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "hindu_nationalist",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "the stated goal 'not to win an election but to slowly create a disciplined and self-aware society that could sustain itself across generations'",
+    "receipts": [
+     "https://thediplomat.com/2025/09/the-rss-at-100-the-pan-hindutva-force-behind-modis-bjp/"
+    ],
+    "note": "Indefinite multi-generational horizon as strategy - the ratchet's patient form.",
+    "score": 0.8
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Jones Act (Merchant Marine Act of 1920)",
+  "fact": 1.45,
+  "unverified": 0.0,
+  "by_actor": {
+   "commercial_pr": 1.45
+  },
+  "markers": [
+   "concentrated_benefit_diffuse_cost",
+   "gradualism"
+  ],
+  "records": [
+   {
+    "institution": "Jones Act (Merchant Marine Act of 1920)",
+    "lens": "institutional_permeation",
+    "marker": "concentrated_benefit_diffuse_cost",
+    "move": "permeation",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.75,
+    "self_correction": 0.0,
+    "span": "domestic cargo must move on US-built/-owned/-flagged/-crewed ships - a maritime-lobby carve-out defended as national security while costing tens of billions diffusely",
+    "receipts": [
+     "https://www.congress.gov/crs-product/R45725",
+     "https://en.wikipedia.org/wiki/Merchant_Marine_Act_of_1920"
+    ],
+    "note": "Cost magnitudes are Cato-attributed; the statute and its persistence are fact. Olson's concentrated-benefit/diffuse-cost template.",
+    "score": 0.75
+   },
+   {
+    "institution": "Jones Act (Merchant Marine Act of 1920)",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "a century old and never repealed even as the protected US fleet shrank under the protection - the carve-out ratchets one way",
+    "receipts": [
+     "https://www.congress.gov/crs-product/R45725",
+     "https://en.wikipedia.org/wiki/Merchant_Marine_Act_of_1920"
+    ],
+    "note": "One-way: the protected industry contracts yet the protection only persists.",
+    "score": 0.7
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "EU Code of Practice on Disinformation (DSA)",
+  "fact": 1.35,
+  "unverified": 0.0,
+  "by_actor": {
+   "technocratic": 1.35
+  },
+  "markers": [
+   "crisis_no_exit",
+   "gradualism"
+  ],
+  "records": [
+   {
+    "institution": "EU Code of Practice on Disinformation (DSA)",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "technocratic",
+    "assurance": "FACT",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "the Code ratcheted from a 2018 voluntary code -> 2022 'Strengthened' code -> integrated into the binding Digital Services Act as an auditable Code of Conduct (effective 1 July 2025) for very large platforms and search engines",
+    "receipts": [
+     "https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+     "https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation"
+    ],
+    "note": "EU's own documentation; voluntary-to-binding conversion is the textbook one-way ratchet.",
+    "lens": "institutional_permeation",
+    "score": 0.7
+   },
+   {
+    "institution": "EU Code of Practice on Disinformation (DSA)",
+    "marker": "crisis_no_exit",
+    "move": "permeation",
+    "actor": "technocratic",
+    "assurance": "FACT",
+    "severity": 0.65,
+    "self_correction": 0.0,
+    "span": "the DSA obliges very large platforms to assess and mitigate 'systemic risks' including disinformation, gives 'trusted flagger' notices priority, and mandates annual audits - an open-ended remit with no stated end condition",
+    "receipts": [
+     "https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct"
+    ],
+    "note": "Descriptive of the regulation's own text; scope-expansion, not a 'censorship' verdict.",
+    "lens": "institutional_permeation",
+    "score": 0.65
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "NewsGuard",
+  "fact": 1.25,
+  "unverified": 0.33,
+  "by_actor": {
+   "trust_safety": 0.98,
+   "state": 0.6
+  },
+  "markers": [
+   "captured_neutral",
+   "state_moderation_coordination"
+  ],
+  "records": [
+   {
+    "institution": "NewsGuard",
+    "marker": "captured_neutral",
+    "move": "language",
+    "actor": "trust_safety",
+    "assurance": "FACT",
+    "severity": 0.65,
+    "self_correction": 0.0,
+    "span": "rates news outlets 0-100 (red/green) on nine 'credibility' criteria and licenses the ratings to advertisers, browsers and AI firms - editorial reliability judgments packaged as a neutral trust score",
+    "receipts": [
+     "https://www.newsguardtech.com/"
+    ],
+    "note": "NewsGuard's own description of its product; the bias allegation is filed separately as ATTRIBUTED.",
+    "lens": "institutional_permeation",
+    "score": 0.65
+   },
+   {
+    "institution": "NewsGuard",
+    "marker": "state_moderation_coordination",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.6,
+    "self_correction": 0.0,
+    "span": "won a joint Pentagon-State Dept 'Countering Disinformation Challenge' and holds Defense Dept contracts (a $750k DoD award cited in litigation)",
+    "receipts": [
+     "https://www.newsguardtech.com/press/newsguard-wins-pentagon-state-department-contest-for-detecting-covid-19-misinformation-and-disinformation/",
+     "https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-"
+    ],
+    "note": "NewsGuard's own press release plus a federal contract record; non-defamatory.",
+    "lens": "reference_capture",
+    "score": 0.6
+   },
+   {
+    "institution": "NewsGuard",
+    "marker": "captured_neutral",
+    "move": "language",
+    "actor": "trust_safety",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.55,
+    "self_correction": 0.0,
+    "span": "per a House Oversight Committee inquiry (2024), NewsGuard's 'neutral' ratings allegedly disadvantage right-leaning outlets",
+    "receipts": [
+     "https://www.axios.com/2024/06/14/newsguard-oversight-committee-investigation-free-speech"
+    ],
+    "note": "Committee inquiry, an allegation not a finding; NewsGuard denies bias. Attributed, does not count.",
+    "lens": "institutional_permeation",
+    "score": 0.33
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "The Jacobins (1793 Terror)",
+  "fact": 1.155,
+  "unverified": 0.0,
+  "by_actor": {
+   "revolutionary_vanguard": 1.155
+  },
+  "markers": [
+   "crisis_no_exit",
+   "gradualism"
+  ],
+  "records": [
+   {
+    "institution": "The Jacobins (1793 Terror)",
+    "marker": "crisis_no_exit",
+    "move": "ratchet",
+    "actor": "revolutionary_vanguard",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.3,
+    "span": "the Convention declared 'terror is the order of the day' (Sept 1793); the Committee of Public Safety governed by emergency decree and the Law of Suspects (17 Sept 1793) inverted the burden of proof, entrusting arrests to surveillance committees rather than courts",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Reign_of_Terror",
+     "https://en.wikipedia.org/wiki/Law_of_Suspects"
+    ],
+    "note": "Historical hard-ratchet mirror of the Leninist cluster; ended at Thermidor -> rollback credit.",
+    "lens": "institutional_permeation",
+    "score": 0.595
+   },
+   {
+    "institution": "The Jacobins (1793 Terror)",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "revolutionary_vanguard",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.3,
+    "span": "the Terror escalated one way - the Law of 22 Prairial (June 1794) stripped the accused of defense counsel and witnesses and reduced verdicts to acquittal or death - until it broke at Thermidor (Robespierre's own fall)",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Reign_of_Terror",
+     "https://www.britannica.com/event/Reign-of-Terror"
+    ],
+    "note": "Escalation ratchet; ~17,000 officially executed. Reversed only by the fall of its own architects.",
+    "lens": "institutional_permeation",
+    "score": 0.56
+   }
+  ],
+  "sc_credits": [
+   0.3,
+   0.3
+  ],
+  "self_correction_mean": 0.3
+ },
+ {
+  "institution": "State Department Global Engagement Center (GEC)",
+  "fact": 1.12,
+  "unverified": 0.0,
+  "by_actor": {
+   "state": 1.12
+  },
+  "markers": [
+   "deniability_architecture",
+   "state_moderation_coordination"
+  ],
+  "records": [
+   {
+    "institution": "State Department Global Engagement Center (GEC)",
+    "marker": "state_moderation_coordination",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.3,
+    "span": "State Dept counter-messaging body (~$61M/yr, ~120 staff) that funded outside organizations to identify foreign 'disinformation'; its legislative authority lapsed and it shut down in December 2024",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Global_Engagement_Center",
+     "https://cyberscoop.com/state-departments-disinformation-office-to-close-after-funding-nixed-in-ndaa/"
+    ],
+    "note": "Government agency; defunded/closed by Congress -> rollback credit, consistent with the WikiScanner exposure precedent.",
+    "lens": "reference_capture",
+    "score": 0.56
+   },
+   {
+    "institution": "State Department Global Engagement Center (GEC)",
+    "marker": "deniability_architecture",
+    "move": "permeation",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.7,
+    "self_correction": 0.2,
+    "span": "GEC routed funding to third-party groups - including a $100,000 grant reaching the Global Disinformation Index via Park Advisors - placing government disinformation preferences at arm's length through NGOs",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Global_Disinformation_Index",
+     "https://en.wikipedia.org/wiki/Global_Engagement_Center"
+    ],
+    "note": "The grant is documented; State disputes it was used to blacklist US outlets (that claim filed as ATTRIBUTED under GDI).",
+    "lens": "institutional_permeation",
+    "score": 0.56
+   }
+  ],
+  "sc_credits": [
+   0.3,
+   0.2
+  ],
+  "self_correction_mean": 0.25
+ },
+ {
+  "institution": "Third Reich (LTI - Nazi German)",
+  "fact": 0.9,
+  "unverified": 0.0,
+  "by_actor": {
+   "state": 0.9
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "Third Reich (LTI - Nazi German)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.9,
+    "self_correction": 0.0,
+    "span": "Klemperer's LTI documented how Nazi propaganda re-engineered everyday German - 'the language of the Third Reich helped to create its culture'",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii"
+    ],
+    "note": "Load-bearing right-authoritarian anchor: the deepest Move-2 case is fascist, not left.",
+    "score": 0.9
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "New Left (long march through the institutions)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "progressive_left": 0.85
+  },
+  "markers": [
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "New Left (long march through the institutions)",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "progressive_left",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "Rudi Dutschke coined 'der lange Marsch durch die Institutionen' (~1967) - capture existing institutions from within rather than storm them",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Long_march_through_the_institutions"
+    ],
+    "note": "Self-named program; phrase is ubiquitously MISattributed to Gramsci - we say Dutschke's slogan, never Gramsci's.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "SPI-B (UK SAGE behavioural subgroup)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "state": 0.85
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "SPI-B (UK SAGE behavioural subgroup)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "22 Mar 2020 options paper: 'the perceived level of personal threat needs to be increased among those who are complacent, using hard-hitting emotional messaging'",
+    "receipts": [
+     "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf"
+    ],
+    "note": "Verbatim state document recommending engineered fear to drive compliance.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Soviet Communist Party (wooden language)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "state_leninist": 0.85
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "Soviet Communist Party (wooden language)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "langue de bois - 'a rigid, euphemistic discourse designed to obscure reality and enforce ideological conformity' (Thom)",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Wooden_language"
+    ],
+    "note": "Function: exhaust and pre-empt - dissent cannot be phrased crisply.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Chinese Communist Party (discourse power)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "state_leninist": 0.85
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "Chinese Communist Party (discourse power)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "huayuquan - the stated power to 'lead public discourse so as to maintain ideological control', a foreign-policy priority under Xi after 2012",
+    "receipts": [
+     "https://digichina.stanford.edu/work/lexicon-discourse-power-or-the-right-to-speak-huayu-quan/",
+     "https://chinamediaproject.org/the_ccp_dictionary/discourse-power/"
+    ],
+    "note": "Move 2 stated openly as 21st-century state strategy; the Party names the lever itself.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Leninist democratic centralism",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "state_leninist": 0.85
+  },
+  "markers": [
+   "gradualism"
+  ],
+  "records": [
+   {
+    "institution": "Leninist democratic centralism",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "debate is free until a decision is reached, after which it is binding on all - in practice the discussion phase shrinks and the binding phase grows",
+    "receipts": [
+     "https://www.marxists.org/glossary/terms/d/e.htm"
+    ],
+    "note": "The clicks accumulate toward the center and never release - a one-way ratchet.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "state_leninist": 0.85
+  },
+  "markers": [
+   "gradualism"
+  ],
+  "records": [
+   {
+    "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+    "lens": "institutional_permeation",
+    "marker": "gradualism",
+    "move": "ratchet",
+    "actor": "state_leninist",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "Rakosi's self-named 'salami tactics' sliced the opposition off 'one slice at a time', branding each faction fascist until only collaborators remained",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Salami_slicing_tactics_(politics)",
+     "https://time.com/archive/6794585/hungary-salami-tactics/"
+    ],
+    "note": "The TACTIC is undisputed FACT; the coinage (Rakosi vs Pfeiffer) is contested - we score the tactic, not the coinage.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Regulatory capture (Stiglerian / revolving door)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "commercial_pr": 0.85
+  },
+  "markers": [
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Regulatory capture (Stiglerian / revolving door)",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "Stigler (1971): 'as a rule, regulation is acquired by the industry and is designed and operated primarily for its benefit'; the revolving door is its personnel pathway",
+    "receipts": [
+     "https://www.chicagobooth.edu/review/how-george-stigler-changed-analysis-regulation",
+     "https://en.wikipedia.org/wiki/Regulatory_capture"
+    ],
+    "note": "Keystone of symmetry: capture that is explicitly non-ideological and emergent - no cabal, just incentive gradients.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Public relations industry (Bernays)",
+  "fact": 0.85,
+  "unverified": 0.0,
+  "by_actor": {
+   "commercial_pr": 0.85
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "Public relations industry (Bernays)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "commercial_pr",
+    "assurance": "FACT",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "Bernays' Propaganda (1928): 'the conscious and intelligent manipulation of the organized habits and opinions of the masses'; his 1929 Torches of Freedom sold smoking to women as feminism",
+    "receipts": [
+     "https://archive.org/details/BernaysPropaganda",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/"
+    ],
+    "note": "Paid engineering of belief against the believer's own health interest - the textbook case.",
+    "score": 0.85
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Election Integrity Partnership (EIP)",
+  "fact": 0.8,
+  "unverified": 0.51,
+  "by_actor": {
+   "trust_safety": 0.8,
+   "state": 0.51
+  },
+  "markers": [
+   "deniability_architecture",
+   "state_moderation_coordination"
+  ],
+  "records": [
+   {
+    "institution": "Election Integrity Partnership (EIP)",
+    "marker": "state_moderation_coordination",
+    "move": "permeation",
+    "actor": "trust_safety",
+    "assurance": "FACT",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "a 2020 consortium (Stanford Internet Observatory, UW Center for an Informed Public, Graphika, Atlantic Council DFRLab) that ran a tiered 'ticket' pipeline taking in reports from external stakeholders including CISA and flagged election posts to platforms for action",
+    "receipts": [
+     "https://www.eipartnership.net/report"
+    ],
+    "note": "Structure and ticketing documented in EIP's own final report; the 'censorship' characterization is filed separately as ATTRIBUTED.",
+    "lens": "reference_capture",
+    "score": 0.8
+   },
+   {
+    "institution": "Election Integrity Partnership (EIP)",
+    "marker": "deniability_architecture",
+    "move": "permeation",
+    "actor": "state",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.85,
+    "self_correction": 0.0,
+    "span": "per the House Judiciary interim report, DHS's CISA and the State Dept GEC 'colluded' with Stanford to stand up EIP as 'censorship by proxy', routing government preferences to platforms through an academic intermediary",
+    "receipts": [
+     "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/EIP_Jira_Ticket_Staff_Report_11-6-23_Clean.pdf",
+     "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/cisa-staff-report6-26-23.pdf"
+    ],
+    "note": "The committee's characterization, attributed not asserted; UW's Starbird disputes it. Does not count toward rank.",
+    "lens": "institutional_permeation",
+    "score": 0.51
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Behavioural Insights Team (UK Nudge Unit)",
+  "fact": 0.75,
+  "unverified": 0.0,
+  "by_actor": {
+   "state": 0.75
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "Behavioural Insights Team (UK Nudge Unit)",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "state",
+    "assurance": "FACT",
+    "severity": 0.75,
+    "self_correction": 0.0,
+    "span": "UK Cabinet Office unit (2010) applying choice-architecture / 'nudge' to steer citizen behavior by engineering defaults",
+    "receipts": [
+     "https://www.gov.uk/government/organisations/behavioural-insights-team",
+     "https://www.bi.team/about-us/"
+    ],
+    "note": "State choice-architecture; lower severity - openly constituted, not covert.",
+    "score": 0.75
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Global Disinformation Index (GDI)",
+  "fact": 0.7,
+  "unverified": 0.42,
+  "by_actor": {
+   "trust_safety": 1.12
+  },
+  "markers": [
+   "captured_neutral",
+   "deniability_architecture"
+  ],
+  "records": [
+   {
+    "institution": "Global Disinformation Index (GDI)",
+    "marker": "captured_neutral",
+    "move": "language",
+    "actor": "trust_safety",
+    "assurance": "FACT",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "compiles a 'dynamic exclusion list' rating ~2,000 news sites for 'disinformation risk'; ad platforms (e.g. Microsoft's Xandr) engaged the ratings to steer ad spend - a contested editorial judgment packaged as a neutral risk score",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Global_Disinformation_Index"
+    ],
+    "note": "The rating mechanism is GDI's own product; the targeting claim is filed separately as ATTRIBUTED.",
+    "lens": "institutional_permeation",
+    "score": 0.7
+   },
+   {
+    "institution": "Global Disinformation Index (GDI)",
+    "marker": "deniability_architecture",
+    "move": "permeation",
+    "actor": "trust_safety",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "per the Washington Examiner's 'Disinformation Inc' series, GDI's exclusion list functioned to defund conservative and non-liberal outlets by steering advertisers away from them",
+    "receipts": [
+     "https://www.washingtonexaminer.com/policy/finance/2773271/disinformation-inc-state-department-bankrolls-group-secretly-blacklisting-conservative-media/"
+    ],
+    "note": "Kaminsky/Examiner characterization; GDI and State dispute it. Attributed, does not count.",
+    "lens": "institutional_permeation",
+    "score": 0.42
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Atlantic Council DFRLab",
+  "fact": 0.55,
+  "unverified": 0.0,
+  "by_actor": {
+   "trust_safety": 0.55
+  },
+  "markers": [
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Atlantic Council DFRLab",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "trust_safety",
+    "assurance": "FACT",
+    "severity": 0.55,
+    "self_correction": 0.0,
+    "span": "Atlantic Council's Digital Forensic Research Lab, an EIP founding member; a think-tank 'lab' node in the disinformation-governance layer whose staff cycle into platform and AI-lab trust roles (Ben Nimmo -> Meta, then OpenAI)",
+    "receipts": [
+     "https://www.eipartnership.net/report",
+     "https://www.atlanticcouncil.org/expert/ben-nimmo/"
+    ],
+    "note": "EIP membership and Nimmo's career path are self-documented; modest severity - a structural node, not a discrete censorship act.",
+    "lens": "institutional_permeation",
+    "score": 0.55
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Graphika",
+  "fact": 0.5,
+  "unverified": 0.0,
+  "by_actor": {
+   "trust_safety": 0.5
+  },
+  "markers": [
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Graphika",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "trust_safety",
+    "assurance": "FACT",
+    "severity": 0.5,
+    "self_correction": 0.0,
+    "span": "network-analysis firm and EIP founding member; a way-station in the disinformation-governance career pipeline (Camille Francois -> ROOST; Ben Nimmo -> OpenAI)",
+    "receipts": [
+     "https://www.eipartnership.net/report",
+     "https://graphika.com/posts/unveiling-the-election-integrity-partnership-final-report-the-long-fuse-misinformation-and-the-2020-elections"
+    ],
+    "note": "Thinnest of the T&S set - documented role is EIP membership plus career moves; included for completeness, a hold-candidate.",
+    "lens": "institutional_permeation",
+    "score": 0.5
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Muslim Brotherhood",
+  "fact": 0.0,
+  "unverified": 0.42,
+  "by_actor": {
+   "ideological_bloc": 0.42
+  },
+  "markers": [
+   "permeation"
+  ],
+  "records": [
+   {
+    "institution": "Muslim Brotherhood",
+    "lens": "institutional_permeation",
+    "marker": "permeation",
+    "move": "permeation",
+    "actor": "ideological_bloc",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "Akram's 1991 memo (US v. Holy Land Foundation exhibit) framed settlement as a 'civilization-jihadist process ... eliminating and destroying Western civilization from within' - Georgetown's Bridge Initiative holds it was a personal proposal, NOT an adopted Brotherhood directive",
+    "receipts": [
+     "https://en.wikipedia.org/wiki/Muslim_Brotherhood_memorandum_(1991)",
+     "https://bridge.georgetown.edu/research/civilization-jihad-debunking-the-conspiracy-theory/"
+    ],
+    "note": "Single most contested item; ATTRIBUTED and shown WITH the debunking caveat in-span - never asserted, never counts toward rank.",
+    "score": 0.42
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "ExxonMobil",
+  "fact": 0.0,
+  "unverified": 0.42,
+  "by_actor": {
+   "commercial_pr": 0.42
+  },
+  "markers": [
+   "manufactured_consent"
+  ],
+  "records": [
+   {
+    "institution": "ExxonMobil",
+    "lens": "institutional_permeation",
+    "marker": "manufactured_consent",
+    "move": "language",
+    "actor": "commercial_pr",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.7,
+    "self_correction": 0.0,
+    "span": "per the Union of Concerned Scientists' account of Exxon's own disclosures, ~$16M (1998-2005) to ~43 groups to 'manufacture uncertainty' about climate science, modeled on the tobacco playbook",
+    "receipts": [
+     "https://www.ucs.org/resources/smoke-mirrors-hot-air"
+    ],
+    "note": "'Manufacture uncertainty' is UCS's characterization, attributed not asserted as proven intent. Shown, does not count.",
+    "score": 0.42
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ },
+ {
+  "institution": "Stanford Internet Observatory",
+  "fact": 0.0,
+  "unverified": 0.48,
+  "by_actor": {
+   "trust_safety": 0.48
+  },
+  "markers": [
+   "state_moderation_coordination"
+  ],
+  "records": [
+   {
+    "institution": "Stanford Internet Observatory",
+    "marker": "state_moderation_coordination",
+    "move": "language",
+    "actor": "trust_safety",
+    "assurance": "ATTRIBUTED",
+    "severity": 0.8,
+    "self_correction": 0.0,
+    "span": "per Matt Taibbi's Twitter Files, SIO's Virality Project advised platforms to treat 'true stories that could fuel hesitancy' as actionable vaccine misinformation across a pan-industry COVID monitoring plan",
+    "receipts": [
+     "https://reason.com/2023/03/17/researchers-pressured-twitter-to-treat-covid-19-facts-as-misinformation/"
+    ],
+    "note": "Taibbi's reading of released Twitter documents; attributed, not our verdict. SIO wound down in 2024.",
+    "lens": "reference_capture",
+    "score": 0.48
+   }
+  ],
+  "sc_credits": [],
+  "self_correction_mean": 0.0
+ }
+]

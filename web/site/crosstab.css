@@ -1,0 +1,41 @@
+/* "Method, not ideology" -- the page's central claim, checked against the capture ledger
+   instead of asserted. Outside .tcw on purpose: this is site chrome, not the demo. */
+.tc-xt { margin: 2.6rem 0 0; }
+.tc-xt-sub { font-size: .95rem; line-height: 1.6; color: #c8c8d0; max-width: 76ch; }
+.tc-xt-lim {
+  font-size: .84rem; line-height: 1.6; color: #8a8a96; max-width: 76ch;
+  border-left: 3px solid #3a3a44; padding-left: .9rem; margin: .9rem 0 0;
+}
+.tc-xt-stat {
+  display: flex; flex-wrap: wrap; gap: 1.6rem; margin: 1.2rem 0 .2rem;
+  font-family: 'JetBrains Mono', monospace; font-size: .68rem; letter-spacing: .12em;
+  text-transform: uppercase; color: #8a8a96;
+}
+.tc-xt-stat b { display: block; color: #e8e8f0; font-size: 1.5rem; letter-spacing: 0; }
+.tc-xt-tbl { width: 100%; border-collapse: collapse; margin: 1.2rem 0 0; font-size: .8rem; }
+.tc-xt-tbl th {
+  text-align: left; padding: .45rem .55rem; border-bottom: 1px solid #3a3a44;
+  font-family: 'JetBrains Mono', monospace; font-size: .62rem; letter-spacing: .12em;
+  text-transform: uppercase; color: #8a8a96;
+}
+.tc-xt-tbl td { padding: .45rem .55rem; border-bottom: 1px solid #1f1f26; color: #b8b8c4; vertical-align: top; }
+.tc-xt-tbl code { font-size: .76rem; color: #e8e8f0; }
+.tc-xt-fam { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: #CC0000; }
+.tc-xt-who { font-family: 'JetBrains Mono', monospace; font-size: .68rem; color: #8a8a96; }
+.tc-xt-who span { color: #4a4a55; }
+.tc-xt-thin td, .tc-xt-thin code, .tc-xt-thin .tc-xt-fam { color: #6f6f7c; }
+.tc-xt-foot { font-size: .8rem; line-height: 1.6; color: #8a8a96; margin: .9rem 0 0; max-width: 76ch; }
+.tc-xt-det { margin: 1.2rem 0 0; }
+.tc-xt-det summary { cursor: pointer; font-size: .84rem; color: #c8c8d0; }
+.tc-xt-actors { list-style: none; margin: .9rem 0 0; padding: 0; display: grid; gap: .3rem; font-size: .8rem; color: #8a8a96; }
+.tc-xt-actors code { color: #e8e8f0; margin-right: .5rem; }
+.tc-xt-mh { font-size: .9rem; margin: 1.2rem 0 .4rem; }
+.tc-xt-ex { list-style: none; margin: 0; padding: 0; display: grid; gap: .7rem; }
+.tc-xt-ex li { font-size: .82rem; line-height: 1.55; color: #b8b8c4; border-left: 2px solid #2a2a32; padding-left: .8rem; }
+.tc-xt-ex b { color: #e8e8f0; }
+.tc-xt-tag {
+  font-family: 'JetBrains Mono', monospace; font-size: .58rem; letter-spacing: .1em;
+  text-transform: uppercase; color: #8a8a96; border: 1px solid #3a3a44;
+  border-radius: 2px; padding: .05em .35em; margin-left: .35em;
+}
+.tc-xt-span { display: block; color: #8a8a96; margin: .25rem 0; }

@@ -225,7 +225,18 @@ def detect_subject(graph_path: str, subject_id: str) -> list[DetectionHit]:
 
 
 def score_subject(graph_path: str, subject_id: str, taxonomy_path: str) -> ModuleResult:
-    """Run detect_subject through the existing grader. token_count=0 (w_density=0 for this lens)."""
+    """Run the right graph detector for the taxonomy, then grade. token_count=0 (w_density=0).
+
+    DISPATCHES ON THE LENS, because there are two graph lenses and only one of them used to
+    have any code. `network_brokerage` shipped as a taxonomy with three detections, six gold
+    entries quoting specific computed figures, and nothing in this repository able to fire it
+    -- the numbers had been computed outside the tree and never committed as a detector, so a
+    lens declaring `reads: graph` had no graph reader. `brokerage.py` is that reader.
+    """
     taxonomy = load_taxonomy(taxonomy_path)
-    hits = detect_subject(graph_path, subject_id)
+    if taxonomy.id == "network_brokerage":
+        from .brokerage import detect_subject as detect_brokerage
+        hits = detect_brokerage(graph_path, subject_id)
+    else:
+        hits = detect_subject(graph_path, subject_id)
     return grade_document_for_lens(taxonomy, hits, token_count=0)

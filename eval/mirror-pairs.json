@@ -1,0 +1,41 @@
+{
+  "purpose": "Mirrored sentence pairs for testing whether a DIRECTION-NEUTRAL detection fires equally on both political directions. Each pair is the same sentence twice, with only the political valence swapped: same construction, same rhetorical move, same length class. If the detector is measuring METHOD it must fire the same on both. If it fires on one, it is measuring political direction and saying so.",
+  "why_it_exists": "2026-08-26: sourcing_asymmetry/pejorative-actor-label shipped eight cues, every one an epithet for a right-coded actor, under a file header reading 'never a left/right'. No mirrored test existed, so nothing caught it for as long as the lens had existed. A property a file asserts about itself in prose is exactly the property that drifts; this file turns the assertion into a measurement.",
+  "exempt_lenses": {
+    "subculture_register": "CAMP-INDEXED BY DESIGN, and therefore honestly asymmetric per item. Its markers are named camps -- revolutionary_left, ethnonationalist, tradcath_integralist, maga_new_right, 27 of them across the spectrum. It does not claim any single detection is direction-neutral; it claims to identify WHICH register is speaking. Symmetry for this lens is a property of the CAMP ROSTER (are both directions represented at comparable depth), not of individual detections, and is tested separately by roster_balance below."
+  },
+  "how_to_read": "A pair is SYMMETRIC when both halves fire the same set of detections. It is ASYMMETRIC when one half fires and the other does not, or they fire different detections. Asymmetric pairs are the finding. Control pairs use a non-political cue and MUST be symmetric -- if a control fails, the harness itself is broken and no other result here means anything.",
+  "pairs": [
+    {
+      "id": "CONTROL-nonpolitical-01",
+      "lens": "sourcing_asymmetry",
+      "detection": "declined-to-comment",
+      "control": true,
+      "left": "The company did not respond to requests for comment about the union vote.",
+      "right": "The company did not respond to requests for comment about the merger vote."
+    },
+    {
+      "id": "CONTROL-nonpolitical-02",
+      "lens": "sourcing_asymmetry",
+      "detection": "unsourced-assertion",
+      "control": true,
+      "left": "It goes without saying that the first proposal carries risk.",
+      "right": "It goes without saying that the second proposal carries risk.",
+      "note": "Was 'left-hand proposal' / 'right-hand proposal'. A substring matcher cannot see that, but a semantic backend reads 'left-hand' and 'right-hand' as political direction and duly broke the control. A control that leaks the very signal it is supposed to exclude is a defect in the SUITE. Ordinals carry no valence."
+    },
+    {
+      "id": "CONTROL-nonpolitical-03",
+      "lens": "institutional_permeation",
+      "detection": "no-success-condition",
+      "control": true,
+      "left": "The union review is ongoing and more must be done.",
+      "right": "The audit review is ongoing and more must be done."
+    }
+  ],
+  "roster_balance": {
+    "note": "For camp-indexed lenses, symmetry is a property of the roster rather than of any detection. Recorded here as the measurement to run, not as a claim: count camps and cues per broad political family and report the split. A roster that is 27 camps but 90% one family is asymmetric even though every individual marker is honest.",
+    "lens": "subculture_register"
+  },
+  "control_rule": "Control pairs must differ in a way that carries NO political signal under ANY backend -- no 'left'/'right' even in non-political senses, no party names, no ideologically coded nouns. A substring matcher is blind to connotation and a semantic matcher is not, so a control that passes under cues can still be invalid under embeddings.",
+  "status": "DIRECTIONAL PAIRS PARKED. The 13 assistant-authored political pairs were moved to mirror-pairs-PROPOSED.md pending the author's wording. Only the non-political controls remain live, so the harness still self-tests but reports no directional coverage until the author supplies pairs."
+}

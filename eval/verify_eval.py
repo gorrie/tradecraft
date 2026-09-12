@@ -25,8 +25,8 @@ sys.path.insert(0, REPO)
 from tradecraft.loader import load_lenses          # noqa: E402
 from tradecraft.detect import verified_cue_receipts  # noqa: E402
 
-# Merge ~/.config/tradecraft/.env (OpenRouter key) into the environment, like the other live tools.
-ENV = os.path.expanduser("~/.config/tradecraft/.env")
+# Merge an operator-named env file (OpenRouter key) into the environment. No default.
+ENV = os.environ.get("TRADECRAFT_ENV_FILE", "")
 if os.path.exists(ENV):
     for line in open(ENV, encoding="utf-8"):
         line = line.strip()

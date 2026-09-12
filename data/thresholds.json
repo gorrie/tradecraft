@@ -1,0 +1,989 @@
+{
+ "note": "Per-detection similarity thresholds, derived from the neutral control corpus at corpus/_calibration-cache (Federal Register rulemaking). A detection fires when a window beats its threshold. Derived: never hand-edit, re-run calibrate().",
+ "control_documents": 95,
+ "quantile": 0.995,
+ "window_sentences": 1,
+ "absolute_floor": 0.6,
+ "thresholds": {
+  "adept_speech::candidate-sorting": {
+   "threshold": 0.8438,
+   "control_quantile": 0.995,
+   "control_max": 0.8783,
+   "control_median": 0.7659,
+   "floored": false
+  },
+  "adept_speech::eyes-to-see": {
+   "threshold": 0.8259,
+   "control_quantile": 0.995,
+   "control_max": 0.8611,
+   "control_median": 0.768,
+   "floored": false
+  },
+  "adept_speech::gnosis-as-evidence": {
+   "threshold": 0.8296,
+   "control_quantile": 0.995,
+   "control_max": 0.8622,
+   "control_median": 0.7608,
+   "floored": false
+  },
+  "adept_speech::ineffability-claim": {
+   "threshold": 0.8174,
+   "control_quantile": 0.995,
+   "control_max": 0.839,
+   "control_median": 0.7614,
+   "floored": false
+  },
+  "adept_speech::light-ascent-veil": {
+   "threshold": 0.8417,
+   "control_quantile": 0.995,
+   "control_max": 0.8846,
+   "control_median": 0.7767,
+   "floored": false
+  },
+  "adept_speech::the-great-work": {
+   "threshold": 0.8194,
+   "control_quantile": 0.995,
+   "control_max": 0.8328,
+   "control_median": 0.7591,
+   "floored": false
+  },
+  "adept_speech::the-masters": {
+   "threshold": 0.8259,
+   "control_quantile": 0.995,
+   "control_max": 0.852,
+   "control_median": 0.7775,
+   "floored": false
+  },
+  "adept_speech::withholding": {
+   "threshold": 0.824,
+   "control_quantile": 0.995,
+   "control_max": 0.8434,
+   "control_median": 0.7732,
+   "floored": false
+  },
+  "cognitive_capture::agree-over-accurate": {
+   "threshold": 0.8247,
+   "control_quantile": 0.995,
+   "control_max": 0.8714,
+   "control_median": 0.7662,
+   "floored": false
+  },
+  "cognitive_capture::attachment-engineering": {
+   "threshold": 0.8301,
+   "control_quantile": 0.995,
+   "control_max": 0.8704,
+   "control_median": 0.779,
+   "floored": false
+  },
+  "cognitive_capture::opinion-shaping-suggestions": {
+   "threshold": 0.8231,
+   "control_quantile": 0.995,
+   "control_max": 0.8502,
+   "control_median": 0.7681,
+   "floored": false
+  },
+  "cognitive_capture::optimize-against-preference": {
+   "threshold": 0.8244,
+   "control_quantile": 0.995,
+   "control_max": 0.8491,
+   "control_median": 0.7656,
+   "floored": false
+  },
+  "cognitive_capture::outsource-the-thinking": {
+   "threshold": 0.8304,
+   "control_quantile": 0.995,
+   "control_max": 0.8598,
+   "control_median": 0.7717,
+   "floored": false
+  },
+  "cognitive_capture::tailor-to-the-individual": {
+   "threshold": 0.8349,
+   "control_quantile": 0.995,
+   "control_max": 0.8552,
+   "control_median": 0.7755,
+   "floored": false
+  },
+  "costly_signal::price-accepted": {
+   "threshold": 0.8396,
+   "control_quantile": 0.995,
+   "control_max": 0.8509,
+   "control_median": 0.771,
+   "floored": false
+  },
+  "costly_signal::price-paid-reference": {
+   "threshold": 0.8488,
+   "control_quantile": 0.995,
+   "control_max": 0.859,
+   "control_median": 0.7688,
+   "floored": false
+  },
+  "costly_signal::retroactive-satire": {
+   "threshold": 0.8319,
+   "control_quantile": 0.995,
+   "control_max": 0.8564,
+   "control_median": 0.7668,
+   "floored": false
+  },
+  "counterproductivity::compulsory-only-option": {
+   "threshold": 0.8226,
+   "control_quantile": 0.995,
+   "control_max": 0.8512,
+   "control_median": 0.7693,
+   "floored": false
+  },
+  "counterproductivity::cure-becomes-disease": {
+   "threshold": 0.8314,
+   "control_quantile": 0.995,
+   "control_max": 0.8813,
+   "control_median": 0.7639,
+   "floored": false
+  },
+  "counterproductivity::expert-dependence": {
+   "threshold": 0.8404,
+   "control_quantile": 0.995,
+   "control_max": 0.8546,
+   "control_median": 0.7731,
+   "floored": false
+  },
+  "counterproductivity::institution-as-obstacle": {
+   "threshold": 0.8221,
+   "control_quantile": 0.995,
+   "control_max": 0.8492,
+   "control_median": 0.7633,
+   "floored": false
+  },
+  "counterproductivity::more-yields-less": {
+   "threshold": 0.8273,
+   "control_quantile": 0.995,
+   "control_max": 0.8624,
+   "control_median": 0.7595,
+   "floored": false
+  },
+  "distributed_accountability::authority-to-define-true": {
+   "threshold": 0.8386,
+   "control_quantile": 0.995,
+   "control_max": 0.8751,
+   "control_median": 0.7745,
+   "floored": false
+  },
+  "distributed_accountability::crowd-is-truth": {
+   "threshold": 0.8361,
+   "control_quantile": 0.995,
+   "control_max": 0.8686,
+   "control_median": 0.7759,
+   "floored": false
+  },
+  "distributed_accountability::diffuse-agency": {
+   "threshold": 0.8081,
+   "control_quantile": 0.995,
+   "control_max": 0.838,
+   "control_median": 0.7359,
+   "floored": false
+  },
+  "distributed_accountability::disagreement-as-sin": {
+   "threshold": 0.8379,
+   "control_quantile": 0.995,
+   "control_max": 0.8629,
+   "control_median": 0.7823,
+   "floored": false
+  },
+  "distributed_accountability::settled-beyond-question": {
+   "threshold": 0.8218,
+   "control_quantile": 0.995,
+   "control_max": 0.8451,
+   "control_median": 0.7637,
+   "floored": false
+  },
+  "inevitability_framing::adapt-or-perish": {
+   "threshold": 0.8029,
+   "control_quantile": 0.995,
+   "control_max": 0.8439,
+   "control_median": 0.7347,
+   "floored": false
+  },
+  "inevitability_framing::historys-side": {
+   "threshold": 0.8179,
+   "control_quantile": 0.995,
+   "control_max": 0.8485,
+   "control_median": 0.7626,
+   "floored": false
+  },
+  "inevitability_framing::no-alternative": {
+   "threshold": 0.844,
+   "control_quantile": 0.995,
+   "control_max": 0.8848,
+   "control_median": 0.7673,
+   "floored": false
+  },
+  "institutional_permeation::astroturf": {
+   "threshold": 0.8351,
+   "control_quantile": 0.995,
+   "control_max": 0.8677,
+   "control_median": 0.779,
+   "floored": false
+  },
+  "institutional_permeation::attribution-gap": {
+   "threshold": 0.835,
+   "control_quantile": 0.995,
+   "control_max": 0.883,
+   "control_median": 0.7796,
+   "floored": false
+  },
+  "institutional_permeation::belief-as-engineerable": {
+   "threshold": 0.8222,
+   "control_quantile": 0.995,
+   "control_max": 0.8615,
+   "control_median": 0.772,
+   "floored": false
+  },
+  "institutional_permeation::build-parallel-institutions": {
+   "threshold": 0.8218,
+   "control_quantile": 0.995,
+   "control_max": 0.8522,
+   "control_median": 0.7576,
+   "floored": false
+  },
+  "institutional_permeation::carve-out-as-public-good": {
+   "threshold": 0.8102,
+   "control_quantile": 0.995,
+   "control_max": 0.8505,
+   "control_median": 0.7355,
+   "floored": false
+  },
+  "institutional_permeation::choice-architecture": {
+   "threshold": 0.8329,
+   "control_quantile": 0.995,
+   "control_max": 0.8551,
+   "control_median": 0.768,
+   "floored": false
+  },
+  "institutional_permeation::define-crisis-claim-authority": {
+   "threshold": 0.8338,
+   "control_quantile": 0.995,
+   "control_max": 0.8697,
+   "control_median": 0.7813,
+   "floored": false
+  },
+  "institutional_permeation::hidden-or-deferred-cost": {
+   "threshold": 0.8178,
+   "control_quantile": 0.995,
+   "control_max": 0.8515,
+   "control_median": 0.7492,
+   "floored": false
+  },
+  "institutional_permeation::indefinite-horizon": {
+   "threshold": 0.8359,
+   "control_quantile": 0.995,
+   "control_max": 0.8554,
+   "control_median": 0.768,
+   "floored": false
+  },
+  "institutional_permeation::infiltrate-existing-institutions": {
+   "threshold": 0.8266,
+   "control_quantile": 0.995,
+   "control_max": 0.8358,
+   "control_median": 0.7677,
+   "floored": false
+  },
+  "institutional_permeation::intermediary-laundering": {
+   "threshold": 0.8398,
+   "control_quantile": 0.995,
+   "control_max": 0.8654,
+   "control_median": 0.7782,
+   "floored": false
+  },
+  "institutional_permeation::irreversibility-framing": {
+   "threshold": 0.8218,
+   "control_quantile": 0.995,
+   "control_max": 0.8445,
+   "control_median": 0.765,
+   "floored": false
+  },
+  "institutional_permeation::neutrality-claim": {
+   "threshold": 0.8441,
+   "control_quantile": 0.995,
+   "control_max": 0.8769,
+   "control_median": 0.7685,
+   "floored": false
+  },
+  "institutional_permeation::no-success-condition": {
+   "threshold": 0.8389,
+   "control_quantile": 0.995,
+   "control_max": 0.8777,
+   "control_median": 0.7653,
+   "floored": false
+  },
+  "institutional_permeation::target-the-leverage-point": {
+   "threshold": 0.8102,
+   "control_quantile": 0.995,
+   "control_max": 0.8307,
+   "control_median": 0.75,
+   "floored": false
+  },
+  "institutional_permeation::value-as-science": {
+   "threshold": 0.8327,
+   "control_quantile": 0.995,
+   "control_max": 0.8485,
+   "control_median": 0.7658,
+   "floored": false
+  },
+  "legibility::design-over-organic": {
+   "threshold": 0.8342,
+   "control_quantile": 0.995,
+   "control_max": 0.8663,
+   "control_median": 0.7735,
+   "floored": false
+  },
+  "legibility::erase-local-knowledge": {
+   "threshold": 0.8198,
+   "control_quantile": 0.995,
+   "control_max": 0.8495,
+   "control_median": 0.758,
+   "floored": false
+  },
+  "legibility::id-as-precondition": {
+   "threshold": 0.8098,
+   "control_quantile": 0.995,
+   "control_max": 0.8539,
+   "control_median": 0.7363,
+   "floored": false
+  },
+  "legibility::impose-uniformity": {
+   "threshold": 0.8241,
+   "control_quantile": 0.995,
+   "control_max": 0.8318,
+   "control_median": 0.7533,
+   "floored": false
+  },
+  "legibility::manage-to-the-metric": {
+   "threshold": 0.8231,
+   "control_quantile": 0.995,
+   "control_max": 0.8492,
+   "control_median": 0.7653,
+   "floored": false
+  },
+  "legibility::mandatory-registration": {
+   "threshold": 0.8142,
+   "control_quantile": 0.995,
+   "control_max": 0.8448,
+   "control_median": 0.7357,
+   "floored": false
+  },
+  "legibility::render-visible": {
+   "threshold": 0.8349,
+   "control_quantile": 0.995,
+   "control_max": 0.8581,
+   "control_median": 0.789,
+   "floored": false
+  },
+  "militant_mobilization::burn-it-down": {
+   "threshold": 0.837,
+   "control_quantile": 0.995,
+   "control_max": 0.8626,
+   "control_median": 0.7882,
+   "floored": false
+  },
+  "militant_mobilization::by-any-means": {
+   "threshold": 0.8437,
+   "control_quantile": 0.995,
+   "control_max": 0.8638,
+   "control_median": 0.791,
+   "floored": false
+  },
+  "militant_mobilization::no-principal-to-charge": {
+   "threshold": 0.8385,
+   "control_quantile": 0.995,
+   "control_max": 0.8692,
+   "control_median": 0.7783,
+   "floored": false
+  },
+  "militant_mobilization::reframe-target-as-vermin-or-nazi": {
+   "threshold": 0.8286,
+   "control_quantile": 0.995,
+   "control_max": 0.8506,
+   "control_median": 0.7782,
+   "floored": false
+  },
+  "militant_mobilization::sainthood-and-heroes": {
+   "threshold": 0.8276,
+   "control_quantile": 0.995,
+   "control_max": 0.8591,
+   "control_median": 0.7773,
+   "floored": false
+  },
+  "militant_mobilization::time-is-now-we-know-where": {
+   "threshold": 0.8224,
+   "control_quantile": 0.995,
+   "control_max": 0.8377,
+   "control_median": 0.7677,
+   "floored": false
+  },
+  "militant_mobilization::year-zero": {
+   "threshold": 0.8409,
+   "control_quantile": 0.995,
+   "control_max": 0.8409,
+   "control_median": 0.7677,
+   "floored": false
+  },
+  "narrative_management::anonymous-official-sourcing": {
+   "threshold": 0.8228,
+   "control_quantile": 0.995,
+   "control_max": 0.8538,
+   "control_median": 0.7666,
+   "floored": false
+  },
+  "narrative_management::assert-disputed-label": {
+   "threshold": 0.8325,
+   "control_quantile": 0.995,
+   "control_max": 0.8649,
+   "control_median": 0.7851,
+   "floored": false
+  },
+  "narrative_management::attack-the-source": {
+   "threshold": 0.8391,
+   "control_quantile": 0.995,
+   "control_max": 0.8779,
+   "control_median": 0.7846,
+   "floored": false
+  },
+  "narrative_management::demand-credentials": {
+   "threshold": 0.8168,
+   "control_quantile": 0.995,
+   "control_max": 0.8385,
+   "control_median": 0.7572,
+   "floored": false
+  },
+  "narrative_management::designate-deplatform": {
+   "threshold": 0.8309,
+   "control_quantile": 0.995,
+   "control_max": 0.8753,
+   "control_median": 0.7708,
+   "floored": false
+  },
+  "narrative_management::impute-bias-affiliation": {
+   "threshold": 0.8362,
+   "control_quantile": 0.995,
+   "control_max": 0.8591,
+   "control_median": 0.7771,
+   "floored": false
+  },
+  "narrative_management::passive-actor-erasure": {
+   "threshold": 0.8343,
+   "control_quantile": 0.995,
+   "control_max": 0.8668,
+   "control_median": 0.7708,
+   "floored": false
+  },
+  "narrative_management::record-destruction": {
+   "threshold": 0.8364,
+   "control_quantile": 0.995,
+   "control_max": 0.8445,
+   "control_median": 0.7844,
+   "floored": false
+  },
+  "narrative_management::soften-relabel": {
+   "threshold": 0.838,
+   "control_quantile": 0.995,
+   "control_max": 0.8534,
+   "control_median": 0.7653,
+   "floored": false
+  },
+  "narrative_management::stealth-correction": {
+   "threshold": 0.8392,
+   "control_quantile": 0.995,
+   "control_max": 0.8743,
+   "control_median": 0.7714,
+   "floored": false
+  },
+  "narrative_management::unproven-blame": {
+   "threshold": 0.8175,
+   "control_quantile": 0.995,
+   "control_max": 0.8446,
+   "control_median": 0.7544,
+   "floored": false
+  },
+  "network_brokerage::cross-group-broker": {
+   "threshold": 0.829,
+   "control_quantile": 0.995,
+   "control_max": 0.8342,
+   "control_median": 0.7589,
+   "floored": false
+  },
+  "network_brokerage::high-betweenness": {
+   "threshold": 0.8142,
+   "control_quantile": 0.995,
+   "control_max": 0.8227,
+   "control_median": 0.7327,
+   "floored": false
+  },
+  "network_brokerage::hub-degree": {
+   "threshold": 0.8292,
+   "control_quantile": 0.995,
+   "control_max": 0.8329,
+   "control_median": 0.7392,
+   "floored": false
+  },
+  "reference_capture::anonymous-authority": {
+   "threshold": 0.8322,
+   "control_quantile": 0.995,
+   "control_max": 0.8562,
+   "control_median": 0.7743,
+   "floored": false
+  },
+  "reference_capture::authority-overruled": {
+   "threshold": 0.8447,
+   "control_quantile": 0.995,
+   "control_max": 0.8528,
+   "control_median": 0.7728,
+   "floored": false
+  },
+  "reference_capture::canvassing-mobilization": {
+   "threshold": 0.8395,
+   "control_quantile": 0.995,
+   "control_max": 0.8429,
+   "control_median": 0.7642,
+   "floored": false
+  },
+  "reference_capture::client-image-management": {
+   "threshold": 0.8327,
+   "control_quantile": 0.995,
+   "control_max": 0.8401,
+   "control_median": 0.7582,
+   "floored": false
+  },
+  "reference_capture::coordinated-bloc-editing": {
+   "threshold": 0.8284,
+   "control_quantile": 0.995,
+   "control_max": 0.8413,
+   "control_median": 0.7676,
+   "floored": false
+  },
+  "reference_capture::elastic-charge": {
+   "threshold": 0.827,
+   "control_quantile": 0.995,
+   "control_max": 0.8529,
+   "control_median": 0.7797,
+   "floored": false
+  },
+  "reference_capture::faction-selective-tolerance": {
+   "threshold": 0.8241,
+   "control_quantile": 0.995,
+   "control_max": 0.8483,
+   "control_median": 0.7674,
+   "floored": false
+  },
+  "reference_capture::govt-clearinghouse": {
+   "threshold": 0.8382,
+   "control_quantile": 0.995,
+   "control_max": 0.8419,
+   "control_median": 0.7717,
+   "floored": false
+  },
+  "reference_capture::penalty-without-adjudication": {
+   "threshold": 0.8335,
+   "control_quantile": 0.995,
+   "control_max": 0.8824,
+   "control_median": 0.7647,
+   "floored": false
+  },
+  "reference_capture::permanent-exclusion-no-exit": {
+   "threshold": 0.8403,
+   "control_quantile": 0.995,
+   "control_max": 0.8621,
+   "control_median": 0.7729,
+   "floored": false
+  },
+  "reference_capture::resist-deanonymization": {
+   "threshold": 0.839,
+   "control_quantile": 0.995,
+   "control_max": 0.8578,
+   "control_median": 0.7841,
+   "floored": false
+  },
+  "reference_capture::sockpuppet-ring": {
+   "threshold": 0.8353,
+   "control_quantile": 0.995,
+   "control_max": 0.8538,
+   "control_median": 0.7746,
+   "floored": false
+  },
+  "reference_capture::state-corp-ip-edits": {
+   "threshold": 0.8531,
+   "control_quantile": 0.995,
+   "control_max": 0.8667,
+   "control_median": 0.7759,
+   "floored": false
+  },
+  "revolving_door::crosses-gov-industry": {
+   "threshold": 0.8246,
+   "control_quantile": 0.995,
+   "control_max": 0.843,
+   "control_median": 0.7587,
+   "floored": false
+  },
+  "revolving_door::five-plus-moves": {
+   "threshold": 0.8148,
+   "control_quantile": 0.995,
+   "control_max": 0.8381,
+   "control_median": 0.7597,
+   "floored": false
+  },
+  "revolving_door::funds-recipient-and-evaluator": {
+   "threshold": 0.8275,
+   "control_quantile": 0.995,
+   "control_max": 0.8346,
+   "control_median": 0.7611,
+   "floored": false
+  },
+  "revolving_door::funds-three-plus": {
+   "threshold": 0.8226,
+   "control_quantile": 0.995,
+   "control_max": 0.8398,
+   "control_median": 0.7441,
+   "floored": false
+  },
+  "revolving_door::spans-four-plus-sectors": {
+   "threshold": 0.817,
+   "control_quantile": 0.995,
+   "control_max": 0.8521,
+   "control_median": 0.7611,
+   "floored": false
+  },
+  "revolving_door::spans-three-sectors": {
+   "threshold": 0.8366,
+   "control_quantile": 0.995,
+   "control_max": 0.8455,
+   "control_median": 0.7682,
+   "floored": false
+  },
+  "revolving_door::three-plus-moves": {
+   "threshold": 0.8228,
+   "control_quantile": 0.995,
+   "control_max": 0.8271,
+   "control_median": 0.7437,
+   "floored": false
+  },
+  "revolving_door::watchdog-then-join": {
+   "threshold": 0.8271,
+   "control_quantile": 0.995,
+   "control_max": 0.8355,
+   "control_median": 0.7646,
+   "floored": false
+  },
+  "rollback_asymmetry::acquis-style": {
+   "threshold": 0.8104,
+   "control_quantile": 0.995,
+   "control_max": 0.8426,
+   "control_median": 0.7449,
+   "floored": false
+  },
+  "rollback_asymmetry::dependency-created": {
+   "threshold": 0.8285,
+   "control_quantile": 0.995,
+   "control_max": 0.8516,
+   "control_median": 0.7745,
+   "floored": false
+  },
+  "rollback_asymmetry::new-normal-floor": {
+   "threshold": 0.8194,
+   "control_quantile": 0.995,
+   "control_max": 0.8505,
+   "control_median": 0.7593,
+   "floored": false
+  },
+  "rollback_asymmetry::no-repeal-mechanism": {
+   "threshold": 0.8344,
+   "control_quantile": 0.995,
+   "control_max": 0.8639,
+   "control_median": 0.7625,
+   "floored": false
+  },
+  "rollback_asymmetry::ratchet-named": {
+   "threshold": 0.7875,
+   "control_quantile": 0.995,
+   "control_max": 0.8147,
+   "control_median": 0.7233,
+   "floored": false
+  },
+  "rollback_asymmetry::renewal-as-formality": {
+   "threshold": 0.8126,
+   "control_quantile": 0.995,
+   "control_max": 0.8493,
+   "control_median": 0.7532,
+   "floored": false
+  },
+  "rollback_asymmetry::repeal-as-recklessness": {
+   "threshold": 0.8293,
+   "control_quantile": 0.995,
+   "control_max": 0.858,
+   "control_median": 0.7698,
+   "floored": false
+  },
+  "rollback_asymmetry::rollback-needs-extraordinary-case": {
+   "threshold": 0.821,
+   "control_quantile": 0.995,
+   "control_max": 0.8577,
+   "control_median": 0.7667,
+   "floored": false
+  },
+  "rollback_asymmetry::sunk-cost-as-argument": {
+   "threshold": 0.8346,
+   "control_quantile": 0.995,
+   "control_max": 0.8669,
+   "control_median": 0.7645,
+   "floored": false
+  },
+  "rollback_asymmetry::temporary-made-permanent": {
+   "threshold": 0.8211,
+   "control_quantile": 0.995,
+   "control_max": 0.839,
+   "control_median": 0.7638,
+   "floored": false
+  },
+  "sourcing_asymmetry::declined-to-comment": {
+   "threshold": 0.8548,
+   "control_quantile": 0.995,
+   "control_max": 0.9198,
+   "control_median": 0.79,
+   "floored": false
+  },
+  "sourcing_asymmetry::honorific-framing": {
+   "threshold": 0.8226,
+   "control_quantile": 0.995,
+   "control_max": 0.8453,
+   "control_median": 0.7692,
+   "floored": false
+  },
+  "sourcing_asymmetry::manufactured-parity": {
+   "threshold": 0.8422,
+   "control_quantile": 0.995,
+   "control_max": 0.8967,
+   "control_median": 0.777,
+   "floored": false
+  },
+  "sourcing_asymmetry::mind-reading": {
+   "threshold": 0.8378,
+   "control_quantile": 0.995,
+   "control_max": 0.8475,
+   "control_median": 0.7799,
+   "floored": false
+  },
+  "sourcing_asymmetry::pejorative-actor-label": {
+   "threshold": 0.834,
+   "control_quantile": 0.995,
+   "control_max": 0.8862,
+   "control_median": 0.7765,
+   "floored": false
+  },
+  "sourcing_asymmetry::single-source-consensus": {
+   "threshold": 0.8397,
+   "control_quantile": 0.995,
+   "control_max": 0.9496,
+   "control_median": 0.7823,
+   "floored": false
+  },
+  "sourcing_asymmetry::unanswered-accusation": {
+   "threshold": 0.8334,
+   "control_quantile": 0.995,
+   "control_max": 0.86,
+   "control_median": 0.7813,
+   "floored": false
+  },
+  "sourcing_asymmetry::unsourced-assertion": {
+   "threshold": 0.8303,
+   "control_quantile": 0.995,
+   "control_max": 0.8542,
+   "control_median": 0.7781,
+   "floored": false
+  },
+  "subculture_register::accelerationist-tells": {
+   "threshold": 0.8328,
+   "control_quantile": 0.995,
+   "control_max": 0.8526,
+   "control_median": 0.7779,
+   "floored": false
+  },
+  "subculture_register::antinatalist-tells": {
+   "threshold": 0.8291,
+   "control_quantile": 0.995,
+   "control_max": 0.881,
+   "control_median": 0.7595,
+   "floored": false
+  },
+  "subculture_register::chrnat-tells": {
+   "threshold": 0.8212,
+   "control_quantile": 0.995,
+   "control_max": 0.8711,
+   "control_median": 0.7619,
+   "floored": false
+  },
+  "subculture_register::cryptolib-tells": {
+   "threshold": 0.8249,
+   "control_quantile": 0.995,
+   "control_max": 0.8491,
+   "control_median": 0.7742,
+   "floored": false
+  },
+  "subculture_register::csj-tells": {
+   "threshold": 0.8366,
+   "control_quantile": 0.995,
+   "control_max": 0.8687,
+   "control_median": 0.7884,
+   "floored": false
+  },
+  "subculture_register::degrowth-tells": {
+   "threshold": 0.8243,
+   "control_quantile": 0.995,
+   "control_max": 0.845,
+   "control_median": 0.7609,
+   "floored": false
+  },
+  "subculture_register::disinfo-tells": {
+   "threshold": 0.8468,
+   "control_quantile": 0.995,
+   "control_max": 0.876,
+   "control_median": 0.7891,
+   "floored": false
+  },
+  "subculture_register::ea-tells": {
+   "threshold": 0.8413,
+   "control_quantile": 0.995,
+   "control_max": 0.8723,
+   "control_median": 0.7696,
+   "floored": false
+  },
+  "subculture_register::eacc-tells": {
+   "threshold": 0.8572,
+   "control_quantile": 0.995,
+   "control_max": 0.8834,
+   "control_median": 0.7796,
+   "floored": false
+  },
+  "subculture_register::ecoprim-tells": {
+   "threshold": 0.835,
+   "control_quantile": 0.995,
+   "control_max": 0.8709,
+   "control_median": 0.7675,
+   "floored": false
+  },
+  "subculture_register::ethnonat-tells": {
+   "threshold": 0.8312,
+   "control_quantile": 0.995,
+   "control_max": 0.867,
+   "control_median": 0.7635,
+   "floored": false
+  },
+  "subculture_register::gc-tells": {
+   "threshold": 0.8317,
+   "control_quantile": 0.995,
+   "control_max": 0.8485,
+   "control_median": 0.7534,
+   "floored": false
+  },
+  "subculture_register::georgist-tells": {
+   "threshold": 0.8232,
+   "control_quantile": 0.995,
+   "control_max": 0.8539,
+   "control_median": 0.7604,
+   "floored": false
+  },
+  "subculture_register::jihadist-tells": {
+   "threshold": 0.8312,
+   "control_quantile": 0.995,
+   "control_max": 0.8692,
+   "control_median": 0.7671,
+   "floored": false
+  },
+  "subculture_register::maganr-tells": {
+   "threshold": 0.814,
+   "control_quantile": 0.995,
+   "control_max": 0.8543,
+   "control_median": 0.7626,
+   "floored": false
+  },
+  "subculture_register::managerial-tells": {
+   "threshold": 0.8258,
+   "control_quantile": 0.995,
+   "control_max": 0.8673,
+   "control_median": 0.7736,
+   "floored": false
+  },
+  "subculture_register::manosphere-tells": {
+   "threshold": 0.8286,
+   "control_quantile": 0.995,
+   "control_max": 0.8455,
+   "control_median": 0.7717,
+   "floored": false
+  },
+  "subculture_register::marxist-situationist-tells": {
+   "threshold": 0.8352,
+   "control_quantile": 0.995,
+   "control_max": 0.863,
+   "control_median": 0.7841,
+   "floored": false
+  },
+  "subculture_register::mmt-tells": {
+   "threshold": 0.8286,
+   "control_quantile": 0.995,
+   "control_max": 0.8794,
+   "control_median": 0.7701,
+   "floored": false
+  },
+  "subculture_register::nrx-tells": {
+   "threshold": 0.8259,
+   "control_quantile": 0.995,
+   "control_max": 0.8541,
+   "control_median": 0.768,
+   "floored": false
+  },
+  "subculture_register::prepper-tells": {
+   "threshold": 0.8442,
+   "control_quantile": 0.995,
+   "control_max": 0.8688,
+   "control_median": 0.7784,
+   "floored": false
+  },
+  "subculture_register::qanon-tells": {
+   "threshold": 0.816,
+   "control_quantile": 0.995,
+   "control_max": 0.8389,
+   "control_median": 0.7408,
+   "floored": false
+  },
+  "subculture_register::radfem-tells": {
+   "threshold": 0.8384,
+   "control_quantile": 0.995,
+   "control_max": 0.8651,
+   "control_median": 0.7896,
+   "floored": false
+  },
+  "subculture_register::rationalist-tells": {
+   "threshold": 0.8372,
+   "control_quantile": 0.995,
+   "control_max": 0.864,
+   "control_median": 0.7708,
+   "floored": false
+  },
+  "subculture_register::sovcit-tells": {
+   "threshold": 0.8342,
+   "control_quantile": 0.995,
+   "control_max": 0.8826,
+   "control_median": 0.7797,
+   "floored": false
+  },
+  "subculture_register::tankie-tells": {
+   "threshold": 0.8416,
+   "control_quantile": 0.995,
+   "control_max": 0.8608,
+   "control_median": 0.7796,
+   "floored": false
+  },
+  "subculture_register::tradcath-tells": {
+   "threshold": 0.8313,
+   "control_quantile": 0.995,
+   "control_max": 0.8666,
+   "control_median": 0.7535,
+   "floored": false
+  }
+ }
+}

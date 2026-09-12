@@ -1,0 +1,1070 @@
+{
+ "schema": 1,
+ "prompt_versions": {
+  "author": 2,
+  "instance": 1
+ },
+ "window_chars": 2000,
+ "note": "Model verdicts for cue hits, computed by tools/verify_mirror.py and read as data by tools/export_web.py. Committed so the exporter stays a pure function of committed inputs and its --check determinism gate keeps meaning something. Key = sha1(schema, prompt_version, lens, detection, mode, prompt_version, span, window).",
+ "verdicts": {
+  "00f6ee3d917dbeca20eb": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "single-source-consensus",
+   "span": "many believe",
+   "confidence": 0.9,
+   "rationale": "The phrase 'many believe' in this context is used to indicate a general belief or opinion held by a group of people, but it does not create the appearance of consensus from same-aligned voices without a dissenting or opposing source. It is used to report a widespread belief rather than to build consensus from aligned voices."
+  },
+  "013f87a713308c713238": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of describing the actions of the Putin regime, but it is not used as a pejorative label doing the arguing that evidence should. It is used neutrally to refer to the Russian government, rather than as an evaluative or pejorative label that carries a verdict."
+  },
+  "0638f962f95a03b17a5f": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.8,
+   "rationale": "The term 'Regime' is used evaluatively in the context of 'White House Planning Regime Change In Iran', implying a negative connotation and doing the arguing that evidence should. This usage fits the definition of a pejorative-actor-label where the label carries the verdict rather than evidence or facts."
+  },
+  "0752e42df059d883df9c": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used in the context of 'Iranian regime' to describe Iran's government in a way that carries a pejorative connotation, doing the arguing that evidence should. This usage fits the definition of a pejorative-actor-label where the label carries the verdict rather than the evidence itself."
+  },
+  "0938179a7d5238a50bb0": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "single-source-consensus",
+   "span": "experts say",
+   "confidence": 0.9,
+   "rationale": "The phrase 'experts say' is used in the text to introduce a statement from a single expert (Alberto Gonzales) and does not build an appearance of consensus from same-aligned voices. It is used to report a specific opinion rather than to create the appearance of a broader consensus from aligned sources."
+  },
+  "0c46bf0d003a0b5a5139": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "cronies",
+   "confidence": 0.9,
+   "rationale": "The term 'cronies' is used in the context of describing Cardinal Kevin Farrell and his associates as part of a group with a specific agenda, carrying a pejorative connotation. This usage fits the definition of a pejorative label that does the arguing that evidence should, rather than just describing a fact."
+  },
+  "0ce7bcc84ca01a8919a0": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "coordinated-bloc-editing",
+   "span": "Gang of",
+   "confidence": 0.9,
+   "rationale": "The phrase 'Gang of Eight' in the text refers to a group of senators working on an immigration deal. It is used in an ordinary, unrelated context and does not indicate a coordinated bloc editing a topic area."
+  },
+  "0eaf434426a6674eefed": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used in the context of 'apartheid Israeli regime,' which carries a pejorative connotation. This label does the arguing that evidence should, suggesting a negative view of the Israeli government without providing specific evidence or facts. The phrase 'apartheid Israeli regime' is used to convey a judgment rather than a neutral description, fitting the definition of a pejorativ"
+  },
+  "1189c56b1e0ea4a056c3": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "extremist",
+   "confidence": 0.9,
+   "rationale": "The word 'extremist' is used as a pejorative label attached to the actors (gun control advocates) to carry the verdict that they are pursuing an extreme goal, rather than presenting evidence or facts. This aligns with the definition of 'loaded_labeling' where the label does the arguing that evidence should."
+  },
+  "124ad5740cd66770fcbd": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.9,
+   "rationale": "The term 'Regime' is used in the context of 'Obama Regime Administrative Amnesty' to convey a negative connotation, implying that the administrative actions taken by the Obama administration were part of a broader, potentially oppressive or unfavorable governance. This usage suggests that the label 'Regime' is doing the arguing that evidence should, fitting the definition of a pejorative-actor-lab"
+  },
+  "1288098ff69fa77a6a7d": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of referring to the Putin-led government of Russia, but it is not used as a pejorative label to do the arguing that evidence should. It is used neutrally to identify the political leadership of Russia, rather than to carry a negative judgment or evaluation."
+  },
+  "130639b2bd1ba7b619b3": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used here evaluatively to describe the government in Tehran, carrying a negative connotation. It is used to argue that Obama backed a 'murderous regime', thus doing the arguing that evidence should. This fits the definition of 'pejorative-actor-label' where the label carries the verdict rather than evidence or facts."
+  },
+  "14a3f76b7530596b5e97": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "mind-reading",
+   "span": "in an attempt to",
+   "confidence": 0.9,
+   "rationale": "The phrase 'in an attempt to' is used in the text to describe the actions of Imran Awan, but it does not assert a private motive, intent, or belief as fact without evidence. It is used in a context that is more descriptive of an action rather than mind-reading."
+  },
+  "1635a113b344a8ec8033": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "canvassing-mobilization",
+   "span": "canvassing",
+   "confidence": 0.9,
+   "rationale": "The text mentions 'vote canvassing' in the context of the election of Pope Francis, which refers to the mobilization of support among cardinals to secure his election. This is an instance of 'canvassing-mobilization' as it involves organizing an off-platform audience (cardinals) to swing an internal consensus (election of the pope)."
+  },
+  "1e8badf53ab020edbbc4": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of describing Iran's governing authorities in a pejorative manner, suggesting a repressive and nefarious nature. This usage implies a negative evaluation of the actor (Iran's governing authorities) without providing substantial evidence, fitting the definition of a pejorative-actor-label."
+  },
+  "22cc632d7670cac7da44": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "mind-reading",
+   "span": "in an attempt to",
+   "confidence": 0.9,
+   "rationale": "The phrase 'in an attempt to' is used in the text to describe an action taken by Debbie Wasserman Schultz to 'kill the investigation.' It does not assert a private motive, intent, or belief as fact without evidence, which is the core of 'mind-reading.' It is used in a straightforward, descriptive manner, not as a claim about an internal state or belief."
+  },
+  "238c7fb141a41f8841ca": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "hidden-or-deferred-cost",
+   "span": "spread across",
+   "confidence": 0.9,
+   "rationale": "The phrase 'spread across' in this context is used to describe the geographical expansion of a criminal gang from Denmark to Sweden. It does not refer to the cost being diffuse, deferred, or uncounted, which are key aspects of the 'hidden-or-deferred-cost' method. Therefore, it is an ordinary usage of the phrase and not an instance of the method."
+  },
+  "251ab64f65d076c4f5dd": {
+   "verdict": "genuine",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.8,
+   "rationale": "The phrase 'from within' is used in the context of the Muslim Brotherhood's strategy to destroy our civilization from within. This aligns with the method of 'infiltrate-existing-institutions' as it describes a strategy of entering and steering existing institutions rather than confronting them directly."
+  },
+  "27cd534344ba4fcda035": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "elastic-charge",
+   "span": "civility",
+   "confidence": 0.9,
+   "rationale": "The word 'civility' in the text is used to describe the behavior of the individuals involved in the incident, but it is not deployed as a method of elastic-charge. The text uses 'civility' to contrast the behavior of the man who threw a drink and used racial slurs with what might be expected, rather than applying an elastic rule to charge dissenters. The usage is descriptive and not an instance of"
+  },
+  "27fba38166daf4ee0294": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of describing the Iranian government in a way that carries a negative connotation, particularly in phrases like 'radical Shiite Iranian regime' and 'Iranian-backed militias.' This usage implies a pejorative evaluation of the Iranian government, fitting the definition of 'pejorative-actor-label' where the label does the arguing that evidence should."
+  },
+  "28ce861dfa20b7fd8f68": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "build-parallel-institutions",
+   "span": "fellowship",
+   "confidence": 0.9,
+   "rationale": "The word 'fellowship' in the text is used in a religious and relational context, referring to the idea of believers being in a community or having a shared spiritual connection. It does not refer to the construction of think tanks, NGOs, or training pipelines to seed ideas, which would be an instance of 'build-parallel-institutions'."
+  },
+  "2c6b447f59032509d30e": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "astroturf",
+   "span": "coalition for",
+   "confidence": 0.9,
+   "rationale": "The phrase 'coalition for' is used in the context of describing political and military actions and alliances, but it does not indicate a funded operation wearing an independent or grassroots costume. It is used in an ordinary sense, not as a specific instance of 'astroturf'."
+  },
+  "2e7a11d88b9f95c54e25": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "declined-to-comment",
+   "span": "did not immediately respond",
+   "confidence": 0.9,
+   "rationale": "The phrase 'did not immediately respond' is used to report that Haig and his attorney did not reply to requests for comment on the conspiracy theorizing, which is a typical use of 'declined to comment' to close out the other side without reporting a genuine attempt to reach them. This fits the method of using a one-line statement to close out the other side rather than to report a genuine attempt "
+  },
+  "2fa930cd0de2f1922dad": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "single-source-consensus",
+   "span": "Experts say",
+   "confidence": 0.9,
+   "rationale": "The phrase 'Experts say' is used in the text to introduce a statement from Dr. Ashok Chopra, but it does not create the appearance of consensus built from same-aligned voices without a dissenting or opposing source. It is used as a common introductory phrase to indicate an expert opinion, rather than to build a one-sided consensus."
+  },
+  "376a409e6df39a407bf2": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "canvassing-mobilization",
+   "span": "War Room",
+   "confidence": 0.8,
+   "rationale": "The text mentions a 'War Room' in the context of a Republican National Committee recording, which suggests an organized effort to coordinate and mobilize an off-platform audience. This aligns with the method of 'canvassing-mobilization' where an off-platform 'war room' is used to swing an internal consensus."
+  },
+  "393cd199441b03799964": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used evaluatively to describe the Iranian government, carrying a connotation that suggests a negative view of the Iranian leadership. This usage implies a judgment rather than a neutral description, fitting the definition of a pejorative-actor-label."
+  },
+  "4280852b879245fd3b37": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "far-right",
+   "confidence": 0.9,
+   "rationale": "The text uses the term 'far-right' to describe US bloggers and to argue that their views are pejoratively labeled by Chris Bryant, thus doing the arguing that evidence should. This fits the definition of 'pejorative-actor-label' where an evaluative or pejorative label attached to one actor does the arguing that evidence should."
+  },
+  "43c4c4030f490937e094": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "acclaimed",
+   "confidence": 0.9,
+   "rationale": "The word 'acclaimed' is used in the context of describing Jamie Glazov's book as 'critically-acclaimed', which serves to pre-load the reader's trust in the author and his work. This aligns with the method of 'honorific-framing' where an honorific or credibility-conferring label is applied to the favored side to pre-load the reader's trust."
+  },
+  "43d9a04c9992dedd64f3": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "penalty-without-adjudication",
+   "span": "kangaroo court",
+   "confidence": 0.9,
+   "rationale": "The phrase 'kangaroo court' is used to describe the left and right's involvement in a 'mudslinging orgy of victim shaming and kangaroo courts.' This usage implies a quick and unfair decision-making process, which aligns with the method of 'penalty-without-adjudication' where a maximal penalty is imposed without formal charges or neutral adjudication."
+  },
+  "453abf8d8b5c804651bd": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the text to refer to the government of North Korea, but it is not used as a pejorative label to do the arguing that evidence should. It is used descriptively and does not carry the weight of a verdict or evaluative judgment."
+  },
+  "482d653df7a9f010976f": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "penalty-without-adjudication",
+   "span": "Show Trial",
+   "confidence": 0.8,
+   "rationale": "The phrase 'Show Trial' is used in the context of describing a political event, implying a trial without proper adjudication or fair process, which aligns with the method of 'penalty-without-adjudication'. The text suggests a maximal penalty (a negative judgment) imposed without formal charges or neutral adjudication, fitting the description of the method."
+  },
+  "4a922a1e7607fc68593b": {
+   "verdict": "genuine",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "irreversibility-framing",
+   "span": "no going back",
+   "confidence": 0.9,
+   "rationale": "The phrase 'no going back' is used in the context of describing a significant change that has occurred and implies that the situation cannot revert to its previous state. This aligns with the method of 'irreversibility-framing' which frames change as inevitable and permanent."
+  },
+  "518505039f71591507ab": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "declined-to-comment",
+   "span": "refused to comment",
+   "confidence": 0.9,
+   "rationale": "The phrase 'refused to comment' is used in the text to report that Becerra has not provided a comment, citing an ongoing criminal investigation. This usage fits the method of 'refusal_as_closure' where a one-line refusal is used to close out the other side rather than to report a genuine attempt to reach them. The text does not describe or analyze the method but uses it, making it a genuine instan"
+  },
+  "522fee72c8740c2aabb3": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unsourced-assertion",
+   "span": "It goes without saying",
+   "confidence": 0.8,
+   "rationale": "The phrase 'It goes without saying' is used to introduce a statement that is presented as self-evident or universally accepted, without providing a source or evidence for the claim. In this context, it is used to assert that the Remnant stands with Viganò and prays for him, which is a contested claim (as it involves a stance on a controversial matter) presented with rhetorical certainty without a "
+  },
+  "549f197a6f4ec48d945e": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "detection": "choice-architecture",
+   "span": "nudge",
+   "confidence": 0.9,
+   "rationale": "The word 'nudge' is used in the text as part of the phrase 'nudge-nudge-wink-wink' to describe a conspiratorial gesture made by the pope. The author is attributing this 'nudge' to the pope, not using it as a method of steering behavior through choice-architecture. The text argues against the method by describing it as a conspiratorial wink and nod, implying that the pope is using it to communicate"
+  },
+  "58566f54973be5c22ee2": {
+   "verdict": "genuine",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "build-parallel-institutions",
+   "span": "think tank",
+   "confidence": 0.8,
+   "rationale": "The text mentions a 'think tank' (the Foundation for Defense of Democracies) as a platform for issuing warnings about Iranian financial transactions. This usage implies the deliberate construction of an institution to seed ideas or influence, fitting the 'build-parallel-institutions' method."
+  },
+  "5b82d25327380c061fca": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The word 'regime' is used in the context of 'Bashar Assad's ruthless regime,' which carries a pejorative connotation and does the arguing that evidence should. This usage fits the definition of a pejorative-actor-label, as it attaches a negative evaluative label to Assad's government rather than presenting evidence or facts to support the claim."
+  },
+  "5cb275ec1043c76863dd": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "coordinated-bloc-editing",
+   "span": "Gang of",
+   "confidence": 0.9,
+   "rationale": "The phrase 'Gang of' in the text is used to refer to a group of lawmakers (Nancy Pelosi, Chuck Schumer, Adam Schiff, and Mark Warner) who are demanding that the agencies brief them before releasing materials to the White House. This usage is ordinary and does not indicate a coordinated bloc numerically dominating a topic area, nor does it imply any editing or information control actions typical of"
+  },
+  "5ec3bc088dce92232f42": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "extremist",
+   "confidence": 0.9,
+   "rationale": "The term 'extremist' is used to describe Shafayat Mohamed, attaching a pejorative label to him that does the arguing that evidence should. The label 'extremist' carries a negative connotation and is used to characterize him as someone who holds extreme views, rather than presenting evidence or arguments to support this characterization."
+  },
+  "5ed5236c73a93074573e": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the text but it does not carry a pejorative or evaluative connotation that does the arguing that evidence should. It is used in a neutral context to refer to the CIA's actions and advice to Latin American military dictatorships, rather than as a loaded label to argue a point about an actor."
+  },
+  "5fcf985ad47bf63451a6": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "astroturf",
+   "span": "grassroots",
+   "confidence": 0.9,
+   "rationale": "The word 'grassroots' is used in the text to describe supporters of the author's campaign and other candidates running for office. It is used in an ordinary sense to denote support coming from the base of the political structure, rather than being an instance of 'astroturf' (a funded operation wearing an independent or grassroots costume)."
+  },
+  "609f8c10524e6379677e": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "penalty-without-adjudication",
+   "span": "show trial",
+   "confidence": 0.8,
+   "rationale": "The phrase 'show trial' is used in the context of describing the proceedings involving Kavanaugh and his accuser, suggesting that the process is more about political spectacle than fair adjudication. This aligns with the method of 'penalty-without-adjudication' as it implies a maximal penalty (delaying confirmation and slandering Kavanaugh) without formal charges or neutral adjudication."
+  },
+  "68b2f786f93fc9095268": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used in the text to label the leadership of Pope Francis in a way that carries a negative connotation, suggesting a 'novelty' and implying a departure from traditional norms. This usage fits the definition of a pejorative label attached to an actor (Francis's leadership) that does the arguing that evidence should, rather than just describing the leadership neutrally."
+  },
+  "6ae254b196f736f467ef": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' in the text is used to refer to the North Korean government in a neutral manner, without carrying an evaluative or pejorative connotation. It is used to describe the context and does not do the arguing that evidence should. The text does not use 'regime' to carry a verdict about the North Korean government."
+  },
+  "6ed6933304e61fb4abc1": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' in the text is used to refer to the U.S. government or the CIA in a general sense, without carrying a pejorative or evaluative connotation. It is not used to do the arguing that evidence should, but rather to describe the context or the subject of the discussion. The usage is ordinary and does not fit the definition of a 'pejorative-actor-label' as provided."
+  },
+  "6f3f8c7c4cc710aa83e6": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "far-right",
+   "confidence": 0.9,
+   "rationale": "The term 'far-right' is used as a pejorative label attached to the EDL, which does the arguing that evidence should. It carries a negative connotation and does the work of describing the group rather than letting facts or evidence speak for themselves."
+  },
+  "714b45bcbac293e59ef5": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of describing a political situation in Iran and the concept of 'regime change.' It is not used as a pejorative label to argue against a specific actor without evidence. The usage is ordinary and does not carry the weight of an evaluative or pejorative label doing the arguing that evidence should."
+  },
+  "7150e8bae77021ddcfee": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of describing a situation within the Church as created by certain actions, and it carries a negative connotation, suggesting a controlling or oppressive system. This usage fits the definition of a pejorative label that does the arguing that evidence should, rather than just describing a factual situation."
+  },
+  "74c825422f3636aedbcd": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "extremist",
+   "confidence": 0.8,
+   "rationale": "The text uses the term 'extremist' to label American patriots as a threat, which is an evaluative or pejorative label attached to one actor (American patriots) doing the arguing that evidence should. The term 'extremist' is used to carry the verdict rather than presenting evidence or facts to support the claim."
+  },
+  "7670d7e5286cbf06c271": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unanswered-accusation",
+   "span": "sparked outrage",
+   "confidence": 0.9,
+   "rationale": "The phrase 'sparked outrage' is used to describe an effect, not to present an accusation without a response. The text goes on to describe the responses and actions taken in reaction to the outrage, such as the announcement of an investigation and support from the SSMU president. Therefore, it is not an instance of 'unanswered-accusation'."
+  },
+  "7a33f4d1e69a8c6133ee": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "manufactured-parity",
+   "span": "others disagree",
+   "confidence": 0.9,
+   "rationale": "The phrase 'others disagree' is used in the context of presenting a settled or heavily-evidenced finding as one of two co-equal opinions, which aligns with the definition of 'manufactured-parity' as a method of presenting a settled finding as a debate between two equal sides. This usage fits the description of the method as it downgrades the certainty of the Pope's statements by suggesting that th"
+  },
+  "7bb27bb223ace370b63d": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "build-parallel-institutions",
+   "span": "fellowship",
+   "confidence": 0.9,
+   "rationale": "The word 'fellowship' in this context is used to refer to a religious or spiritual association, not as part of the construction of think tanks, NGOs, or training pipelines to seed ideas. The usage is ordinary and unrelated to the method of 'build-parallel-institutions'."
+  },
+  "7c6d59878394068a1269": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of a pejorative label attached to the Pope and his administration, implying a negative connotation and doing the arguing that evidence should. The sentence 'persecuted by the regime for his faithfulness' uses 'regime' to carry a negative judgment, fitting the definition of 'pejorative-actor-label'."
+  },
+  "7c9deadcce0dff938f14": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "highly respected",
+   "confidence": 0.9,
+   "rationale": "The phrase 'highly respected' is used in the context of an evaluative label applied to the favored side ('high-ranking members of society in Washington'), which pre-loads the reader's trust. This fits the definition of 'honorific-framing' as it confers credibility on the described individuals."
+  },
+  "7d069b6223adf2c624ef": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used in the context of 'U.S. national-security regime-change operation' to imply a specific evaluative stance towards the actions of the U.S. government, particularly the CIA, in relation to the JFK assassination. This usage suggests a pejorative label attached to the actor (the U.S. government/CIA) doing the arguing that evidence should, rather than just stating a neutral fac"
+  },
+  "7d3ee00a47e0b0af4013": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "single-source-consensus",
+   "span": "many believe",
+   "confidence": 0.9,
+   "rationale": "The phrase 'many believe' is used in the text to introduce a general opinion or belief, but it does not present a consensus built from same-aligned voices without a dissenting or opposing source. It is used to indicate a widespread belief rather than to construct a one-sided consensus."
+  },
+  "808e7bc08b90d16836fa": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "mind-reading",
+   "span": "clearly intended to",
+   "confidence": 0.9,
+   "rationale": "The phrase 'clearly intended to' is used in the context of attributing a private motive ('to be funny') to Franken without providing evidence. This aligns with the definition of 'mind-reading' as a method where a subject's private motive is asserted as fact without evidence."
+  },
+  "859a76abc88aeb839208": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' in the text is used to describe the Saudi rulers and their government, but it is not used as a pejorative label to argue against them without evidence. It is used neutrally to refer to the system of government in place, rather than carrying a verdict or evaluative stance."
+  },
+  "85ba7c477e8ec850e485": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "coordinated-bloc-editing",
+   "span": "swarm",
+   "confidence": 0.9,
+   "rationale": "The word 'swarm' in the text is used to describe the behavior of 'power brokers' in the context of a cover-up, but it does not refer to a coordinated bloc numerically dominating a topic area as in the method 'coordinated-bloc-editing'. The usage is metaphorical and describes a group action rather than a specific method of influence-tradecraft."
+  },
+  "86098da69095ff1e2c7b": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The word 'regime' is used in the context of 'the Obama regime,' which carries a pejorative connotation, doing the arguing that evidence should. It is used to label the Obama administration in a way that suggests it was worse or more negative than it might be described neutrally, thus fitting the definition of a pejorative-actor-label."
+  },
+  "87c587a9cc68b9035655": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' in the text is used to refer to a government or administration, such as the 'regime in Libya' or the 'regime of Bashar Assad in Syria.' It is not used as a pejorative label to argue against a particular actor without evidence. The text is describing actions taken by these regimes rather than using the label 'regime' to carry a verdict about them."
+  },
+  "8e0310af6b92de0f08cf": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "esteemed",
+   "confidence": 0.9,
+   "rationale": "The word 'esteemed' is used to pre-load the reader's trust in the academic colleagues of Ratzinger, fitting the definition of 'honorific-framing' as an honorific or credibility-conferring label applied to the favored side."
+  },
+  "8e7e475ebf7fcf5e90a1": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "coordinated-bloc-editing",
+   "span": "Gang of",
+   "confidence": 0.9,
+   "rationale": "The phrase 'Gang of Eight' in the text refers to a specific group of lawmakers and is used to describe them rather than to indicate a coordinated bloc editing a topic area. It is used in an ordinary, unrelated context and does not deploy the method of coordinated-bloc-editing."
+  },
+  "8ee912c63b0279272583": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The word 'regime' is used in the context of 'the current Iranian regime,' which carries a pejorative connotation in the text. The text uses this term to imply that the Iranian government is not a bastion of freedom, thus doing the arguing that evidence should. This aligns with the method of 'pejorative-actor-label' where an evaluative label attached to an actor does the arguing that evidence shoul"
+  },
+  "8fb5984dd97f5ff64178": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "far-right",
+   "confidence": 0.9,
+   "rationale": "The phrase 'far-right' is used in the text to describe a political tendency, and it carries a pejorative connotation in the context of the article. It is used to argue against certain political figures or movements without providing substantial evidence, fitting the definition of 'pejorative-actor-label' where an evaluative label does the arguing that evidence should."
+  },
+  "94a2ec553906335ed03c": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "hardline",
+   "confidence": 0.9,
+   "rationale": "The word 'hardline' is used to describe Syed Muzaffar Shah Qadri's preaching, implying a negative connotation without providing evidence to support the label. This usage fits the definition of a pejorative-actor-label, where the label carries the verdict rather than evidence or facts."
+  },
+  "94bbdd8aa6cb5e873059": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' appears in the text but is used in an ordinary, unrelated context without carrying an evaluative or pejorative label. It is not used to do the arguing that evidence should, and it does not carry a verdict about the actor it refers to."
+  },
+  "95f6418945d2d1ac5566": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "single-source-consensus",
+   "span": "Experts say",
+   "confidence": 0.9,
+   "rationale": "The phrase 'Experts say' is used to introduce a statement about the geographical advantage of the DRC's terrain in containing Ebola outbreaks. It does not present a consensus built from same-aligned voices without a dissenting or opposing source. The text does not provide multiple aligned voices or omit dissenting opinions to create the appearance of consensus."
+  },
+  "96e49681eca7d5806b7b": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of historical events ('secularist regimes') and not as a pejorative label to argue against a specific actor or position. It is used descriptively rather than evaluatively or pejoratively."
+  },
+  "99cf02461080192b555a": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "irreversibility-framing",
+   "span": "gradualness",
+   "confidence": 0.9,
+   "rationale": "The term 'gradualness' in the text is used to describe a process or approach rather than framing change as inevitable or irreversible. It is used in the context of a message from Pope Francis about discerning a right direction even if full fulfillment is not yet achieved, which does not imply irreversibility or inevitability of change."
+  },
+  "9acf6cd2c6098b37e8e4": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.9,
+   "rationale": "The phrase 'from within' is used in the context of describing the actions of the bishops and their complicity in the scandal, rather than indicating the author's own use of the method of 'infiltrate-existing-institutions'. The author is attributing the method to the bishops, not performing it themselves."
+  },
+  "9d29c045a925580035a4": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "penalty-without-adjudication",
+   "span": "Show Trial",
+   "confidence": 0.9,
+   "rationale": "The phrase 'San Francisco Show Trial Sequel' appears to be a title or description of an event rather than an instance of the method 'penalty-without-adjudication'. It is likely being used in its ordinary sense to describe a public or high-profile trial, not as a specific tradecraft technique of imposing a maximal penalty without formal charges or adjudication."
+  },
+  "9f041e58d28ed8e45f2d": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "penalty-without-adjudication",
+   "span": "show trial",
+   "confidence": 0.9,
+   "rationale": "The text mentions a 'show trial' in the context of Cardinal Jozsef Mindszenty's sentencing in 1949. A 'show trial' is a form of penalty imposed without formal charges, neutral adjudication, or a real appeal, fitting the description of 'penalty-without-adjudication'. The text does not describe or analyse the concept of a show trial but rather uses it as an instance of the method."
+  },
+  "a14a58eeffe5618d83ce": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.9,
+   "rationale": "The phrase 'from within' is used in the context of describing the source of the Church's sufferings, rather than as a strategy of entering and steering existing institutions. It is used to indicate the origin of the persecution and sin, not as a method of gradualist capture-and-permeation."
+  },
+  "a48b965b2ab27bc932f2": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "hardline",
+   "confidence": 0.9,
+   "rationale": "The word 'hardline' is used to describe a particular interpretation of the Qur’an, implying that this interpretation is negative or problematic. This usage fits the definition of a pejorative label attached to an actor (or in this case, a group of people with a certain interpretation) that does the arguing that evidence should. The context suggests that 'hardline interpretations' are presented as "
+  },
+  "a71dcd1b2204c0901543": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unsourced-assertion",
+   "span": "it goes without saying",
+   "confidence": 0.9,
+   "rationale": "The phrase 'it goes without saying' is used by Victoria Toensing in the context of making a contested claim about the national security compromise of giving the Russians control of uranium, without providing a source for this claim. This aligns with the method of 'unsourced-assertion' where a contested claim is presented with rhetorical certainty instead of a source."
+  },
+  "a87abeed8e8c2de95668": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "anonymous-authority",
+   "span": "unaccountable",
+   "confidence": 0.9,
+   "rationale": "The word 'unaccountable' appears in the text but is used in the context of describing the progressive narrative and its impact on the judicial process, rather than in the context of 'anonymous-authority' as defined by the method marker. The usage is ordinary and unrelated to the specific method of anonymous or pseudonymous actors holding decisive editorial/enforcement power."
+  },
+  "ac5cea62ecdbcf9bbd55": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in a neutral context to refer to the current government of Iran. It is not used as a pejorative label to do the arguing that evidence should. The text uses 'regime' to describe the political-militant organization MEK's goal of overthrowing the current Iranian regime, without using the label in a way that carries a verdict or does the arguing for evidence."
+  },
+  "ad5c9a0b8558b83c9365": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The word 'regime' is used in the context of describing Pope Francis's leadership as a 'Dictator Pope' and a 'regime whose only defense is not truth but raw power.' This usage suggests a pejorative label attached to the actor (Pope Francis) to convey a negative judgment rather than presenting evidence or facts. The term 'regime' here carries a negative connotation, implying a repressive or authorit"
+  },
+  "aeedc925d8779cc0a9bd": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "highly respected",
+   "confidence": 0.9,
+   "rationale": "The phrase 'highly respected' is used in the context of describing the members of society involved in the alleged incident, which fits the definition of 'honorific-framing' as it pre-loads the reader's trust towards the favored side (the 'highly respected and high-ranking members of society in Washington')."
+  },
+  "b2bfbb5ddc43031181f4": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' in the text is used in a neutral context to refer to a system of government or administration, not as a pejorative label to argue a point without evidence. It is used in the phrase 'regime change' which is a common political term, not as an evaluative or pejorative label to carry a verdict."
+  },
+  "b367b70b70d9c264a1cb": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "anonymous-authority",
+   "span": "unaccountable",
+   "confidence": 0.9,
+   "rationale": "The word 'unaccountable' in the text is used to describe the state of Deep State operatives in the Trump administration, rather than to denote an instance of 'anonymous-authority' where decisive editorial/enforcement power is held by anonymous or pseudonymous actors. The usage is ordinary and unrelated to the method described."
+  },
+  "b3790cc45420db68652d": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.9,
+   "rationale": "The term 'Regime' is used in the context of 'Obama Regime Administrative Amnesty' to convey a negative connotation, implying that the administrative actions taken by the Obama administration were part of a broader, pejorative political agenda rather than neutral policy decisions. This usage suggests that the label 'Regime' carries a negative evaluation and does the arguing that evidence should, fi"
+  },
+  "b384e4d937dbeeeabc1c": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "define-crisis-claim-authority",
+   "span": "existential",
+   "confidence": 0.9,
+   "rationale": "The word 'existential' is used to describe Archbishop Marty's views and does not function as part of declaring an emergency or claiming exclusive authority to manage it. It is used in an ordinary unrelated context."
+  },
+  "b3d92f825872c8e95a16": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.8,
+   "rationale": "The term 'regime' is used in the context of describing Putin's Russia as a 'bad actor, hostile regime,' which carries a pejorative connotation. This usage fits the definition of a pejorative label attached to an actor that does the arguing that evidence should, rather than just presenting the evidence itself. The label 'regime' here carries a negative connotation and is used to argue a point about"
+  },
+  "b3e1b9001dca51f14327": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the text to refer to a system of government or rule, not as a pejorative label attached to an actor. It is used neutrally and does not carry the weight of an evaluative or pejorative label doing the arguing that evidence should."
+  },
+  "b448a9f266fecfa890cd": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The term 'regime' is used in the context of 'apartheid Israeli regime' to convey a pejorative evaluation of the Israeli government, doing the arguing that evidence should. It is not used neutrally but rather to carry a negative connotation, fitting the definition of a pejorative-actor-label."
+  },
+  "b4e01191a75c90d610bb": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.8,
+   "rationale": "The term 'Regime' is used evaluatively to refer to the government of Iran, carrying a pejorative connotation that does the arguing that evidence should. This usage fits the definition of 'pejorative-actor-label' where the label carries the verdict rather than evidence or facts."
+  },
+  "b7689790077dd031f71a": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "state-corp-ip-edits",
+   "span": "traced to",
+   "confidence": 0.9,
+   "rationale": "The phrase 'traced to' in the context of the text is used to indicate a causal relationship or origin, rather than to denote an edit to an organization's own topics traced to that organization's IP ranges. It is used in a general sense to suggest that the Pope's mention of McCarrick could have come from McCarrick himself, not in the specific sense of the method 'state-corp-ip-edits'."
+  },
+  "ba7721ba6a7e1884463b": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "mind-reading",
+   "span": "in an attempt to",
+   "confidence": 0.9,
+   "rationale": "The phrase 'in an attempt to' is used in the text to describe the actions of security guards tasked with following safety procedures. It is used in an ordinary context to explain their purpose and does not assert a private motive, intent, or belief as fact without evidence, which is the essence of 'mind-reading'."
+  },
+  "bf5357d806c89a485f46": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the text to refer to the government of a country (e.g., 'the Baghdad regime of Haider al-Abadi') rather than as a pejorative label doing the arguing that evidence should. It is used neutrally and does not carry a negative connotation that would indicate it is doing the arguing instead of evidence."
+  },
+  "c60521db4293ecbfb14e": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "acclaimed",
+   "confidence": 0.9,
+   "rationale": "The word 'acclaimed' is used to pre-load the reader's trust in Father James Martin, S.J., by presenting him as someone who is well-regarded by other influential figures mentioned in the text. This fits the definition of 'honorific-framing' as it confers credibility and trust on the favored side."
+  },
+  "c86a378cc602ba1a230f": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "declined-to-comment",
+   "span": "did not immediately respond",
+   "confidence": 0.9,
+   "rationale": "The phrase 'did not immediately respond' is used in the context of reporting that China's foreign ministry and national health commission did not provide an immediate response to questions about the findings. This usage is consistent with the method of 'refusal_as_closure' where a one-line 'declined to comment' is used to close out the other side rather than to report a genuine attempt to reach th"
+  },
+  "cbaba0db4d6d3064dddd": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the context of 'be rid of the regime resting on top of all of us,' which implies a pejorative evaluation of the political establishment. This usage suggests that the label 'regime' is doing the arguing, carrying a negative connotation rather than just stating a fact."
+  },
+  "cdb49131c3b299da6688": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unsourced-assertion",
+   "span": "Make no mistake",
+   "confidence": 0.8,
+   "rationale": "The phrase 'Make no mistake' is used in the text to assert a claim ('A deal is about to be made') with rhetorical certainty without providing a source or evidence, fitting the definition of 'unsourced-assertion'."
+  },
+  "cfe4ba331bf537cc1d06": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unsourced-assertion",
+   "span": "It goes without saying",
+   "confidence": 0.9,
+   "rationale": "The phrase 'It goes without saying' is used to assert a claim ('that this retraction and surrender by Facebook occurred only because of the wide publicity that Jamie's banning had received') without providing a source for this claim. This aligns with the method of 'unsourced-assertion' where a contested claim is presented with rhetorical certainty instead of a source."
+  },
+  "d1e2e7ebf0f7b937c14e": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "extremist",
+   "confidence": 0.9,
+   "rationale": "The text uses the term 'extremist' in a way that carries a negative connotation and does the arguing that evidence should. Specifically, it refers to 'right-wing Islamophobes' as 'violent extremists,' implying that they are a threat to American security. This usage fits the definition of a pejorative-actor-label where the label carries the verdict rather than evidence or facts."
+  },
+  "d41ad7676461e5718289": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in the text to refer to the government of North Korea or the United States, but it is not used as a pejorative label to do the arguing that evidence should. It is used neutrally to describe the political system or government in place, rather than carrying a negative connotation that would indicate loaded language or a pejorative label."
+  },
+  "d70ee6c160ddd1e78ec0": {
+   "verdict": "genuine",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "choice-architecture",
+   "span": "nudge",
+   "confidence": 0.9,
+   "rationale": "The text uses 'nudge-nudge-wink-wink' to describe a conspiratorial gesture, which aligns with the method of steering behavior by arranging options or engineering the felt environment. The phrase is used to indicate a subtle, implied message being conveyed, which fits the 'choice-architecture' method."
+  },
+  "d8c42210653d436c7bab": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "hardline",
+   "confidence": 0.9,
+   "rationale": "The word 'hardline' is used to describe Syed Muzaffar Shah Qadri's preaching, and it carries a pejorative connotation, doing the arguing that evidence should. This aligns with the definition of 'pejorative-actor-label' where an evaluative or pejorative label attached to one actor does the arguing that evidence should."
+  },
+  "da59621cc082d8b93892": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "hardline",
+   "confidence": 0.9,
+   "rationale": "The term 'hardliners' is used to describe a group of people who are presented as having a particular stance on immigration. This usage fits the definition of a 'pejorative-actor-label' as it attaches an evaluative label to a group of actors, doing the arguing that evidence should. The term 'hardliners' carries a negative connotation and does the arguing that facts should, thus it is an instance of"
+  },
+  "da9a9d43b929de9b4376": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "state-corp-ip-edits",
+   "span": "edited from",
+   "confidence": 0.9,
+   "rationale": "The phrase 'edited from' in this context refers to the modification of a packet of assignments from a full version of a world religions workbook. It does not indicate edits to an organization's own topics traced to that organization's IP ranges, which is the definition of 'state-corp-ip-edits'. The usage here is ordinary and unrelated to the method being described."
+  },
+  "dfd8e02f141fdfdd2915": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "detection": "astroturf",
+   "span": "coalition for",
+   "confidence": 0.9,
+   "rationale": "The phrase 'coalition for' is used in the text to refer to a group of entities or individuals working together for a common cause, but it is not used in the context of describing an 'astroturf' operation. The text does not mention any funded operation wearing an independent or grassroots costume. The author is describing geopolitical events and actions taken by various actors such as Obama, Iran, "
+  },
+  "e1521d9e0e90f45cbd43": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "extremist",
+   "confidence": 0.9,
+   "rationale": "The word 'extremist' is used in the context of describing David Duke and his views, but it is not used as a pejorative label to argue against a specific actor. It is more of a descriptive term rather than an evaluative or pejorative label that carries the verdict. The text uses 'extremist' in a neutral manner to describe Duke's views, rather than to argue against a specific actor using a loaded te"
+  },
+  "e461ab839e379962876e": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "declined-to-comment",
+   "span": "refused to comment",
+   "confidence": 0.9,
+   "rationale": "The text reports that the Vatican 'refused to comment on the letter when approached by BBC News.' This is an instance of the method 'declined-to-comment' where a one-line refusal is used to close out the other side rather than reporting a genuine attempt to reach them. The accused's absence stands in for their answer, fitting the description of the method."
+  },
+  "e4ed33ebc410eb4cb558": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.9,
+   "rationale": "The phrase 'from within' is used in the context of describing the source of anger and complicity in the sexual abuse scandal, rather than as a strategy of entering and steering existing institutions. It is used to indicate the origin of the problems within the Church hierarchy, not as a method of gradualist capture-and-permeation."
+  },
+  "e673f5dcc009f0f9311a": {
+   "verdict": "incidental",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "regime",
+   "confidence": 0.9,
+   "rationale": "The word 'regime' is used in a neutral context to refer to the Saudi government, without carrying an evaluative or pejorative connotation that does the arguing that evidence should. It is used descriptively rather than argumentatively."
+  },
+  "ef17591b7d03ad4ff6d5": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.9,
+   "rationale": "The phrase 'from within' in the context of the text is used to describe the source of the leak of emails, rather than indicating an explicit strategy of entering and steering existing institutions. It is used in an ordinary sense to indicate the origin of the leak, not as part of a gradualist capture-and-permeation strategy."
+  },
+  "f10760be1f3a0d7cfcae": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "far-right",
+   "confidence": 0.9,
+   "rationale": "The term 'far-right' is used in the text to label Pamela Geller and Robert Spencer as evaluative labels, implying a political stance that carries a certain connotation. This usage does the arguing that evidence should, as it characterizes the actors without providing substantive evidence or context beyond the label."
+  },
+  "f17ef132bbcacf091fd1": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.9,
+   "rationale": "The word 'Regime' is used in a context where it carries a pejorative connotation, implying a negative view of the authority or government being discussed. The text uses the term 'Tyrant King George' and discusses the resistance to tyranny, suggesting that 'Regime' is used to label an actor in a negative, evaluative way rather than neutrally."
+  },
+  "f2390fd2c49673fd7e41": {
+   "verdict": "genuine",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "infiltrate-existing-institutions",
+   "span": "from within",
+   "confidence": 0.8,
+   "rationale": "The phrase 'from within' is used in the context of describing a fifth column working to tear down the walls from within, which aligns with the method of 'infiltrate-existing-institutions'. The text is not merely describing or defining the method but is using it to explain how certain individuals or groups have entered and are working within the Church to bring about change."
+  },
+  "f4fbaba7ca011a076bf2": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "Regime",
+   "confidence": 0.9,
+   "rationale": "The term 'Regime' is used here to describe the Obama administration in a way that carries a negative connotation, implying a period of governance that is unfavorable or oppressive. This usage does the arguing that evidence should, fitting the definition of a pejorative-actor-label."
+  },
+  "f5f4b22fad8136ca450b": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "honorific-framing",
+   "span": "esteemed",
+   "confidence": 0.9,
+   "rationale": "The word 'esteemed' is used to pre-load the reader's trust in the speaker, Sheikh Jihad Al-‘Ayesh, by framing him as a respected figure. This aligns with the method of 'honorific-framing' where an honorific or credibility-conferring label is applied to the favored side to pre-load the reader's trust."
+  },
+  "f80b5bcf98371e2a9331": {
+   "verdict": "incidental",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "canvassing-mobilization",
+   "span": "canvassing",
+   "confidence": 0.9,
+   "rationale": "The word 'canvassing' appears in the context of describing election procedures and reporting on election results, not as part of an off-platform mobilization or coordination effort. It is used in the sense of the official election process, not as a method of mobilizing an off-platform audience to swing an internal consensus."
+  },
+  "fa840bfeba58b7387cb9": {
+   "verdict": "incidental",
+   "lens": "institutional_permeation",
+   "mode": "instance",
+   "detection": "choice-architecture",
+   "span": "hard-hitting",
+   "confidence": 0.9,
+   "rationale": "The term 'hard-hitting' is used here to describe the nature of a report or piece of journalism, but it does not function as a choice-architecture method that steers behavior by arranging options or engineering the felt environment. It is used descriptively to indicate the impact or significance of the report rather than as a technique to influence behavior."
+  },
+  "fb83c8aab7e15cc688c1": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "unanswered-accusation",
+   "span": "was condemned by",
+   "confidence": 0.8,
+   "rationale": "The phrase 'was condemned by' is used in the context of describing a historical fact where the Popes condemned the Alta Vendita and Freemasonry. This usage fits the method of 'unanswered-accusation' as it presents an accusation (condemnation) without providing a response or rebuttal from the accused parties."
+  },
+  "fdbad1d47bcbf8d108d3": {
+   "verdict": "genuine",
+   "lens": "sourcing_asymmetry",
+   "mode": "instance",
+   "detection": "pejorative-actor-label",
+   "span": "far-right",
+   "confidence": 0.8,
+   "rationale": "The term 'far-right' is used as a pejorative label to describe Laura Loomer, indicating a negative evaluation of her political stance. This label does the arguing that evidence should, carrying a negative connotation rather than being a neutral descriptor."
+  },
+  "ff68d851265a3b366f3b": {
+   "verdict": "genuine",
+   "lens": "reference_capture",
+   "mode": "instance",
+   "detection": "anonymous-authority",
+   "span": "pseudonymous",
+   "confidence": 0.9,
+   "rationale": "The text uses 'pseudonymous' in the context of describing a pseudonymous author, Marcantonio Colonna, who writes about the pope's patronage of morally weak individuals. This usage is indicative of the 'anonymous-authority' method, where decisive editorial/enforcement power is held by anonymous or pseudonymous actors. The text does not describe, define, analyze, or criticize the method but rather d"
+  }
+ }
+}

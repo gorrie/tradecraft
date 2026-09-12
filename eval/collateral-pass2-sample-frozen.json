@@ -1,0 +1,219 @@
+{
+ "frozen_at": "2026-09-07 (first run; sha of texts.jsonl 685322306849adc5)",
+ "seed": 20260907,
+ "sample_n": 40,
+ "pool": 288,
+ "rare_lens_hits": 2,
+ "rows": [
+  {
+   "n": 1,
+   "how": "sampled",
+   "key": "EU Code of Practice on Disinformation (DSA)|EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct|institutional_permeation|intermediary-laundering|834|847"
+  },
+  {
+   "n": 2,
+   "how": "sampled",
+   "key": "Election Integrity Partnership (EIP)|Election Integrity Partnership (EIP)|https://www.eipartnership.net/report|institutional_permeation|intermediary-laundering|1793|1806"
+  },
+  {
+   "n": 3,
+   "how": "sampled",
+   "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/|institutional_permeation|intermediary-laundering|6344|6357"
+  },
+  {
+   "n": 4,
+   "how": "sampled",
+   "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/|institutional_permeation|intermediary-laundering|2424|2437"
+  },
+  {
+   "n": 5,
+   "how": "sampled",
+   "key": "Frontier Model Forum (FMF)|Frontier Model Forum (FMF)|https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/|institutional_permeation|intermediary-laundering|9261|9274"
+  },
+  {
+   "n": 6,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm|subculture_register|marxist-situationist-tells|13462|13473"
+  },
+  {
+   "n": 7,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm|subculture_register|marxist-situationist-tells|75286|75297"
+  },
+  {
+   "n": 8,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|26890|26901"
+  },
+  {
+   "n": 9,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|30925|30936"
+  },
+  {
+   "n": 10,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|38650|38661"
+  },
+  {
+   "n": 11,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|41820|41831"
+  },
+  {
+   "n": 12,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|42919|42930"
+  },
+  {
+   "n": 13,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm|subculture_register|marxist-situationist-tells|43013|43024"
+  },
+  {
+   "n": 14,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm|subculture_register|marxist-situationist-tells|34976|34987"
+  },
+  {
+   "n": 15,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm|subculture_register|marxist-situationist-tells|44513|44527"
+  },
+  {
+   "n": 16,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|1305|1316"
+  },
+  {
+   "n": 17,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|4757|4768"
+  },
+  {
+   "n": 18,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|7534|7548"
+  },
+  {
+   "n": 19,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|8085|8096"
+  },
+  {
+   "n": 20,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|9518|9529"
+  },
+  {
+   "n": 21,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|tankie-tells|9798|9818"
+  },
+  {
+   "n": 22,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|12996|13007"
+  },
+  {
+   "n": 23,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|14300|14311"
+  },
+  {
+   "n": 24,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|18011|18022"
+  },
+  {
+   "n": 25,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|20951|20962"
+  },
+  {
+   "n": 26,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm|subculture_register|marxist-situationist-tells|22326|22337"
+  },
+  {
+   "n": 27,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|6116|6127"
+  },
+  {
+   "n": 28,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|24178|24198"
+  },
+  {
+   "n": 29,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|29017|29028"
+  },
+  {
+   "n": 30,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|39079|39090"
+  },
+  {
+   "n": 31,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|79207|79227"
+  },
+  {
+   "n": 32,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|80065|80085"
+  },
+  {
+   "n": 33,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|83514|83525"
+  },
+  {
+   "n": 34,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|marxist-situationist-tells|87060|87071"
+  },
+  {
+   "n": 35,
+   "how": "sampled",
+   "key": "Leninist democratic centralism|Leninist democratic centralism|https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm|subculture_register|tankie-tells|94662|94682"
+  },
+  {
+   "n": 36,
+   "how": "sampled",
+   "key": "New Left (long march through the institutions)|New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html|reference_capture|faction-selective-tolerance|44639|44659"
+  },
+  {
+   "n": 37,
+   "how": "sampled",
+   "key": "Soviet Communist Party (wooden language)|Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm|subculture_register|marxist-situationist-tells|37820|37834"
+  },
+  {
+   "n": 38,
+   "how": "sampled",
+   "key": "Soviet Communist Party (wooden language)|Soviet Communist Party (wooden language)|https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm|subculture_register|marxist-situationist-tells|38718|38737"
+  },
+  {
+   "n": 39,
+   "how": "sampled",
+   "key": "Stanford Internet Observatory|SIO|https://www.eipartnership.net/report|institutional_permeation|intermediary-laundering|9678|9691"
+  },
+  {
+   "n": 40,
+   "how": "sampled",
+   "key": "Wikipedia (English)|Wikipedia (English)|https://en.wikipedia.org/wiki/WikiScanner|reference_capture|state-corp-ip-edits|8791|8801"
+  },
+  {
+   "n": 41,
+   "how": "rare-lens: every hit read",
+   "key": "EU Code of Practice on Disinformation (DSA)|EU Code of Practice on Disinformation (DSA)|https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation|distributed_accountability|authority-to-define-true|5081|5102"
+  },
+  {
+   "n": 42,
+   "how": "rare-lens: every hit read",
+   "key": "New Left (long march through the institutions)|New Left (long march through the institutions)|https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html|counterproductivity|institution-as-obstacle|59051|59068"
+  }
+ ]
+}

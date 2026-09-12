@@ -1,0 +1,64 @@
+  {{/* The page's one rule, tested against the capture ledger rather than asserted.
+       Every record there carries the METHOD marker that fired AND the ACTOR FAMILY that
+       ran it, so cross-tabulating the two is the check a reader was never offered.
+       Built by tools/gen-crosstab.py and gated by crosstab-export.
+
+       Site-only: the standalone demo has no Hugo and no ledger. This partial was dropped
+       by the 2026-09-06 re-split (8224b36), which left crosstab.json consumed by nothing
+       and the page carrying less than its predecessor. Restored 2026-09-07 and kept as a
+       source file of the splitter so it cannot be dropped silently again. */}}
+  {{ $x := os.ReadFile "static/tech/tradecraft/crosstab.json" | transform.Unmarshal }}
+  <p class="tc-xt-xref">The same claim, tested a second way and against an outside framework: <a href="/tech/the-rosetta/">The Rosetta</a> puts all 102 markers beside DISARM&rsquo;s 71 influence-operations techniques and reports what does <em>not</em> line up.</p>
+
+  <section class="tc-xt">
+    <h2>&ldquo;Method, not ideology&rdquo; &mdash; checked</h2>
+    <p class="tc-xt-sub">{{ $x._meta.headline }}</p>
+    <p class="tc-xt-lim"><b>What this is not.</b> {{ $x._meta.limit }}</p>
+
+    <div class="tc-xt-stat">
+      <div><b>{{ $x._meta.n_institutions }}</b>institutions</div>
+      <div><b>{{ $x._meta.n_records }}</b>receipted records</div>
+      <div><b>{{ $x._meta.n_markers }}</b>method markers</div>
+      <div><b>{{ $x._meta.n_families }}</b>actor families</div>
+    </div>
+
+    <table class="tc-xt-tbl">
+      <thead><tr><th>marker</th><th>families</th><th>records</th><th>who ran it</th></tr></thead>
+      <tbody>
+        {{ range $x.markers }}
+        <tr{{ if .single_family }} class="tc-xt-thin"{{ end }}>
+          <td><code>{{ .marker }}</code></td>
+          <td class="tc-xt-fam">{{ .n_families }}</td>
+          <td>{{ .n_records }}</td>
+          <td class="tc-xt-who">{{ range $i, $f := .families }}{{ if $i }} <span>&middot;</span> {{ end }}{{ $f }}{{ end }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    <p class="tc-xt-foot">
+      Rows in grey appear against a single actor family. This corpus shows nothing about
+      those either way, and they are listed rather than dropped &mdash; a table that showed
+      only the travelling markers would be the assertion again with a chart attached.
+      {{ $x._meta.n_markers_single_family }} of {{ $x._meta.n_markers }} are in that state.
+    </p>
+
+    <details class="tc-xt-det">
+      <summary>The actor families, and one worked example per family for the two commonest markers</summary>
+      <ul class="tc-xt-actors">
+        {{ range $id, $desc := $x.actors }}<li><code>{{ $id }}</code> {{ $desc }}</li>{{ end }}
+      </ul>
+      {{ range first 2 $x.markers }}
+      <h3 class="tc-xt-mh"><code>{{ .marker }}</code> &mdash; {{ .n_families }} families</h3>
+      <ul class="tc-xt-ex">
+        {{ range .examples }}
+        <li>
+          <b>{{ .institution }}</b> <span class="tc-xt-tag">{{ .actor }}</span>
+          <span class="tc-xt-tag">{{ .role }}</span>
+          <span class="tc-xt-span">{{ .span }}</span>
+          {{ with .receipt }}<a href="{{ . }}" rel="noopener" target="_blank">receipt</a>{{ end }}
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </details>
+  </section>

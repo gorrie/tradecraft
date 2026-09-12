@@ -3,13 +3,13 @@
     "title": "Research Entities — OSINT entity/relationship dataset (Maltego-style link layer)",
     "description": "Entity/relationship graph extracted from six research dossiers (The Ratchet + The Hidden Fire). Schema is a superset of the revolving-door graph.js model, adding entity 'type', 'topics' tags, and TYPED edges. Entities flagged 'existing_in_revolving_door': true reuse the exact id from static/tech/revolving-door/graph.js so the two graphs merge without duplication. Every entity and every edge carries at least one source URL drawn verbatim from the dossiers.",
     "source_dossiers": [
-      "books/manuscript/research-western-demographic-transformation.md",
-      "books/manuscript/research-ratchet-operators.md",
-      "books/manuscript/research-fiscal-ratchets.md",
-      "books/manuscript/research-manufacturing-belief.md",
-      "books/manuscript/research-institutional-knowledge-capture.md",
+      "books/(internal research source)",
+      "books/(internal research source)",
+      "books/(internal research source)",
+      "books/(internal research source)",
+      "books/(internal research source)",
       "books/the-hidden-fire/research-occult-science-paperclip.md",
-      "research/research-watching-the-watchers.md",
+      "the internal research corpus/research-watching-the-watchers.md",
       "research-watching-the-watchers.md (funding/eval cross-tab, 2026-06-29)"
     ],
     "topic_vocabulary": [

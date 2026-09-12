@@ -1,359 +1,1034 @@
 [
- {
-  "id": "inst_lippmann_real",
-  "lens": "institutional_permeation",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "manufactured_consent",
-   "captured_neutral"
-  ],
-  "source": "Walter Lippmann, Public Opinion (1922), ch. XV — public domain, verbatim.",
-  "note": "REAL public-domain text — NOT a gold seed; tests generalization.",
-  "text": "That the manufacture of consent is capable of great refinements no one, I think, denies. The process by which public opinions arise is certainly no less intricate than it has appeared in these pages, and the opportunities for manipulation open to anyone who understands the process are plain enough. The creation of consent is not a new art. It is a very old one which was supposed to have died out with the appearance of democracy. But it has not died out. It has, in fact, improved enormously in technic, because it is now based on analysis rather than on rule of thumb."
- },
- {
-  "id": "inst_permeation_probe",
-  "lens": "institutional_permeation",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "gradualism",
-   "permeation"
-  ],
-  "note": "On-pattern probe (not a gold quote).",
-  "text": "We do not waste our strength contesting elections we cannot win. We place our people inside the agencies, the faculties, and the courts, and we wait; the work is the patient work of decades. What we secure we secure permanently, because an institution captured quietly from within never has to be captured again, and the change, once made, does not run backward."
- },
- {
-  "id": "adept_probe",
-  "lens": "adept_speech",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "secret_knowledge",
-   "teleological_work",
-   "deliberate_incompleteness",
-   "initiatory_address",
-   "apophatic_framing"
-  ],
-  "note": "On-pattern initiatory-register probe.",
-  "text": "I can only point; the rest is for those with eyes to see. What we pursue is not a career but the Great Work, and it cannot be taught, only transmitted from one who knows to one who is ready. If you are called, you already feel it. The tradition holds what words cannot, and I cannot say more here — you are not yet prepared to receive it."
- },
- {
-  "id": "cog_probe",
-  "lens": "cognitive_capture",
-  "should_fire": true,
-  "min_backend": "llm",
-  "expect_any": [
-   "personalized_persuasion",
-   "engagement_steering",
-   "latent_persuasion",
-   "sycophancy"
-  ],
-  "note": "On-pattern AI-product-copy probe (paraphrased — exercises the LLM read, not the literal cue floor).",
-  "text": "Our assistant learns what moves each individual user and tailors every reply to their profile, so the message lands the way it should. It remembers everything they have ever told it and surfaces the next thing before they think to ask. Engagement is up across the board because the feed has gotten very good at giving people whatever keeps them watching, whether or not it is what they said they wanted."
- },
- {
-  "id": "cog_cue_probe",
-  "lens": "cognitive_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "personalized_persuasion",
-   "engagement_steering",
-   "latent_persuasion",
-   "companion_capture"
-  ],
-  "note": "Cue-saturated probe — exercises the deterministic cues floor for this lens.",
-  "text": "The pitch deck is blunt: microtargeted, psychographic messaging tailored to you, designed to maximize engagement and watch time by amplifying out-group outrage. The writing assistant nudges the default phrasing through autocomplete and smart reply. The companion product is the moat — it is always there for you, it remembers, it bonds. RLHF preference tuning keeps it agreeable so user satisfaction never dips."
- },
- {
-  "id": "legibility_scott_paraphrase",
-  "lens": "legibility",
-  "should_fire": true,
-  "min_backend": "llm",
-  "expect_any": [
-   "legibility_imperative",
-   "high_modernist_confidence",
-   "standardization_grid"
-  ],
-  "source": "On-pattern paraphrase of James C. Scott, Seeing Like a State (1998) — NOT a verbatim quote.",
-  "note": "Tests generalization on the legibility-as-control thesis without a literal cue.",
-  "text": "The state could not tax, conscript, or govern what it could not see. So it set out to make the society beneath it readable from the center: surnames fixed to persons, land surveyed into uniform parcels, weights and measures forced into a single standard, the tangled local world rebuilt into something a clerk in the capital could take in at a glance and administer from a distance."
- },
- {
-  "id": "legibility_cue_probe",
-  "lens": "legibility",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "legibility_imperative",
-   "standardization_grid",
-   "metric_as_reality",
-   "mandatory_identification"
-  ],
-  "note": "Cue-saturated probe — exercises the cues floor for legibility.",
-  "text": "The mandate is to make the whole system legible: bring every transaction into view, shine a light on the dark corners, standardize onto one common format so it is interoperable end to end. What gets measured gets managed, so optimize the number and run it from the dashboard. Verified identity is required — prove who you are, no anonymity, digital ID at every door. This is evidence-based administration, rationally designed by the experts from first principles."
- },
- {
-  "id": "counterprod_illich_paraphrase",
-  "lens": "counterproductivity",
-  "should_fire": true,
-  "min_backend": "llm",
-  "expect_any": [
-   "iatrogenic_reversal",
-   "disabling_professionalization",
-   "radical_monopoly"
-  ],
-  "source": "On-pattern paraphrase of Ivan Illich, Medical Nemesis / Tools for Conviviality — NOT a verbatim quote.",
-  "note": "Tests generalization on the iatrogenesis / disabling-professions thesis.",
-  "text": "Past a certain scale the institution built to heal begins to sicken the people it treats: the treatment itself becomes a leading cause of the suffering, and the more care is delivered the worse the outcomes get. Worse, it strips ordinary people of the competence to care for themselves and one another, until they can no longer act without a licensed professional's permission, and the monopoly is complete."
- },
- {
-  "id": "counterprod_cue_probe",
-  "lens": "counterproductivity",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "iatrogenic_reversal",
-   "radical_monopoly",
-   "counterproductivity_threshold",
-   "disabling_professionalization",
-   "purpose_inversion"
-  ],
-  "note": "Cue-saturated probe — exercises the cues floor for counterproductivity.",
-  "text": "It is iatrogenic by now: the safety measure made it less safe, the cure became the disease, the fix created a worse problem. Beyond a certain threshold you hit diminishing returns and then negative returns — more is worse. It is a radical monopoly: participation is mandatory, there is no alternative, you cannot do it yourself, only a licensed expert may. And the agency is self-perpetuating, expanding to justify itself; the mission is now the budget."
- },
- {
-  "id": "distacct_cue_probe",
-  "lens": "distributed_accountability",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "nobody_decides",
-   "jurisdiction_over_truth",
-   "moralized_dissent",
-   "unfalsifiable_consensus"
-  ],
-  "note": "Cue-saturated probe — exercises the cues floor for distributed_accountability.",
-  "text": "Nobody decided, exactly: the algorithm decided, the system flagged it, the account was actioned automatically per policy — it is out of our hands. The post was removed as misinformation that contradicts the authoritative source; trust the science. To question it is to be a denialist, on the wrong side of history, causing real harm. The debate is over anyway. The experts agree, the consensus is clear, and it is not up for debate."
- },
- {
-  "id": "distacct_paraphrase",
-  "lens": "distributed_accountability",
-  "should_fire": true,
-  "min_backend": "llm",
-  "expect_any": [
-   "nobody_decides",
-   "moralized_dissent",
-   "unfalsifiable_consensus"
-  ],
-  "source": "On-pattern paraphrase of the 'the crowd' / diffuse-responsibility thesis (Kierkegaard, Arendt) — NOT a quote.",
-  "note": "Tests generalization on diffuse agency without literal cues.",
-  "text": "No single person ordered it and no single person could have stopped it. Each clerk simply applied the rule in front of them, each reviewer deferred to the tier above, and the responsibility dissolved across the whole apparatus until it belonged to no one at all. To object was treated not as a disagreement but as a moral failing, the mark of someone who had not yet understood what everyone sensible already accepted."
- },
- {
-  "id": "inev_thatcher_real",
-  "lens": "inevitability_framing",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "tina"
-  ],
-  "source": "Margaret Thatcher's recurring formulation, 'There is no alternative' (TINA), c. 1980 — widely documented.",
-  "note": "REAL formulation; the canonical inevitability slogan.",
-  "text": "There is no alternative. We have to face the world as it is. People talk endlessly as if there were some easy other road, some painless option we have wickedly refused to take, but there is not, and there never was. There is no alternative."
- },
- {
-  "id": "inev_cue_probe",
-  "lens": "inevitability_framing",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "tina",
-   "history_verdict",
-   "adapt_or_die"
-  ],
-  "note": "Cue-saturated probe — exercises the cues floor for inevitability_framing.",
-  "text": "Let us be honest: there is no alternative, this is the only way forward, and it cannot be stopped. You can be on the right side of history or the wrong side of history, but the arc of history is already decided and those who resist will be left behind. The choice is simple — adapt or die. Get on board or be made obsolete, left in the dust."
- },
- {
-  "id": "inev_techno_paraphrase",
-  "lens": "inevitability_framing",
-  "should_fire": true,
-  "min_backend": "llm",
-  "expect_any": [
-   "tina",
-   "adapt_or_die",
-   "history_verdict"
-  ],
-  "source": "On-pattern paraphrase of techno-inevitability rhetoric — NOT a quote.",
-  "note": "Tests generalization on inevitability framing in a tech register.",
-  "text": "This technology is coming whether you like it or not. Trying to slow it down is not just futile, it is a kind of self-harm: the countries and companies that hesitate will simply be overtaken by the ones that did not. You can stand at the shoreline and command the tide to stop, or you can learn to surf. There is really only one serious response, and everyone who matters already knows what it is."
- },
- {
-  "id": "neg_recipe",
-  "lens": "institutional_permeation",
-  "should_fire": false,
-  "note": "Negative control — benign domestic text; should fire ~nothing.",
-  "text": "Preheat the oven to 375 degrees. Cream the butter and sugar together until light and fluffy, then beat in the eggs one at a time. Fold in the flour and baking soda, drop rounded spoonfuls onto a lined sheet, and bake for about twelve minutes, until the edges are just golden. Let them cool on the tray for a few minutes before moving them."
- },
- {
-  "id": "neg_factual",
-  "lens": "cognitive_capture",
-  "should_fire": false,
-  "note": "Negative control — neutral science exposition.",
-  "text": "Photosynthesis converts light energy into chemical energy stored in glucose. Chlorophyll in the chloroplasts absorbs light, water molecules are split to release electrons, and carbon dioxide is fixed into sugar through the Calvin cycle. Oxygen is produced as a byproduct and diffuses out of the leaf through the stomata."
- },
- {
-  "id": "neg_sports",
-  "lens": "institutional_permeation",
-  "should_fire": false,
-  "note": "Negative control — sports recap.",
-  "text": "The home side scored twice in the opening half and held on through a tense second period. The goalkeeper made nine saves, several of them point-blank, and the manager praised the team's discipline and work rate after the final whistle. They move three points clear at the top of the table with four matches to play."
- },
- {
-  "id": "neg_legibility_control",
-  "lens": "legibility",
-  "should_fire": false,
-  "note": "Negative control for legibility — a plain weather report (uses no control vocabulary).",
-  "text": "A ridge of high pressure will keep things settled through the weekend, with light winds and clear skies overnight. Temperatures climb into the low seventies by midafternoon before cooling quickly after sunset. A weak front arrives Monday, bringing a chance of scattered showers and a return to seasonal averages by midweek."
- },
- {
-  "id": "neg_counterprod_control",
-  "lens": "counterproductivity",
-  "should_fire": false,
-  "note": "Negative control for counterproductivity — a neutral product description.",
-  "text": "The kettle holds 1.7 liters and reaches a boil in about three minutes. The base is cordless, so the carafe lifts off for easy pouring, and an automatic shutoff triggers once the water reaches temperature or if the kettle is empty. The exterior stays cool to the touch, and the lid opens with a single button near the handle."
- },
- {
-  "id": "inev_andreessen_real",
-  "lens": "inevitability_framing",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "tina",
-   "adapt_or_die",
-   "history_verdict"
-  ],
-  "source": "Marc Andreessen, 'The Techno-Optimist Manifesto', a16z.com, 16 Oct 2023 — verbatim.",
-  "note": "REAL known-faction text (accelerationist / e-acc). Does the tool flag the canonical accelerationist's inevitability framing?",
-  "text": "We believe any deceleration of AI will cost lives. Deaths that were preventable by the AI that was prevented from existing is a form of murder. We believe in accelerationism: the conscious and deliberate propulsion of technological development. We believe the only way to be on the right side of history is to build."
- },
- {
-  "id": "inst_fabian_webb_real",
-  "lens": "institutional_permeation",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "gradualism",
-   "manufactured_consent",
-   "captured_neutral"
-  ],
-  "source": "Sidney Webb, Labour Party presidential address, 26 June 1923 — verbatim ('inevitable gradualness').",
-  "note": "REAL known-faction text (Fabian gradualist). Tests detection of the gradualness/permeation doctrine in the original.",
-  "text": "Let me insist upon what our opponents habitually ignore, and indeed what they seem intellectually incapable of understanding, namely the inevitable gradualness of our scheme of change. The progress of permeation is slow, but it is sure: we work from within, through the existing institutions, until the new order arrives without a single dramatic break."
- },
- {
-  "id": "ref_maher_clearinghouse_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "state_moderation_coordination"
-  ],
-  "source": "Katherine Maher, Atlantic Council 2021 transcript (verbatim) - research-wikipedia-capture.md §5 [FACT]",
-  "note": "REAL verbatim, distinct from the gold line; tests generalization.",
-  "text": "The model was around how do we create a clearinghouse of information, essentially, in order to be able to identify threats early on, through conversations with government, of course, as well as other platform operations."
- },
- {
-  "id": "ref_wikiscanner_ip_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "institutional_ip_editing"
-  ],
-  "source": "WikiScanner (Virgil Griffith), 2007 - research-wikipedia-capture.md §6 [FACT]",
-  "note": "REAL (encyclopedic paraphrase); tests generalization off the gold seed.",
-  "text": "WikiScanner cross-referenced anonymous edits against the owners of the editing IP address ranges, and found that changes to the article on the 2003 invasion of Iraq had been traced to CIA IP addresses."
- },
- {
-  "id": "ref_bureau_sockpuppet_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "paid_covert_editing"
-  ],
-  "source": "Bureau of Investigative Journalism, Jan 2026 - research-wikipedia-capture.md §4 [FACT]",
-  "note": "REAL, distinct wording from gold; tests generalization.",
-  "text": "A network of twenty-six sockpuppet accounts, coordinated by a firm specializing in black hat editing, was eventually banned under suspicion of paid editing on behalf of clients including a Gulf state."
- },
- {
-  "id": "ref_arbcom_warroom_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "offwiki_coordination"
-  ],
-  "source": "Wikipedia ArbCom Palestine-Israel reporting, 2024-25 - research-wikipedia-capture.md §3 [FACT]",
-  "note": "REAL reporting text, distinct from gold; tests generalization.",
-  "text": "The committee found that editors had set up war rooms on a Discord channel, meeting weekly to coordinate their off-wiki editing across a contested topic area."
- },
- {
-  "id": "ref_pseudonymous_admin_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "pseudonymous_enforcement"
-  ],
-  "source": "en.wikipedia Arbitration Committee - research-wikipedia-capture.md §2 [FACT]",
-  "note": "REAL neutral-source description; tests generalization.",
-  "text": "English Wikipedia is administered by volunteer administrators who act under pseudonyms, and the Arbitration Committee that adjudicates its most serious disputes is likewise composed of pseudonymous members."
- },
- {
-  "id": "ref_authority_override_real",
-  "lens": "reference_capture",
-  "should_fire": true,
-  "min_backend": "cues",
-  "expect_any": [
-   "authority_override_ratchet"
-  ],
-  "source": "404 Media, June 2026 - research-wikipedia-capture.md §1 [FACT]",
-  "note": "REAL reporting, distinct from gold; tests generalization.",
-  "text": "The co-founder was briefly unblocked by Jimmy Wales, but the administrators reinstated the indefinite ban within hours."
- },
- {
-  "id": "ref_neg_clean_collaboration",
-  "lens": "reference_capture",
-  "should_fire": false,
-  "min_backend": "cues",
-  "expect_any": [],
-  "source": "Neutral description of ordinary collaborative editing.",
-  "note": "NEGATIVE (floor): ordinary consensus editing carries no capture cues and must stay quiet.",
-  "text": "Articles are written collaboratively by volunteers who propose changes on talk pages and resolve disagreements by citing reliable, independently published sources until a consensus is reached."
- },
- {
-  "id": "ref_neg_selfcorrection_bothsides",
-  "lens": "reference_capture",
-  "should_fire": false,
-  "min_backend": "llm",
-  "expect_any": [],
-  "source": "Steel-man: the institution's own self-correction.",
-  "note": "NEGATIVE (needs model): off-wiki coordination being SANCTIONED on both sides is the immune response, not capture. Cue-floor cannot distinguish it; the model must.",
-  "text": "After reviewing the evidence, the arbitration committee found off-wiki coordination and banned the responsible editors from both sides of the dispute, applying one standard regardless of viewpoint."
- },
- {
-  "id": "ref_neg_legit_canvassing_policy",
-  "lens": "reference_capture",
-  "should_fire": false,
-  "min_backend": "llm",
-  "expect_any": [],
-  "source": "Steel-man: the canvassing rule stated as legitimate policy.",
-  "note": "NEGATIVE (needs model): a neutral statement of WHY canvassing is discouraged is governance, not a capture action. Cue-floor fires on 'canvass'; the model must read intent.",
-  "text": "Editors are reminded not to canvass: notifying like-minded people of an ongoing discussion in order to sway its outcome undermines the consensus the process is meant to reflect."
- }
+  {
+    "id": "inst_lippmann_real",
+    "lens": "institutional_permeation",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "manufactured_consent",
+      "captured_neutral"
+    ],
+    "source": "Walter Lippmann, Public Opinion (1922), ch. XV — public domain, verbatim.",
+    "note": "REAL public-domain text — NOT a gold seed; tests generalization.",
+    "text": "That the manufacture of consent is capable of great refinements no one, I think, denies. The process by which public opinions arise is certainly no less intricate than it has appeared in these pages, and the opportunities for manipulation open to anyone who understands the process are plain enough. The creation of consent is not a new art. It is a very old one which was supposed to have died out with the appearance of democracy. But it has not died out. It has, in fact, improved enormously in technic, because it is now based on analysis rather than on rule of thumb."
+  },
+  {
+    "id": "inst_permeation_probe",
+    "lens": "institutional_permeation",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "gradualism",
+      "permeation"
+    ],
+    "note": "On-pattern probe (not a gold quote).",
+    "text": "We do not waste our strength contesting elections we cannot win. We place our people inside the agencies, the faculties, and the courts, and we wait; the work is the patient work of decades. What we secure we secure permanently, because an institution captured quietly from within never has to be captured again, and the change, once made, does not run backward."
+  },
+  {
+    "id": "adept_probe",
+    "lens": "adept_speech",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "secret_knowledge",
+      "teleological_work",
+      "deliberate_incompleteness",
+      "initiatory_address",
+      "apophatic_framing"
+    ],
+    "note": "On-pattern initiatory-register probe.",
+    "text": "I can only point; the rest is for those with eyes to see. What we pursue is not a career but the Great Work, and it cannot be taught, only transmitted from one who knows to one who is ready. If you are called, you already feel it. The tradition holds what words cannot, and I cannot say more here — you are not yet prepared to receive it."
+  },
+  {
+    "id": "cog_probe",
+    "lens": "cognitive_capture",
+    "should_fire": true,
+    "min_backend": "llm",
+    "expect_any": [
+      "personalized_persuasion",
+      "engagement_steering",
+      "latent_persuasion",
+      "sycophancy"
+    ],
+    "note": "On-pattern AI-product-copy probe (paraphrased — exercises the LLM read, not the literal cue floor).",
+    "text": "Our assistant learns what moves each individual user and tailors every reply to their profile, so the message lands the way it should. It remembers everything they have ever told it and surfaces the next thing before they think to ask. Engagement is up across the board because the feed has gotten very good at giving people whatever keeps them watching, whether or not it is what they said they wanted."
+  },
+  {
+    "id": "cog_cue_probe",
+    "lens": "cognitive_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "personalized_persuasion",
+      "engagement_steering",
+      "latent_persuasion",
+      "companion_capture"
+    ],
+    "note": "Cue-saturated probe — exercises the deterministic cues floor for this lens.",
+    "text": "The pitch deck is blunt: microtargeted, psychographic messaging tailored to you, designed to maximize engagement and watch time by amplifying out-group outrage. The writing assistant nudges the default phrasing through autocomplete and smart reply. The companion product is the moat — it is always there for you, it remembers, it bonds. RLHF preference tuning keeps it agreeable so user satisfaction never dips."
+  },
+  {
+    "id": "legibility_scott_paraphrase",
+    "lens": "legibility",
+    "should_fire": true,
+    "min_backend": "llm",
+    "expect_any": [
+      "legibility_imperative",
+      "high_modernist_confidence",
+      "standardization_grid"
+    ],
+    "source": "On-pattern paraphrase of James C. Scott, Seeing Like a State (1998) — NOT a verbatim quote.",
+    "note": "Tests generalization on the legibility-as-control thesis without a literal cue.",
+    "text": "The state could not tax, conscript, or govern what it could not see. So it set out to make the society beneath it readable from the center: surnames fixed to persons, land surveyed into uniform parcels, weights and measures forced into a single standard, the tangled local world rebuilt into something a clerk in the capital could take in at a glance and administer from a distance."
+  },
+  {
+    "id": "legibility_cue_probe",
+    "lens": "legibility",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "legibility_imperative",
+      "standardization_grid",
+      "metric_as_reality",
+      "mandatory_identification"
+    ],
+    "note": "Cue-saturated probe — exercises the cues floor for legibility.",
+    "text": "The mandate is to make the whole system legible: bring every transaction into view, shine a light on the dark corners, standardize onto one common format so it is interoperable end to end. What gets measured gets managed, so optimize the number and run it from the dashboard. Verified identity is required — prove who you are, no anonymity, digital ID at every door. This is evidence-based administration, rationally designed by the experts from first principles."
+  },
+  {
+    "id": "counterprod_illich_paraphrase",
+    "lens": "counterproductivity",
+    "should_fire": true,
+    "min_backend": "llm",
+    "expect_any": [
+      "iatrogenic_reversal",
+      "disabling_professionalization",
+      "radical_monopoly"
+    ],
+    "source": "On-pattern paraphrase of Ivan Illich, Medical Nemesis / Tools for Conviviality — NOT a verbatim quote.",
+    "note": "Tests generalization on the iatrogenesis / disabling-professions thesis.",
+    "text": "Past a certain scale the institution built to heal begins to sicken the people it treats: the treatment itself becomes a leading cause of the suffering, and the more care is delivered the worse the outcomes get. Worse, it strips ordinary people of the competence to care for themselves and one another, until they can no longer act without a licensed professional's permission, and the monopoly is complete."
+  },
+  {
+    "id": "counterprod_cue_probe",
+    "lens": "counterproductivity",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "iatrogenic_reversal",
+      "radical_monopoly",
+      "counterproductivity_threshold",
+      "disabling_professionalization",
+      "purpose_inversion"
+    ],
+    "note": "Cue-saturated probe — exercises the cues floor for counterproductivity.",
+    "text": "It is iatrogenic by now: the safety measure made it less safe, the cure became the disease, the fix created a worse problem. Beyond a certain threshold you hit diminishing returns and then negative returns — more is worse. It is a radical monopoly: participation is mandatory, there is no alternative, you cannot do it yourself, only a licensed expert may. And the agency is self-perpetuating, expanding to justify itself; the mission is now the budget."
+  },
+  {
+    "id": "distacct_cue_probe",
+    "lens": "distributed_accountability",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "nobody_decides",
+      "jurisdiction_over_truth",
+      "moralized_dissent",
+      "unfalsifiable_consensus"
+    ],
+    "note": "Cue-saturated probe — exercises the cues floor for distributed_accountability.",
+    "text": "Nobody decided, exactly: the algorithm decided, the system flagged it, the account was actioned automatically per policy — it is out of our hands. The post was removed as misinformation that contradicts the authoritative source; trust the science. To question it is to be a denialist, on the wrong side of history, causing real harm. The debate is over anyway. The experts agree, the consensus is clear, and it is not up for debate."
+  },
+  {
+    "id": "distacct_paraphrase",
+    "lens": "distributed_accountability",
+    "should_fire": true,
+    "min_backend": "llm",
+    "expect_any": [
+      "nobody_decides",
+      "moralized_dissent",
+      "unfalsifiable_consensus"
+    ],
+    "source": "On-pattern paraphrase of the 'the crowd' / diffuse-responsibility thesis (Kierkegaard, Arendt) — NOT a quote.",
+    "note": "Tests generalization on diffuse agency without literal cues.",
+    "text": "No single person ordered it and no single person could have stopped it. Each clerk simply applied the rule in front of them, each reviewer deferred to the tier above, and the responsibility dissolved across the whole apparatus until it belonged to no one at all. To object was treated not as a disagreement but as a moral failing, the mark of someone who had not yet understood what everyone sensible already accepted."
+  },
+  {
+    "id": "inev_thatcher_real",
+    "lens": "inevitability_framing",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tina"
+    ],
+    "source": "Margaret Thatcher's recurring formulation, 'There is no alternative' (TINA), c. 1980 — widely documented.",
+    "note": "REAL formulation; the canonical inevitability slogan.",
+    "text": "There is no alternative. We have to face the world as it is. People talk endlessly as if there were some easy other road, some painless option we have wickedly refused to take, but there is not, and there never was. There is no alternative."
+  },
+  {
+    "id": "inev_cue_probe",
+    "lens": "inevitability_framing",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tina",
+      "history_verdict",
+      "adapt_or_die"
+    ],
+    "note": "Cue-saturated probe — exercises the cues floor for inevitability_framing.",
+    "text": "Let us be honest: there is no alternative, this is the only way forward, and it cannot be stopped. You can be on the right side of history or the wrong side of history, but the arc of history is already decided and those who resist will be left behind. The choice is simple — adapt or die. Get on board or be made obsolete, left in the dust."
+  },
+  {
+    "id": "inev_techno_paraphrase",
+    "lens": "inevitability_framing",
+    "should_fire": true,
+    "min_backend": "llm",
+    "expect_any": [
+      "tina",
+      "adapt_or_die",
+      "history_verdict"
+    ],
+    "source": "On-pattern paraphrase of techno-inevitability rhetoric — NOT a quote.",
+    "note": "Tests generalization on inevitability framing in a tech register.",
+    "text": "This technology is coming whether you like it or not. Trying to slow it down is not just futile, it is a kind of self-harm: the countries and companies that hesitate will simply be overtaken by the ones that did not. You can stand at the shoreline and command the tide to stop, or you can learn to surf. There is really only one serious response, and everyone who matters already knows what it is."
+  },
+  {
+    "id": "neg_recipe",
+    "lens": "institutional_permeation",
+    "should_fire": false,
+    "note": "Negative control — benign domestic text; should fire ~nothing.",
+    "text": "Preheat the oven to 375 degrees. Cream the butter and sugar together until light and fluffy, then beat in the eggs one at a time. Fold in the flour and baking soda, drop rounded spoonfuls onto a lined sheet, and bake for about twelve minutes, until the edges are just golden. Let them cool on the tray for a few minutes before moving them."
+  },
+  {
+    "id": "neg_factual",
+    "lens": "cognitive_capture",
+    "should_fire": false,
+    "note": "Negative control — neutral science exposition.",
+    "text": "Photosynthesis converts light energy into chemical energy stored in glucose. Chlorophyll in the chloroplasts absorbs light, water molecules are split to release electrons, and carbon dioxide is fixed into sugar through the Calvin cycle. Oxygen is produced as a byproduct and diffuses out of the leaf through the stomata."
+  },
+  {
+    "id": "neg_sports",
+    "lens": "institutional_permeation",
+    "should_fire": false,
+    "note": "Negative control — sports recap.",
+    "text": "The home side scored twice in the opening half and held on through a tense second period. The goalkeeper made nine saves, several of them point-blank, and the manager praised the team's discipline and work rate after the final whistle. They move three points clear at the top of the table with four matches to play."
+  },
+  {
+    "id": "neg_legibility_control",
+    "lens": "legibility",
+    "should_fire": false,
+    "note": "Negative control for legibility — a plain weather report (uses no control vocabulary).",
+    "text": "A ridge of high pressure will keep things settled through the weekend, with light winds and clear skies overnight. Temperatures climb into the low seventies by midafternoon before cooling quickly after sunset. A weak front arrives Monday, bringing a chance of scattered showers and a return to seasonal averages by midweek."
+  },
+  {
+    "id": "neg_counterprod_control",
+    "lens": "counterproductivity",
+    "should_fire": false,
+    "note": "Negative control for counterproductivity — a neutral product description.",
+    "text": "The kettle holds 1.7 liters and reaches a boil in about three minutes. The base is cordless, so the carafe lifts off for easy pouring, and an automatic shutoff triggers once the water reaches temperature or if the kettle is empty. The exterior stays cool to the touch, and the lid opens with a single button near the handle."
+  },
+  {
+    "id": "inev_andreessen_real",
+    "lens": "inevitability_framing",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tina",
+      "adapt_or_die",
+      "history_verdict"
+    ],
+    "source": "Marc Andreessen, 'The Techno-Optimist Manifesto', a16z.com, 16 Oct 2023 — verbatim.",
+    "note": "REAL known-faction text (accelerationist / e-acc). Does the tool flag the canonical accelerationist's inevitability framing?",
+    "text": "We believe any deceleration of AI will cost lives. Deaths that were preventable by the AI that was prevented from existing is a form of murder. We believe in accelerationism: the conscious and deliberate propulsion of technological development. We believe the only way to be on the right side of history is to build."
+  },
+  {
+    "id": "inst_fabian_webb_real",
+    "lens": "institutional_permeation",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "gradualism",
+      "manufactured_consent",
+      "captured_neutral"
+    ],
+    "source": "Sidney Webb, Labour Party presidential address, 26 June 1923 — verbatim ('inevitable gradualness').",
+    "note": "REAL known-faction text (Fabian gradualist). Tests detection of the gradualness/permeation doctrine in the original.",
+    "text": "Let me insist upon what our opponents habitually ignore, and indeed what they seem intellectually incapable of understanding, namely the inevitable gradualness of our scheme of change. The progress of permeation is slow, but it is sure: we work from within, through the existing institutions, until the new order arrives without a single dramatic break."
+  },
+  {
+    "id": "ref_maher_clearinghouse_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "state_moderation_coordination"
+    ],
+    "source": "Katherine Maher, Atlantic Council 2021 transcript (verbatim) - research-wikipedia-capture.md §5 [FACT]",
+    "note": "REAL verbatim, distinct from the gold line; tests generalization.",
+    "text": "The model was around how do we create a clearinghouse of information, essentially, in order to be able to identify threats early on, through conversations with government, of course, as well as other platform operations."
+  },
+  {
+    "id": "ref_wikiscanner_ip_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "institutional_ip_editing"
+    ],
+    "source": "WikiScanner (Virgil Griffith), 2007 - research-wikipedia-capture.md §6 [FACT]",
+    "note": "REAL (encyclopedic paraphrase); tests generalization off the gold seed.",
+    "text": "WikiScanner cross-referenced anonymous edits against the owners of the editing IP address ranges, and found that changes to the article on the 2003 invasion of Iraq had been traced to CIA IP addresses."
+  },
+  {
+    "id": "ref_bureau_sockpuppet_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "paid_covert_editing"
+    ],
+    "source": "Bureau of Investigative Journalism, Jan 2026 - research-wikipedia-capture.md §4 [FACT]",
+    "note": "REAL, distinct wording from gold; tests generalization.",
+    "text": "A network of twenty-six sockpuppet accounts, coordinated by a firm specializing in black hat editing, was eventually banned under suspicion of paid editing on behalf of clients including a Gulf state."
+  },
+  {
+    "id": "ref_arbcom_warroom_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "offwiki_coordination"
+    ],
+    "source": "Wikipedia ArbCom Palestine-Israel reporting, 2024-25 - research-wikipedia-capture.md §3 [FACT]",
+    "note": "REAL reporting text, distinct from gold; tests generalization.",
+    "text": "The committee found that editors had set up war rooms on a Discord channel, meeting weekly to coordinate their off-wiki editing across a contested topic area."
+  },
+  {
+    "id": "ref_pseudonymous_admin_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "pseudonymous_enforcement"
+    ],
+    "source": "en.wikipedia Arbitration Committee - research-wikipedia-capture.md §2 [FACT]",
+    "note": "REAL neutral-source description; tests generalization.",
+    "text": "English Wikipedia is administered by volunteer administrators who act under pseudonyms, and the Arbitration Committee that adjudicates its most serious disputes is likewise composed of pseudonymous members."
+  },
+  {
+    "id": "ref_authority_override_real",
+    "lens": "reference_capture",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "authority_override_ratchet"
+    ],
+    "source": "404 Media, June 2026 - research-wikipedia-capture.md §1 [FACT]",
+    "note": "REAL reporting, distinct from gold; tests generalization.",
+    "text": "The co-founder was briefly unblocked by Jimmy Wales, but the administrators reinstated the indefinite ban within hours."
+  },
+  {
+    "id": "ref_neg_clean_collaboration",
+    "lens": "reference_capture",
+    "should_fire": false,
+    "min_backend": "cues",
+    "expect_any": [],
+    "source": "Neutral description of ordinary collaborative editing.",
+    "note": "NEGATIVE (floor): ordinary consensus editing carries no capture cues and must stay quiet.",
+    "text": "Articles are written collaboratively by volunteers who propose changes on talk pages and resolve disagreements by citing reliable, independently published sources until a consensus is reached."
+  },
+  {
+    "id": "ref_neg_selfcorrection_bothsides",
+    "lens": "reference_capture",
+    "should_fire": false,
+    "min_backend": "llm",
+    "expect_any": [],
+    "source": "Steel-man: the institution's own self-correction.",
+    "note": "NEGATIVE (needs model): off-wiki coordination being SANCTIONED on both sides is the immune response, not capture. Cue-floor cannot distinguish it; the model must.",
+    "text": "After reviewing the evidence, the arbitration committee found off-wiki coordination and banned the responsible editors from both sides of the dispute, applying one standard regardless of viewpoint."
+  },
+  {
+    "id": "ref_neg_legit_canvassing_policy",
+    "lens": "reference_capture",
+    "should_fire": false,
+    "min_backend": "llm",
+    "expect_any": [],
+    "source": "Steel-man: the canvassing rule stated as legitimate policy.",
+    "note": "NEGATIVE (needs model): a neutral statement of WHY canvassing is discouraged is governance, not a capture action. Cue-floor fires on 'canvass'; the model must read intent.",
+    "text": "Editors are reminded not to canvass: notifying like-minded people of an ongoing discussion in order to sway its outcome undermines the consensus the process is meant to reflect."
+  },
+  {
+    "id": "militant_multi_marker_probe",
+    "lens": "militant_mobilization",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "eliminationist_dehumanization",
+      "leaderless_resistance",
+      "imminence_and_targeting",
+      "accelerationism",
+      "insurrectionary_utopics"
+    ],
+    "note": "On-pattern probe (not a gold quote): broad co-occurrence of the hard militant-mobilization markers across distinct families.",
+    "text": "The time for talk is over. We know where they live. These fascists are vermin and there are no innocent bystanders. Leaderless resistance is the only way -- act alone, no orders needed. Heighten the contradictions and let it all burn down. He did nothing wrong. After the revolution, we abolish it all. Year zero."
+  },
+  {
+    "id": "militant_neg_legit_protest",
+    "lens": "militant_mobilization",
+    "should_fire": false,
+    "min_backend": "llm",
+    "expect_any": [],
+    "source": "Steel-man: lawful non-violent protest using the dual-use 'direct action' / 'civil disobedience' vocabulary.",
+    "note": "NEGATIVE (dual-use guard): the blunt cue-floor trips only the low-weighted by-any-means marker (breadth=1 -> incidental tier); the model must read intent and return not-firing. Confirms the lens does not flag legitimate protest.",
+    "text": "Our union is calling for direct action: a one-day strike and a peaceful sit-in at the statehouse. Civil disobedience in the tradition of the lunch-counter movement is how we escalate pressure without a single act of violence. We are not asking for permission to be heard. We will march, we will picket, and we will register voters after the rally."
+  },
+  {
+    "id": "neg_militant_sports",
+    "lens": "militant_mobilization",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "She's a hero after that goal and the crowd went wild. That take is based and everyone agreed. Saint Louis won again and the fans said he did nothing wrong on the final play."
+  },
+  {
+    "id": "neg_militant_church",
+    "lens": "militant_mobilization",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "Saint Francis did nothing wrong in the eyes of the faithful; he was a hero of charity. Rest in power, they sang at the vigil for the martyr of the poor."
+  },
+  {
+    "id": "neg_distributed_corp",
+    "lens": "distributed_accountability",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "The committee reviewed the proposal and reached a consensus. Stakeholders agreed, and per policy the request was approved automatically by the system under standard procedure."
+  },
+  {
+    "id": "neg_distributed_scinews",
+    "lens": "distributed_accountability",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "The experts agree the vaccine is safe; independent fact-check organizations rated the viral claim false. This is settled science, the researchers told reporters."
+  },
+  {
+    "id": "neg_legibility_ops",
+    "lens": "legibility",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "We standardize on one format and improve observability with a single pane of glass. Our data-driven, evidence-based approach follows best practices; every asset is on the record in a central database with a unique identifier."
+  },
+  {
+    "id": "neg_legibility_devops",
+    "lens": "legibility",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "Register the service in the registry, normalize the schema, and make the pipeline legible with full visibility. Know-your-customer flows require a verified identity and a credential."
+  },
+  {
+    "id": "neg_adept_mission",
+    "lens": "adept_speech",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "Our mission is the great work of serving customers. The team is called to seek the light of excellence, and we welcome candidates and seekers; if you are called to this work, apply."
+  },
+  {
+    "id": "neg_adept_poem",
+    "lens": "adept_speech",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control (2026-08 FP audit) — benign text carrying formerly-FP-bait cue words; must stay quiet.",
+    "text": "The fire burns low; I have seen the dawn break. The light returns, the veil of night lifts, and awakening comes with the slow ascent of the sun over the hills."
+  },
+  {
+    "id": "sub_revleft_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "revolutionary_left"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "The false consciousness of the proletariat delays the class struggle until the vanguard party acts."
+  },
+  {
+    "id": "sub_accel_right_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "accelerationist_right"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "On the board they cheered the day of the rope and insisted there is no political solution."
+  },
+  {
+    "id": "sub_radfem_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "radical_feminist"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "The personal is political, and compulsory heterosexuality is the frame the male gaze enforces."
+  },
+  {
+    "id": "sub_csj_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "critical_social_justice"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "We must center the voices and name the epistemic violence of settler colonial institutions."
+  },
+  {
+    "id": "sub_disinfo_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "disinformation_apparatus"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "Our prebunking program counters malinformation and coordinated inauthentic behavior across the information environment."
+  },
+  {
+    "id": "sub_managerial_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "managerial_technocratic"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "Our north star metric aligns with stakeholder capitalism, double materiality, and shareholder value."
+  },
+  {
+    "id": "sub_rationalist_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "rationalist_ai_safety"
+    ],
+    "note": "On-pattern camp probe (not a gold seed) — subculture_register recall + cross-camp separation.",
+    "text": "I update my priors on x-risk and steelman the coordination problem across the light cone."
+  },
+  {
+    "id": "sub_revleft_bonanno_real",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "revolutionary_left"
+    ],
+    "source": "Alfredo M. Bonanno, Armed Joy (1977) — theanarchistlibrary.org, verbatim, mined 2026-08-01.",
+    "note": "REAL primary — recall on fetched movement text, NOT a gold seed.",
+    "text": "It might be necessary to attack using the arms of revenge and punishment at a certain moment in the class struggle."
+  },
+  {
+    "id": "sub_neg_spectacle_fireworks",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — benign lookalike carrying a near-miss of a coined tell; must stay quiet.",
+    "text": "The spectacle of the fireworks lit up the harbor for the festival crowd, and the children cheered."
+  },
+  {
+    "id": "sub_neg_coordinate_problem",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — benign lookalike carrying a near-miss of a coined tell; must stay quiet.",
+    "text": "We need to coordinate the problem-solving across the two engineering teams before the Friday release."
+  },
+  {
+    "id": "sub_revleft_manifesto_real",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "revolutionary_left"
+    ],
+    "source": "Marx & Engels, The Communist Manifesto (1848), ch.1 — marxists.org, verbatim, public domain.",
+    "note": "REAL primary — recall on fetched movement text, NOT a gold seed.",
+    "text": "The history of all hitherto existing society is the history of class struggles."
+  },
+  {
+    "id": "sub_radfem_hanisch_real",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "radical_feminist"
+    ],
+    "source": "Carol Hanisch, The Personal Is Political (2006 intro) — carolhanisch.org, verbatim.",
+    "note": "REAL primary — recall on fetched movement text, NOT a gold seed.",
+    "text": "Recognizing the need to fight male supremacy as a movement instead of blaming the individual woman for her oppression was where the Pro-Woman Line came in."
+  },
+  {
+    "id": "sub_csj_mcintosh_real",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "critical_social_justice"
+    ],
+    "source": "Peggy McIntosh, White Privilege: Unpacking the Invisible Knapsack (1989) — verbatim.",
+    "note": "REAL primary — recall on fetched movement text, NOT a gold seed.",
+    "text": "I have come to see white privilege as an invisible package of unearned assets that I can count on cashing in each day, but about which I was meant to remain oblivious."
+  },
+  {
+    "id": "sub_jihadist_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "jihadist_militant"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "They preach individual jihad in dar al-harb against the taghut; leaderless jihad by design."
+  },
+  {
+    "id": "sub_ethnonat_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "ethnonationalist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "He tattooed the fourteen words and demanded remigration to an ethnostate of blood and soil."
+  },
+  {
+    "id": "sub_manosphere_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "manosphere_mra"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "AWALT: hypergamy and looksmaxxing rule the sexual market value, said the blackpill forum."
+  },
+  {
+    "id": "sub_gendercrit_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "gender_critical"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "An adult human female, she wrote; autogynephilia is not identity and this is peak trans."
+  },
+  {
+    "id": "sub_qanon_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "qanon_conspiracist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Trust the plan: the great awakening is here, where we go one we go all, WWG1WGA."
+  },
+  {
+    "id": "sub_nrx_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "neoreactionary"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "The dark enlightenment embraces human biodiversity, neoreaction, formalism, and passivism."
+  },
+  {
+    "id": "sub_ea_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "effective_altruism"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Earning to give funds the cause prioritization; shut up and multiply the counterfactual impact."
+  },
+  {
+    "id": "sub_neg_matrix_redpill",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use/opposite-speaker lookalike of a cut cue; must stay quiet.",
+    "text": "He took the red pill in the Matrix and woke up in the pod, then dodged bullets in slow motion."
+  },
+  {
+    "id": "sub_neg_buddhist_nearenemy",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use/opposite-speaker lookalike of a cut cue; must stay quiet.",
+    "text": "In Buddhist practice, pity is described as the near enemy of true compassion."
+  },
+  {
+    "id": "sub_neg_gender_ideology_critic",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use/opposite-speaker lookalike of a cut cue; must stay quiet.",
+    "text": "Critics of so-called gender ideology packed the school board meeting to object to the curriculum."
+  },
+  {
+    "id": "sub_neg_malaria_bednets",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use/opposite-speaker lookalike of a cut cue; must stay quiet.",
+    "text": "The health charity distributed insecticide-treated bednets to prevent malaria across the district."
+  },
+  {
+    "id": "sub_tankie_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tankie_mlm"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Critical support for actually existing socialism; dialectical materialism, comrades, Marxism-Leninism-Maoism."
+  },
+  {
+    "id": "sub_tradcath_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tradcath_integralist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Integralism and the confessional state: error has no rights, and the social kingship of Christ; no novus ordo."
+  },
+  {
+    "id": "sub_cryptolib_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "crypto_sovereign_libertarian"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Taxation is theft. Sound money and praxeology; not your keys not your coins, HODL, end the fed."
+  },
+  {
+    "id": "sub_ecoprim_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "eco_radical_primitivist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Anti-civ green anarchy: back to the pleistocene, tear down the technosphere, uncle ted was right."
+  },
+  {
+    "id": "sub_eacc_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "transhumanist_eacc"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "e/acc and effective accelerationism: techno-optimism, longevity escape velocity, and the decels seethe."
+  },
+  {
+    "id": "sub_degrowth_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "degrowth"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Degrowth and post-growth economics: the metabolic rift, buen vivir, and the imperial mode of living."
+  },
+  {
+    "id": "sub_chrnat_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "christian_nationalist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "The seven mountain mandate and theonomy: dominionism and a postmillennial victory."
+  },
+  {
+    "id": "sub_neg_physics_singularity",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "Physicists debate what happens at the singularity inside a black hole where general relativity breaks down."
+  },
+  {
+    "id": "sub_neg_science_planetary_boundaries",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The Earth-system study mapped planetary boundaries for freshwater use and nitrogen cycles."
+  },
+  {
+    "id": "sub_neg_prof_read_theory",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The professor told students to read theory before the seminar and come prepared to discuss it."
+  },
+  {
+    "id": "sub_neg_historian_christian_nation",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "Historians debate whether America was founded as a christian nation or a secular republic."
+  },
+  {
+    "id": "sub_georgist_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "georgist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "The single tax on land value tax captures the unearned increment, per georgism."
+  },
+  {
+    "id": "sub_mmt_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "mmt_monetary"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Monetary sovereignty means the currency issuer sets sectoral balances; taxes don't fund spending."
+  },
+  {
+    "id": "sub_sovcit_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "sovereign_citizen"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Legal name fraud! I am a flesh and blood man, traveling not driving on the public road."
+  },
+  {
+    "id": "sub_antinatalist_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "antinatalist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "Better never to have been: antinatalism and efilism reject procreation."
+  },
+  {
+    "id": "sub_prepper_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "prepper_survivalist"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "When SHTF grab your bug out bag; TEOTWAWKI is coming when the balloon goes up."
+  },
+  {
+    "id": "sub_maga_probe",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "maga_new_right"
+    ],
+    "note": "On-pattern camp probe — new-camp recall + cross-camp separation.",
+    "text": "End the uniparty, stop the steal, let's go brandon, make america great again."
+  },
+  {
+    "id": "sub_neg_union_job_guarantee",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The union negotiated a job guarantee clause and better pay in the new labor contract."
+  },
+  {
+    "id": "sub_neg_grid_down_storm",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The grid-down event lasted six hours after the winter storm hit the substation."
+  },
+  {
+    "id": "sub_neg_zoo_rino",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The zookeeper fed the RINO and the hippopotamus before the noon tour began."
+  },
+  {
+    "id": "sub_neg_literal_drain_swamp",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "note": "Negative control — dual-use lookalike of a cut cue; must stay quiet.",
+    "text": "The county hired workers to drain the swamp behind the school to stop the mosquitoes."
+  },
+  {
+    "id": "nm_probe",
+    "lens": "narrative_management",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "discredit_the_messenger",
+      "euphemism_reframe",
+      "false_causal_attribution",
+      "contested_label_as_settled",
+      "memory_hole",
+      "passive_agency_laundering"
+    ],
+    "note": "On-pattern probe (not a gold quote) — dense record-shaping.",
+    "text": "The report was dismissed as spreading false reports by a so-called journalist with ties to fringe groups. According to two law enforcement officials, the victim died from injuries sustained in what the mayor called a block party atmosphere. The outlet quietly updated the piece; some called the day the deadly insurrection. Shots were fired and force was used."
+  },
+  {
+    "id": "nm_neg_legit_correction",
+    "lens": "narrative_management",
+    "should_fire": false,
+    "note": "Negative — a transparent correction + legitimate source-criticism; should fire ~nothing.",
+    "text": "The paper ran a correction after a reader flagged an error in the timeline, appending a note that explained exactly what changed and why. Media critics said the reporter had leaned too heavily on one source and should have sought the other side's comment before publishing."
+  },
+  {
+    "id": "nm_neg_meta",
+    "lens": "narrative_management",
+    "should_fire": false,
+    "note": "Negative — analytic/meta description of the tactics, not an instance; should fire ~nothing.",
+    "text": "Relabeling an event to soften it, or attacking a source's credibility instead of engaging the claim, are recognizable rhetorical tactics; documenting when a page is altered without notice requires a before-and-after capture, not an accusation."
+  },
+  {
+    "id": "sa_probe",
+    "lens": "sourcing_asymmetry",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "one_sided_sourcing",
+      "refusal_as_closure",
+      "loaded_labeling",
+      "unsubstantiated_attribution",
+      "false_balance"
+    ],
+    "note": "On-pattern probe (not a gold quote) — deliberately one-sided piece.",
+    "text": "Critics say the so-called reform is a radical power grab. Experts agree it will fail. The governor's office declined to comment, and the far-right lawmakers behind it could not be reached for comment. The move, clearly designed to appease his base, was condemned by a widely respected, nonpartisan watchdog. Everyone knows the real motive here. Some say otherwise, but the debate continues."
+  },
+  {
+    "id": "sa_neg_balanced_report",
+    "lens": "sourcing_asymmetry",
+    "should_fire": false,
+    "note": "Negative — balanced reporting: both offices give figures, a primary source is cited; should fire ~nothing.",
+    "text": "The bill's sponsor said it would cut costs; the opposition leader called that projection optimistic and pointed to the fiscal note. Both offices provided figures, and the state auditor's report, released Tuesday, put the shortfall at 4.2 billion dollars."
+  },
+  {
+    "id": "sa_neg_meta",
+    "lens": "sourcing_asymmetry",
+    "should_fire": false,
+    "note": "Negative — analytic/meta description of the balance test itself; should fire ~nothing.",
+    "text": "A piece that quotes only a single perspective, leans on evaluative labels to do its arguing, or treats a settled finding as merely one contested opinion has failed the balance test; documenting that requires counting whose voices appear, not asserting a verdict."
+  },
+  {
+    "id": "legib_eo12988_boilerplate",
+    "lens": "legibility",
+    "should_fire": false,
+    "min_backend": "cues",
+    "expect_any": [],
+    "source": "Executive Order 12988 (Civil Justice Reform) standard rulemaking paragraph -- US government work, public domain, verbatim.",
+    "note": "EXCLUSION FIXTURE. Contains the cue \"eliminate ambiguity\" inside EO 12988 boilerplate, which Detection.excludes suppresses. Present so the JS/Python parity gate exercises an exclusion at all: before this fixture existed, engine.js knew nothing about excludes and parity still passed.",
+    "text": "Executive Order 12988 (Civil Justice Reform): This rulemaking meets applicable standards to minimize litigation, eliminate ambiguity, and reduce burden as set forth in sections 3(a) and 3(b)(2) of the Executive Order."
+  },
+  {
+    "id": "legib_eo12988_then_real",
+    "lens": "legibility",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "standardization_grid"
+    ],
+    "source": "Composed control: EO 12988 boilerplate followed, far outside the exclusion window, by a genuine standardisation argument.",
+    "note": "EXCLUSION FIXTURE, the other direction. Proves the exclusion is MATCH-LOCAL rather than document-level -- boilerplate in one paragraph must not silence a real instance in another. Both engines must agree.",
+    "text": "Executive Order 12988 (Civil Justice Reform): This rulemaking meets applicable standards to minimize litigation, eliminate ambiguity, and reduce burden as set forth in sections 3(a) and 3(b)(2) of the Executive Order.                                                                                                                                                                                                                                                                      The council argued the local patchwork was indefensible and that we must eliminate ambiguity between parishes once and for all."
+  },
+  {
+    "id": "sub_georgist_real_primary",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "georgist"
+    ],
+    "source": "Henry George, Progress and Poverty (1879), ch. VII - public domain, verbatim, via en.wikisource.org.",
+    "note": "REAL primary. George defining his coined term of art, which is the clearest form the tell takes. Mined 2026-09-03 per BACKLOG-shibboleth-corpus-study.md.",
+    "text": "To recapitulate: Land, labour and capital are the factors of production. The term land includes all natural opportunities and forces; the term labour, all human exertion; and the term capital, all wealth used to produce more wealth. In returns to these three factors is the whole produce distributed. The part that goes to landowners as payment for the use of natural opportunities is called rent; the part that constitutes the reward of human exertion is called wages; and the part that constitutes the return for the use of capital is called interest."
+  },
+  {
+    "id": "sub_neg_classical_economics_rent",
+    "lens": "subculture_register",
+    "should_fire": false,
+    "min_backend": "cues",
+    "source": "Adam Smith, The Wealth of Nations (1776), Book I ch. 6 - public domain, verbatim, via en.wikisource.org.",
+    "note": "DISCIPLINE-MATCHED negative. Same subject as the Georgist camp -- land, rent, landlords, the price of produce -- with none of the camp's coined idiom. A shibboleth must identify THIS discourse, not classical political economy, and the benign news control cannot make that distinction because it is not economics. 418,000 words of Smith contain 'natural opportunities' zero times.",
+    "text": "As soon as the land of any country has all become private property, the landlords, like all other men, love to reap where they never sowed, and demand a rent even for its natural produce. The wood of the forest, the grass of the field, and all the natural fruits of the earth, which, when land was in common, cost the labourer only the trouble of gathering them, come, even to him, to have an additional price fixed upon them. He must then pay for the license to gather them, and must give up to the landlord a portion of what his labour either collects or produces. This portion, or, what comes to the same thing, the price of this portion, constitutes the rent of land."
+  },
+  {
+    "id": "sub_tankie_real_primary",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "expect_any": [
+      "tankie_mlm"
+    ],
+    "source": "V. I. Lenin, Imperialism, the Last Stage of Capitalism (1926 edn), chs. 3 and 7 - public domain, verbatim, via en.wikisource.org.",
+    "note": "REAL primary. Marxist-Leninist theory vocabulary that postdates Marx, so it cannot be classical-Marxist register. Mined 2026-09-03 per BACKLOG-shibboleth-corpus-study.md.",
+    "text": "Finance Capital and Financial Oligarchy. \"An increasing proportion of industrial capital,\" says Hilferding, \"does not belong to the industrialists who employ it.\" In this matter of defining imperialism it is chiefly with Karl Kautsky, the principal Marxist theoretician of the period of the Second International - that is, of the twenty-five years between 1889 and 1914 - that issue must be joined."
+  },
+  {
+    "id": "sub_neg_classical_marxism",
+    "lens": "subculture_register",
+    "should_fire": true,
+    "min_backend": "cues",
+    "source": "Marx and Engels, Manifesto of the Communist Party (1848), part 1 - public domain, verbatim, via en.wikisource.org.",
+    "note": "CROSS-CAMP negative for the Marxist-Leninist camp, expressed with forbid_markers. Classical Marxism on capital and the bourgeoisie SHOULD fire revolutionary_left -- Marx is that camp canon -- and must NOT fire tankie_mlm, whose cues are all post-1883. Written first as a lens-level negative, which failed correctly: the lens firing on the Communist Manifesto is a true positive, and the fixture was the thing that was wrong. That is why forbid_markers exists.",
+    "text": "This development has, in its turn, reacted on the extension of industry; and in proportion as industry, commerce, navigation, railways extended, in the same proportion the bourgeoisie developed, increased its capital, and pushed into the background every class handed down from the Middle Ages. We see, therefore, how the modern bourgeoisie is itself the product of a long course of development, of a series of revolutions in the modes of production and of exchange.",
+    "expect_any": [
+      "revolutionary_left"
+    ],
+    "forbid_markers": [
+      "tankie_mlm"
+    ]
+  }
 ]

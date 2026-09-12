@@ -1,0 +1,8 @@
+{
+  "unit": "words",
+  "cap": 3200,
+  "why": "Vendored third-party news wire copy sliced into FIXED 3,200-word chunks. These are not articles: 94 of 95 files are exactly this long and every one ends mid-sentence. The chunking is deliberate and pre-existing, not a fetch defect, and there is no fetcher in this repo that could produce it differently.",
+  "consequence": "Rates over this bucket are fired/n_docs with NO length normalisation, so the chunk size is a free parameter of every rate computed here. Measured on identical prose, repackaging real 300-word articles into 3,200-word chunks moved sourcing_asymmetry from 2.1% to 12.5%. This bucket is 95 of 171 background documents, so it sets the scale of the whole background.",
+  "see": "eval/background_rate.py (ROLES['corpus/_news-control']) and eval/RESULTS-2026-09-04-truncation-is-the-recurring-defect.md",
+  "declared": "2026-09-05"
+}

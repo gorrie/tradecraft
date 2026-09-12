@@ -1,0 +1,357 @@
+{
+  "tolerance": 0.05,
+  "corpus_documents": 331,
+  "lenses": {
+    "adept_speech": {
+      "documents_firing": 3,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": null,
+      "shortest_words": 3200,
+      "longest_words": 691302,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news065.txt",
+        "words": 3200,
+        "base": {
+          "index": 9.5,
+          "breadth": 0.125,
+          "intensity": 0.0733,
+          "density": 0.0286,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 9.5,
+          "breadth": 0.125,
+          "intensity": 0.0733,
+          "density": 0.0286,
+          "hits": 2
+        }
+      }
+    },
+    "cognitive_capture": {
+      "documents_firing": 3,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": null,
+      "shortest_words": 18548,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "Platform Transparency: Understanding the Impact of Social Media",
+        "words": 18548,
+        "base": {
+          "index": 11.75,
+          "breadth": 0.1667,
+          "intensity": 0.0796,
+          "density": 0.0133,
+          "hits": 3
+        },
+        "duplicated": {
+          "index": 11.75,
+          "breadth": 0.1667,
+          "intensity": 0.0796,
+          "density": 0.0133,
+          "hits": 6
+        }
+      }
+    },
+    "counterproductivity": {
+      "documents_firing": 2,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": null,
+      "shortest_words": 169018,
+      "longest_words": 691302,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "Medicare and Medicaid Programs; CY 2026 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
+        "words": 691302,
+        "base": {
+          "index": 14.1,
+          "breadth": 0.2,
+          "intensity": 0.1031,
+          "density": 0.0001,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 14.1,
+          "breadth": 0.2,
+          "intensity": 0.1031,
+          "density": 0.0001,
+          "hits": 2
+        }
+      }
+    },
+    "distributed_accountability": {
+      "documents_firing": 8,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": -0.928,
+      "shortest_words": 89,
+      "longest_words": 93374,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news010.txt",
+        "words": 3200,
+        "base": {
+          "index": 18.47,
+          "breadth": 0.25,
+          "intensity": 0.1429,
+          "density": 0.0286,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 18.47,
+          "breadth": 0.25,
+          "intensity": 0.1429,
+          "density": 0.0286,
+          "hits": 2
+        }
+      }
+    },
+    "inevitability_framing": {
+      "documents_firing": 6,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": -0.829,
+      "shortest_words": 722,
+      "longest_words": 57458,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news077.txt",
+        "words": 3200,
+        "base": {
+          "index": 24.69,
+          "breadth": 0.3333,
+          "intensity": 0.1833,
+          "density": 0.0573,
+          "hits": 2
+        },
+        "duplicated": {
+          "index": 24.69,
+          "breadth": 0.3333,
+          "intensity": 0.1833,
+          "density": 0.0573,
+          "hits": 4
+        }
+      }
+    },
+    "institutional_permeation": {
+      "documents_firing": 45,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": 0.063,
+      "shortest_words": 102,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_calibration-cache\\2026-17238.txt",
+        "words": 28677,
+        "base": {
+          "index": 8.6,
+          "breadth": 0.125,
+          "intensity": 0.0561,
+          "density": 0.0029,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 8.6,
+          "breadth": 0.125,
+          "intensity": 0.0561,
+          "density": 0.0029,
+          "hits": 2
+        }
+      }
+    },
+    "legibility": {
+      "documents_firing": 32,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": 0.336,
+      "shortest_words": 2485,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_calibration-cache\\2026-17238.txt",
+        "words": 28677,
+        "base": {
+          "index": 17.48,
+          "breadth": 0.2,
+          "intensity": 0.2083,
+          "density": 0.0157,
+          "hits": 5
+        },
+        "duplicated": {
+          "index": 17.48,
+          "breadth": 0.2,
+          "intensity": 0.2083,
+          "density": 0.0157,
+          "hits": 10
+        }
+      }
+    },
+    "militant_mobilization": {
+      "documents_firing": 7,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": -0.018,
+      "shortest_words": 3200,
+      "longest_words": 691302,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_calibration-cache\\2026-17437.txt",
+        "words": 3355,
+        "base": {
+          "index": 11.34,
+          "breadth": 0.1429,
+          "intensity": 0.0909,
+          "density": 0.0328,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 11.34,
+          "breadth": 0.1429,
+          "intensity": 0.0909,
+          "density": 0.0328,
+          "hits": 2
+        }
+      }
+    },
+    "narrative_management": {
+      "documents_firing": 3,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": null,
+      "shortest_words": 3200,
+      "longest_words": 3200,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news011.txt",
+        "words": 3200,
+        "base": {
+          "index": 11.77,
+          "breadth": 0.1667,
+          "intensity": 0.0752,
+          "density": 0.0229,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 11.77,
+          "breadth": 0.1667,
+          "intensity": 0.0752,
+          "density": 0.0229,
+          "hits": 2
+        }
+      }
+    },
+    "reference_capture": {
+      "documents_firing": 43,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": 0.167,
+      "shortest_words": 1235,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_calibration-cache\\2026-17238.txt",
+        "words": 28677,
+        "base": {
+          "index": 8.95,
+          "breadth": 0.125,
+          "intensity": 0.0661,
+          "density": 0.0061,
+          "hits": 2
+        },
+        "duplicated": {
+          "index": 8.95,
+          "breadth": 0.125,
+          "intensity": 0.0661,
+          "density": 0.0061,
+          "hits": 4
+        }
+      }
+    },
+    "rollback_asymmetry": {
+      "documents_firing": 13,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": -0.433,
+      "shortest_words": 1420,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news021.txt",
+        "words": 3200,
+        "base": {
+          "index": 14.73,
+          "breadth": 0.2,
+          "intensity": 0.11,
+          "density": 0.0286,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 14.73,
+          "breadth": 0.2,
+          "intensity": 0.11,
+          "density": 0.0286,
+          "hits": 2
+        }
+      }
+    },
+    "sourcing_asymmetry": {
+      "documents_firing": 39,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": 0.21,
+      "shortest_words": 3200,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news003.txt",
+        "words": 3200,
+        "base": {
+          "index": 14.59,
+          "breadth": 0.2,
+          "intensity": 0.1053,
+          "density": 0.0286,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 14.59,
+          "breadth": 0.2,
+          "intensity": 0.1053,
+          "density": 0.0286,
+          "hits": 2
+        }
+      }
+    },
+    "subculture_register": {
+      "documents_firing": 18,
+      "dup_max": 0.0,
+      "dup_median": 0.0,
+      "length_index_spearman": -0.499,
+      "shortest_words": 3200,
+      "longest_words": 837404,
+      "worst_duplication": {
+        "delta": 0.0,
+        "document": "corpus\\_news-control\\news017.txt",
+        "words": 3200,
+        "base": {
+          "index": 3.08,
+          "breadth": 0.037,
+          "intensity": 0.0204,
+          "density": 0.0286,
+          "hits": 1
+        },
+        "duplicated": {
+          "index": 3.08,
+          "breadth": 0.037,
+          "intensity": 0.0204,
+          "density": 0.0286,
+          "hits": 2
+        }
+      }
+    }
+  }
+}

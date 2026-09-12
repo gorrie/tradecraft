@@ -31,6 +31,7 @@ different things; the tool keeps them on separate axes.
 | `counterproductivity` | **Iatrogenesis (Illich)** — the remedy produces the harm, radical monopoly, disabling professions, means-become-ends. The Ratchet's failure-mode signature. | Illich, *Medical Nemesis* / *Tools for Conviviality* |
 | `distributed_accountability` | **No-one-decides (Kierkegaard/Nietzsche)** — diffuse agency, jurisdiction over truth, dissent-as-sin, unfalsifiable consensus. The attribution-gap signature. | the crowd / ascetic-priest theses |
 | `inevitability_framing` | **Resistance-is-futile** — TINA, right-side-of-history, adapt-or-be-left-behind. The forward-pointed Fabian "inevitability of gradualness." | Fabian inevitability thesis |
+| `costly_signal` | **Signal economy** — stated stakes (price named/paid, flagged for receipt verification) vs. cost-dodges (retroactive satire, deniability shields). Doctrine: a cost actually paid is the one signal a deniability shield can't launder. | weev primary-source video archive + Plato's *Apology* |
 
 A new lens is a new YAML taxonomy dropped in `detectors/`. Nothing else changes.
 
@@ -95,6 +96,37 @@ Every detection cites the gold example (and its source) that defines it.
 - The **research that seeds each detection is cited inline** and ships with the books' dossiers.
 - CI runs the test suite. The taxonomy evolves through **issues** (propose a detection, report a
   false positive) and PRs.
+
+## The bug that made the parity check non-negotiable
+
+Worth reading before you copy a wordlist anywhere.
+
+Two browser front-ends each hand-copied the detector's cue lists into JavaScript so they
+could run client-side. Both copies then drifted from the YAML, quietly, in different
+directions. One of them ended up with an attribution pattern that could never match the
+words *characterized* or *accused* — so for months a shipped detector was blind to two of
+its own main cues, on a lens whose entire job is spotting attributed characterisation.
+
+Nothing caught it because nothing compared the copies. Each front-end tested that *it*
+worked; neither tested that it agreed with the reference implementation. A detector that
+passes its own tests and disagrees with its source of truth is worse than a broken one,
+because it reports confident numbers.
+
+So the rule is now structural rather than aspirational:
+
+- the browser engine ports exactly **two** functions — cue matching and per-lens grading —
+  and carries **no vocabulary at all**
+- every cue, weight and threshold arrives in a payload emitted by the same taxonomy loader
+  the Python detector uses. One definition per marker, in YAML, read by both runtimes
+- the payload ships the eval fixtures **together with the output Python computed for them**.
+  The browser re-runs all of them on load and compares
+- if that comparison fails, the scores are **hidden**, not flagged. A number from a diverged
+  engine is worse than no number
+
+The same discipline is why the detector publishes a **cut ledger** — every marker and cue it
+used to carry and then killed for firing on ordinary language, with the evidence. 118 entries
+as of v0.1. A detector that only publishes its hits is marketing; the false positives are the
+part that tells you what the instrument is actually worth.
 
 ## Status
 

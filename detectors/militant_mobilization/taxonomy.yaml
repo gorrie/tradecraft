@@ -1,0 +1,225 @@
+id: militant_mobilization
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Militant Mobilization Lexicon
+description: "Detects the rhetorical register of mobilization toward extra-institutional political violence\
+  \ / \"direct action by any means\" — the recurring lexical tells that a text is priming, licensing,\
+  \ glorifying, or operationally structuring political violence. This is the DENIABLE-ARM companion to\
+  \ the paramilitarism theory (research-lawfare.md hypothesis #4 / the §3i fourth-column record and research-tactical-raids.md):\
+  \ the self-mobilized \"psyoped\" actor is lexically detectable, and its register is the shared upstream\
+  \ of both the deniable-cultivated attacker and the designation that licenses a raid. METHOD NOT IDEOLOGY\
+  \ (the repo's core rule): this fires symmetrically on ANY insurrectionary register — insurrectionary-left\
+  \ / antifa / Jacobin (\"direct action,\" \"diversity of tactics,\" \"propaganda of the deed,\" \"heighten\
+  \ the contradictions\"), accelerationist-right (\"boogaloo,\" \"day of the rope,\" SIEGE), and jihadist\
+  \ leaderless-resistance alike. It keys on HOW the text mobilizes, never on whose cause it serves; a\
+  \ Beam tract and an anarchist communique trip the same markers. HARD DISCIPLINE (load-bearing, do not\
+  \ weaken): flag-with-receipts, NEVER a verdict. Many of the softest cues are DUAL-USE — \"direct action\"\
+  \ and \"civil disobedience\" have a long, legitimate, non-violent protest lineage (labor, the civil-rights\
+  \ movement) — so a single soft cue is NOT a finding; the signal is breadth x density x co-occurrence\
+  \ with the HARD markers (eliminationist dehumanization, imminence/targeting, leaderless-cell operational\
+  \ doctrine), surfaced with exact spans for a human to adjudicate. Never assert that any specific person\
+  \ is a directed operator or will commit violence — the corpus hard bound from §3i (no directed-operation\
+  \ claim absent recoverable wiring) carries over. Gold examples are documented DOCTRINE/TEXT exemplars\
+  \ of the register (non-defamatory — they name published doctrines, not accused living persons), each\
+  \ cited. OSINT use: manifestos, movement communiques, forum/telegram corpora, rally speeches, \"saint\"\
+  -posting. Tags: [DOCTRINE] = a published movement/insurgent text; [PRIMARY] = verified in research-lawfare.md\
+  \ §3i; [HISTORICAL] = documented historical origin of the term.\n\nGOLD DRIFT, classified 2026-09-01.\
+  \ The gold slots below do not detect and should be REPLACED rather than matched with new cues, because\
+  \ they are not specimens of the marker:\n  reframe-target-as-vermin-or-nazi -- analyst gloss: 'kill-license\
+  \ framing of the opponent'\n  burn-it-down -- analyst gloss: 'as a thing to be accelerated'\n  sainthood-and-heroes\
+  \ -- analyst gloss: 'the celebrated saint framing of'\n  no-principal-to-charge -- analyst gloss: 'with\
+  \ no chargeable principal'\n  time-is-now-we-know-where -- analyst gloss: 'target-fixing imperative'\n\
+  \  year-zero -- analyst gloss: 'the fictional purge as movement aspiration'\nA lens whose positive examples\
+  \ are DESCRIPTIONS of a group learns to detect the description. That is the self/about contamination\
+  \ the corpus design guards against, arriving from inside the taxonomy where nobody was looking."
+config:
+  marker_present_threshold: 0.35
+  w_breadth: 0.6
+  w_intensity: 0.25
+  w_density: 0.15
+  density_cap_per_1k: 5.0
+  tiers:
+  - min: 0.0
+    label: incidental
+  - min: 35.0
+    label: notable
+  - min: 62.0
+    label: heavy militant-mobilization register (review; not a verdict)
+markers:
+- id: direct_action_register
+  name: Direct-action / by-any-means register (DUAL-USE — low weight, needs co-occurrence)
+  base_weight: 0.5
+  detections:
+  - id: by-any-means
+    weight: 0.5
+    definition: 'The insurrectionary-tactics register. DUAL-USE: has a legitimate non-violent-protest
+      lineage, so it is deliberately low-weighted and only signals in co-occurrence with the harder markers
+      below.
+
+      '
+    cues:
+    - direct action
+    - by any means necessary
+    - diversity of tactics
+    - propaganda of the deed
+    - no peaceful protest
+    - the only language they understand
+    - not asking for permission
+    gold:
+    - text: propaganda of the deed
+      source: Paul Brousse / Kropotkin, 1870s-80s anarchist doctrine — the deed as agitation [HISTORICAL]
+    - text: diversity of tactics
+      source: contemporary black-bloc/antifa movement euphemism for tolerating property destruction/violence
+        alongside peaceful protest [DOCTRINE]
+- id: eliminationist_dehumanization
+  name: Eliminationist dehumanization (the licensing designation)
+  base_weight: 1.0
+  detections:
+  - id: reframe-target-as-vermin-or-nazi
+    weight: 1.0
+    definition: 'The move that converts a political opponent into a legitimate object of force — reclassify
+      them as vermin / disease / subhuman, or as "nazi"/"fascist" AS A KILL-LICENSE (not as ordinary political
+      argument). This is the shared upstream of the raid and the stochastic attacker (research-tactical-raids.md
+      paramilitarism frame). Fires symmetrically.
+
+      '
+    cues:
+    - punch a nazi
+    - no platform
+    - vermin
+    - subhuman
+    - cockroaches
+    - exterminate
+    - there are no innocent
+    - deserve what they get
+    - the only good [x] is a dead
+    - wipe them out
+    gold:
+    - text: the only good fascist is a dead one — kill-license framing of the opponent-as-nazi
+      source: insurrectionary-left eliminationist register (documented movement slogan) [DOCTRINE]
+    - text: opponents reclassified as vermin/subhuman to license their removal
+      source: accelerationist-right dehumanization register (SIEGE / Turner Diaries lineage) [DOCTRINE]
+- id: accelerationism
+  name: Accelerationism / heighten-the-contradictions / collapse-to-provoke
+  base_weight: 0.95
+  detections:
+  - id: burn-it-down
+    weight: 0.95
+    definition: 'Collapse or chaos as the desired route — provoke the system''s fall so something else
+      can be built. Left ("heighten the contradictions") and right ("boogaloo"/"the collapse") variants.
+
+      '
+    cues:
+    - heighten the contradictions
+    - accelerate the collapse
+    - burn it down
+    - the boogaloo
+    - let it all fall
+    - the system must fall
+    - no solution within the system
+    - the only way out is through
+    - the coming storm
+    gold:
+    - text: heighten the contradictions
+      source: Marxist-Leninist accelerationist slogan — worsen conditions to provoke revolution [HISTORICAL]
+    - text: boogaloo / the coming civil war as a thing to be accelerated
+      source: accelerationist-right meme-doctrine (2019- ) [DOCTRINE]
+- id: glorification_of_violence
+  name: Glorification / martyrdom of perpetrators (saint-posting)
+  base_weight: 0.9
+  detections:
+  - id: sainthood-and-heroes
+    weight: 0.9
+    definition: 'Celebrating, sanctifying, or martyring those who commit political violence — "saint,"
+      "hero," "he did nothing wrong," score-keeping. The reward signal that cultivates the next actor.
+      Fires symmetrically (both movements canonize their killers).
+
+      '
+    cues:
+    - high score
+    - gigachad
+    - we need more like him
+    gold:
+    - text: the celebrated 'saint' framing of a political killer as a hero to emulate
+      source: cross-spectrum martyrdom register — canonization of the perpetrator as recruitment signal
+        [DOCTRINE]
+    - text: score-keeping / 'high score' idolization of mass-casualty attackers
+      source: accelerationist-right imageboard register [DOCTRINE]
+- id: leaderless_resistance
+  name: Leaderless-resistance / deniable-cell operational doctrine (the fourth-column tell)
+  base_weight: 1.0
+  detections:
+  - id: no-principal-to-charge
+    weight: 1.0
+    definition: 'The operational-security register engineered to leave NO principal to charge — the exact
+      fourth-column doctrine from research-lawfare.md §3i. "Leaderless resistance," "lone wolf," "autonomous
+      cells," "act alone" — deniable by construction.
+
+      '
+    cues:
+    - leaderless resistance
+    - autonomous cells
+    - affinity groups
+    - no central organization
+    - phantom cell
+    - you know what to do
+    - no orders needed
+    gold:
+    - text: organizations utilizing this method of command and control are easy prey for government infiltration
+        ... leaderless resistance
+      source: 'Louis Beam, ''Leaderless Resistance,'' The Seditionist #12 (Feb 1992) — verified in research-lawfare.md
+        §3i [PRIMARY]'
+    - text: a call to spontaneous, un-commanded 'individual jihad' with no chargeable organization
+      source: Abu Musab al-Suri, 'The Global Islamic Resistance Call' (~2004) — leaderless-jihad doctrine,
+        research-lawfare.md §3i [PRIMARY]
+- id: imminence_and_targeting
+  name: Imminence + targeting (the hardest marker)
+  base_weight: 1.0
+  detections:
+  - id: time-is-now-we-know-where
+    weight: 1.0
+    definition: 'Operational urgency plus target-fixing — "the time for talk is over," "we know where
+      they live," naming or locating a target with a call to act now. The nearest-to-incitement register;
+      highest weight, still flag-not-verdict (adjudication and the wiring test decide).
+
+      '
+    cues:
+    - we know where they live
+    - make them afraid
+    - make them pay
+    - they won't be safe
+    - hunt them
+    gold:
+    - text: target-fixing imperative — locating an opponent and urging immediate action against them
+      source: cross-spectrum incitement register; the Brandenburg 'imminent lawless action' line is the
+        legal boundary this marker flags for review [DOCTRINE]
+- id: insurrectionary_utopics
+  name: Insurrectionary utopics (year-zero / abolition / after-the-revolution)
+  base_weight: 0.7
+  detections:
+  - id: year-zero
+    weight: 0.7
+    definition: 'The clean-slate frame that justifies present force by a future purity — "after the revolution,"
+      "abolish," "year zero," "the Storm." Left (abolition/year-zero) and right (the Storm/the Turner
+      Diaries end-state) variants.
+
+      '
+    cues:
+    - after the revolution
+    - abolish the
+    - year zero
+    - tear it all down
+    - the great reset
+    - the Storm is coming
+    - a new order
+    - clean slate
+    - the day of reckoning
+    gold:
+    - text: Year Zero — the revolutionary clean slate that licenses present violence
+      source: Jacobin/Khmer-Rouge lineage of the clean-slate frame [HISTORICAL]
+    - text: '''Day of the Rope'' — the fictional purge as movement aspiration'
+      source: William Pierce, The Turner Diaries (1978) — accelerationist end-state text [DOCTRINE]

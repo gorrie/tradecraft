@@ -148,11 +148,14 @@ def write_ratchet_graph(data_dir: str, out_path: str) -> int:
     into the ``{entities:[{id,sector,name}], edges:[{source,target}]}`` schema the graph lenses
     (structural.py / network.py) read, and write it to ``out_path``. Returns the entity count.
 
-    This bridges the two graphs: the rich 844-edge establishment graph lives in ratchet-mcp, but the
-    graph lenses were written against the research-entities schema. Note: ratchet edges are plain
-    adjacency (no career-move ``rel`` types), so ``network_brokerage`` (betweenness / degree /
-    sector-brokerage — adjacency + sector only) ports cleanly, while ``revolving_door`` (which keys
-    on move/funding ``rel`` types) cannot fire from this graph until those edges are typed.
+    This bridges the two graphs: the rich establishment graph lives in ratchet-mcp, but the graph
+    lenses were written against the research-entities schema. Historically ratchet edges were plain
+    adjacency, so ``revolving_door`` (which keys on move/funding ``rel`` types) could only report
+    affiliation breadth. As of 2026-07 the ratchet edges carry canonical ``rel`` types
+    (``employed-by`` / ``appointed-by`` / ``member-of`` / ``founded`` for moves; ``funded-by`` with
+    TARGET = funder), and this adapter now CARRIES the ``rel`` through — so a typed subgraph produces
+    ordered career-move trajectories and funder-recipient reads, while the still-untyped majority
+    ports as adjacency (``network_brokerage`` unaffected either way).
     """
     entities: list[dict] = []
     for fn in ("people.jsonl", "institutions.jsonl"):
@@ -174,7 +177,10 @@ def write_ratchet_graph(data_dir: str, out_path: str) -> int:
             if isinstance(e, list):
                 e = {"source": e[0], "target": e[1]}
             if e.get("source") and e.get("target"):
-                edges.append({"source": e["source"], "target": e["target"]})
+                edge = {"source": e["source"], "target": e["target"]}
+                if e.get("rel"):
+                    edge["rel"] = e["rel"]   # carry typed rels through so revolving_door can read trajectory
+                edges.append(edge)
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump({"entities": entities, "edges": edges}, fh, ensure_ascii=False)
     return len(entities)

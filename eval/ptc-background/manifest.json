@@ -1,0 +1,6 @@
+{
+ "_benign": [
+  "bg_ptc_unannotated.txt"
+ ],
+ "_note": "PTC news prose with every human-annotated propaganda span REMOVED. A cue that fires here fires on text six professional annotators declined to mark. Derived from research/external/ptc (CC-BY-4.0, DISARM-unrelated); regenerate with the snippet in eval/RESULTS-2026-08-26-ptc-precision.md."
+}

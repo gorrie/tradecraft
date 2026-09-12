@@ -1,0 +1,370 @@
+Federal Register, Volume 91 Issue 163 (Tuesday, August 25, 2026)
+
+
+[Federal Register Volume 91, Number 163 (Tuesday, August 25, 2026)]
+[Rules and Regulations]
+[Pages 54798-54800]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2026-17339]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Federal Aviation Administration
+
+14 CFR Part 73
+
+[Docket No. FAA-2026-10430; Airspace Docket No. 25-AWP-168]
+RIN 2120-AA66
+
+
+Amendment of Restricted Areas R-2505, R-2524, R-2508, and R-2515 
+in California
+
+AGENCY: Federal Aviation Administration (FAA), DOT.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This action amends multiple coordinates used to describe 
+restricted areas R-2505, R-2524, R-2508, and R-2515 in California. The 
+amendments are administrative in nature and do not expand any outer 
+boundaries, altitudes, times of designation, or activities conducted 
+within the restricted areas.
+
+DATES: Effective date 0901 UTC, October 29, 2026.
+
+ADDRESSES: A copy of this final rule and all background material may be 
+viewed online at www.regulations.gov using the FAA Docket number. 
+Electronic retrieval help and guidelines are available on the website. 
+It is available 24 hours each day, 365 days each year. An electronic 
+copy of this document may also be downloaded from 
+www.federalregister.gov.
+
+FOR FURTHER INFORMATION CONTACT: Steven Roff, Rules and Regulations 
+Group, Policy Directorate, Federal Aviation Administration, 800 
+Independence Avenue SW, Washington, DC 20591; telephone: (202) 267-
+8783.
+
+SUPPLEMENTARY INFORMATION: 
+
+Authority for This Rulemaking
+
+    The FAA's authority to issue rules regarding aviation safety is 
+found in Title 49 of the United States Code. Subtitle I, Section 106 
+describes the authority of the FAA Administrator. Subtitle VII, 
+Aviation Programs, describes in more detail the scope of the
+
+[[Page 54799]]
+
+agency's authority. This rulemaking is promulgated under the authority 
+described in Subtitle VII, Part A, Subpart I, Section 40103. Under that 
+section, the FAA is charged with prescribing regulations to assign the 
+use of the airspace necessary to ensure the safety of aircraft and the 
+efficient use of airspace. This regulation is within the scope of that 
+authority as it updates the coordinates listed for restricted areas R-
+2505, R-2524, R-2508, and R-2515 in California.
+
+Good Cause for Bypassing Notice and Comment
+
+    The Administrative Procedure Act (APA) authorizes agencies to 
+dispense with ordinary notice and comment requirements for rules when 
+the agency for ``good cause'' finds that those procedures are 
+``unnecessary.'' 5 U.S.C. 553(b)(B). This action amends multiple 
+coordinates used to describe restricted areas R-2505, R-2524, R-2508, 
+and R-2515 in California. The amendments are administrative in nature 
+and do not expand any outer boundaries, altitudes, times of 
+designation, or activities conducted within the restricted areas. This 
+action will not impose any additional substantive restrictions or 
+requirements on the persons affected by these regulations as it does 
+not change any outer boundaries, altitudes, times of designation, or 
+activities conducted within the restricted areas. The updated 
+coordinates only impact inner boundaries of subdivided areas. The 
+action constitutes ``a routine determination, insignificant in nature 
+and impact, and inconsequential to the industry and to the public.'' 
+Mack Trucks, Inc. v. EPA, 682 F.3d 87, 94 (D.C. Cir. 2012). Therefore, 
+the FAA finds good cause that notice and public procedure under 5 
+U.S.C. 553(b) is unnecessary.
+
+The Rule
+
+    This action amends 14 CFR part 73 by modifying the coordinates used 
+to describe restricted areas R-2505, R-2524, R-2508, and R-2515 in 
+California.
+    R-2505: Prior to this final rule, the R-2505 boundaries were 
+defined as beginning at lat. 36[deg]14'00'' N, long. 117[deg]53'03'' W; 
+to lat. 36[deg]14'00'' N, long. 117[deg]25'03'' W; to lat. 
+35[deg]40'30'' N, long. 117[deg]25'03'' W; to lat. 35[deg]37'30'' N, 
+long. 117[deg]35'33'' W; to lat. 35[deg]37'30'' N, long. 
+117[deg]47'33'' W; to lat. 35[deg]54'00'' N, long. 117[deg]53'03'' W; 
+to the point of beginning. As amended, the R-2505 boundaries are 
+defined as beginning at lat. 36[deg]14'00'' N, long. 117[deg]53'03'' W; 
+to lat. 36[deg]14'00'' N, long. 117[deg]36'03'' W; to lat. 
+36[deg]14'00'' N, long. 117[deg]25'03'' W; to lat. 35[deg]40'30'' N, 
+long. 117[deg]25'03'' W; to lat. 35[deg]39'15'' N, long. 
+117[deg]29'26'' W; to lat. 35[deg]37'30'' N, long. 117[deg]35'33'' W; 
+to lat. 35[deg]37'30'' N, long. 117[deg]47'33'' W; to lat. 
+35[deg]54'00'' N, long. 117[deg]53'03'' W; to lat. 36[deg]08'00'' N, 
+long. 117[deg]53'03'' W; to the point of beginning.
+    R-2524: Prior to this final rule, the R-2524 boundaries were 
+defined as beginning at lat. 35[deg]47'46'' N, long. 116[deg]55'23'' W; 
+to lat. 35[deg]15'56'' N, long. 116[deg]55'23'' W; to lat. 
+35[deg]15'56'' N, long. 117[deg]26'03'' W; to lat. 35[deg]36'00'' N, 
+long. 117[deg]26'03'' W; to lat. 35[deg]36'00'' N, long. 
+117[deg]16'55'' W; to lat. 35[deg]47'46'' N, long. 117[deg]16'55'' W; 
+to the point of beginning. As amended, the R-2524 boundaries are 
+defined as beginning at lat. 35[deg]36'00'' N, long. 117[deg]26'03'' W; 
+to lat. 35[deg]36'00'' N, long. 117[deg]16'55'' W; to lat. 
+35[deg]47'46'' N, long. 117[deg]16'55'' W; to lat. 35[deg]47'46'' N, 
+long. 116[deg]55'23'' W; to lat. 35[deg]37'45'' N, long. 
+116[deg]55'23'' W; to lat. 35[deg]19'00'' N, long. 116[deg]55'23'' W; 
+to lat. 35[deg]15'56'' N, long. 116[deg]55'23'' W; to lat. 
+35[deg]15'56'' N, long. 117[deg]26'03'' W; to lat. 35[deg]27'40'' N, 
+long. 117[deg]26'03'' W; to the point of beginning.
+    R-2508: Prior to this final rule, the R-2508 boundaries were 
+defined as beginning at lat. 37[deg]12'00'' N, long. 117[deg]20'03'' W; 
+to lat. 35[deg]34'00'' N, long. 116[deg]23'03'' W; to lat. 
+35[deg]28'35'' N, long. 116[deg]18'48'' W; to lat. 35[deg]18'45'' N, 
+long.116[deg]18'48'' W; to lat. 35[deg]07'00'' N, long. 116[deg]34'03'' 
+W; to lat. 35[deg]07'00'' N, long. 116[deg]47'48'' W; to lat. 
+35[deg]08'50'' N, long. 116[deg]48'43'' W; to lat. 35[deg]06'30'' N, 
+long. 116[deg]58'43'' W; to lat. 34[deg]53'30'' N, long. 
+117[deg]11'53'' W; to lat. 34[deg]50'20'' N, long. 117[deg]32'03'' W; 
+to lat. 34[deg]48'30'' N, long. 117[deg]32'03'' W; to lat. 
+34[deg]48'00'' N, long. 117[deg]35'03'' W; to lat. 34[deg]48'00'' N, 
+long.118[deg]01'03'' W; to lat. 34[deg]49'40'' N, long. 118[deg]05'48'' 
+W; to lat. 34[deg]51'30'' N, long. 118[deg]05'48'' W; to lat. 
+34[deg]56'00'' N, long. 118[deg]21'03'' W; to lat. 35[deg]15'00'' N, 
+long. 118[deg]35'03'' W; to lat. 37[deg]12'00'' N, long. 
+118[deg]35'03'' W; to the point of beginning. As amended, the R-2508 
+boundaries are defined as beginning at lat. 37[deg]12'00'' N, long. 
+118[deg]35'03'' W; to lat. 37[deg]12'00'' N, long. 118[deg]26'03'' W; 
+to lat. 37[deg]12'00'' N, long. 118[deg]00'03'' W; to lat. 
+37[deg]12'00'' N, long. 117[deg]20'03'' W; to lat. 36[deg]30'00'' N, 
+long. 116[deg]55'18'' W; to lat. 35[deg]34'30'' N, long. 
+116[deg]23'33'' W; to lat. 35[deg]28'35'' N, long. 116[deg]18'48'' W; 
+to lat. 35[deg]25'48'' N, long. 116[deg]18'48'' W; to lat. 
+35[deg]18'45'' N, long. 116[deg]18'48'' W; to lat. 35[deg]07'00'' N, 
+long. 116[deg]34'03'' W; to lat. 35[deg]07'00'' N, long. 
+116[deg]47'48'' W; to lat. 35[deg]08'50'' N, long. 116[deg]48'43'' W; 
+to lat. 35[deg]06'30'' N, long. 116[deg]58'43'' W; to lat. 
+34[deg]56'20'' N, long. 117[deg]09'02'' W; to lat. 34[deg]53'30'' N, 
+long. 117[deg]11'53'' W; to lat. 34[deg]51'17'' N, long. 
+117[deg]26'03'' W; to lat. 34[deg]50'20'' N, long. 117[deg]32'03'' W; 
+to lat. 34[deg]48'30'' N, long. 117[deg]32'03'' W; to lat. 
+34[deg]48'00'' N, long. 117[deg]35'03'' W; to lat. 34[deg]48'00'' N, 
+long. 118[deg]01'03'' W; to lat. 34[deg]49'40'' N, long. 
+118[deg]05'48'' W; to lat. 34[deg]51'30'' N, long. 118[deg]05'48'' W; 
+to lat. 34[deg]56'00'' N, long. 118[deg]21'03'' W; to lat. 
+35[deg]15'00'' N, long. 118[deg]35'03'' W; to lat. 35[deg]40'00'' N, 
+long. 118[deg]35'03'' W; to lat. 36[deg]08'00'' N, long. 
+118[deg]35'03'' W; to lat. 36[deg]35'50'' N, long. 118[deg]35'03'' W; 
+to lat. 37[deg]04'50'' N, long. 118[deg]35'03'' W; to the point of 
+beginning. Additionally, prior to this final rule, the name of R-2508 
+was ``R-2508 Complex, CA'', as amended, the name is ``R-2508 China 
+Lake, CA''.
+    R-2515: Prior to this final rule, the R-2515 boundaries were 
+defined as beginning at lat. 35[deg]19'00'' N, long. 116[deg]49'03'' W; 
+to lat. 35[deg]10'00'' N, long. 116[deg]49'03'' W; to lat. 
+35[deg]08'50'' N, long. 116[deg]48'43'' W; to lat. 35[deg]06'30'' N, 
+long.116[deg]58'43'' W; to lat. 34[deg]53'30'' N, long. 117[deg]11'53'' 
+W; to lat. 34[deg]50'20'' N, long. 117[deg]32'03'' W; to lat. 
+34[deg]48'30'' N, long. 117[deg]32'03'' W; to lat. 34[deg]48'00'' N, 
+long. 117[deg]35'03'' W; to lat. 34[deg]48'00'' N, long. 
+118[deg]01'03'' W; to lat. 34[deg]49'40'' N, long. 118[deg]05'48'' W; 
+to lat. 35[deg]01'00'' N, long. 118[deg]05'48'' W; to lat. 
+35[deg]27'40'' N, long. 117[deg]26'03'' W; to lat. 35[deg]15'56'' N, 
+long. 117[deg]26'03'' W; to lat. 35[deg]15'56'' N, long. 
+116[deg]55'23'' W; to lat. 35[deg]19'00'' N, long. 116[deg]55'23'' W; 
+to the point of beginning. As amended, the R-2515 boundaries are 
+defined as beginning at lat. 35[deg]01'00'' N, long. 118[deg]05'48'' W; 
+to lat. 35[deg]19'20'' N, long. 117[deg]38'33'' W; to lat. 
+35[deg]27'40'' N, long. 117[deg]26'03'' W; to lat. 35[deg]15'56'' N, 
+long. 117[deg]26'03'' W; to lat. 35[deg]15'56'' N, long. 
+116[deg]55'23''W; to lat. 35[deg]19'00'' N, long. 116[deg]55'23'' W; to 
+lat. 35[deg]19'00'' N, long. 116[deg]49'03'' W; to lat. 35[deg]10'00'' 
+N, long. 116[deg]49'03'' W; to lat. 35[deg]08'50'' N, long. 
+116[deg]48'43''W; to lat. 35[deg]06'30'' N, long. 116[deg]58'43'' W; to 
+lat. 34[deg]56'20'' N, long. 117[deg]09'02'' W; to lat. 34[deg]53'30'' 
+N, long. 117[deg]11'53'' W; to lat. 34[deg]51'17'' N, long. 
+117[deg]26'03'' W; to lat. 34[deg]50'20'' N, long. 117[deg]32'03'' W; 
+to lat. 34[deg]48'30'' N, long. 117[deg]32'03'' W; to lat. 
+34[deg]48'00'' N, long. 117[deg]35'03'' W; to lat. 34[deg]48'00'' N, 
+long. 118[deg]01'03'' W; to lat. 34[deg]49'40'' N, long. 
+118[deg]05'48'' W; to lat. 34[deg]51'30'' N, long. 118[deg]05'48'' W; 
+to the point of beginning.
+
+Regulatory Notices and Analyses
+
+    The FAA has determined that this regulation only involves an 
+established body of technical regulations for which frequent and 
+routine amendments are necessary to keep them operationally current. 
+It, therefore: (1) is not a ``significant regulatory action'' under 
+Executive Order 12866; (2) is not a ``significant rule'' under DOT 
+Order 2100.6B, ``Rulemaking and Guidance Procedure'' (March 10, 2025); 
+and (3) is anticipated to have a minimal economic impact, as it only 
+affects air traffic
+
+[[Page 54800]]
+
+procedures and air navigation, resulting in at most de minimis costs 
+from minor rerouting of flights. Since this is a routine matter that 
+only affects air traffic procedures with de minimis impact on 
+operators, it is certified that this rule, when promulgated, does not 
+have a significant economic impact on a substantial number of small 
+entities under the criteria of the Regulatory Flexibility Act.
+
+Environmental Review
+
+    The FAA has determined that this action of amending multiple 
+coordinates used to describe restricted areas R-2505, R-2524, R-2508, 
+and R-2515 in California qualifies for categorical exclusion under the 
+National Environmental Policy Act (42 U.S.C. 4321, et seq.), and in 
+accordance with FAA Order 1050.1G, FAA National Environmental Policy 
+Act Implementing Procedures, paragraph B-2.5(d), which categorically 
+excludes from further environmental impact review modification of the 
+technical description of special use airspace (SUA) that does not alter 
+the dimensions, altitudes, or times of designation of the airspace 
+(such as changes in designation of the controlling or using agency, or 
+correction of typographical errors). As such, this action is not 
+expected to result in any potentially significant environmental 
+impacts. In accordance with the FAA's NEPA implementation policy and 
+procedures regarding extraordinary circumstances, the FAA has reviewed 
+this action for factors and circumstances in which a normally 
+categorically excluded action may have a significant environmental 
+impact requiring further analysis. The FAA has determined that no 
+extraordinary circumstances exist that warrant preparation of an 
+environmental assessment or environmental impact statement.
+
+Lists of Subjects in 14 CFR Part 73
+
+    Airspace, Prohibited areas, Restricted areas.
+
+The Amendment
+
+    In consideration of the foregoing, the Federal Aviation 
+Administration amends 14 CFR part 73 as follows:
+
+PART 73--SPECIAL USE AIRSPACE
+
+0
+1. The authority citation for part 73 continues to read as follows:
+
+    Authority:  49 U.S.C. 106(f), 106(g), 40103, 40113, 40120; E.O. 
+10854, 24 FR 9565, 3 CFR, 1959-1963 Comp., p. 389
+
+
+Sec.  73.25  California (CA) [Amended]
+
+0
+2. Section 73.25 is amended as follows:
+* * * * *
+
+R-2505 China Lake, CA [Amended]
+
+    Boundaries. Beginning at lat. 36[deg]14'00'' N, long. 
+117[deg]53'03'' W; to lat. 36[deg]14'00'' N, long. 117[deg]36'03'' 
+W; to lat. 36[deg]14'00'' N, long. 117[deg]25'03'' W; to lat. 
+35[deg]40'30'' N, long. 117[deg]25'03'' W; to lat. 35[deg]39'15'' N, 
+long. 117[deg]29'26'' W; to lat. 35[deg]37'30'' N, long. 
+117[deg]35'33'' W; to lat. 35[deg]37'30'' N, long. 117[deg]47'33'' 
+W; to lat. 35[deg]54'00'' N, long. 117[deg]53'03'' W; to lat. 
+36[deg]08'00'' N, long. 117[deg]53'03'' W; to the point of 
+beginning.
+    Designated altitudes. Unlimited.
+    Time of designation. Continuous.
+    Controlling agency. FAA, Joshua Control Facility, Edwards AFB, 
+CA.
+    Using agency. U.S. Navy, Naval Air Warfare Center Weapons 
+Division, China Lake, CA.
+* * * * *
+
+R-2524 Trona, CA [Amended]
+
+    Boundaries. Beginning at lat. 35[deg]36'00'' N, long. 
+117[deg]26'03'' W; to lat. 35[deg]36'00'' N, long. 117[deg]16'55'' 
+W; to lat. 35[deg]47'46'' N, long. 117[deg]16'55'' W; to lat. 
+35[deg]47'46'' N, long. 116[deg]55'23'' W; to lat. 35[deg]37'45'' N, 
+long. 116[deg]55'23'' W; to lat. 35[deg]19'00'' N, long. 
+116[deg]55'23'' W; to lat. 35[deg]15'56'' N, long. 116[deg]55'23'' 
+W; to lat. 35[deg]15'56'' N, long. 117[deg]26'03'' W; to lat. 
+35[deg]27'40'' N, long. 117[deg]26'03'' W; to the point of 
+beginning.
+    Designated altitudes. Unlimited.
+    Time of designation. Continuous.
+    Controlling agency. FAA, Joshua Control Facility, Edwards AFB, 
+CA.
+    Using agency. U.S. Navy, Naval Air Warfare Center Weapons 
+Division, China Lake, CA.
+* * * * *
+
+R-2508 China Lake, CA [Amended]
+
+    Boundaries. Beginning at lat. 37[deg]12'00'' N, long. 
+118[deg]35'03'' W; to lat. 37[deg]12'00'' N, long. 118[deg]26'03'' 
+W; to lat. 37[deg]12'00'' N, long. 118[deg]00'03'' W; to lat. 
+37[deg]12'00'' N, long. 117[deg]20'03'' W; to lat. 36[deg]30'00'' N, 
+long. 116[deg]55'18'' W; to lat. 35[deg]34'30'' N, long. 
+116[deg]23'33'' W; to lat. 35[deg]28'35'' N, long. 116[deg]18'48'' 
+W; to lat. 35[deg]25'48'' N, long. 116[deg]18'48'' W; to lat. 
+35[deg]18'45'' N, long. 116[deg]18'48'' W; to lat. 35[deg]07'00'' N, 
+long. 116[deg]34'03'' W; to lat. 35[deg]07'00'' N, long. 
+116[deg]47'48'' W; to lat. 35[deg]08'50'' N, long. 116[deg]48'43'' 
+W; to lat. 35[deg]06'30'' N, long. 116[deg]58'43'' W; to lat. 
+34[deg]56'20'' N, long. 117[deg]09'02'' W; to lat. 34[deg]53'30'' N, 
+long. 117[deg]11'53'' W; to lat. 34[deg]51'17'' N, long. 
+117[deg]26'03'' W; to lat. 34[deg]50'20'' N, long. 117[deg]32'03'' 
+W; to lat. 34[deg]48'30'' N, long. 117[deg]32'03'' W; to lat. 
+34[deg]48'00'' N, long. 117[deg]35'03'' W; to lat. 34[deg]48'00'' N, 
+long. 118[deg]01'03'' W; to lat. 34[deg]49'40'' N, long. 
+118[deg]05'48'' W; to lat. 34[deg]51'30'' N, long. 118[deg]05'48'' 
+W; to lat. 34[deg]56'00'' N, long. 118[deg]21'03'' W; to lat. 
+35[deg]15'00'' N, long. 118[deg]35'03'' W; to lat. 35[deg]40'00'' N, 
+long. 118[deg]35'03'' W; to lat. 36[deg]08'00'' N, long. 
+118[deg]35'03'' W; to lat. 36[deg]35'50'' N, long. 118[deg]35'03'' 
+W; to lat. 37[deg]04'50'' N, long. 118[deg]35'03'' W; to the point 
+of beginning.
+    Designated altitudes. 20,000 feet MSL to unlimited.
+    Time of designation. Continuous.
+    Controlling agency. FAA, Joshua Control Facility, Edwards AFB, 
+CA.
+    Using agency. U.S. Navy, Naval Air Warfare Center Weapons 
+Division, China Lake, CA.
+* * * * *
+
+R-2515 Muroc Lake, CA [Amended]
+
+    Boundaries. Beginning at lat. 35[deg]01'00'' N, long. 
+118[deg]05'48'' W; to lat. 35[deg]19'20'' N, long. 117[deg]38'33'' 
+W; to lat. 35[deg]27'40'' N, long. 117[deg]26'03'' W; to lat. 
+35[deg]15'56'' N, long. 117[deg]26'03'' W; to lat. 35[deg]15'56'' N, 
+long. 116[deg]55'23'' W; to lat. 35[deg]19'00'' N, long. 
+116[deg]55'23'' W; to lat. 35[deg]19'00'' N, long. 116[deg]49'03'' 
+W; to lat. 35[deg]10'00'' N, long. 116[deg]49'03'' W; to lat. 
+35[deg]08'50'' N, long. 116[deg]48'43'' W; to lat. 35[deg]06'30'' N, 
+long. 116[deg]58'43'' W; to lat. 34[deg]56'20'' N, long. 
+117[deg]09'02'' W; to lat. 34[deg]53'30'' N, long. 117[deg]11'53'' 
+W; to lat. 34[deg]51'17'' N, long. 117[deg]26'03'' W; to lat. 
+34[deg]50'20'' N, long. 117[deg]32'03'' W; to lat. 34[deg]48'30'' N, 
+long. 117[deg]32'03'' W; to lat. 34[deg]48'00'' N, long. 
+117[deg]35'03'' W; to lat. 34[deg]48'00'' N, long. 118[deg]01'03'' 
+W; to lat. 34[deg]49'40'' N, long. 118[deg]05'48'' W; to lat. 
+34[deg]51'30'' N, long. 118[deg]05'48'' W; to the point of 
+beginning.
+    Designated altitudes. Unlimited.
+    Time of designation. Continuous.
+    Controlling agency. FAA, Joshua Control Facility, Edwards AFB, 
+CA.
+    Using agency. Commander, 412 Test Wing (412 TW), Edwards AFB, 
+CA.
+* * * * *
+
+    Issued in Washington, DC, on August 21, 2026.
+Brian Eric Konie,
+Acting Manager, Rules and Regulations Group.
+[FR Doc. 2026-17339 Filed 8-24-26; 8:45 am]
+BILLING CODE 4910-13-P

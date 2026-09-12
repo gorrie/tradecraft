@@ -1,5 +1,5 @@
-# Capture Leaderboard - drift as of 2026-07-09
+# Capture Leaderboard - drift as of 2026-09-07
 
-*Change since 2026-07-08:*
+*Change since 2026-09-04:*
 
 - No change since the prior cut.

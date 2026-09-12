@@ -1,0 +1,1778 @@
+{
+ "_what": "Own output or third-party reporting? The ruling for every receipt URL on the capture ledger.",
+ "ledger_records": 150,
+ "receipt_pairs": 194,
+ "by_class": {
+  "third-party": 150,
+  "own": 31,
+  "own-landing": 4,
+  "own-archived": 9
+ },
+ "institutions_with_own_output": [
+  "Behavioural Insights Team (UK Nudge Unit)",
+  "EU AI Office (Code of Practice)",
+  "EU Code of Practice on Disinformation (DSA)",
+  "Election Integrity Partnership (EIP)",
+  "Frontier Model Forum (FMF)",
+  "Leninist democratic centralism",
+  "New Left (long march through the institutions)",
+  "NewsGuard",
+  "SPI-B (UK SAGE behavioural subgroup)",
+  "Scientific publishing (big-five oligopoly)",
+  "Soviet Communist Party (wooden language)",
+  "Stanford Internet Observatory",
+  "US AI Safety Institute (NIST / CAISI)",
+  "US Food and Drug Administration (drug review)",
+  "Wikipedia (English)",
+  "World Health Organization"
+ ],
+ "institutions_total": 36,
+ "rows": [
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.bbc.co.uk/news/uk-politics-26030205",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.bi.team/about-us/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "bi.team is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.bi.team/press-releases/nesta-acquires-behavioural-insights-team-to-help-tackle-societys-biggest-social-challenges/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "bi.team is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.bi.team/publications/east-four-simple-ways-to-apply-behavioural-insights/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "bi.team is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.gov.uk/government/organisations/behavioural-insights-team",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R1 override",
+   "why": "the unit's own organisation page from when it sat inside the Cabinet Office",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.gov.uk/government/publications/options-for-increasing-adherence-to-social-distancing-measures-22-march-2020",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.instituteforgovernment.org.uk/article/explainer/nudge-unit",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.instituteforgovernment.org.uk/sites/default/files/publications/MINDSPACE.pdf",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.nesta.org.uk/press-release/nesta-acquires-behavioural-insights-team/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Behavioural Insights Team (UK Nudge Unit)",
+   "url": "https://www.telegraph.co.uk/news/2021/05/02/scientists-fear-covid-19-tactics-totalitarian/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "CCP United Front Work Department",
+   "url": "https://en.wikipedia.org/wiki/United_Front_Work_Department",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "CCP United Front Work Department",
+   "url": "https://www.uscc.gov/research/chinas-overseas-united-front-work-background-and-implications-united-states",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "a US congressional commission report about the UFWD",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinadigitaltimes.net/china/directives-from-the-ministry-of-truth/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinamediaproject.org/the_ccp_dictionary/chinese-discourse-and-narrative-system/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinamediaproject.org/the_ccp_dictionary/discourse-power/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinamediaproject.org/the_ccp_dictionary/external-propaganda/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinamediaproject.org/the_ccp_dictionary/guidance-of-public-opinion/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://chinamediaproject.org/the_ccp_dictionary/telling-chinas-story-well/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://digichina.stanford.edu/work/lexicon-discourse-power-or-the-right-to-speak-huayu-quan/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Chinese Communist Party (discourse power)",
+   "url": "https://freedomhouse.org/country/china/freedom-net/2024",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "EU AI Office (Code of Practice)",
+   "url": "https://corporateeurope.org/en/2025/01/bias-baked",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "EU AI Office (Code of Practice)",
+   "url": "https://corporateeurope.org/en/2025/04/coded-privileged-access",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "EU AI Office (Code of Practice)",
+   "url": "https://corporateeurope.org/en/2025/06/lobby-watchdogs-file-complaint-against-ai-office-over-conflict-interest",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "EU AI Office (Code of Practice)",
+   "url": "https://corporateeurope.org/en/2025/07/eus-ai-rules-set-be-handed-silver-plate-corporate-lobbyists",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "EU AI Office (Code of Practice)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+   "assurance": "ATTRIBUTED",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "digital-strategy.ec.europa.eu is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "EU Code of Practice on Disinformation (DSA)",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/code-conduct-disinformation",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "digital-strategy.ec.europa.eu is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "EU Code of Practice on Disinformation (DSA)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-disinformation",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "digital-strategy.ec.europa.eu is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "EU Code of Practice on Disinformation (DSA)",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-codes-conduct",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "digital-strategy.ec.europa.eu is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Election Integrity Partnership (EIP)",
+   "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/EIP_Jira_Ticket_Staff_Report_11-6-23_Clean.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Election Integrity Partnership (EIP)",
+   "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/cisa-staff-report6-26-23.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Election Integrity Partnership (EIP)",
+   "url": "https://www.eipartnership.net/report",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "eipartnership.net is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "http://www.climatefiles.com/exxonmobil/",
+   "assurance": "ATTRIBUTED",
+   "class": "own-landing",
+   "rule": "R1 override",
+   "why": "an archive INDEX of Exxon's internal documents; the documents are PDFs, the page is the archive's",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "http://www.climatefiles.com/trade-group/global-climate-coalition/",
+   "assurance": "FACT",
+   "class": "own-landing",
+   "rule": "R1 override",
+   "why": "archive index for the GCC's documents; the page is the archive's, the documents are PDFs",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "https://insideclimatenews.org/project/exxon-the-road-not-taken/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "https://www.desmog.com/global-climate-coalition/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "https://www.merchantsofdoubt.org/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "https://www.science.org/doi/10.1126/science.abk0063",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "ExxonMobil",
+   "url": "https://www.ucs.org/resources/smoke-mirrors-hot-air",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Fabian Society",
+   "url": "https://en.wikipedia.org/wiki/Fabian_Society",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://blog.google/outreach-initiatives/public-policy/google-microsoft-openai-anthropic-frontier-model-forum/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R1 override",
+   "why": "the same joint launch statement, on another founder's blog",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://blogs.microsoft.com/on-the-issues/2023/07/26/anthropic-google-microsoft-openai-launch-frontier-model-forum/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R1 override",
+   "why": "the founding members' joint launch statement -- the forum's own founding text, on a founder's blog",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://www.frontiermodelforum.org/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "frontiermodelforum.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://www.frontiermodelforum.org/membership/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "frontiermodelforum.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://www.frontiermodelforum.org/updates/amazon-and-meta-join-the-frontier-model-forum/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "frontiermodelforum.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Frontier Model Forum (FMF)",
+   "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Global Disinformation Index (GDI)",
+   "url": "https://en.wikipedia.org/wiki/Global_Disinformation_Index",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Global Disinformation Index (GDI)",
+   "url": "https://www.washingtonexaminer.com/policy/finance/2773271/disinformation-inc-state-department-bankrolls-group-secretly-blacklisting-conservative-media/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/Ferenc_Nagy",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/Hungarian_People%27s_Republic",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/Hungarian_Working_People%27s_Party",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/Independent_Smallholders_Party",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A1ty%C3%A1s_R%C3%A1kosi",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://en.wikipedia.org/wiki/Salami_slicing_tactics_(politics)",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Hungarian Working People's Party (Rakosi salami tactics)",
+   "url": "https://time.com/archive/6794585/hungary-salami-tactics/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Islamic Republic of Iran (clerical governance)",
+   "url": "https://en.wikipedia.org/wiki/Guardian_Council",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Islamic Republic of Iran (clerical governance)",
+   "url": "https://www.hrw.org/legacy/backgrounder/mena/iran0605/2.htm",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Jones Act (Merchant Marine Act of 1920)",
+   "url": "https://en.wikipedia.org/wiki/Merchant_Marine_Act_of_1920",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Jones Act (Merchant Marine Act of 1920)",
+   "url": "https://www.congress.gov/crs-product/R45725",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/index.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/iv.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch01.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch02.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/archive/lenin/works/1921/mar/08.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/glossary/terms/d/e.htm",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "the Marxists Internet Archive's own editorial glossary, not a party or Lenin text",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch03a.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Leninist democratic centralism",
+   "url": "https://www.marxists.org/history/international/comintern/2nd-congress/ch06.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Muslim Brotherhood",
+   "url": "https://bridge.georgetown.edu/research/civilization-jihad-debunking-the-conspiracy-theory/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Muslim Brotherhood",
+   "url": "https://www.investigativeproject.org/documents/misc/20.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "a PDF of a Brotherhood memorandum hosted by an adversary; ruled on the host (a PDF would not be graded either way)",
+   "wayback": false
+  },
+  {
+   "institution": "New Left (long march through the institutions)",
+   "url": "https://en.wikipedia.org/wiki/Cultural_hegemony",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "New Left (long march through the institutions)",
+   "url": "https://en.wikipedia.org/wiki/Long_march_through_the_institutions",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "New Left (long march through the institutions)",
+   "url": "https://en.wikipedia.org/wiki/Repressive_Tolerance",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "New Left (long march through the institutions)",
+   "url": "https://plato.stanford.edu/entries/gramsci/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "New Left (long march through the institutions)",
+   "url": "https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marcuse.org",
+   "wayback": false
+  },
+  {
+   "institution": "NewsGuard",
+   "url": "https://www.axios.com/2024/06/14/newsguard-oversight-committee-investigation-free-speech",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "NewsGuard",
+   "url": "https://www.newsguardtech.com/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "newsguardtech.com is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "NewsGuard",
+   "url": "https://www.newsguardtech.com/press/newsguard-wins-pentagon-state-department-contest-for-detecting-covid-19-misinformation-and-disinformation/",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "newsguardtech.com is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "NewsGuard",
+   "url": "https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://archive.org/details/BernaysPropaganda",
+   "assurance": "FACT",
+   "class": "own-landing",
+   "rule": "R4 archive landing page",
+   "why": "landing page for a primary work; the text is not on the page",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://en.wikipedia.org/wiki/Edward_Bernays",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://en.wikipedia.org/wiki/The_Engineering_of_Consent",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://en.wikipedia.org/wiki/Torches_of_Freedom",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1470496/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Public relations industry (Bernays)",
+   "url": "https://www.gutenberg.org/ebooks/61364",
+   "assurance": "FACT",
+   "class": "own-landing",
+   "rule": "R4 archive landing page",
+   "why": "landing page for a primary work; the text is not on the page",
+   "wayback": false
+  },
+  {
+   "institution": "Rashtriya Swayamsevak Sangh (RSS)",
+   "url": "https://en.wikipedia.org/wiki/Rashtriya_Swayamsevak_Sangh",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Rashtriya Swayamsevak Sangh (RSS)",
+   "url": "https://thediplomat.com/2025/09/the-rss-at-100-the-pan-hindutva-force-behind-modis-bjp/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://arxiv.org/html/2601.01620v1",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://dailydot.com/reddit-campaign-against-moderator-awkwardtheturtle",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://news.ycombinator.com/item?id=23173018",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://startupspells.com/p/pareto-principle-reddit-power-concentration",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://www.change.org/p/reddit-mods-ban-u-awkwardtheturtle",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://www.cnbc.com/2018/04/11/reddit-bans-accounts-linked-to-russia-internet-research-agency.html",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://www.cnbc.com/2023/06/16/reddit-in-crisis-as-prominent-moderators-protest-api-price-increase.html",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Reddit",
+   "url": "https://www.engadget.com/2018/04/11/reddit-banned-russian-propaganda-accounts/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://en.wikipedia.org/wiki/Regulatory_capture",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://tobinproject.org/sites/default/files/assets/Kwak%20-%20Cultural%20Capture%20and%20the%20Financial%20Crisis.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://www.chicagobooth.edu/review/how-george-stigler-changed-analysis-regulation",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://www.hup.harvard.edu/books/9780674537514",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://www.jstor.org/stable/3003160",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://www.nber.org/papers/w20241",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Regulatory capture (Stiglerian / revolving door)",
+   "url": "https://www.nber.org/system/files/working_papers/w20241/w20241.pdf",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "SPI-B (UK SAGE behavioural subgroup)",
+   "url": "http://web.archive.org/web/20260527012943/https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887467/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "assets.publishing.service.gov.uk is the institution's own host",
+   "wayback": true
+  },
+  {
+   "institution": "SPI-B (UK SAGE behavioural subgroup)",
+   "url": "https://assets.publishing.service.gov.uk/media/5ecd084586650c76acac37e0/25-options-for-increasing-adherence-to-social-distancing-measures-22032020.pdf",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "assets.publishing.service.gov.uk is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "SPI-B (UK SAGE behavioural subgroup)",
+   "url": "https://www.gov.uk/government/publications/options-for-increasing-adherence-to-social-distancing-measures-22-march-2020",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "gov.uk/government/publications is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "SPI-B (UK SAGE behavioural subgroup)",
+   "url": "https://www.telegraph.co.uk/news/2021/05/14/scientists-fear-totalitarian-covid-19-approach/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://direct.mit.edu/qss/article/4/4/778/118070/The-oligopoly-s-shift-to-open-access-How-the-big",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://link.springer.com/article/10.1186/s41073-021-00118-2",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "a research article its academic authors wrote; Springer hosts it, did not author it",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8591820/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.insidehighered.com/news/2015/11/02/editors-and-editorial-board-quit-top-linguistics-journal-protest-subscription-fees",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.nature.com/articles/d41586-023-01391-5",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R1 override",
+   "why": "a Nature NEWS article on publishing; Nature is a member of the oligopoly on the board -- ruled own with that caveat",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.researchprofessionalnews.com/rr-news-europe-infrastructure-2024-2-elsevier-parent-reports-10-hike-in-profits-for-2023/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.sciencedaily.com/releases/2015/06/150610143624.htm",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.sec.gov/Archives/edgar/data/929869/000092986924000024/tmb-20231231xex99d1.pdf",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "sec.gov is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Scientific publishing (big-five oligopoly)",
+   "url": "https://www.timeshighereducation.com/news/mass-resignations-elsevier-journal-over-unethical-price-hike",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Seven Mountains Mandate",
+   "url": "https://en.wikipedia.org/wiki/Seven_Mountain_Mandate",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Seven Mountains Mandate",
+   "url": "https://theconversation.com/what-is-the-seven-mountains-mandate-and-how-is-it-linked-to-political-extremism-in-the-us-260034",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://en.wikipedia.org/wiki/Enemy_of_the_people",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Thom",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://en.wikipedia.org/wiki/Glavlit",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://en.wikipedia.org/wiki/Wooden_language",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://www.marxists.org/reference/archive/stalin/works/1929/12/27.htm",
+   "assurance": "FACT",
+   "class": "own-archived",
+   "rule": "R3 archived primary text",
+   "why": "a primary text of the institution's principals/organs hosted by marxists.org",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://www.orwell.ru/library/essays/politics/english/e_polit",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Soviet Communist Party (wooden language)",
+   "url": "https://www.orwell.ru/library/novels/1984/english/en_app",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/EIP_Jira_Ticket_Staff_Report_11-6-23_Clean.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://reason.com/2023/03/17/researchers-pressured-twitter-to-treat-covid-19-facts-as-misinformation/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://www.eipartnership.net/report",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "eipartnership.net is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://www.npr.org/2024/06/14/g-s1-4570/a-major-disinformation-research-teams-future-is-uncertain-after-political-attacks",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://www.platformer.news/stanford-internet-observatory-shutdown-stamos-diresta-sio/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Stanford Internet Observatory",
+   "url": "https://www.viralityproject.org",
+   "assurance": "ATTRIBUTED",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "viralityproject.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "State Department Global Engagement Center (GEC)",
+   "url": "https://cyberscoop.com/state-departments-disinformation-office-to-close-after-funding-nixed-in-ndaa/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "State Department Global Engagement Center (GEC)",
+   "url": "https://en.wikipedia.org/wiki/Global_Disinformation_Index",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "State Department Global Engagement Center (GEC)",
+   "url": "https://en.wikipedia.org/wiki/Global_Engagement_Center",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "The Advancement of Sound Science Coalition (TASSC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1446868/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "The Jacobins (1793 Terror)",
+   "url": "https://en.wikipedia.org/wiki/Law_of_Suspects",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "The Jacobins (1793 Terror)",
+   "url": "https://en.wikipedia.org/wiki/Reign_of_Terror",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "The Jacobins (1793 Terror)",
+   "url": "https://www.britannica.com/event/Reign-of-Terror",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Third Reich (LTI - Nazi German)",
+   "url": "https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Third Reich (LTI - Nazi German)",
+   "url": "https://en.wikiquote.org/wiki/Victor_Klemperer",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Third Reich (LTI - Nazi German)",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/the-final-solution",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://en.wikipedia.org/wiki/Twitter_Files",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "an encyclopedia entry about the institution, written by Wikipedia editors",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://judiciary.house.gov/media/press-releases/new-report-reveals-cisa-tried-cover-censorship-practices",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/EIP_Jira_Ticket_Staff_Report_11-6-23_Clean.pdf",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://reason.com/2022/12/19/the-fbi-paid-twitter-3-4-million-for-processing-requests/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://reason.com/2023/01/27/twitter-files-matt-taibbi-hamilton-68-russian-bots-fake/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.ca5.uscourts.gov/opinions/pub/23/23-30445-CV0.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.cnn.com/2022/12/23/politics/twitter-files-elon-musk-fbi-hunter-biden-laptop/index.html",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.factcheck.org/2023/02/fbi-reimbursed-twitter-for-providing-user-information/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.foxnews.com/politics/fbi-warned-twitter-hunter-biden-hack-leak-operation-before-expose-censored-2020",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.supremecourt.gov/opinions/23pdf/23-411_3dq3.pdf",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Twitter / X (2020-2022)",
+   "url": "https://www.thefp.com/p/twitters-secret-blacklists",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US AI Safety Institute (NIST / CAISI)",
+   "url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/07/21/fact-sheet-biden-harris-administration-secures-voluntary-commitments-from-leading-artificial-intelligence-companies-to-manage-the-risks-posed-by-ai/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US AI Safety Institute (NIST / CAISI)",
+   "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "the executive order that created the institute -- the White House's voice, not NIST's",
+   "wayback": false
+  },
+  {
+   "institution": "US AI Safety Institute (NIST / CAISI)",
+   "url": "https://www.nist.gov/caisi",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "nist.gov is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "US AI Safety Institute (NIST / CAISI)",
+   "url": "https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "nist.gov is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://jamanetwork.com/journals/jama/fullarticle/202754",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://kffhealthnews.org/morning-breakout/study-raises-concerns-over-revolving-door-between-fda-pharma-companies-it-regulates/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://oversightdemocrats.house.gov/sites/evo-subsites/democrats-oversight.house.gov/files/2022-12-29.COR%20&%20E&C%20Joint%20Staff%20Report%20re.%20Aduhelm.pdf",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1450069",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.agencyiq.com/blog/understanding-the-nuts-and-bolts-of-the-reauthorization-process-for-pdufa-viii/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.cnbc.com/2019/06/27/former-fda-commissioner-scott-gottlieb-joins-pfizers-board.html",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.congress.gov/crs-product/R44750",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.fda.gov/media/151712/download",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "fda.gov is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK603243/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.pfizer.com/news/press-release/press-release-detail/scott_gottlieb_elected_to_pfizer_s_board_of_directors",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.science.org/content/article/fda-s-revolving-door-companies-often-hire-agency-staffers-who-managed-their-successful",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US Food and Drug Administration (drug review)",
+   "url": "https://www.statnews.com/2022/12/29/rife-with-irregularities-congressional-investigation-reveals-fdas-approval-of-aduhelm-marked-by-secret-discussions-breaches-of-protocol/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://econjwatch.org/file_download/944/LangbertQuainKleinSept2016.pdf",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://hechingerreport.org/ranks-of-nonacademic-staffs-at-colleges-continues-to-outpace-enrollment-faculty/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://reason.com/2020/02/03/university-of-california-diversity-initiative-berkeley/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://www.congress.gov/crs-product/IF12927",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://www.deseret.com/politics/2025/03/20/university-of-california-no-longer-requiring-diversity-statements/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-releases-latest-foreign-funding-disclosures-federally-funded-american-universities",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://www.fire.org/news/first-national-survey-bias-response-teams-reveals-growing-threat-campus-free-speech",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "US higher education (elite universities)",
+   "url": "https://www.fire.org/research-learn/bias-response-team-report-2017",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://en.wikipedia.org/wiki/Arbitration_Committee_(Wikipedia)",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "en.wikipedia.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://en.wikipedia.org/wiki/WikiScanner",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "en.wikipedia.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://en.wikipedia.org/wiki/Wikipedia:Arbitration/Index/Palestine-Israel_articles",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "en.wikipedia.org is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.404media.co/wikipedia-cofounder-larry-sanger-banned-from-site-for-canvassaing/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.algemeiner.com/2024/12/04/wikipedias-quiet-revolution-how-coordinated-group-editors-reshaped-israeli-palestinian-narrative/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.atlanticcouncil.org/news/transcripts/katherine-maher-on-how-big-tech-can-be-as-trusted-as-wikipedia/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.thebureauinvestigates.com/stories/2026-01-14/london-pr-firm-rewrites-wikipedia-for-governments-and-billionaires",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.timesofisrael.com/edit-wars-over-israel-spur-rare-ban-of-8-wikipedia-editors-from-both-sides/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "Wikipedia (English)",
+   "url": "https://www.washingtonexaminer.com/op-eds/4638304/larry-sanger-wikipedia-co-founder-banned-anonymous-mob/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://apnews.com/article/health-ap-top-news-international-news-china-clamps-down-3c061794970661042b18d5aeaaed9fae",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://bmjgroup.com/world-health-organizations-priorities-shaped-by-its-reliance-on-grants-from-donor-organisations-such-as-the-gates-foundation/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://iris.who.int/items/5ba20db4-745b-4188-9da1-f55f5332013e",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "who.int is the institution's own host",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1118320/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "a government, court or legislative document about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.bmj.com/content/340/bmj.c2912",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.cidrap.umn.edu/news-perspective/2010/06/who-director-replies-bmj-critique-pandemic-actions",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R1 override",
+   "why": "CIDRAP reporting on a WHO reply; the reply is quoted, the page is the reporter's",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.nationalreview.com/news/who-gave-china-veto-power-over-american-scientists-joining-covid-origin-investigation/",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.npr.org/sections/coronavirus-live-updates/2021/07/22/1019244601/china-who-coronavirus-lab-leak-theory",
+   "assurance": "ATTRIBUTED",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.statista.com/statistics/1456464/largest-donors-who/",
+   "assurance": "FACT",
+   "class": "third-party",
+   "rule": "R5 default",
+   "why": "reporting, scholarship or commentary about the institution",
+   "wayback": false
+  },
+  {
+   "institution": "World Health Organization",
+   "url": "https://www.who.int/about/funding/invest-in-who/investment-case-2.0/current-state",
+   "assurance": "FACT",
+   "class": "own",
+   "rule": "R2 own host",
+   "why": "who.int is the institution's own host",
+   "wayback": false
+  }
+ ]
+}

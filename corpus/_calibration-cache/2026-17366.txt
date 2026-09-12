@@ -1,0 +1,1010 @@
+Federal Register, Volume 91 Issue 164 (Wednesday, August 26, 2026)
+
+
+[Federal Register Volume 91, Number 164 (Wednesday, August 26, 2026)]
+[Rules and Regulations]
+[Pages 55008-55015]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2026-17366]
+
+
+
+[[Page 55008]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+NATIONAL FOUNDATION ON THE ARTS AND THE HUMANITIES
+
+45 CFR Part 1110
+
+RIN 3135-AA37; 3136-AA48; 3137-AA30
+
+
+Rescinding Portions of the National Foundation on the Arts and 
+Humanities Title VI Regulations To Conform More Closely With the 
+Statutory Text and To Implement Executive Order 14281
+
+AGENCY: National Endowment for the Arts, National Endowment for the 
+Humanities, Institute of Museum and Library Services, National 
+Foundation on the Arts and the Humanities.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This rule amends the National Foundation on the Arts and the 
+Humanities' (the Foundation) regulations implementing Title VI of the 
+Civil Rights Act of 1964 (Title VI) to eliminate disparate-impact 
+liability. These amendments align the conduct prohibited by the 
+Foundation's regulations with Title VI text, avoid constitutional 
+concerns, reduce compliance costs, and serve the public interest. In 
+addition, these revisions are consistent with Executive Order 14281.
+
+DATES: These regulations are effective August 26, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Daniel Fishman, Deputy General 
+Counsel, National Endowment for the Arts, 400 7th St. SW, Washington, 
+DC 20506, Telephone: 202-682-5418.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    The Foundation operates under the National Foundation on the Arts 
+and the Humanities Act of 1965, as amended (20 U.S.C. 951 et seq.), and 
+consists of the National Endowment for the Arts (NEA), the National 
+Endowment for the Humanities (NEH), the Institute of Museum and Library 
+Services (IMLS), and the Federal Council on the Arts and the Humanities 
+(FCAH). The NEA, NEH, IMLS, and FCAH are collectively referred to as 
+the ``Foundation's constituent agencies'' or the ``constituent 
+agencies.''
+
+II. Executive Summary
+
+    This rule rescinds portions of the Foundation's regulations 
+promulgated pursuant to Title VI, 42 U.S.C. 2000d-1, to more closely 
+align its regulations with the language that Congress enacted in Title 
+VI prohibiting intentionally discriminatory conduct, see 42 U.S.C. 
+2000d. There are serious statutory and constitutional concerns with the 
+legality of provisions in the Foundation's Title VI regulations that go 
+beyond intentional discrimination by prohibiting conduct that has an 
+unintentional disparate impact. This rule accordingly rescinds those 
+portions of the regulations, which are in considerable tension with 
+both the statute and the Constitution and do not sufficiently serve the 
+public interest. First, this rule rescinds the full text of 45 CFR 
+1110.3(b)(2), which currently prohibits the utilization of ``criteria 
+or methods of administration which have the effect of subjecting 
+individuals to discrimination because of their race, color, or national 
+origin.'' Second, this rule removes the two uses of the phrase ``or 
+effect'' from 45 CFR 1110.3(b)(3). Third, this rule rescinds the full 
+text of 45 CFR 1110.3(b)(6). Fourth, this rule rescinds the full text 
+of 45 CFR 1110.3(c)(3), which addresses employment practices of Federal 
+funding recipients. Fifth, this rule rescinds the full text of the 
+illustrative applications and examples under 45 CFR 1110.5(e), (f), and 
+(g), in order to conform the illustrative applications to the foregoing 
+revisions.
+    The rule's revisions also conform to Executive Order 14281, 
+Restoring Equality of Opportunity and Meritocracy, 90 FR 17537 (Apr. 
+23, 2025). That Order states that ``[i]t is the policy of the United 
+States to eliminate the use of disparate-impact liability in all 
+contexts to the maximum degree possible to avoid violating the 
+Constitution, Federal civil rights laws, and basic American ideals.'' 
+Id. at 17537.
+    The practical impact of this rule's modifications will be to 
+clarify for the constituent agencies' recipients of Federal funding 
+that the revised Title VI regulations do not prohibit conduct or 
+activities that have a disparate impact and prohibit only intentional 
+discrimination, and thus that the Foundation's constituent agencies 
+will not pursue Title VI disparate-impact liability against their 
+funding recipients.
+
+III. Discussion
+
+A. Statutory History of Title VI
+
+    Title VI of the Civil Rights Act of 1964, as amended, provides: 
+``No person in the United States shall, on the ground of race, color, 
+or national origin, be excluded from participation in, be denied the 
+benefits of, or be subjected to discrimination under any program or 
+activity receiving Federal financial assistance.'' 42 U.S.C. 2000d. 
+Title VI also directs Federal departments and agencies that extend 
+Federal financial assistance to ``effectuate the provisions of'' Title 
+VI ``by issuing rules, regulations, or orders of general 
+applicability.'' 42 U.S.C. 2000d-1. The section of Title VI that sets 
+forth the prohibited conduct, 42 U.S.C. 2000d, specifically prohibits 
+intentional discrimination and makes no reference to unintentional 
+disparate effects or impact. See Alexander v. Sandoval, 532 U.S. 275, 
+280 (2001) (``[I]t is . . . beyond dispute--and no party disagrees--
+that [Title VI] prohibits only intentional discrimination.''). The 
+statute does not provide any Federal department or agency with 
+authority to prohibit unintentional disparate impact. And despite ample 
+opportunities, Congress has enacted no subsequent amendments to Title 
+VI to impose disparate-impact liability.
+
+B. Regulatory History of Title VI
+
+    Pursuant to Executive Order 12250, ``[t]he Attorney General shall 
+coordinate the implementation and enforcement by Executive agencies of 
+. . . Title VI.'' 45 FR 72995, 72995 (Nov. 2, 1980). Accordingly, the 
+Department of Justice (DOJ) acts as the lead Federal agency responsible 
+for defining the nature and scope of Title VI's prohibition of 
+discrimination on the basis of race, color, and national origin in 
+programs or activities receiving Federal financial assistance. The 
+Order directs DOJ to, among other things, ``develop standards and 
+procedures for taking enforcement actions and for conducting 
+investigations and compliance reviews.'' Id. Further, as part of this 
+responsibility, the Order provides that other Federal agencies' 
+regulations implementing Title VI are also subject to the Attorney 
+General's approval. Id. at 72996.
+    The initial set of model regulations for Title VI were issued by 
+the then-Department of Health, Education, and Welfare on December 4, 
+1964, which included only one reference to the ``effect of'' conduct in 
+the ``discrimination prohibited'' provision of the rule. See 29 FR 
+16298, 16299 (Dec. 4, 1964) (codified at 45 CFR 80.3(b)(2)). In 1973, 
+the Foundation promulgated its regulations under Title VI. 38 FR 17991 
+(July 5, 1973). In 1997, the Foundation issued a technical amendment to 
+incorporate IMLS into the regulation, after IMLS was established as a 
+subdivision of the Foundation under the Museum and Library Services Act 
+of 1996. 62 FR 66826 (Dec. 22, 1997). In 2003, the Foundation added 
+language regarding ``program or activity'' to reflect the amendment of 
+Title VI by the Civil Rights Restoration Act of 1987. 68 FR 51384 (Aug. 
+26, 2003). Thus, apart from the technical update of adding IMLS,
+
+[[Page 55009]]
+
+and the required updating of the phrase ``program or activity'' 
+pursuant to the Civil Rights Restoration Act, the Foundation has not 
+substantively updated its Title VI regulations since 1973--over 50 
+years ago.
+
+C. Relevant Supreme Court Decisions
+
+    The Supreme Court has made clear that Title VI, 42 U.S.C. 2000d, 
+does not prohibit facially neutral policies that result in disparate 
+outcomes when there is no discriminatory intent. Rather, it prohibits 
+only intentional discrimination.
+    In 1978, the Supreme Court concluded that Congress intended Title 
+VI to prohibit ``only those racial classifications that would violate 
+the Equal Protection Clause'' if committed by a government actor. 
+Regents of the Univ. of Cal. v. Bakke, 438 U.S. 265, 287 (1978) 
+(Powell, J., announcing the judgment of the Court); id. at 325, 328, 
+352-53 (Brennan, White, Marshall, and Blackmun, JJ., concurring in part 
+and dissenting in part); see also Students for Fair Admissions, Inc. v. 
+President & Fellows of Harvard Coll., 600 U.S. 181, 198 n.2 (2023) 
+(SFFA). Shortly before Bakke's Title VI holding, the Supreme Court held 
+that the Equal Protection Clause prohibits only intentional 
+discrimination and that ``a law or other official act'' that has a 
+``racially disproportionate impact'' alone does not violate that 
+Clause. Washington v. Davis, 426 U.S. 229, 239 (1976); see also Vill. 
+of Arlington Heights v. Metro. Hous. Dev. Corp., 429 U.S. 252, 265 
+(1977) (``Proof of racially discriminatory intent or purpose is 
+required to show a violation of the Equal Protection Clause.''). Taken 
+together, these Supreme Court cases establish that Title VI's statutory 
+prohibition, like the Equal Protection Clause, extends only to 
+intentional discrimination.
+    In 2001, the Supreme Court, in Alexander v. Sandoval, reaffirmed 
+that settled understanding. 532 U.S. at 280 (``[I]t is . . . beyond 
+dispute . . . that [Title VI] prohibits only intentional 
+discrimination.''). In Sandoval, the Supreme Court held that private 
+plaintiffs lacked a private right of action to enforce DOJ's 
+``disparate-impact regulations.'' Id. at 285-87. Though the Supreme 
+Court had previously found a private cause of action to enforce Title 
+VI's bar on intentional discrimination, id. at 279-80, that conclusion 
+did not extend to enforcing DOJ's ``disparate-impact regulations,'' id. 
+at 285. As the Supreme Court explained, it is ``clear'' that ``the 
+disparate-impact regulations do not simply apply'' the statutory 
+prohibition, as the regulations ``forbid conduct that [Title VI] 
+permits,'' so it is equally ``clear that the private right of action to 
+enforce [Title VI] does not include a private right to enforce these 
+regulations.'' Id. Although the Supreme Court in Sandoval 
+``assume[d],'' without deciding, that DOJ's disparate-impact 
+regulations were valid, the Court explained that the regulations are in 
+``considerable tension'' with the Supreme Court's Title VI precedents. 
+Similarly, the regulations do not ``authoritatively'' construe Title VI 
+because the regulations ``forbid conduct''--namely, policies that 
+unintentionally result in a disparate impact--that Title VI 
+``permits.'' Id. at 281-82, 284-85; see also id. at 286 n.6 (``[Title 
+VI] permits the very behavior that the regulations forbid.'').
+    In 2023, the Court emphasized that ``the equal protection clause 
+requires equality of treatment before the law for all persons without 
+regard to race or color.'' SFFA, 600 U.S. at 205 (cleaned up). In 
+reviewing the admissions policies of certain higher education 
+institutions, the Court explained that the Constitution requires 
+``eliminating all'' racial discrimination. Id. at 206. To that end, it 
+held that ``[a]ny exception to the Constitution's demand for equal 
+protection must survive a daunting two-step examination known in our 
+cases as `strict scrutiny,' '' which requires that racial 
+classifications `` `further compelling government interests' '' and be 
+`` `narrowly tailored'--meaning `necessary'--to achieve [such] 
+interest[s].'' Id. at 206-07. Moreover, the Court explained that its 
+``precedents have identified only two compelling interests that permit 
+resort to race-based government action,'' only one of which is relevant 
+in general government administration: ``remediating specific, 
+identified instances of past discrimination that violated the 
+Constitution or a statute.'' Id. at 207. Finally, in 2024, the Supreme 
+Court overruled Chevron U.S.A. Inc. v. Natural Resources Defense 
+Council, Inc., 467 U.S. 837 (1984). See Loper Bright Enters. v. 
+Raimondo, 603 U.S. 369, 409-12 (2024). In reaching that result, the 
+Supreme Court made clear that ``statutes . . . have a single, best 
+meaning'' that is `` `fixed at the time of enactment.' '' Id. at 400 
+(quoting Wis. Cent. Ltd. v. United States, 585 U.S. 274, 284 (2018)). 
+Thus, Title VI's bar on discrimination can have only one meaning. And 
+under Supreme Court precedent, the single, best meaning of Title VI is 
+that it ``prohibits only intentional discrimination'' and ``permits'' 
+facially neutral policies that result in disparate outcomes when there 
+is no discriminatory intent. Sandoval, 532 U.S. at 280, 286 n.6.
+
+D. Executive Order 14281
+
+    On April 23, 2025, President Trump issued Executive Order 14281. 
+This Order restated the ``bedrock principle of the United States . . . 
+that all citizens are treated equally under the law.'' 90 FR at 17537. 
+The Order explained that this ``principle guarantees equality of 
+opportunity, not equal outcomes,'' and ``promises that people are 
+treated as individuals, not components of a particular race or group.'' 
+Id.
+    The Order also explained that disparate-impact liability 
+``endangers this foundational principle.'' Id. Disparate-impact 
+liability, the Order reasoned, ``all but requires individuals and 
+businesses to consider race and engage in racial balancing to avoid 
+potentially crippling legal liability.'' Id. As the Order explained, 
+disparate-impact liability ``not only undermines our national values 
+but also runs contrary to equal protection under the law and, 
+therefore, violates our Constitution.'' Id.
+    The Order relayed that because of disparate-impact liability's 
+problems, ``[i]t is the policy of the United States to eliminate the 
+use of disparate-impact liability in all contexts to the maximum degree 
+possible to avoid violating the Constitution, Federal civil rights 
+laws, and basic American ideals.'' Id. The Order directed the Attorney 
+General to, among other things, ``initiate appropriate action to repeal 
+or amend the implementing regulations for Title VI of the Civil Rights 
+Act of 1964 for all agencies to the extent they contemplate disparate-
+impact liability.'' Id. On December 10, 2025, DOJ amended its Title VI 
+regulations to eliminate disparate-impact liability. 90 FR 57141 (Dec. 
+10, 2025). The Foundation agrees with DOJ's rationale provided in its 
+final rule, and accordingly, this rule also revises the Foundation's 
+Title VI regulations to effectuate the Order's policy and purpose.
+    In any event, the Foundation would have independently initiated 
+steps toward modifying its Title VI regulation in alignment with 
+Executive Order 14281. Even if the Order did not exist, in other words, 
+the Foundation would have taken steps to adopt the policy to eliminate 
+the use of disparate-impact liability under Title VI. The Order states, 
+and the Foundation firmly agrees, that a ``bedrock principle of the 
+United States is that all citizens are treated equally under the law,'' 
+a principle that ``encourages meritocracy and a colorblind society,'' 
+not race-, color-, or national-origin-based favoritism. 90 FR
+
+[[Page 55010]]
+
+at 17537. And adherence to this principle, including in the issuance of 
+grants, ``is essential to creating opportunity, encouraging 
+achievement, and sustaining the American Dream.'' Id.
+    Imposing disparate-impact liability endangers these policy 
+objectives. Disparate-impact liability also raises serious 
+constitutional concerns, is in considerable tension with the single, 
+best meaning of Title VI, creates confusion, increases the costs of 
+compliance, and does not serve the public interest. After considering 
+the relevant issues and factors and weighing the relevant 
+considerations, the Foundation concludes that these reasons together 
+support eliminating disparate-impact liability from the Foundation's 
+Title VI regulations.
+
+E. Need for Rulemaking
+
+    The Foundation's regulations at 45 CFR part 1110, entitled 
+``Nondiscrimination in Federally Assisted Programs,'' contain several 
+provisions that prohibit conduct or activities causing unintentional 
+disparate impact, without a statutory or constitutional basis for doing 
+so. And in some instances, the regulations encourage or even require 
+unlawful discrimination labeled as ``reasonable action.'' Section 
+1110.3(b)(2) is the current regulation's general disparate-impact 
+prohibition, which states that a ``recipient . . . may not . . . 
+utilize criteria or methods of administration which have the effect of 
+subjecting individuals to discrimination because of their race, color, 
+or national origin.'' 45 CFR 1110.3(b)(2). Beyond that general 
+prohibition, section 1110.3(b)(3) addresses a Federal funding 
+recipient's selection of the site or location of facilities and 
+includes two references to ``effect'' that extend the scope of 
+prohibited conduct to include conduct with unintentional disparate 
+impact. Id. 1110.3(b)(3). Section 1110.3(b)(6) concerns the use of 
+``reasonable action,'' and provides that funding recipients may (and 
+sometimes must) use race, color, or national origin to overcome 
+unintentional disparate ``consequences,'' but does not expressly 
+specify that the funding recipient must narrowly tailor such use to 
+serve a compelling governmental interest, as is required to satisfy 
+strict scrutiny. Id. 1110.3(b)(6). Finally, section 1110.3(c)(3) 
+addresses prohibited discriminatory employment practices and extends 
+beyond intentional discrimination to prohibiting conduct that ``tends'' 
+to have a discriminatory effect. Id. 42.104(c)(2).
+    There are serious statutory and constitutional concerns with the 
+Foundation's Title VI disparate-impact regulations. There are also 
+serious policy concerns because the current regulations create 
+confusion, undermine public confidence in the Nation's civil rights 
+laws and the rule of law, and produce burdensome litigation and 
+compliance costs.
+1. Serious Legal Concerns
+    There are serious statutory concerns as to whether Title VI 
+authorizes the disparate-impact provisions of the current regulations. 
+As the Supreme Court has made clear, Title VI prohibits ``only 
+intentional discrimination'' and ``permits'' facially neutral policies 
+that result in disparate outcomes when there is no discriminatory 
+intent. Sandoval, 532 U.S. at 280, 286 n.6. That is the ``single, best 
+meaning'' of Title VI. Loper Bright, 603 U.S. at 400. As summarized 
+above, Sandoval calls into serious doubt the legality of the 
+Foundation's ``disparate-impact regulations.'' 532 U.S. at 281-82, 284-
+85 (noting that DOJ's regulations, which the Foundation's regulations 
+mirror, are in ``considerable tension'' with the Supreme Court's Title 
+VI precedents); see also id. at 286 n.6 (``[Title VI] permits the very 
+behavior that the regulations forbid.''). Although Sandoval resolved 
+only the question of private enforceability, subsequent cases such as 
+Loper Bright have made clear that the Foundation cannot extend Title VI 
+beyond its single, best meaning. See 603 U.S. at 412-13 (holding that 
+``courts must . . . ensur[e] that [an] agency acts within'' its 
+statutory authority). And even in the absence of Supreme Court 
+precedent, the Foundation would have concluded that the best reading of 
+Title VI is that it prohibits only intentional discrimination. Id.
+    Title VI authorizes agencies to promulgate regulations ``to 
+effectuate'' the statute's prohibition of intentional discrimination. 
+42 U.S.C. 2000d-1. The current regulations' extension of prohibited 
+conduct to include conduct with an unintentional disparate impact 
+reaches a vastly broader range of conduct than the statute itself. This 
+range is too broad to be considered a simple prophylactic measure aimed 
+at preventing intentional discrimination. See Sandoval, 532 U.S. at 286 
+n.6 (``[Title VI] permits the very behavior that the regulations 
+forbid.''). Thus, the disparate-impact regulations do not 
+``effectuate'' Title VI. 42 U.S.C. 2000d-1.
+    There are also serious concerns about whether the Foundation's 
+Title VI regulations pass constitutional muster under the Equal 
+Protection Clause. As the Supreme Court recently held in SFFA, ``the 
+Equal Protection Clause . . . applies without regard to any differences 
+of race, of color, or of nationality--it is universal in its 
+application'' and the ``guarantee of equal protection cannot mean one 
+thing when applied to one individual and something else when applied to 
+a person of another color.'' 600 U.S. at 206 (internal quotation marks 
+omitted) (first quoting Yick Wo v. Hopkins, 118 U.S. 356, 369 (1886), 
+and then quoting Bakke, 438 U.S. at 289-90 (Powell, J.)). Despite the 
+promises of the Equal Protection Clause, a funding recipient's risk of 
+disparate-impact liability under the Foundation's regulations is 
+triggered by unintentional disparate outcomes, which the recipient may 
+not even have known about without investigation. To evaluate and avoid 
+this risk, the funding recipient must incur investigatory costs, such 
+as conducting an impact analysis, and is coerced to proactively 
+consider race, color, and national origin, and potentially use such 
+analysis to change the unintended disparate outcomes. In short, 
+disparate-impact liability encourages and, in some cases, requires 
+covered entities to engage in the intentional use of race and racial 
+balancing to eliminate those disparate outcomes by treating certain 
+racial groups differently from others--the exact conduct the Equal 
+Protection Clause forbids. See id. This serious constitutional concern 
+further confirms that the best reading of Title VI is that it prohibits 
+only intentional discrimination and does not authorize Federal agencies 
+to impose disparate-impact liability. See Edward J. DeBartolo Corp. v. 
+Fla. Gulf Coast Bldg. & Constr. Trades Council, 485 U.S. 568, 575 
+(1988) (``[W]here an otherwise acceptable construction of a statute 
+would raise serious constitutional problems, the Court will construe 
+the statute to avoid such problems unless such construction is plainly 
+contrary to the intent of Congress.'' (citing NLRB v. Catholic Bishop 
+of Chi., 440 U.S. 490, 499-501, 504 (1979))).
+    This use of race, color, or national origin violates the Equal 
+Protection Clause unless it survives review under the ``daunting'' 
+strict-scrutiny standard. SFFA, 600 U.S. at 206; see also Free Speech 
+Coal., Inc. v. Paxton, 145 S. Ct. 2291, 2310 (2025) (``Strict 
+scrutiny--which requires a restriction to be the least restrictive 
+means of achieving a compelling governmental interest--is `the most 
+demanding test known to constitutional law.''' (quoting City of Boerne 
+v. Flores, 521 U.S. 507, 534 (1997))). The use of race, color, or
+
+[[Page 55011]]
+
+national origin necessitated by the disparate-impact provisions runs 
+into serious issues with the requirement of narrow tailoring to achieve 
+a compelling interest. SFFA, 600 U.S. at 206-07.
+    Similarly, the Foundation's ``reasonable action'' provision 
+authorizes and sometimes requires the intentional use of race without 
+requiring that this intentional use be narrowly tailored to serve a 
+recognized compelling interest. Instead, it encourages intentional 
+racial balancing ``to remove or overcome the consequences of'' 
+unintended racial disparities. 45 CFR 1110.3(b)(6). Thus, for 
+substantially the same reasons as above, the Foundation's ``reasonable 
+action'' provision raises serious constitutional concerns.
+    For the reasons summarized above, there are serious statutory and 
+constitutional concerns with the Foundation's disparate-impact 
+regulations. But even if the regulations were legal, eliminating the 
+potential constitutional concerns addressed above would independently 
+justify amending the regulations. Cf. U.S. Tel. Ass'n v. FCC, 188 F.3d 
+521, 528 (D.C. Cir. 1999) (concluding it was not ``arbitrary and 
+capricious'' to adopt a certain policy to ``avoid[ ] raising a non-
+trivial constitutional question''). And even if the regulations did not 
+raise serious constitutional concerns, eliminating the costs and 
+confusion caused by the mismatch between the statute and the disparate-
+impact regulations would independently justify repealing the disparate 
+impact regulations.
+2. Serious Policy Concerns
+    There are also serious policy concerns with the Title VI 
+regulations' imposition of disparate-impact liability. While policy 
+concerns with disparate-impact liability exist independent of Executive 
+Order 14281, that Order sets forth many valid policy concerns with 
+disparate-impact liability. As noted in section 1 of the Order, ``on a 
+practical level, disparate-impact liability has hindered businesses 
+from making hiring and other employment decisions based on merit and 
+skill, their needs, or the needs of their customers because of the 
+specter that such a process might lead to disparate outcomes, and thus 
+disparate-impact lawsuits. This has made it difficult, and in some 
+cases impossible, for employers to use bona fide job-oriented 
+evaluations when recruiting, which prevents job seekers from being 
+paired with jobs to which their skills are most suited--in other words, 
+it deprives them of opportunities for success.'' 90 FR at 17537. 
+Moreover, the legal concerns identified above have caused uncertainty 
+and confusion for Federal funding recipients as to whether and when 
+they need to comply with the disparate-impact regulations and when they 
+can or must consider race, color, and national origin. As explained 
+above, Sandoval casts substantial doubt on the validity of the 
+disparate-impact regulations that many Federal departments and agencies 
+have promulgated pursuant to Title VI. 532 U.S. at 280-82.
+    Additionally, in practice and as explained above, disparate-impact 
+liability leads covered entities to engage in racial balancing even as 
+Title VI forbids intentional racial discrimination. This tension tends 
+to create confusion, undermine public confidence in the Nation's civil 
+rights laws, and undermine public confidence in the rule of law itself, 
+as the law seems to both forbid and require the same conduct.
+    These problems are amplified by the arbitrary nature of the racial 
+and ethnic categories typically used to measure disparate effects, 
+which, by virtue of their arbitrariness, typically lack a meaningful 
+connection to a compelling interest. See, e.g., SFFA, 600 U.S. at 216-
+17 (explaining that the ``[racial] categories'' at issue were 
+``themselves imprecise in many ways'' and ``the use of these opaque 
+racial categories undermine[d], instead of promote[d], [their] 
+goals''). This lack of clarity undermines the law's ability to 
+encourage nondiscrimination. These policy concerns independently 
+justify repealing disparate-impact regulations to eliminate confusion, 
+remove the incentive for covered entities to engage in racial 
+balancing, and maintain clarity and public confidence in the Nation's 
+civil rights laws.
+    The Foundation's constituent agencies have considered the view that 
+examining disparate effects can sometimes be useful in uncovering or 
+deterring subtle intentional discrimination or intentional indifference 
+to unnecessary and arbitrary barriers. But any alleged benefits are 
+outweighed by the other issues and factors described above that the 
+constituent agencies have considered. And in any event, the concern is 
+mitigated by the fact that eliminating disparate-impact liability does 
+not preclude the use of data on disparate outcomes to help prove 
+intentional discrimination. Each of the Foundation's constituent 
+agencies and private litigants may rely on such data as a potential 
+indicator of intentional discrimination. This use of a statistical 
+disparity to help establish, as an evidentiary matter, liability for 
+intentional discrimination materially differs from using such a 
+disparity to impose liability for an unintentional disparate impact.
+    The Foundation's constituent agencies considered adopting a version 
+of this regulation that limits disparate-impact liability to claims 
+involving certain categories of grantees, including grantees with a 
+prior finding of noncompliance in operating an agency-funded program. 
+The Foundation's constituent agencies decline to adopt that approach. 
+Verifying such claims would be administratively untenable because it 
+would require access to records the Foundation's constituent agencies 
+do not retain for a sufficiently long period due to compliance with 
+mandatory record retention regulations (or else require unreasonably 
+long and costly document-retention policies), or would require the 
+Foundation's constituent agencies to obtain records from other agencies 
+to which they do not have regular access. The modification would also 
+add another layer of administrative decision-making, creating 
+additional work and delay between deserving claimants and the 
+disposition of Title VI claims. In any event, that additional layer 
+would not cure the absence of statutory authorization permitting 
+Federal agencies to impose disparate impact liability.
+    Additionally, the constituent agencies have considered the 
+potential reliance interests of funding recipients and others on the 
+disparate-impact regulations. However, the Sandoval decision cast 
+serious doubt on the continuing viability of these regulations more 
+than 25 years ago. Since Sandoval, enforcement of Title VI disparate-
+impact regulations has been minimal and sporadic. Also, Executive Order 
+14281 directed all Federal agencies to ``deprioritize enforcement of 
+all statutes and regulations to the extent they include disparate-
+impact liability.'' 90 FR at 17538. Accordingly, the constituent 
+agencies' position is that any reliance interests should be minimal and 
+do not outweigh legal and other policy concerns. Further, each 
+constituent agency's concerns, whether considered cumulatively or 
+separately, outweigh any reliance interests.
+    The Foundation's constituent agencies note that Sandoval has also 
+led to a divergence between Title VI enforcement by private plaintiffs 
+and enforcement by Federal departments and agencies. After Sandoval, 
+private plaintiffs can enforce only Title VI's statutory prohibition on 
+intentional discrimination, while Federal departments and agencies have
+
+[[Page 55012]]
+
+continued to pursue disparate-impact liability. Repealing the 
+disparate-impact regulations eliminates this incongruent enforcement.
+    Overall, after considering the relevant issues and factors and 
+weighing the relevant considerations, the Foundation's constituent 
+agencies have determined that, regardless of the legality of the 
+Foundation's disparate-impact regulations, the above summarized policy 
+concerns, whether viewed separately or cumulatively, independently 
+justify the repeal of its disparate-impact regulations.
+
+IV. Regulatory Amendments
+
+    This rule's regulatory changes address the concerns regarding the 
+statutory authority that the Supreme Court questioned in Sandoval and 
+the other legal and policy concerns discussed above; harmonize the 
+implementing regulations' scope with the conduct that Congress intended 
+Title VI to prohibit; promote consistent enforcement of Title VI among 
+private plaintiffs and Federal departments and agencies; and provide 
+much needed clarity to the courts and Federal funding recipients and 
+beneficiaries.
+    For the reasons summarized above, the Foundation's constituent 
+agencies amend the following provisions in its Title VI implementing 
+regulations that explain particular types of discrimination prohibited, 
+located in 45 CFR part 1110.
+
+A. Table Summarizing Amendments
+
+    The table below indicates the exact wording changes made by this 
+rule. For each section indicated in the left column, the action 
+described in the middle column is taken with respect to the text 
+identified in the right column.
+
+------------------------------------------------------------------------
+             Section                    Action              Details
+------------------------------------------------------------------------
+1110.3(b)(2)....................  Remove............  Remove full text
+                                                       of Sec.
+                                                       1110.3(b)(2).
+1110.3(b)(3)....................  Remove............  Remove ``or
+                                                       effect'' from
+                                                       both places.
+1110.3(b)(6)....................  Remove............  Remove full text
+                                                       of paragraph (6).
+1110.3(c)(3)....................  Remove............  Remove full text
+                                                       of paragraph (3).
+1110.5(e).......................  Remove............  Remove full text
+                                                       of paragraph (e).
+1110.5(f).......................  Remove............  Remove full text
+                                                       of paragraph (f).
+1110.5(g).......................  Remove............  Remove full text
+                                                       of paragraph (g).
+------------------------------------------------------------------------
+
+B. Section-by-Section Analysis
+
+Section 1110.3(b)(2)
+    Section 1110.3(b)(2) is the current regulation's general 
+prohibition of conduct with unintentional disparate impact. It imposes 
+liability on Federal funding recipients who ``utilize criteria or 
+methods of administration which have the effect of subjecting 
+individuals to discrimination.'' Because the only purpose of section 
+1110.3(b)(2) is to extend the scope of Title VI to reach conduct giving 
+rise to unintentional disparate impact, this rule deletes this 
+paragraph in its entirety. Thus, it amends the Foundation's Title VI 
+implementing regulations to conform to the scope of coverage Congress 
+intended when it enacted Title VI and to address the legal and policy 
+concerns described in this document. This rule replaces paragraph 
+(b)(2) with a placeholder to maintain the numbering accuracy of 
+previous citations and other references to parts of this section.
+Section 1110.3(b)(3)
+    Section 1110.3(b)(3) addresses a Federal funding recipient's or 
+applicant's selection of the site or location of facilities. It 
+provides that a funding recipient may not make selections with the 
+``purpose or effect'' of discriminating, or ``with the purpose or 
+effect of defeating or substantially impairing the accomplishment of 
+the objectives of'' Title VI or the Foundation's implementing 
+regulations. The paragraph's two references to ``effect'' extend its 
+scope to conduct causing unintentional disparate impacts. This rule 
+deletes both uses of ``or effect'' to conform paragraph (b)(3) more 
+closely to the scope of coverage Congress intended when it enacted 
+Title VI and to address the legal and policy concerns described in this 
+document.
+Section 1110.3(b)(6)
+    Section 1110.3(b)(6) pertains to ``reasonable action'' to overcome 
+the consequences of certain conduct. The paragraph authorizes such 
+action even in the absence of a finding of prior discrimination in a 
+program ``to remove or overcome the consequences of practices or 
+impediments which have restricted the availability of, or participation 
+in, the program or activity receiving Federal financial assistance, on 
+the grounds of race, color, or national origin.'' This provision points 
+not to intentional discrimination, but rather to the unintentional 
+``consequences of practices or impediments.'' It accordingly encourages 
+intentional racial classifications, racial preferences, and other race-
+based actions without specifying the compelling governmental interest 
+and narrow tailoring that the Equal Protection Clause demands. This 
+section has long been unlawful under an Equal Protection Clause 
+analysis.
+    Paragraph (b)(6) also states that a recipient ``has an obligation 
+to take reasonable action to remove or overcome the consequences of the 
+prior discriminatory practice or usage'' where ``previous 
+discriminatory practice or usage tends, on the grounds of race, color, 
+or national origin, to exclude individuals from participation in, to 
+deny them the benefits of, or to subject them to discrimination.'' This 
+provision goes beyond the Equal Protection Clause, which, in limited 
+circumstances permits, but does not mandate, a government to take 
+narrowly tailored action to remedy the effects of its identified past 
+discrimination. See, e.g., Bakke, 438 U.S. at 307 (Powell, J.). Even 
+placing aside the mandatory language, this provision does not expressly 
+require narrow tailoring to counter particular past discrimination, but 
+rather ``reasonable action to remove or overcome the consequences of 
+the prior discriminatory practice or usage.'' Accordingly, this 
+provision promotes potentially illegal race, color, and national origin 
+discrimination. Moreover, in some instances, it may even coerce 
+recipients to consider and use racial preferences when the recipient 
+does not want to. This is contrary to the goal of promoting and 
+defending a culture of nondiscrimination and is destructive to the 
+public's understanding of and faith in the Nation's civil rights laws. 
+Therefore, this rule removes paragraph (b)(6).
+Section 1110.3(c)(3)
+    Section 1110.3(c)(3) addresses prohibited discriminatory employment 
+practices. Paragraph (c)(1) prohibits intentionally discriminatory 
+employment practices in a program for which a primary objective of the 
+Federal financial assistance that program receives is to provide 
+employment. Paragraph (c)(3) extends the prohibition on discrimination 
+to employment practices of the funding recipient even
+
+[[Page 55013]]
+
+when ``a primary objective of the Federal financial assistance is not 
+to provide employment'' if discrimination in the nonfunded ``employment 
+practices of the recipient or other persons subject to the regulation 
+tends, on the grounds of race, color, or national origin, to exclude 
+individuals from participation in, to deny them the benefits of, or to 
+subject them to discrimination under any program to which this 
+regulation applies.'' This paragraph prohibits not only intentional 
+discrimination but rather extends the prohibition to conduct that 
+``tends'' to have a discriminatory effect.
+    Moreover, paragraph (c)(3)'s extension to employment practices for 
+which the Federal funding's primary objective is not to provide 
+employment conflicts with the statutory limitation found in 42 U.S.C. 
+2000d-3. That section states that ``[n]othing contained in [Title VI] 
+shall be construed to authorize action under [Title VI] by any 
+department or agency with respect to any employment practice of any 
+employer, employment agency, or labor organization except where a 
+primary objective of the Federal financial assistance is to provide 
+employment.'' 42 U.S.C. 2000d-3; see also Johnson v. Transp. Agency, 
+Santa Clara Cnty., 480 U.S. 616, 627-28 n.6 (1987) (citing the 
+statutory limitation and noting Congress's intent that Title VI not 
+``impinge'' on Title VII, which prohibits discriminatory employment 
+practices). This rule deletes paragraph (c)(3) to amend the regulation 
+so that it more closely adheres to the scope of conduct Congress 
+prohibited under Title VI and to address the legal and policy concerns 
+described in this document.
+Section 1110.5(e), (f), (g)
+    The ``Illustrative applications'' under section 1110.5 consist of 
+examples that illustrate the application of the regulation to some of 
+the activities for which Federal financial assistance is provided by 
+the Foundation's constituent agencies. This rule deletes paragraph (e) 
+because it is an illustrative example of section 1110.3(b)(2), which is 
+being deleted for the reasons described above. Likewise, paragraphs (f) 
+and (g) illustrate the application of section 1110.3(b)(6), which is 
+also being deleted.
+
+V. Severability
+
+    The Foundation's constituent agencies' position is that each of 
+this rule's amendments serves a vital, related, but distinct purpose. 
+The constituent agencies also confirm that each of the amendments is 
+intended to operate independently of one other and that the potential 
+invalidity of one amendment does not affect the validity of other 
+amendments. The constituent agencies adopt any of the amendments 
+independent and regardless of the invalidity of a separate amendment.
+
+VI. Regulatory Certifications
+
+Administrative Procedure Act
+
+    The Foundation's constituent agencies issue this final rule without 
+prior public notice and comment or a delayed effective date pursuant to 
+the exception in the Administrative Procedure Act (APA) for rules 
+``relating to agency management or personnel or to public property, 
+loans, grants, benefits, or contracts.'' 5 U.S.C. 553(a)(2).
+    Title VI concerns nondiscrimination conditions on the receipt of 
+Federal financial assistance, and more particularly on the receipt of 
+Federal ``[g]rants and loans,'' ``property,'' ``personnel'' and ``[a]ny 
+Federal agreement, arrangement, or other contract which has as one of 
+its purposes the provision of assistance.'' 45 CFR 1110.13(f); see also 
+id. 1110.4 (requiring funding recipient sign contractual assurance of 
+compliance with Title VI); Cummings v. Premier Rehab Keller, P.L.L.C., 
+596 U.S. 212, 217-18 (2022) (observing that Congress enacted Title VI 
+``[p]ursuant to its authority to `fix the terms on which it shall 
+disburse federal money''' (internal citation omitted)). Cf. Education 
+Programs or Activities Receiving or Benefitting from Federal Financial 
+Assistance, 82 FR 46655 (Oct. 6, 2017) (invoking the section 553(a)(2) 
+exception to amend Title IX regulations to ``promote consistency in the 
+enforcement of Title IX for [the Department of Agriculture] financial 
+assistance recipients''); Preserving Community and Neighborhood Choice, 
+85 FR 47899 (Aug. 7, 2020) (invoking the exception to repeal a Housing 
+and Urban Development rule regarding Federal grantees); Participation 
+by Minority Business Enterprise in Department of Transportation 
+Programs, 53 FR 18285 (May 23, 1988) (invoking the exception to expand 
+coverage of a Department of Transportation regulation regarding the 
+Federal Aviation Administration's airport financial assistance 
+program); Nondiscrimination on the Basis of Handicap in Federally 
+Assisted Programs--Suspension of Guidelines with Respect to Mass 
+Transportation, 46 FR 40687 (Aug. 11, 1981) (invoking the exception to 
+suspend DOJ guidelines prohibiting disability discrimination in 
+transportation programs and activities receiving Federal financial 
+assistance).
+    Invoking 5 U.S.C. 553(a)(2) is consistent with the definition for 
+Federal financial assistance provided by the U.S. Office for Management 
+and Budget (OMB) in 2 CFR 200.1, which defines Federal financial 
+assistance with the same categories as the APA's exception for rules 
+``relating to agency management or personnel or to public property, 
+loans, grants, benefits, or contracts,'' 5 U.S.C. 553(a)(2). With 
+potentially limited exceptions not applicable to the Foundation's 
+constituent agencies, all forms of Federal financial assistance set 
+forth under 2 CFR 200.1 that the constituent agencies administer fall 
+under the ``public property, loans, grants, benefits, or contracts'' 
+exception. Thus, the Foundation's constituent agencies issue this final 
+rule without prior public notice and comment or a delayed effective 
+date under 5 U.S.C. 553(a)(2).
+
+Executive Orders 12866 and 13563 (Regulatory Review)
+
+    The Foundation's constituent agencies have determined that this 
+rulemaking is a ``significant regulatory action'' under section 3(f) of 
+Executive Order 12866, 58 FR 51735, 51738 (Sep. 30, 1993), but not an 
+``economically significant'' action under section 3(f)(1). Accordingly, 
+this rule has been submitted to OMB for review.
+    This regulation has been drafted and reviewed in accordance with 
+section 1(b) of Executive Order 12866, id. at 51735, and section 1(b) 
+of Executive Order 13563, 76 FR 3821, 3821 (Jan. 18, 2011), which 
+supplements and reaffirms the principles of Executive Order 12866. 
+These Executive Orders direct agencies to assess all costs and benefits 
+of available regulatory alternatives and, if regulation is necessary, 
+to select regulatory approaches that maximize net benefits. 58 FR at 
+51735; 76 FR at 3821. Executive Order 13563 also recognizes that some 
+benefits and costs are difficult to quantify and provides that, where 
+appropriate and permitted by law, agencies may consider and discuss 
+qualitative values that are difficult or impossible to quantify. Id.
+    As explained in the preamble, the regulatory modifications in this 
+rule conform the Foundation's regulations to Executive Order 14281; 
+address serious concerns regarding Title VI disparate-impact 
+regulations that the Supreme Court raised in Sandoval; harmonize the 
+implementing regulations' scope with the scope of conduct that Congress 
+intended Title VI to prohibit; promote consistency in enforcement among 
+private plaintiffs and Federal departments and agencies; and provide 
+much needed clarity to courts and
+
+[[Page 55014]]
+
+Federal funding recipients and beneficiaries regarding the scope of the 
+Foundation's Title VI regulations. Indeed, with respect to section 
+1110.3(c) of the Foundation's Title VI regulations, the changes made to 
+this rule are necessary to bring the regulations into compliance with 
+42 U.S.C. 2000d-3. In short, this rule is necessary to conform the 
+Foundation's current regulations to existing statutory law, as 
+interpreted by the Supreme Court.
+    The costs and benefits of this rule are difficult to quantify due 
+to data limitations. Although the figures below do not represent the 
+monetary impact of the rule, the NEA issued approximately 14,950 
+separate awards totaling approximately $942 million from fiscal year 
+2020 through fiscal year 2024, and the NEH issued approximately 4,517 
+separate awards totaling approximately $920 million during this same 
+period. IMLS issued approximately 2,346 separate awards totaling 
+approximately $1.03 billion from fiscal year 2022 through fiscal year 
+2025. During the period from fiscal year 2020 through fiscal year 2024, 
+the Foundation's constituent agencies did not conduct any Title VI-
+related active investigations or compliance reviews regarding these 
+funds and their recipients that centered on disparate impact alone. For 
+enforcement actions that relate to both intentional discrimination and 
+conduct having an unintentional disparate impact, the constituent 
+agencies do not track and cannot reliably quantify the costs 
+attributable to the varying disparate-impact portions of enforcement 
+actions. Also, the existence of a disparate impact is sometimes a 
+factor that may be considered in determining whether discrimination was 
+intentional; this further impedes monetizing costs and benefits 
+specific to disparate-impact enforcement. Therefore, the overall cost 
+effect on the constituent agencies is difficult to quantify, although 
+this rule should decrease the constituent agencies' enforcement costs. 
+This rule also should have the benefit of bringing the constituent 
+agencies' conduct in line with the law, which is also difficult to 
+quantify. Similarly, the constituent agencies are unable to quantify 
+how funding recipients will respond to the regulatory changes. But this 
+deregulatory action should result in greater flexibility and lower 
+compliance costs for recipients.
+    The Foundation's constituent agencies recognize that a funding 
+recipient may receive Federal funds from sources other than, and in 
+addition to, the constituent agencies. Regardless, the constituent 
+agencies do not envision that this rule will appreciably increase 
+administrative costs or compliance costs for funding recipients that 
+also must adhere to the regulations of another department or agency. 
+This deregulatory action does not create any new obligations for 
+constituent agencies' funding recipients. On the contrary, eliminating 
+disparate-impact liability from the regulations eliminates a source of 
+regulatory confusion, narrows and makes more specific the conduct 
+prohibited, and thus lessens the costs of compliance and potential 
+liability. Moreover, recipients that receive funds for the same program 
+or activity from more than one Federal entity already enter into 
+separate contractual assurances with each funding entity. See, e.g., 45 
+CFR 1110.4 (the Foundation), 10 CFR 1040.4 (Department of Energy); 45 
+CFR 605.5 (National Science Foundation); 45 CFR 80.4 (Department of 
+Health and Human Services).
+    Such assurances already impose varying requirements that each 
+Federal funding source deems necessary. Thus, funding recipients will 
+continue to be held to the most stringent contractual assurance and 
+regulation. And in any event, the Foundation notes that other agencies 
+are currently amending their regulations to align with the changes made 
+in this rule, so the Foundation anticipates that there will be little, 
+if any, disparity in Federal requirements regarding disparate-impact 
+liability going forward.
+    Based on the analysis of the practical qualitative costs and 
+benefits noted above, the Foundation's position is that this rule is 
+consistent with the principles of Executive Orders 12866 and 13563, 
+including the requirements that, to the extent permitted by law, an 
+agency adopt a regulation only upon a reasoned determination that its 
+benefits justify its costs and choose a regulatory approach that 
+maximizes net benefits. See 58 FR at 51735; 76 FR at 3821.
+
+Executive Order 14192 (Unleashing Prosperity Through Deregulation)
+
+    Executive Order 14192 requires an agency, unless prohibited by law, 
+to identify at least ten existing regulations to be repealed when the 
+agency publicly promulgates a new regulation. 90 FR 9065, 9065 (Jan. 
+31, 2025). In furtherance of this requirement, section 3(c) of the 
+Order requires that ``any new incremental costs associated with new 
+regulations shall, to the extent permitted by law, be offset by the 
+elimination of existing costs associated with at least 10 prior 
+regulations.'' Id. By revising the Foundation's current Title VI 
+regulations, which extend prohibited conduct to include unintentional 
+disparate impacts and thus expand the scope of those regulations to a 
+vastly broader range of conduct than the statute prohibits, this rule 
+eliminates unnecessary regulation. Accordingly, the Foundation's 
+constituent agencies consider this rule to be a deregulatory action 
+under Executive Order 14192.
+
+Executive Order 14294 (Fighting Overcriminalization in Federal 
+Regulations)
+
+    Executive Order 14294 requires agencies promulgating regulations 
+with criminal regulatory offenses potentially subject to criminal 
+enforcement to ``explicitly describe the conduct subject to criminal 
+enforcement, the authorizing statutes, and the mens rea standard 
+applicable to'' each element of those offenses. 90 FR 20363, 20363 (May 
+9, 2025). This rule does not impose a criminal regulatory penalty and 
+is thus exempt from Executive Order 14294's requirements.
+
+Executive Order 13132 (Federalism)
+
+    This rule will not have a substantial, direct effect on the 
+relationship between the national government and the States, on 
+distribution of power and responsibilities among various levels of 
+government, or on States' policymaking discretion. States that choose 
+to receive Federal financial assistance from the Foundation's 
+constituent agencies do so voluntarily and agree to comply with 
+relevant statutory requirements as a condition of receiving such 
+funding. This rule does not subject States or any other funding 
+recipients or beneficiaries to any new obligations. Rather, this rule 
+amends and clarifies existing regulations that are required by statute. 
+Therefore, in accordance with section 6 of Executive Order 13132, 64 FR 
+43255, 43257-58 (Aug. 4, 1999), the constituent agencies have 
+determined that these amendments do not have sufficient federalism 
+implications to warrant the preparation of a federalism summary impact 
+statement.
+
+Executive Order 12988 (Civil Justice Reform)
+
+    This rule meets the applicable standards set forth in sections 3(a) 
+and (b)(2) of Executive Order 12988 to specify provisions in clear 
+language. See 61 FR 4729, 4731-32 (Feb. 5, 1996). Pursuant to section 
+3(b)(1)(I) of the Executive Order, id. at 4731, nothing in this or any 
+previous rule (or in any administrative policy, directive, ruling, 
+notice, guideline, guidance, or writing) directly relating to the 
+program that is the subject of this rule is intended to
+
+[[Page 55015]]
+
+create any legal or procedural rights enforceable against the United 
+States.
+
+Executive Order 12250
+
+    Pursuant to Executive Order 12250, DOJ has the responsibility to 
+``review . . . proposed rules . . . of the Executive agencies'' 
+implementing nondiscrimination statutes such as Title VI ``in order to 
+identify those which are inadequate, unclear or unnecessarily 
+inconsistent.'' 45 FR at 72995. DOJ has reviewed and approved this 
+rule.
+
+Regulatory Flexibility Act
+
+    This rule does not require a regulatory flexibility analysis under 
+the Regulatory Flexibility Act (RFA), 5 U.S.C. 603, 604, because, for 
+the reasons described above, no notice of proposed rulemaking is 
+required under 5 U.S.C. 553. See Or. Trollers Ass'n v. Gutierrez, 452 
+F.3d 1104, 1123-24 (9th Cir. 2006) (noting that the RFA does not apply 
+when an agency validly invokes an exception to the public comment 
+requirements of 5 U.S.C. 553). Further, the Foundation's constituent 
+agencies, in accordance with 5 U.S.C. 605(b), have reviewed these 
+regulations and certify that the rule's changes will not have a 
+significant economic impact on a substantial number of small entities 
+because these regulatory changes do not impose any new substantive 
+obligations on Federal funding recipients. Rather, the rule amends and 
+clarifies existing regulations that are required by Title VI. Also, the 
+rule brings constituent agencies into compliance with the Equal 
+Protection Clause and harmonizes the scope of the current regulations 
+to conform to the scope of Title VI, which does not prohibit conduct 
+giving rise to unintentional disparate impact. All Federal funding 
+recipients have been and will continue to be bound by existing 
+standards that will remain in place after this rule is effective.
+
+Unfunded Mandates Reform Act of 1995
+
+    The Unfunded Mandates Reform Act of 1995 (UMRA), 2 U.S.C. 1501 et 
+seq., requires agencies to prepare several analytic statements before 
+proposing any rule that may result in annual expenditures of $100 
+million by State, local, or Tribal governments, or the private sector. 
+2 U.S.C. 1532(a). However, UMRA also excludes from its coverage any 
+proposed or final Federal regulation that ``establishes or enforces any 
+statutory rights that prohibit discrimination on the basis of race, 
+color, religion, sex, national origin, age, handicap, or disability.'' 
+2 U.S.C. 1503(2). Accordingly, this rule is not subject to the 
+provisions of UMRA.
+
+Congressional Review Act
+
+    The Office of Information and Regulatory Affairs has determined 
+that this rule is not a ``major rule'' as defined by the Congressional 
+Review Act, 5 U.S.C. 804(2).
+
+Paperwork Reduction Act of 1995
+
+    Pursuant to the Paperwork Reduction Act, 44 U.S.C. 3501 et seq., 
+agencies must consider whether a rule will create additional burdens 
+related to recordkeeping, paperwork, or information collection. This 
+rule will not impose additional reporting or recordkeeping requirements 
+under the Act.
+
+List of Subjects for 45 CFR Part 1110
+
+    Administrative practice and procedure, Civil rights, Equal 
+employment opportunity, Grant programs.
+
+    Accordingly, for the reasons set forth above, the NEA (for itself 
+and on behalf of FCAH, for which NEA provides legal counsel), NEH, and 
+IMLS amend part 1110 of title 45 of the Code of Federal Regulations as 
+follows:
+
+PART 1110--NONDISCRIMINATION IN FEDERALLY ASSISTED PROGRAMS
+
+0
+1. The authority citation for part 1110 is revised to read as follows:
+
+    Authority: 42 U.S.C. 2000d, 2000d-1, 2000d-7; E.O. 12250, 45 FR 
+72995; E.O. 14281, 90 FR 17537.
+
+0
+2. Amend Sec.  1110.3 by:
+0
+a. Removing and reserving paragraph (b)(2);
+0
+b. Revising paragraph (b)(3); and
+0
+c. Removing paragraphs (b)(6) and (c)(3).
+    The revision reads as follows:
+
+
+Sec.  1110.3  Discrimination prohibited.
+
+* * * * *
+    (b) * * *
+    (3) In determining the site or location of facilities, a recipient 
+or applicant may not make selections with the purpose of excluding 
+individuals from, denying them the benefits of, or subjecting them to 
+discrimination under any program to which this regulation applies, on 
+the grounds of race, color, or national origin; or with the purpose of 
+defeating or substantially impairing the accomplishment of the 
+objectives of the Act or this regulation.
+* * * * *
+
+
+Sec.  1110.5   [Amended]
+
+0
+3. Amend Sec.  1110.5 by removing paragraphs (e), (f), and (g).
+
+Mary Anne Carter,
+Chairman, National Endowment for the Arts.
+Michael McDonald,
+Senior Deputy Chairman, National Endowment for the Humanities.
+Lisa K. Solomson,
+Senior Official Performing the Duties of the Director, Institute of 
+Museum and Library Services.
+[FR Doc. 2026-17366 Filed 8-25-26; 8:45 am]
+BILLING CODE 7537-01-P

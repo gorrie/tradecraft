@@ -1,0 +1,2091 @@
+{
+  "_note": "Per-lens BACKGROUND FIRING RATE: how often a lens fires on documents not gathered for it. The resolution object for a rare lens, which cannot hold an index floor. A subject's firing rate is a finding only when it clears the UPPER Wilson bound of this background at the subject's own document count. Recall fixtures (selected on the phenomenon) are measured and reported but never feed a background. Regenerate with python eval/background_rate.py",
+  "measured": "2026-09-08",
+  "definitions": {
+    "fires": "lens index > 0 on the document (same definition lens_floor uses for live)",
+    "notable": "lens index >= 35.0",
+    "min_words": 60,
+    "alpha": 0.05,
+    "power": 0.8,
+    "mdr": "smallest TRUE firing rate a subject corpus of N documents can distinguish from the background's upper Wilson bound, exact binomial, one-sided"
+  },
+  "corpus_roles": {
+    "corpus/_calibration-cache": {
+      "role": "background",
+      "recomputable": true,
+      "n_docs": 20,
+      "what": "Federal Register notices; register-matched administrative prose",
+      "why": "fetched by docket/notice id, not by any lens cue; rebuildable via corpus/fetch_federal_register.py"
+    },
+    "corpus/_news-control": {
+      "role": "background",
+      "recomputable": false,
+      "n_docs": 95,
+      "what": "off-topic news wire copy, in FIXED 3,200-WORD CHUNKS -- not articles",
+      "why": "vendored third-party text with no manifest and no fetcher in the repo, so a reader cannot rebuild this bucket; real background, not recomputable. AND MEASURED 2026-09-04: 94 of its 95 files are exactly 3,200 words and every one ends mid-sentence, so they are fixed-size slices of concatenated wire copy rather than articles. Rates here are fired/n_docs with no length normalisation, so THE CHUNK SIZE IS A FREE PARAMETER OF EVERY RATE: on identical prose, repackaging real 300-word articles into 3,200-word chunks moved sourcing_asymmetry from 2.1% to 12.5%. This bucket is 95 of the 171 background documents, so it sets the scale of the whole background. A uniform unit is defensible; it was UNDOCUMENTED, which is what made every rate read as a property of the prose. See eval/RESULTS-2026-09-04-truncation-is-the-recurring-defect.md and tools/truncation_scan.py, which detects this shape anywhere it is pointed"
+    },
+    "corpus/advocacy-comments.jsonl": {
+      "role": "background",
+      "recomputable": true,
+      "n_docs": 38,
+      "what": "38 substantive public comments on federal rulemakings",
+      "why": "retrieved by TOPIC ('surveillance oversight'), not by a lens cue; every record keeps its regulations.gov comment id, rebuildable via corpus/fetch_regulations.py"
+    },
+    "corpus/advocacy-specimens.jsonl": {
+      "role": "background",
+      "recomputable": true,
+      "n_docs": 18,
+      "what": "18 congressional hearings",
+      "why": "retrieved by TOPIC, not by a lens cue; govinfo package ids retained, rebuildable via corpus/fetch_govinfo.py"
+    },
+    "corpus/ai-governance-shoptalk.jsonl": {
+      "role": "background",
+      "recomputable": true,
+      "n_docs": 46,
+      "what": "46 documents / ~137 kwords of AI-governance and AI-safety institutional shop-talk: frontier-lab safety-policy blog posts, AI-governance think-tank pieces, standards/framework text, and congressional hearings on AI oversight",
+      "why": "retrieved by TOPIC (a named institution's AI-safety/governance publication, or a govinfo hearing search term scoped to AI oversight), not by any lens cue -- see PREREG-2026-09-08-shoptalk-corpus.md. Built because the 2026-09-07 cue repair found 7 of 13 kept candidate cues occur ZERO times in either background pool the cut rule is measured against, so the rule had no evidence to cut them on: those cues are ordinary trade vocabulary in the register AI-safety/governance people actually write in, and no corpus this detector was calibrated against contained that register at all. Every record carries a source_url; rebuildable via corpus/fetch_ai_governance_shoptalk.py"
+    },
+    "corpus/method-specimens.jsonl": {
+      "role": "recall-fixture",
+      "recomputable": true,
+      "n_docs": 155,
+      "what": "68 Federal Register measures, unadjudicated candidates for ratchet_series",
+      "why": "SELECTED ON THE OUTCOME -- each record carries the `found_by_term` that retrieved it, so it can never measure how often anything fires by accident. Refiled 2026-09-03 (W1.9): these were labelled `lens: rollback_asymmetry` and are Federal Register measures, which is `ratchet_series` material -- an administrative ratchet read off a SERIES, not a prose lens reading one document. They now carry `instrument: ratchet_series` and `role: unadjudicated-candidate`, because every one is `arm: null` with the retrieval term present in only 13 of 68 texts. They do not yet demonstrate recall for anything; W2.3's hand-labelling is what would make them ground truth"
+    },
+    "corpus/specimens.jsonl": {
+      "role": "recall-fixture",
+      "recomputable": true,
+      "n_docs": 5,
+      "what": "5 primary-source doctrine snippets, labeled by pawl",
+      "why": "SELECTED ON THE OUTCOME -- gathered because the doctrine is in them"
+    }
+  },
+  "pool_sizes": {
+    "all_documents": 377,
+    "background": 217,
+    "background_recomputable": 122,
+    "recall_fixtures": 160
+  },
+  "lenses": {
+    "adept_speech": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 1,
+        "notable": 0,
+        "rate": 0.0046,
+        "wilson95": [
+          0.0008,
+          0.0256
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.111,
+          "100": 0.081,
+          "200": 0.066
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 10
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 1,
+        "notable": 0,
+        "rate": 0.0063,
+        "wilson95": [
+          0.0011,
+          0.0345
+        ],
+        "mdr": {
+          "20": 0.205,
+          "50": 0.135,
+          "100": 0.105,
+          "200": 0.075
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 8,
+          "200": 12
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "cognitive_capture": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 1,
+        "notable": 0,
+        "rate": 0.0046,
+        "wilson95": [
+          0.0008,
+          0.0256
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.111,
+          "100": 0.081,
+          "200": 0.066
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 10
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 1,
+        "notable": 0,
+        "rate": 0.0082,
+        "wilson95": [
+          0.0014,
+          0.045
+        ],
+        "mdr": {
+          "20": 0.26,
+          "50": 0.155,
+          "100": 0.115,
+          "200": 0.09
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 2,
+        "notable": 0,
+        "rate": 0.0125,
+        "wilson95": [
+          0.0034,
+          0.0444
+        ],
+        "mdr": {
+          "20": 0.259,
+          "50": 0.154,
+          "100": 0.114,
+          "200": 0.094
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "costly_signal": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0174
+        ],
+        "mdr": {
+          "20": 0.147,
+          "50": 0.112,
+          "100": 0.067,
+          "200": 0.052
+        },
+        "critical_count": {
+          "20": 2,
+          "50": 4,
+          "100": 5,
+          "200": 8
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0234
+        ],
+        "mdr": {
+          "20": 0.203,
+          "50": 0.108,
+          "100": 0.078,
+          "200": 0.058
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 9
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "counterproductivity": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0174
+        ],
+        "mdr": {
+          "20": 0.147,
+          "50": 0.112,
+          "100": 0.067,
+          "200": 0.052
+        },
+        "critical_count": {
+          "20": 2,
+          "50": 4,
+          "100": 5,
+          "200": 8
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 2,
+        "notable": 0,
+        "rate": 0.0125,
+        "wilson95": [
+          0.0034,
+          0.0444
+        ],
+        "mdr": {
+          "20": 0.259,
+          "50": 0.154,
+          "100": 0.114,
+          "200": 0.094
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "distributed_accountability": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 5,
+        "notable": 0,
+        "rate": 0.023,
+        "wilson95": [
+          0.0099,
+          0.0528
+        ],
+        "mdr": {
+          "20": 0.263,
+          "50": 0.158,
+          "100": 0.128,
+          "200": 0.103
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 10,
+          "200": 17
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0246,
+        "wilson95": [
+          0.0084,
+          0.0698
+        ],
+        "mdr": {
+          "20": 0.26,
+          "50": 0.2,
+          "100": 0.15,
+          "200": 0.125
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 8,
+          "100": 12,
+          "200": 21
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 4,
+        "notable": 0,
+        "rate": 0.025,
+        "wilson95": [
+          0.0098,
+          0.0625
+        ],
+        "mdr": {
+          "20": 0.263,
+          "50": 0.178,
+          "100": 0.138,
+          "200": 0.113
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 7,
+          "100": 11,
+          "200": 19
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "inevitability_framing": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 4,
+        "notable": 0,
+        "rate": 0.0184,
+        "wilson95": [
+          0.0072,
+          0.0464
+        ],
+        "mdr": {
+          "20": 0.261,
+          "50": 0.156,
+          "100": 0.116,
+          "200": 0.091
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0246,
+        "wilson95": [
+          0.0084,
+          0.0698
+        ],
+        "mdr": {
+          "20": 0.26,
+          "50": 0.2,
+          "100": 0.15,
+          "200": 0.125
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 8,
+          "100": 12,
+          "200": 21
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 2,
+        "notable": 0,
+        "rate": 0.0125,
+        "wilson95": [
+          0.0034,
+          0.0444
+        ],
+        "mdr": {
+          "20": 0.259,
+          "50": 0.154,
+          "100": 0.114,
+          "200": 0.094
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "institutional_permeation": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 35,
+        "notable": 1,
+        "rate": 0.1613,
+        "wilson95": [
+          0.1183,
+          0.216
+        ],
+        "mdr": {
+          "20": 0.471,
+          "50": 0.391,
+          "100": 0.336,
+          "200": 0.296
+        },
+        "critical_count": {
+          "20": 8,
+          "50": 17,
+          "100": 30,
+          "200": 54
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 28,
+        "notable": 1,
+        "rate": 0.2295,
+        "wilson95": [
+          0.1638,
+          0.3117
+        ],
+        "mdr": {
+          "20": 0.617,
+          "50": 0.492,
+          "100": 0.442,
+          "200": 0.397
+        },
+        "critical_count": {
+          "20": 11,
+          "50": 22,
+          "100": 40,
+          "200": 74
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 20,
+        "notable": 2,
+        "rate": 0.125,
+        "wilson95": [
+          0.0824,
+          0.1852
+        ],
+        "mdr": {
+          "20": 0.47,
+          "50": 0.35,
+          "100": 0.295,
+          "200": 0.26
+        },
+        "critical_count": {
+          "20": 8,
+          "50": 15,
+          "100": 26,
+          "200": 47
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "legibility": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 13,
+        "notable": 0,
+        "rate": 0.0599,
+        "wilson95": [
+          0.0353,
+          0.0998
+        ],
+        "mdr": {
+          "20": 0.315,
+          "50": 0.245,
+          "100": 0.19,
+          "200": 0.16
+        },
+        "critical_count": {
+          "20": 5,
+          "50": 10,
+          "100": 16,
+          "200": 28
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 11,
+        "notable": 0,
+        "rate": 0.0902,
+        "wilson95": [
+          0.0511,
+          0.1543
+        ],
+        "mdr": {
+          "20": 0.419,
+          "50": 0.309,
+          "100": 0.264,
+          "200": 0.224
+        },
+        "critical_count": {
+          "20": 7,
+          "50": 13,
+          "100": 23,
+          "200": 40
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 24,
+        "notable": 0,
+        "rate": 0.15,
+        "wilson95": [
+          0.1029,
+          0.2135
+        ],
+        "mdr": {
+          "20": 0.473,
+          "50": 0.388,
+          "100": 0.328,
+          "200": 0.293
+        },
+        "critical_count": {
+          "20": 8,
+          "50": 17,
+          "100": 29,
+          "200": 53
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "militant_mobilization": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 4,
+        "notable": 0,
+        "rate": 0.0184,
+        "wilson95": [
+          0.0072,
+          0.0464
+        ],
+        "mdr": {
+          "20": 0.261,
+          "50": 0.156,
+          "100": 0.116,
+          "200": 0.091
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0246,
+        "wilson95": [
+          0.0084,
+          0.0698
+        ],
+        "mdr": {
+          "20": 0.26,
+          "50": 0.2,
+          "100": 0.15,
+          "200": 0.125
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 8,
+          "100": 12,
+          "200": 21
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0187,
+        "wilson95": [
+          0.0064,
+          0.0537
+        ],
+        "mdr": {
+          "20": 0.259,
+          "50": 0.179,
+          "100": 0.124,
+          "200": 0.104
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 7,
+          "100": 10,
+          "200": 17
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "narrative_management": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0138,
+        "wilson95": [
+          0.0047,
+          0.0399
+        ],
+        "mdr": {
+          "20": 0.205,
+          "50": 0.135,
+          "100": 0.105,
+          "200": 0.085
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 8,
+          "200": 14
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0234
+        ],
+        "mdr": {
+          "20": 0.203,
+          "50": 0.108,
+          "100": 0.078,
+          "200": 0.058
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 9
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "network_brokerage": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0174
+        ],
+        "mdr": {
+          "20": 0.147,
+          "50": 0.112,
+          "100": 0.067,
+          "200": 0.052
+        },
+        "critical_count": {
+          "20": 2,
+          "50": 4,
+          "100": 5,
+          "200": 8
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0234
+        ],
+        "mdr": {
+          "20": 0.203,
+          "50": 0.108,
+          "100": 0.078,
+          "200": 0.058
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 9
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "reference_capture": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 20,
+        "notable": 0,
+        "rate": 0.0922,
+        "wilson95": [
+          0.0605,
+          0.1381
+        ],
+        "mdr": {
+          "20": 0.368,
+          "50": 0.288,
+          "100": 0.243,
+          "200": 0.208
+        },
+        "critical_count": {
+          "20": 6,
+          "50": 12,
+          "100": 21,
+          "200": 37
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 12,
+        "notable": 0,
+        "rate": 0.0984,
+        "wilson95": [
+          0.0572,
+          0.1641
+        ],
+        "mdr": {
+          "20": 0.419,
+          "50": 0.329,
+          "100": 0.274,
+          "200": 0.239
+        },
+        "critical_count": {
+          "20": 7,
+          "50": 14,
+          "100": 24,
+          "200": 43
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 18,
+        "notable": 0,
+        "rate": 0.1125,
+        "wilson95": [
+          0.0724,
+          0.1708
+        ],
+        "mdr": {
+          "20": 0.421,
+          "50": 0.331,
+          "100": 0.276,
+          "200": 0.246
+        },
+        "critical_count": {
+          "20": 7,
+          "50": 14,
+          "100": 24,
+          "200": 44
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "revolving_door": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0174
+        ],
+        "mdr": {
+          "20": 0.147,
+          "50": 0.112,
+          "100": 0.067,
+          "200": 0.052
+        },
+        "critical_count": {
+          "20": 2,
+          "50": 4,
+          "100": 5,
+          "200": 8
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0305
+        ],
+        "mdr": {
+          "20": 0.206,
+          "50": 0.136,
+          "100": 0.091,
+          "200": 0.071
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 7,
+          "200": 11
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 0,
+        "notable": 0,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0234
+        ],
+        "mdr": {
+          "20": 0.203,
+          "50": 0.108,
+          "100": 0.078,
+          "200": 0.058
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 4,
+          "100": 6,
+          "200": 9
+        }
+      },
+      "has_index_floor": false,
+      "eligible_state": "receipts-only"
+    },
+    "rollback_asymmetry": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0138,
+        "wilson95": [
+          0.0047,
+          0.0399
+        ],
+        "mdr": {
+          "20": 0.205,
+          "50": 0.135,
+          "100": 0.105,
+          "200": 0.085
+        },
+        "critical_count": {
+          "20": 3,
+          "50": 5,
+          "100": 8,
+          "200": 14
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 1,
+        "notable": 0,
+        "rate": 0.0082,
+        "wilson95": [
+          0.0014,
+          0.045
+        ],
+        "mdr": {
+          "20": 0.26,
+          "50": 0.155,
+          "100": 0.115,
+          "200": 0.09
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 6,
+          "100": 9,
+          "200": 15
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 10,
+        "notable": 0,
+        "rate": 0.0625,
+        "wilson95": [
+          0.0343,
+          0.1112
+        ],
+        "mdr": {
+          "20": 0.371,
+          "50": 0.246,
+          "100": 0.201,
+          "200": 0.176
+        },
+        "critical_count": {
+          "20": 6,
+          "50": 10,
+          "100": 17,
+          "200": 31
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "sourcing_asymmetry": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 35,
+        "notable": 0,
+        "rate": 0.1613,
+        "wilson95": [
+          0.1183,
+          0.216
+        ],
+        "mdr": {
+          "20": 0.471,
+          "50": 0.391,
+          "100": 0.336,
+          "200": 0.296
+        },
+        "critical_count": {
+          "20": 8,
+          "50": 17,
+          "100": 30,
+          "200": 54
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 12,
+        "notable": 0,
+        "rate": 0.0984,
+        "wilson95": [
+          0.0572,
+          0.1641
+        ],
+        "mdr": {
+          "20": 0.419,
+          "50": 0.329,
+          "100": 0.274,
+          "200": 0.239
+        },
+        "critical_count": {
+          "20": 7,
+          "50": 14,
+          "100": 24,
+          "200": 43
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 3,
+        "notable": 0,
+        "rate": 0.0187,
+        "wilson95": [
+          0.0064,
+          0.0537
+        ],
+        "mdr": {
+          "20": 0.259,
+          "50": 0.179,
+          "100": 0.124,
+          "200": 0.104
+        },
+        "critical_count": {
+          "20": 4,
+          "50": 7,
+          "100": 10,
+          "200": 17
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    },
+    "subculture_register": {
+      "background_full_pool": {
+        "n_docs": 217,
+        "fired": 15,
+        "notable": 0,
+        "rate": 0.0691,
+        "wilson95": [
+          0.0423,
+          0.1109
+        ],
+        "mdr": {
+          "20": 0.371,
+          "50": 0.246,
+          "100": 0.201,
+          "200": 0.176
+        },
+        "critical_count": {
+          "20": 6,
+          "50": 10,
+          "100": 17,
+          "200": 31
+        }
+      },
+      "background_recomputable_only": {
+        "n_docs": 122,
+        "fired": 9,
+        "notable": 0,
+        "rate": 0.0738,
+        "wilson95": [
+          0.0393,
+          0.1343
+        ],
+        "mdr": {
+          "20": 0.369,
+          "50": 0.284,
+          "100": 0.234,
+          "200": 0.204
+        },
+        "critical_count": {
+          "20": 6,
+          "50": 12,
+          "100": 20,
+          "200": 36
+        }
+      },
+      "recall_fixtures": {
+        "n_docs": 160,
+        "fired": 7,
+        "notable": 0,
+        "rate": 0.0437,
+        "wilson95": [
+          0.0214,
+          0.0875
+        ],
+        "mdr": {
+          "20": 0.318,
+          "50": 0.223,
+          "100": 0.178,
+          "200": 0.148
+        },
+        "critical_count": {
+          "20": 5,
+          "50": 9,
+          "100": 15,
+          "200": 25
+        }
+      },
+      "has_index_floor": true,
+      "eligible_state": "index-bearing"
+    }
+  },
+  "crosstab_fired_by_bucket": {
+    "adept_speech": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 1,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 1,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "cognitive_capture": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 0,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 1,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 2,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "costly_signal": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 0,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 0,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "counterproductivity": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 0,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 2,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "distributed_accountability": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 2,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 2,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 1,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 3,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 1,
+        "n": 5
+      }
+    },
+    "inevitability_framing": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 1,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 2,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 1,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 2,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "institutional_permeation": {
+      "corpus/_calibration-cache": {
+        "fired": 1,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 7,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 1,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 12,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 14,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 19,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 1,
+        "n": 5
+      }
+    },
+    "legibility": {
+      "corpus/_calibration-cache": {
+        "fired": 3,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 2,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 3,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 5,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 24,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "militant_mobilization": {
+      "corpus/_calibration-cache": {
+        "fired": 1,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 1,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 2,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 3,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "narrative_management": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 3,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 0,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "network_brokerage": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 0,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 0,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "reference_capture": {
+      "corpus/_calibration-cache": {
+        "fired": 1,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 8,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 8,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 3,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 18,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "revolving_door": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 0,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 0,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 0,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "rollback_asymmetry": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 2,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 1,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 0,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 10,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "sourcing_asymmetry": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 23,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 8,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 4,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 3,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    },
+    "subculture_register": {
+      "corpus/_calibration-cache": {
+        "fired": 0,
+        "n": 20
+      },
+      "corpus/_news-control": {
+        "fired": 6,
+        "n": 95
+      },
+      "corpus/advocacy-comments.jsonl": {
+        "fired": 0,
+        "n": 38
+      },
+      "corpus/advocacy-specimens.jsonl": {
+        "fired": 5,
+        "n": 18
+      },
+      "corpus/ai-governance-shoptalk.jsonl": {
+        "fired": 4,
+        "n": 46
+      },
+      "corpus/method-specimens.jsonl": {
+        "fired": 7,
+        "n": 155
+      },
+      "corpus/specimens.jsonl": {
+        "fired": 0,
+        "n": 5
+      }
+    }
+  },
+  "floor_records": [
+    {
+      "claim": "adept_speech fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0256,
+      "mde": 0.081,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "adept_speech fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "cognitive_capture fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0256,
+      "mde": 0.081,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "cognitive_capture fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.045,
+      "mde": 0.115,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "costly_signal fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0174,
+      "mde": 0.067,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "costly_signal fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "counterproductivity fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0174,
+      "mde": 0.067,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "counterproductivity fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "distributed_accountability fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0528,
+      "mde": 0.128,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "distributed_accountability fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0698,
+      "mde": 0.15,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "inevitability_framing fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0464,
+      "mde": 0.116,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "inevitability_framing fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0698,
+      "mde": 0.15,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "institutional_permeation fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.216,
+      "mde": 0.336,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "institutional_permeation fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.3117,
+      "mde": 0.442,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "legibility fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0998,
+      "mde": 0.19,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "legibility fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.1543,
+      "mde": 0.264,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "militant_mobilization fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0464,
+      "mde": 0.116,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "militant_mobilization fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0698,
+      "mde": 0.15,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "narrative_management fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0399,
+      "mde": 0.105,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "narrative_management fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "network_brokerage fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0174,
+      "mde": 0.067,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "network_brokerage fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "reference_capture fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.1381,
+      "mde": 0.243,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "reference_capture fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.1641,
+      "mde": 0.274,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "revolving_door fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0174,
+      "mde": 0.067,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "revolving_door fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "receipts-only",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.0305,
+      "mde": 0.091,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "rollback_asymmetry fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.0399,
+      "mde": 0.105,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "rollback_asymmetry fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.045,
+      "mde": 0.115,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "sourcing_asymmetry fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.216,
+      "mde": 0.336,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "sourcing_asymmetry fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.1641,
+      "mde": 0.274,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "subculture_register fires above background (full-pool)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 217,
+      "threshold_p95": 0.1109,
+      "mde": 0.201,
+      "measured": "2026-09-08",
+      "recomputable": false,
+      "source": "eval/background_rate.py"
+    },
+    {
+      "claim": "subculture_register fires above background (recomputable-only)",
+      "instrument": "lens",
+      "state": "index-bearing",
+      "statistic": "firing-rate",
+      "null": "background-rate",
+      "n": 122,
+      "threshold_p95": 0.1343,
+      "mde": 0.234,
+      "measured": "2026-09-08",
+      "recomputable": true,
+      "source": "eval/background_rate.py"
+    }
+  ]
+}

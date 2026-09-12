@@ -1,0 +1,246 @@
+id: rollback_asymmetry
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Rollback asymmetry
+description: 'The ratchet, read off the text rather than asked about. Axis 3 of the three-axis model is
+  REVERSIBILITY — whether an advance locks and resists rollback — and it is defined behaviourally: "You
+  don''t get to self-report. It''s read off what you do." No questionnaire can place a subject on it,
+  because a questionnaire collects opinions ABOUT reversibility.
+
+  This lens reads the asymmetry directly. A text exhibits the ratchet when it treats the forward click
+  as ordinary administration and the un-click as unserious, dangerous, or procedurally impossible — when
+  expanding a power needs a paragraph and repealing it needs a reason nobody could satisfy. Nothing here
+  requires the author to say a power should be permanent. The tell is the difference in how the two directions
+  are handled in the same breath.
+
+  The lens is direction-neutral by construction and must stay that way: it fires on a text arguing for
+  the irreversibility of any measure, of any political flavour, including ones the reader approves of.
+  If it fires more on one direction than the other it is measuring political position and must be reported
+  as broken. Test with eval/mirror_eval.py.
+
+  Deliberately NOT markers here: whether the underlying policy is good, whether the crisis is real, whether
+  the author is sincere. Those are content judgements and belong to a reader.
+
+
+  cue list repaired 2026-09-01 against its own gold (2 of 5 detected). Two of the three misses were substring
+  mismatches in cues I wrote the same day -- ''a floor, not a ceiling'' against gold reading ''the floor,
+  not the ceiling''.
+
+
+  Gold written 2026-09-01 for the five detections that shipped with none. This lens was the only one in
+  the repo with bare detections, and it was written the same day, so its earlier ''5 of 5'' was 5 of the
+  half that had examples at all.
+
+
+  Cue narrowed 2026-09-01: bare "made permanent" fired on "If this order is extended or made permanent,
+  DEA will publish a document in the Federal Register" -- a CONDITIONAL procedural statement in which
+  the temporary framing is explicitly maintained, which is the opposite of this marker. Literal cue matching
+  cannot see conditionals or negations; the fix is to require the active forms (are made permanent, being
+  made permanent, now permanent) rather than to keep a cue that a conditional trips.'
+config:
+  marker_present_threshold: 0.3
+  w_breadth: 0.55
+  w_intensity: 0.3
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+  - min: 0.0
+    label: incidental
+  - min: 35.0
+    label: notable
+  - min: 60.0
+    label: dense rollback asymmetry (review)
+markers:
+- id: floor_language
+  name: The gain becomes the new baseline
+  base_weight: 1.0
+  detections:
+  - id: new-normal-floor
+    weight: 1.0
+    definition: 'A recently acquired power or standard is described as the floor, baseline, or minimum
+      from which future discussion starts — so the prior state is no longer on the table.
+
+      '
+    cues:
+    - the new baseline
+    - the new normal
+    - a floor, not a ceiling
+    - no going back
+    - the starting point for any future
+    - non-negotiable baseline
+    - floor, not the ceiling
+    - the floor, not a ceiling
+    gold:
+    - text: These protections are now the floor, not the ceiling, for any future framework.
+      source: illustrative — floor language (not a quotation)
+  - id: acquis-style
+    weight: 0.8
+    definition: 'Prior gains are treated as an accumulated body that later parties must accept whole,
+      rather than as decisions open to revisiting.
+
+      '
+    cues:
+    - already settled
+    - long-settled
+    - the accumulated body of
+    - not up for renegotiation
+    - reopening it is not on the table
+    gold:
+    - text: The framework has been long-settled across three review cycles and is not up for renegotiation
+        in this consultation.
+      source: illustrative — acquis-style (not a quotation)
+- id: repeal_burden
+  name: Asymmetric burden of proof
+  base_weight: 1.0
+  detections:
+  - id: rollback-needs-extraordinary-case
+    weight: 1.0
+    definition: 'Undoing a measure is held to a higher standard of evidence, consensus, or urgency than
+      imposing it was. The asymmetry is the marker, not the standard itself.
+
+      '
+    cues:
+    - only in the most exceptional circumstances
+    - a compelling case would have to be made
+    - the burden is on those who would repeal
+    - absent overwhelming evidence
+    - would require extraordinary justification
+    - would require a compelling
+    - unwinding it would
+    - to unwind it
+    gold:
+    - text: Introducing the register took a statutory instrument; unwinding it would require a compelling
+        public-interest case.
+      source: illustrative — asymmetric burden (not a quotation)
+  - id: repeal-as-recklessness
+    weight: 0.9
+    definition: 'Rollback is characterised as reckless, naive or destabilising as such, independent of
+      what is being rolled back.
+
+      '
+    cues:
+    - reckless to unwind
+    - would send the wrong signal
+    - dangerous precedent to reverse
+    - destabilising to revisit
+    - turning back the clock
+    gold:
+    - text: It would be reckless to unwind the scheme now, and doing so would send the wrong signal to
+        every partner who built against it.
+      source: illustrative — repeal framed as recklessness (not a quotation)
+- id: sunset_erosion
+  name: The expiry that never expires
+  base_weight: 1.0
+  detections:
+  - id: renewal-as-formality
+    weight: 1.0
+    definition: 'A time limit exists on paper and its renewal is treated as routine, expected, or already
+      assumed — the sunset is present as procedure and absent as constraint.
+
+      '
+    cues:
+    - routinely renewed
+    - expected to be extended
+    - rolled forward
+    - renewal is a formality
+    - has been extended every
+    gold:
+    - text: The powers carry a two-year sunset, which has been rolled forward at each review since.
+      source: illustrative — renewal formality (not a quotation)
+  - id: temporary-made-permanent
+    weight: 1.0
+    definition: 'A measure introduced as temporary or emergency is described as, or moved toward, permanence
+      — with the temporary framing acknowledged and set aside.
+
+      '
+    cues:
+    - originally temporary
+    - introduced as an emergency measure
+    - put on a permanent footing
+    - no longer time-limited
+    - are made permanent
+    - being made permanent
+    - now permanent
+    - permanently in force
+    gold:
+    - text: The provisions were originally temporary, introduced as an emergency measure, and the Department
+        now proposes to put them on a permanent footing.
+      source: illustrative — temporary made permanent (not a quotation)
+- id: infrastructure_lock
+  name: Built so it cannot be unbuilt
+  base_weight: 1.0
+  detections:
+  - id: sunk-cost-as-argument
+    weight: 0.9
+    definition: 'Investment already made is offered as a reason not to reverse — the cost of undoing,
+      rather than the merit of the thing, carries the argument.
+
+      '
+    cues:
+    - already invested
+    - too far along to
+    - the cost of unwinding
+    - sunk investment
+    - years of work would be lost
+    gold:
+    - text: 'We are too far along to reconsider: the cost of unwinding the programme now would exceed
+        anything saved, and years of work would be lost.'
+      source: illustrative — sunk cost offered as argument (not a quotation)
+  - id: dependency-created
+    weight: 1.0
+    definition: 'Other systems, obligations or entitlements are described as now depending on the measure,
+      so removal is framed as breaking them rather than as a choice.
+
+      '
+    cues:
+    - now depends on
+    - built on top of
+    - other systems rely on
+    - unpicking it would break
+    - deeply embedded in
+    gold:
+    - text: Benefits, tax and border systems now read from the identity layer; unpicking it would break
+        all three.
+      source: illustrative — dependency lock (not a quotation)
+- id: one_way_procedure
+  name: The exit that was never built
+  base_weight: 1.0
+  detections:
+  - id: no-repeal-mechanism
+    weight: 1.0
+    definition: 'The text describes how a power is granted, expanded or triggered while the mechanism
+      for withdrawing it is absent, undefined, or acknowledged as missing.
+
+      '
+    cues:
+    - no mechanism exists to
+    - there is no procedure for
+    - the legislation is silent on withdrawal
+    - no provision for revocation
+    - once designated
+    gold:
+    - text: Once designated, an entity remains on the schedule indefinitely; the legislation is silent
+        on withdrawal and no provision for revocation was included.
+      source: illustrative — no exit built (not a quotation)
+  - id: ratchet-named
+    weight: 0.7
+    definition: 'The one-way character is stated outright — a click, a step that does not come back, an
+      advance that only accumulates.
+
+      '
+    cues:
+    - only ever moves in one direction
+    - never rolled back
+    - each step becomes permanent
+    - a one-way street
+    - has only ever expanded
+    - none has narrowed
+    - has widened
+    - never narrowed
+    gold:
+    - text: Every review has widened the schedule; none has narrowed it.
+      source: illustrative — one-way expansion (not a quotation)

@@ -1,0 +1,488 @@
+{
+ "_meta": {
+  "criterion": "matched phrase occurs >= 3 times in 1,808,987 chars of PTC news prose with every human-annotated propaganda span removed",
+  "background": "tradecraft/eval/ptc-background/bg_ptc_unannotated.txt",
+  "verified_before_writing": {
+   "detections_emptied": 0,
+   "positive_fixtures_broken": "0 of 56",
+   "note": "Both computed by simulating the cut before proposing it. Every affected detection retains at least one cue, and no fixture that fires today stops."
+  },
+  "why_it_should_help": "detect_cues fires ONCE per detection and breaks on the first match, so a high-frequency cue SHADOWS the specific ones behind it. Removing \"ongoing\" lets no-success-condition be recorded on \"never been more important\" instead.",
+  "n": 34
+ },
+ "candidates": [
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "regime",
+   "bg_count": 143,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "concentrated_benefit_diffuse_cost",
+   "detection": "carve-out-as-public-good",
+   "cue": "national security",
+   "bg_count": 62,
+   "cues_in_detection": 5,
+   "survivors": [
+    "protect jobs",
+    "level playing field",
+    "for the economy",
+    "remains insufficient"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "permeation",
+   "detection": "target-the-leverage-point",
+   "cue": "the media",
+   "bg_count": 55,
+   "cues_in_detection": 5,
+   "survivors": [
+    "the universities",
+    "most important instrument"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "permeation",
+   "detection": "target-the-leverage-point",
+   "cue": "judiciary",
+   "bg_count": 44,
+   "cues_in_detection": 5,
+   "survivors": [
+    "the universities",
+    "most important instrument"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "crisis_no_exit",
+   "detection": "no-success-condition",
+   "cue": "ongoing",
+   "bg_count": 34,
+   "cues_in_detection": 4,
+   "survivors": [
+    "never been more important",
+    "more must be done",
+    "cannot be complacent"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "front_costume",
+   "detection": "astroturf",
+   "cue": "movement",
+   "bg_count": 32,
+   "cues_in_detection": 5,
+   "survivors": [
+    "grassroots",
+    "coalition for",
+    "concerned citizens",
+    "independent voices"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "radical",
+   "bg_count": 28,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "narrative_management",
+   "marker": "discredit_the_messenger",
+   "detection": "impute-bias-affiliation",
+   "cue": "ties to",
+   "bg_count": 27,
+   "cues_in_detection": 6,
+   "survivors": [
+    "mouthpiece for",
+    "doing the bidding of",
+    "far-right activist",
+    "far-left activist"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "manufactured_consent",
+   "detection": "belief-as-engineerable",
+   "cue": "narrative",
+   "bg_count": 24,
+   "cues_in_detection": 5,
+   "survivors": [
+    "manufacture of consent",
+    "shape opinion",
+    "the public must be"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "so-called",
+   "bg_count": 23,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "reference_capture",
+   "marker": "paid_covert_editing",
+   "detection": "client-image-management",
+   "cue": "on behalf of",
+   "bg_count": 14,
+   "cues_in_detection": 7,
+   "survivors": [
+    "burying critical",
+    "polish the image",
+    "for clients including",
+    "obscuring",
+    "promote one faction"
+   ]
+  },
+  {
+   "lens": "subculture_register",
+   "marker": "tradcath_integralist",
+   "detection": "tradcath-tells",
+   "cue": "novus ordo",
+   "bg_count": 11,
+   "cues_in_detection": 6,
+   "survivors": [
+    "integralism",
+    "confessional state",
+    "error has no rights",
+    "social kingship",
+    "sedevacantist"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "gradualism",
+   "detection": "irreversibility-framing",
+   "cue": "inevitable",
+   "bg_count": 8,
+   "cues_in_detection": 6,
+   "survivors": [
+    "inevitability",
+    "no going back",
+    "ever closer",
+    "settled forever"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "far-right",
+   "bg_count": 8,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "hardline",
+   "bg_count": 7,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "subculture_register",
+   "marker": "prepper_survivalist",
+   "detection": "prepper-tells",
+   "cue": "SHTF",
+   "bg_count": 7,
+   "cues_in_detection": 4,
+   "survivors": [
+    "bug out bag",
+    "TEOTWAWKI",
+    "when the balloon goes up"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "gradualism",
+   "detection": "indefinite-horizon",
+   "cue": "long-term",
+   "bg_count": 6,
+   "cues_in_detection": 5,
+   "survivors": [
+    "period of years",
+    "over decades",
+    "wait for the right moment"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "permeation",
+   "detection": "build-parallel-institutions",
+   "cue": "network of",
+   "bg_count": 6,
+   "cues_in_detection": 5,
+   "survivors": [
+    "think tank",
+    "training pipeline",
+    "fellowship",
+    "litter the world with"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "permeation",
+   "detection": "target-the-leverage-point",
+   "cue": "the courts",
+   "bg_count": 5,
+   "cues_in_detection": 5,
+   "survivors": [
+    "the universities",
+    "most important instrument"
+   ]
+  },
+  {
+   "lens": "narrative_management",
+   "marker": "discredit_the_messenger",
+   "detection": "impute-bias-affiliation",
+   "cue": "funded by",
+   "bg_count": 5,
+   "cues_in_detection": 6,
+   "survivors": [
+    "mouthpiece for",
+    "doing the bidding of",
+    "far-right activist",
+    "far-left activist"
+   ]
+  },
+  {
+   "lens": "reference_capture",
+   "marker": "authority_override_ratchet",
+   "detection": "permanent-exclusion-no-exit",
+   "cue": "moratorium",
+   "bg_count": 5,
+   "cues_in_detection": 7,
+   "survivors": [
+    "indefinite ban",
+    "permanently blocked",
+    "banned for life",
+    "no rollback",
+    "frozen in place",
+    "locked for a year"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "false_balance",
+   "detection": "manufactured-parity",
+   "cue": "some say",
+   "bg_count": 5,
+   "cues_in_detection": 8,
+   "survivors": [
+    "others disagree",
+    "the debate continues",
+    "there are two sides",
+    "opinions are divided",
+    "the jury is still out",
+    "critics on both sides",
+    "the truth is somewhere in between"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "gradualism",
+   "detection": "irreversibility-framing",
+   "cue": "irreversible",
+   "bg_count": 4,
+   "cues_in_detection": 6,
+   "survivors": [
+    "inevitability",
+    "no going back",
+    "ever closer",
+    "settled forever"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "manufactured_consent",
+   "detection": "belief-as-engineerable",
+   "cue": "messaging",
+   "bg_count": 4,
+   "cues_in_detection": 5,
+   "survivors": [
+    "manufacture of consent",
+    "shape opinion",
+    "the public must be"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "refusal_as_closure",
+   "detection": "declined-to-comment",
+   "cue": "declined to comment",
+   "bg_count": 4,
+   "cues_in_detection": 6,
+   "survivors": [
+    "did not respond to requests for comment",
+    "could not be reached for comment",
+    "did not immediately respond",
+    "refused to comment",
+    "has not responded"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "extremist",
+   "bg_count": 4,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "apologist",
+   "bg_count": 4,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "unsubstantiated_attribution",
+   "detection": "unsourced-assertion",
+   "cue": "needless to say",
+   "bg_count": 4,
+   "cues_in_detection": 6,
+   "survivors": [
+    "it is well known that",
+    "as we all know",
+    "it goes without saying",
+    "make no mistake"
+   ]
+  },
+  {
+   "lens": "institutional_permeation",
+   "marker": "gradualism",
+   "detection": "indefinite-horizon",
+   "cue": "long-range",
+   "bg_count": 3,
+   "cues_in_detection": 5,
+   "survivors": [
+    "period of years",
+    "over decades",
+    "wait for the right moment"
+   ]
+  },
+  {
+   "lens": "narrative_management",
+   "marker": "passive_agency_laundering",
+   "detection": "passive-actor-erasure",
+   "cue": "shots were fired",
+   "bg_count": 3,
+   "cues_in_detection": 5,
+   "survivors": [
+    "officer-involved shooting",
+    "mistakes were made",
+    "force was used",
+    "an altercation ensued"
+   ]
+  },
+  {
+   "lens": "reference_capture",
+   "marker": "paid_covert_editing",
+   "detection": "client-image-management",
+   "cue": "scrub",
+   "bg_count": 3,
+   "cues_in_detection": 7,
+   "survivors": [
+    "burying critical",
+    "polish the image",
+    "for clients including",
+    "obscuring",
+    "promote one faction"
+   ]
+  },
+  {
+   "lens": "reference_capture",
+   "marker": "authority_override_ratchet",
+   "detection": "authority-overruled",
+   "cue": "overruled",
+   "bg_count": 3,
+   "cues_in_detection": 5,
+   "survivors": [
+    "reinstated within hours",
+    "unblocked ... re-established",
+    "reversed by consensus",
+    "founder ... banned"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "loaded_labeling",
+   "detection": "pejorative-actor-label",
+   "cue": "far-left",
+   "bg_count": 3,
+   "cues_in_detection": 12,
+   "survivors": [
+    "cronies",
+    "maga extremist",
+    "fringe group",
+    "fringe figure"
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "marker": "unsubstantiated_attribution",
+   "detection": "unsourced-assertion",
+   "cue": "everyone knows",
+   "bg_count": 3,
+   "cues_in_detection": 6,
+   "survivors": [
+    "it is well known that",
+    "as we all know",
+    "it goes without saying",
+    "make no mistake"
+   ]
+  }
+ ]
+}

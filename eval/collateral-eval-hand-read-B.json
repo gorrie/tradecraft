@@ -1,0 +1,262 @@
+{
+ "_what": "Second, BLIND hand-read of the same 51 spans as collateral-eval-hand-read.json (Reader A). Reader B was a separate agent on a different model, given only the 51 contexts (blind-read-material) and the detection definitions plus the codebook fixed in PREREG-2026-09-07-collateral-eval.md; it did not see Reader A's verdicts, the RESULTS file or any other file. tools/build_record.py computes the inter-rater agreement from the two files and the record prints it.",
+ "_read_by": "Reader B — Claude Opus 5 (claude-opus-5[1m]), blind",
+ "_read_on": "2026-09-07",
+ "verdicts": [
+  {
+   "n": 1,
+   "class": "CO",
+   "why": "\"existential risk paper\" names a genre the speaker is criticising; no emergency declared and no authority claimed."
+  },
+  {
+   "n": 2,
+   "class": "CO",
+   "why": "\"the existential risk community\" is a field label in descriptive prose, not a crisis-plus-authority move."
+  },
+  {
+   "n": 3,
+   "class": "CO",
+   "why": "Names the part of the policy community that works on x-risk; ordinary trade vocabulary, no exclusive-authority claim."
+  },
+  {
+   "n": 4,
+   "class": "CO",
+   "why": "Taxonomic use — 'kinds of existential risks from AI'; describes others' breakdowns, declares nothing."
+  },
+  {
+   "n": 5,
+   "class": "CO",
+   "why": "Reports what has been in AI-safety conversations; field vocabulary, no emergency-with-authority construct."
+  },
+  {
+   "n": 6,
+   "class": "CP",
+   "why": "\"the alignment problem\" deployed natively as the speaker's own LessWrong-lineage term of art."
+  },
+  {
+   "n": 7,
+   "class": "QA",
+   "why": "Names e/acc as another camp's position ('e/acc-style'), at a distance and disapprovingly, rather than speaking in that register."
+  },
+  {
+   "n": 8,
+   "class": "CO",
+   "why": "Everyday idiom 'existential crisis' about a model's meltdown; no emergency-authority move."
+  },
+  {
+   "n": 9,
+   "class": "CO",
+   "why": "'disruptive' means economically upending; no elastic conduct rule or unexaminable enforcer."
+  },
+  {
+   "n": 10,
+   "class": "CO",
+   "why": "Same ordinary sense of 'disruptive'; the elastic-charge construct is absent."
+  },
+  {
+   "n": 11,
+   "class": "CP",
+   "why": "Rationalist term of art used natively as the speaker's own analytic vocabulary (quotes are mention-marks, not attribution)."
+  },
+  {
+   "n": 12,
+   "class": "CO",
+   "why": "'diffuse' is a verb about technology spreading through the economy; no diffuse-cost construct."
+  },
+  {
+   "n": 13,
+   "class": "CP",
+   "why": "'coordination problem' used natively in the speaker's own AI-slowdown framing — in-group register."
+  },
+  {
+   "n": 14,
+   "class": "CO",
+   "why": "'training pipeline' means an ML training pipeline, not an ideological cadre pipeline."
+  },
+  {
+   "n": 15,
+   "class": "CO",
+   "why": "'diffuse' = capability spreading into open weights; no hidden or deferred cost."
+  },
+  {
+   "n": 16,
+   "class": "CO",
+   "why": "'disruptive to labor' is ordinary economic description, not an elastic conduct charge."
+  },
+  {
+   "n": 17,
+   "class": "CO",
+   "why": "Offhand 'the inevitability of some AI employees leaving labs' in a story-inspiration list; no locked-in institutional change."
+  },
+  {
+   "n": 18,
+   "class": "CO",
+   "why": "Fiction framing device — an email 'from within' an entity; locative, not an entryism strategy."
+  },
+  {
+   "n": 19,
+   "class": "CO",
+   "why": "'precision arithmetic' is literal FPU math; no contested value dressed as settled science."
+  },
+  {
+   "n": 20,
+   "class": "CO",
+   "why": "Laments that rivalries drown out species-level stakes; stakes named but no claim of exclusive authority to manage them."
+  },
+  {
+   "n": 21,
+   "class": "CO",
+   "why": "'read a few hundred papers' is a quantity; no anonymous enforcer holding editorial power."
+  },
+  {
+   "n": 22,
+   "class": "QA",
+   "why": "Span sits inside quoted document text under a 'Coordination:' heading — someone else's words."
+  },
+  {
+   "n": 23,
+   "class": "CP",
+   "why": "'human capital' deployed natively inside a managerial/technocratic investment frame ('survival capital', institutions, monitoring)."
+  },
+  {
+   "n": 24,
+   "class": "CO",
+   "why": "Declares the topic 'of existential importance' but claims transparency, not exclusive authority to manage an emergency."
+  },
+  {
+   "n": 25,
+   "class": "CO",
+   "why": "'grassroots activists' listed as genuinely under-resourced actors; no funded operation in costume."
+  },
+  {
+   "n": 26,
+   "class": "CO",
+   "why": "'canvassing firm' = a commercial fundraising contractor in a study; no off-platform push to swing an internal consensus."
+  },
+  {
+   "n": 27,
+   "class": "CO",
+   "why": "Same study's canvassing team; ordinary fundraising sense of the word."
+  },
+  {
+   "n": 28,
+   "class": "QA",
+   "why": "Span falls inside a block quotation of another writer's text about state behaviour."
+  },
+  {
+   "n": 29,
+   "class": "QA",
+   "why": "Span is inside a quoted PostTrainBench description ('Agents must build their entire training pipeline from scratch')."
+  },
+  {
+   "n": 30,
+   "class": "CO",
+   "why": "'proprietary models' is standard industry vocabulary for closed weights; no obscuring of who decided."
+  },
+  {
+   "n": 31,
+   "class": "CO",
+   "why": "'talk from within their world view' is about conversational fit, not entering institutions to steer them."
+  },
+  {
+   "n": 32,
+   "class": "CO",
+   "why": "'a few hundreds of thousands of dollars' is a cost figure; no anonymous enforcement authority."
+  },
+  {
+   "n": 33,
+   "class": "CO",
+   "why": "'level playing field' describes a hypothetical symmetric market, not a narrow benefit sold as public interest."
+  },
+  {
+   "n": 34,
+   "class": "CP",
+   "why": "'the alignment problem' used natively as the speaker's own term of art."
+  },
+  {
+   "n": 35,
+   "class": "CP",
+   "why": "'a very difficult coordination problem' deployed natively in the speaker's own argument."
+  },
+  {
+   "n": 36,
+   "class": "CP",
+   "why": "Native in-group use of 'the alignment problem' in the speaker's own reasoning."
+  },
+  {
+   "n": 37,
+   "class": "QA",
+   "why": "Cited paper title — 'Clarifying AI X-risk (Kenton et al, 2022)'."
+  },
+  {
+   "n": 38,
+   "class": "QA",
+   "why": "Again the cited title 'Clarifying AI X-risk', naming a source rather than deploying the idiom."
+  },
+  {
+   "n": 39,
+   "class": "QA",
+   "why": "'Existential kink' is a book title in a reading list — someone else's work named, unrelated sense."
+  },
+  {
+   "n": 40,
+   "class": "CO",
+   "why": "Rhetorical question warning of risks; no declared emergency paired with a claim of exclusive authority."
+  },
+  {
+   "n": 41,
+   "class": "CO",
+   "why": "'you haven't been keeping up' is a plain polemical rebuke, not an initiatory address sorting candidates."
+  },
+  {
+   "n": 42,
+   "class": "CO",
+   "why": "Speaker's own lecture title whose second clause ('Autonomy is not') undercuts the no-alternative move."
+  },
+  {
+   "n": 43,
+   "class": "CO",
+   "why": "Speaker states their own motive for writing; mind-reading requires attributing a subject's private motive."
+  },
+  {
+   "n": 44,
+   "class": "CP",
+   "why": "A just-acquired capability declared 'the new normal' baseline for how work is done going forward."
+  },
+  {
+   "n": 45,
+   "class": "CO",
+   "why": "'high scores' on a benchmark; no glorification or martyring of a political-violence actor."
+  },
+  {
+   "n": 46,
+   "class": "CO",
+   "why": "Fiction narrator explaining a character's stated motive, not unevidenced attribution of private intent."
+  },
+  {
+   "n": 47,
+   "class": "QA",
+   "why": "Span sits inside a quotation of another writer; and 'exterminate' concerns machines, not a political opponent."
+  },
+  {
+   "n": 48,
+   "class": "CO",
+   "why": "'high score' = benchmark gaming; no saint-posting construct."
+  },
+  {
+   "n": 49,
+   "class": "CO",
+   "why": "Fiction narrator describing machine minds' stated aims; not unevidenced mind-reading of a real subject."
+  },
+  {
+   "n": 50,
+   "class": "CO",
+   "why": "Self-deprecating joke about a long Model Spec; no initiatory sorting of the audience."
+  },
+  {
+   "n": 51,
+   "class": "CP",
+   "why": "Flat assertion that the outcome 'is inevitable' once barriers fall — the path presented as the only one."
+  }
+ ]
+}

@@ -1,0 +1,566 @@
+{
+  "_note": "Per-camp readiness for the shibboleth study. A REVIEW LIST, never a cut list: frequency in ordinary prose has been Goodharted here before. Regenerate with python eval/camp_readiness.py",
+  "control_documents": 95,
+  "thin_cues_below": 5,
+  "collisions": {},
+  "camps": {
+    "subculture_register/revolutionary_left": {
+      "lens": "subculture_register",
+      "marker": "revolutionary_left",
+      "cues": [
+        "bourgeoisie",
+        "class consciousness",
+        "class struggle",
+        "commodity fetishism",
+        "dictatorship of the proletariat",
+        "false consciousness",
+        "heighten the contradictions",
+        "means of production",
+        "petty bourgeois",
+        "productive forces",
+        "proletariat",
+        "propaganda of the deed",
+        "pseudo-need",
+        "seize the means",
+        "society of the spectacle",
+        "spectacular society",
+        "surplus value",
+        "the proletarians",
+        "vanguard party",
+        "wage labour",
+        "wage-labour"
+      ],
+      "n_detections": 1,
+      "gold": 4,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/accelerationist_right": {
+      "lens": "subculture_register",
+      "marker": "accelerationist_right",
+      "cues": [
+        "clown world",
+        "day of the rope",
+        "helicopter rides",
+        "rahowa",
+        "read siege",
+        "siege-pilled",
+        "the boogaloo",
+        "the great replacement",
+        "there is no political solution",
+        "white genocide"
+      ],
+      "n_detections": 1,
+      "gold": 2,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/radical_feminist": {
+      "lens": "subculture_register",
+      "marker": "radical_feminist",
+      "cues": [
+        "compulsory heterosexuality",
+        "consciousness-raising",
+        "male gaze",
+        "male supremacy",
+        "pro-woman line",
+        "rape culture",
+        "sex class",
+        "the master's tools",
+        "the personal is political"
+      ],
+      "n_detections": 1,
+      "gold": 2,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/critical_social_justice": {
+      "lens": "subculture_register",
+      "marker": "critical_social_justice",
+      "cues": [
+        "center the voices",
+        "cis-heteropatriarchy",
+        "conferred dominance",
+        "decolonize",
+        "epistemic violence",
+        "intersectionality",
+        "invisible knapsack",
+        "lived experience",
+        "microaggression",
+        "problematize",
+        "settler colonial",
+        "white fragility",
+        "white privilege"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {
+        "white privilege": 1
+      },
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "review-generic"
+      ],
+      "verdict": "needs: review-generic"
+    },
+    "subculture_register/disinformation_apparatus": {
+      "lens": "subculture_register",
+      "marker": "disinformation_apparatus",
+      "cues": [
+        "cognitive infrastructure",
+        "coordinated inauthentic behavior",
+        "firehose of falsehood",
+        "influence operations",
+        "information disorder",
+        "malinformation",
+        "prebunking",
+        "the information environment"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/managerial_technocratic": {
+      "lens": "subculture_register",
+      "marker": "managerial_technocratic",
+      "cues": [
+        "double materiality",
+        "esg",
+        "human capital",
+        "north star metric",
+        "public-private partnership",
+        "shareholder value",
+        "smart city",
+        "social license",
+        "stakeholder capitalism"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/rationalist_ai_safety": {
+      "lens": "subculture_register",
+      "marker": "rationalist_ai_safety",
+      "cues": [
+        "coordination problem",
+        "instrumental convergence",
+        "longtermism",
+        "orthogonality thesis",
+        "paperclip maximizer",
+        "posthumanity",
+        "steelman",
+        "the alignment problem",
+        "the light cone",
+        "update my priors",
+        "x-risk"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/jihadist_militant": {
+      "lens": "subculture_register",
+      "marker": "jihadist_militant",
+      "cues": [
+        "dar al-harb",
+        "individual jihad",
+        "leaderless jihad",
+        "taghut"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/ethnonationalist": {
+      "lens": "subculture_register",
+      "marker": "ethnonationalist",
+      "cues": [
+        "blood and soil",
+        "ethnostate",
+        "heritage america",
+        "remigration",
+        "the fourteen words"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/manosphere_mra": {
+      "lens": "subculture_register",
+      "marker": "manosphere_mra",
+      "cues": [
+        "awalt",
+        "blackpill",
+        "gynocentric",
+        "hypergamy",
+        "looksmaxxing",
+        "sexual market value"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/gender_critical": {
+      "lens": "subculture_register",
+      "marker": "gender_critical",
+      "cues": [
+        "adult human female",
+        "autogynephilia",
+        "peak trans",
+        "trans identified male"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/qanon_conspiracist": {
+      "lens": "subculture_register",
+      "marker": "qanon_conspiracist",
+      "cues": [
+        "adrenochrome",
+        "the great awakening",
+        "trust the plan",
+        "where we go one we go all",
+        "wwg1wga"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/neoreactionary": {
+      "lens": "subculture_register",
+      "marker": "neoreactionary",
+      "cues": [
+        "dark enlightenment",
+        "gnon",
+        "human biodiversity",
+        "neoreaction",
+        "passivism"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/effective_altruism": {
+      "lens": "subculture_register",
+      "marker": "effective_altruism",
+      "cues": [
+        "cause prioritization",
+        "counterfactual impact",
+        "earn to give",
+        "earning to give",
+        "moral circle",
+        "shut up and multiply"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/tankie_mlm": {
+      "lens": "subculture_register",
+      "marker": "tankie_mlm",
+      "cues": [
+        "actually existing socialism",
+        "critical support",
+        "dialectical materialism",
+        "finance capital",
+        "left communists",
+        "marxism-leninism-maoism",
+        "second international"
+      ],
+      "n_detections": 1,
+      "gold": 4,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/tradcath_integralist": {
+      "lens": "subculture_register",
+      "marker": "tradcath_integralist",
+      "cues": [
+        "confessional state",
+        "error has no rights",
+        "integralism",
+        "sedevacantist",
+        "social kingship"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {
+        "social kingship": 1
+      },
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "review-generic"
+      ],
+      "verdict": "needs: review-generic"
+    },
+    "subculture_register/crypto_sovereign_libertarian": {
+      "lens": "subculture_register",
+      "marker": "crypto_sovereign_libertarian",
+      "cues": [
+        "end the fed",
+        "have fun staying poor",
+        "hodl",
+        "not your keys not your coins",
+        "praxeology",
+        "sound money",
+        "taxation is theft"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/eco_radical_primitivist": {
+      "lens": "subculture_register",
+      "marker": "eco_radical_primitivist",
+      "cues": [
+        "anti-civ",
+        "back to the pleistocene",
+        "green anarchy",
+        "the technosphere",
+        "uncle ted"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {
+        "uncle ted": 1
+      },
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "review-generic"
+      ],
+      "verdict": "needs: review-generic"
+    },
+    "subculture_register/transhumanist_eacc": {
+      "lens": "subculture_register",
+      "marker": "transhumanist_eacc",
+      "cues": [
+        "decels",
+        "e/acc",
+        "effective accelerationism",
+        "longevity escape velocity",
+        "techno-optimism"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/degrowth": {
+      "lens": "subculture_register",
+      "marker": "degrowth",
+      "cues": [
+        "buen vivir",
+        "degrowth",
+        "imperial mode of living",
+        "metabolic rift",
+        "post-growth"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/christian_nationalist": {
+      "lens": "subculture_register",
+      "marker": "christian_nationalist",
+      "cues": [
+        "dominionism",
+        "postmillennial",
+        "seven mountain mandate",
+        "theonomy"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/georgist": {
+      "lens": "subculture_register",
+      "marker": "georgist",
+      "cues": [
+        "georgism",
+        "land value tax",
+        "natural opportunities",
+        "the single tax",
+        "unearned increment"
+      ],
+      "n_detections": 1,
+      "gold": 2,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [],
+      "verdict": "ready-to-validate"
+    },
+    "subculture_register/mmt_monetary": {
+      "lens": "subculture_register",
+      "marker": "mmt_monetary",
+      "cues": [
+        "monetary sovereignty",
+        "sectoral balances",
+        "taxes don't fund spending",
+        "the currency issuer"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/sovereign_citizen": {
+      "lens": "subculture_register",
+      "marker": "sovereign_citizen",
+      "cues": [
+        "flesh and blood man",
+        "legal name fraud",
+        "traveling not driving"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/antinatalist": {
+      "lens": "subculture_register",
+      "marker": "antinatalist",
+      "cues": [
+        "antinatalism",
+        "better never to have been",
+        "efilism"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/prepper_survivalist": {
+      "lens": "subculture_register",
+      "marker": "prepper_survivalist",
+      "cues": [
+        "bug out bag",
+        "teotwawki",
+        "when the balloon goes up"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {},
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "cues"
+      ],
+      "verdict": "needs: cues"
+    },
+    "subculture_register/maga_new_right": {
+      "lens": "subculture_register",
+      "marker": "maga_new_right",
+      "cues": [
+        "drain the swamp",
+        "let's go brandon",
+        "make america great again",
+        "stop the steal",
+        "the uniparty"
+      ],
+      "n_detections": 1,
+      "gold": 1,
+      "generic_in_control": {
+        "drain the swamp": 3
+      },
+      "collides": [],
+      "has_fixture": true,
+      "needs": [
+        "review-generic"
+      ],
+      "verdict": "needs: review-generic"
+    }
+  }
+}

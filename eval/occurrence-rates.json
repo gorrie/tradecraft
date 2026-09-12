@@ -1,0 +1,1980 @@
+{
+  "n_docs": 217,
+  "kwords": 1022.3,
+  "alpha": 0.05,
+  "vmr_tolerance": 1.5,
+  "lenses": [
+    {
+      "lens": "adept_speech",
+      "occurrences": 1,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.001,
+      "ci95": [
+        0.0,
+        0.0055
+      ],
+      "vmr": 0.31,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0,
+        0.0055
+      ],
+      "band_rates": [
+        0.0,
+        0.0039,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 1,
+          "rate": 0.0039,
+          "ci95": [
+            0.0001,
+            0.0217
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0039,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 1,
+          "rate": 0.0019
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 1,
+          "rate": 0.0033
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 1.0,
+      "zero_buckets": 4,
+      "homogeneity_p_exact": 1.0,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 23512.4,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 1.0,
+      "rho_rate_vs_length": 0.023,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.025,
+        "1000000": 0.011
+      }
+    },
+    {
+      "lens": "cognitive_capture",
+      "occurrences": 3,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0029,
+      "ci95": [
+        0.0006,
+        0.0086
+      ],
+      "vmr": 0.16,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0006,
+        0.0086
+      ],
+      "band_rates": [
+        0.0,
+        0.0,
+        0.0107,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 3,
+          "rate": 0.0107,
+          "ci95": [
+            0.0022,
+            0.0313
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0107,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        {
+          "kwords": 508.8,
+          "occ": 3,
+          "rate": 0.0059
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 3,
+          "rate": 0.0073
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 1.0,
+      "zero_buckets": 4,
+      "homogeneity_p_exact": 0.1233,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 7837.5,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 0.1233,
+      "rho_rate_vs_length": 0.109,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.03,
+        "1000000": 0.016
+      }
+    },
+    {
+      "lens": "costly_signal",
+      "occurrences": 0,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0,
+      "ci95": [
+        0.0,
+        0.0036
+      ],
+      "vmr": null,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0,
+        0.0036
+      ],
+      "band_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": null,
+      "zero_buckets": 5,
+      "homogeneity_p_exact": null,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": null,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": null,
+      "rho_rate_vs_length": null,
+      "mdr_per_1k": {
+        "50000": 0.04,
+        "200000": 0.02,
+        "1000000": 0.009
+      }
+    },
+    {
+      "lens": "counterproductivity",
+      "occurrences": 0,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0,
+      "ci95": [
+        0.0,
+        0.0036
+      ],
+      "vmr": null,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0,
+        0.0036
+      ],
+      "band_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": null,
+      "zero_buckets": 5,
+      "homogeneity_p_exact": null,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": null,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": null,
+      "rho_rate_vs_length": null,
+      "mdr_per_1k": {
+        "50000": 0.04,
+        "200000": 0.02,
+        "1000000": 0.009
+      }
+    },
+    {
+      "lens": "distributed_accountability",
+      "occurrences": 5,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0049,
+      "ci95": [
+        0.0016,
+        0.0114
+      ],
+      "vmr": 0.27,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0016,
+        0.0114
+      ],
+      "band_rates": [
+        0.0039,
+        0.0078,
+        0.0071,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 1,
+          "rate": 0.0039,
+          "ci95": [
+            0.0001,
+            0.0218
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 2,
+          "rate": 0.0078,
+          "ci95": [
+            0.0009,
+            0.0281
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 2,
+          "rate": 0.0071,
+          "ci95": [
+            0.0009,
+            0.0258
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0078,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 3,
+          "rate": 0.0058
+        },
+        {
+          "kwords": 508.8,
+          "occ": 2,
+          "rate": 0.0039
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 2,
+          "rate": 0.0066
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 2,
+          "rate": 0.0048
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 1,
+          "rate": 0.0073
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.4,
+      "zero_buckets": 2,
+      "homogeneity_p_exact": 1.0,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 4702.5,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 1.0,
+      "rho_rate_vs_length": 0.16,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.035,
+        "1000000": 0.019
+      }
+    },
+    {
+      "lens": "inevitability_framing",
+      "occurrences": 6,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0059,
+      "ci95": [
+        0.0022,
+        0.0128
+      ],
+      "vmr": 1.03,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0021,
+        0.0129
+      ],
+      "band_rates": [
+        0.0039,
+        0.0117,
+        0.0036,
+        0.0044
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 1,
+          "rate": 0.0039,
+          "ci95": [
+            0.0001,
+            0.0218
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 3,
+          "rate": 0.0117,
+          "ci95": [
+            0.0024,
+            0.0341
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 1,
+          "rate": 0.0036,
+          "ci95": [
+            0.0001,
+            0.0199
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 1,
+          "rate": 0.0044,
+          "ci95": [
+            0.0001,
+            0.0244
+          ]
+        }
+      ],
+      "band_swing": 0.0081,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 4,
+          "rate": 0.0078
+        },
+        {
+          "kwords": 508.8,
+          "occ": 2,
+          "rate": 0.0039
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 2,
+          "rate": 0.0066
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 1,
+          "rate": 0.0598
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 2,
+          "rate": 0.0048
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 1,
+          "rate": 0.0073
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.333,
+      "zero_buckets": 1,
+      "homogeneity_p_exact": 0.6875,
+      "detectable_rate_ratio": 26.28,
+      "kwords_for_4x": 3918.7,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 0.6875,
+      "rho_rate_vs_length": 0.128,
+      "mdr_per_1k": {
+        "50000": 0.08,
+        "200000": 0.035,
+        "1000000": 0.021
+      }
+    },
+    {
+      "lens": "institutional_permeation",
+      "occurrences": 75,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0734,
+      "ci95": [
+        0.0577,
+        0.092
+      ],
+      "vmr": 2.4,
+      "overdispersed": true,
+      "ci95_quasi": [
+        0.0491,
+        0.1022
+      ],
+      "band_rates": [
+        0.1054,
+        0.0699,
+        0.0571,
+        0.0613
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 27,
+          "rate": 0.1054,
+          "ci95": [
+            0.0695,
+            0.1534
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 18,
+          "rate": 0.0699,
+          "ci95": [
+            0.0415,
+            0.1105
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 16,
+          "rate": 0.0571,
+          "ci95": [
+            0.0326,
+            0.0927
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 14,
+          "rate": 0.0613,
+          "ci95": [
+            0.0335,
+            0.1028
+          ]
+        }
+      ],
+      "band_swing": 0.0483,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 45,
+          "rate": 0.0876
+        },
+        {
+          "kwords": 508.8,
+          "occ": 30,
+          "rate": 0.059
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 1,
+          "rate": 0.0065
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 8,
+          "rate": 0.0265
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 2,
+          "rate": 0.1195
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 31,
+          "rate": 0.075
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 33,
+          "rate": 0.2409
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.44,
+      "zero_buckets": 0,
+      "homogeneity_p_exact": 0.1056,
+      "detectable_rate_ratio": 1.98,
+      "kwords_for_4x": 313.5,
+      "homogeneity_chi2": 2.864,
+      "homogeneity_p_chi2": 0.0906,
+      "homogeneity_dof": 1,
+      "homogeneity_p": 0.1056,
+      "rho_rate_vs_length": 0.27,
+      "mdr_per_1k": {
+        "50000": 0.2,
+        "200000": 0.14,
+        "1000000": 0.112
+      }
+    },
+    {
+      "lens": "legibility",
+      "occurrences": 19,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0186,
+      "ci95": [
+        0.0112,
+        0.029
+      ],
+      "vmr": 0.9,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0112,
+        0.029
+      ],
+      "band_rates": [
+        0.0195,
+        0.0194,
+        0.025,
+        0.0088
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 5,
+          "rate": 0.0195,
+          "ci95": [
+            0.0063,
+            0.0456
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 5,
+          "rate": 0.0194,
+          "ci95": [
+            0.0063,
+            0.0453
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 7,
+          "rate": 0.025,
+          "ci95": [
+            0.01,
+            0.0515
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 2,
+          "rate": 0.0088,
+          "ci95": [
+            0.0011,
+            0.0316
+          ]
+        }
+      ],
+      "band_swing": 0.0162,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 10,
+          "rate": 0.0195
+        },
+        {
+          "kwords": 508.8,
+          "occ": 9,
+          "rate": 0.0177
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 7,
+          "rate": 0.0457
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 2,
+          "rate": 0.0066
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 3,
+          "rate": 0.0073
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 7,
+          "rate": 0.0511
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.368,
+      "zero_buckets": 1,
+      "homogeneity_p_exact": 1.0,
+      "detectable_rate_ratio": 5.0,
+      "kwords_for_4x": 1237.5,
+      "homogeneity_chi2": 0.044,
+      "homogeneity_p_chi2": 0.8342,
+      "homogeneity_dof": 1,
+      "homogeneity_p": 1.0,
+      "rho_rate_vs_length": 0.253,
+      "mdr_per_1k": {
+        "50000": 0.1,
+        "200000": 0.06,
+        "1000000": 0.041
+      }
+    },
+    {
+      "lens": "militant_mobilization",
+      "occurrences": 4,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0039,
+      "ci95": [
+        0.0011,
+        0.01
+      ],
+      "vmr": 0.27,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0011,
+        0.01
+      ],
+      "band_rates": [
+        0.0,
+        0.0078,
+        0.0071,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 2,
+          "rate": 0.0078,
+          "ci95": [
+            0.0009,
+            0.0281
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 2,
+          "rate": 0.0071,
+          "ci95": [
+            0.0009,
+            0.0258
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0078,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 2,
+          "rate": 0.0039
+        },
+        {
+          "kwords": 508.8,
+          "occ": 2,
+          "rate": 0.0039
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 1,
+          "rate": 0.0065
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 1,
+          "rate": 0.0033
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 2,
+          "rate": 0.0048
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.5,
+      "zero_buckets": 2,
+      "homogeneity_p_exact": 1.0,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 5878.1,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 1.0,
+      "rho_rate_vs_length": 0.163,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.03,
+        "1000000": 0.018
+      }
+    },
+    {
+      "lens": "narrative_management",
+      "occurrences": 3,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0029,
+      "ci95": [
+        0.0006,
+        0.0086
+      ],
+      "vmr": 0.31,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0006,
+        0.0086
+      ],
+      "band_rates": [
+        0.0078,
+        0.0039,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 2,
+          "rate": 0.0078,
+          "ci95": [
+            0.0009,
+            0.0282
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 1,
+          "rate": 0.0039,
+          "ci95": [
+            0.0001,
+            0.0217
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0078,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 3,
+          "rate": 0.0058
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 3,
+          "rate": 0.0099
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 1.0,
+      "zero_buckets": 4,
+      "homogeneity_p_exact": 0.25,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 7837.5,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 0.25,
+      "rho_rate_vs_length": 0.04,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.03,
+        "1000000": 0.016
+      }
+    },
+    {
+      "lens": "network_brokerage",
+      "occurrences": 0,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0,
+      "ci95": [
+        0.0,
+        0.0036
+      ],
+      "vmr": null,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0,
+        0.0036
+      ],
+      "band_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": null,
+      "zero_buckets": 5,
+      "homogeneity_p_exact": null,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": null,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": null,
+      "rho_rate_vs_length": null,
+      "mdr_per_1k": {
+        "50000": 0.04,
+        "200000": 0.02,
+        "1000000": 0.009
+      }
+    },
+    {
+      "lens": "reference_capture",
+      "occurrences": 32,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0313,
+      "ci95": [
+        0.0214,
+        0.0442
+      ],
+      "vmr": 4.1,
+      "overdispersed": true,
+      "ci95_quasi": [
+        0.0113,
+        0.0574
+      ],
+      "band_rates": [
+        0.0234,
+        0.0233,
+        0.0642,
+        0.0088
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 6,
+          "rate": 0.0234,
+          "ci95": [
+            0.0086,
+            0.051
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 6,
+          "rate": 0.0233,
+          "ci95": [
+            0.0086,
+            0.0507
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 18,
+          "rate": 0.0642,
+          "ci95": [
+            0.0381,
+            0.1015
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 2,
+          "rate": 0.0088,
+          "ci95": [
+            0.0011,
+            0.0316
+          ]
+        }
+      ],
+      "band_swing": 0.0554,
+      "bands_excluding_pooled": [
+        "Q3"
+      ],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 12,
+          "rate": 0.0234
+        },
+        {
+          "kwords": 508.8,
+          "occ": 20,
+          "rate": 0.0393
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 2,
+          "rate": 0.0131
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 9,
+          "rate": 0.0298
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 8,
+          "rate": 0.0193
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 13,
+          "rate": 0.0949
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.406,
+      "zero_buckets": 1,
+      "homogeneity_p_exact": 0.161,
+      "detectable_rate_ratio": 3.39,
+      "kwords_for_4x": 734.8,
+      "homogeneity_chi2": 2.074,
+      "homogeneity_p_chi2": 0.1498,
+      "homogeneity_dof": 1,
+      "homogeneity_p": 0.161,
+      "rho_rate_vs_length": 0.288,
+      "mdr_per_1k": {
+        "50000": 0.14,
+        "200000": 0.08,
+        "1000000": 0.059
+      }
+    },
+    {
+      "lens": "revolving_door",
+      "occurrences": 0,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0,
+      "ci95": [
+        0.0,
+        0.0036
+      ],
+      "vmr": null,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0,
+        0.0036
+      ],
+      "band_rates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0144
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0161
+          ]
+        }
+      ],
+      "band_swing": 0.0,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        {
+          "kwords": 508.8,
+          "occ": 0,
+          "rate": 0.0
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": null,
+      "zero_buckets": 5,
+      "homogeneity_p_exact": null,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": null,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": null,
+      "rho_rate_vs_length": null,
+      "mdr_per_1k": {
+        "50000": 0.04,
+        "200000": 0.02,
+        "1000000": 0.009
+      }
+    },
+    {
+      "lens": "rollback_asymmetry",
+      "occurrences": 3,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0029,
+      "ci95": [
+        0.0006,
+        0.0086
+      ],
+      "vmr": 0.3,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0006,
+        0.0086
+      ],
+      "band_rates": [
+        0.0078,
+        0.0,
+        0.0,
+        0.0044
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 2,
+          "rate": 0.0078,
+          "ci95": [
+            0.0009,
+            0.0282
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0143
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.0132
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 1,
+          "rate": 0.0044,
+          "ci95": [
+            0.0001,
+            0.0244
+          ]
+        }
+      ],
+      "band_swing": 0.0078,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 2,
+          "rate": 0.0039
+        },
+        {
+          "kwords": 508.8,
+          "occ": 1,
+          "rate": 0.002
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 2,
+          "rate": 0.0066
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 1,
+          "rate": 0.0024
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 0,
+          "rate": 0.0
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.667,
+      "zero_buckets": 3,
+      "homogeneity_p_exact": 1.0,
+      "detectable_rate_ratio": null,
+      "kwords_for_4x": 7837.5,
+      "homogeneity_chi2": null,
+      "homogeneity_p_chi2": null,
+      "homogeneity_dof": 0,
+      "homogeneity_p": 1.0,
+      "rho_rate_vs_length": 0.097,
+      "mdr_per_1k": {
+        "50000": 0.06,
+        "200000": 0.03,
+        "1000000": 0.016
+      }
+    },
+    {
+      "lens": "sourcing_asymmetry",
+      "occurrences": 54,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0528,
+      "ci95": [
+        0.0397,
+        0.0689
+      ],
+      "vmr": 0.36,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.0397,
+        0.0689
+      ],
+      "band_rates": [
+        0.0781,
+        0.0777,
+        0.025,
+        0.0306
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 20,
+          "rate": 0.0781,
+          "ci95": [
+            0.0477,
+            0.1206
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 20,
+          "rate": 0.0777,
+          "ci95": [
+            0.0475,
+            0.12
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 7,
+          "rate": 0.025,
+          "ci95": [
+            0.01,
+            0.0515
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 7,
+          "rate": 0.0306,
+          "ci95": [
+            0.0123,
+            0.0631
+          ]
+        }
+      ],
+      "band_swing": 0.0531,
+      "bands_excluding_pooled": [
+        "Q3"
+      ],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 40,
+          "rate": 0.0779
+        },
+        {
+          "kwords": 508.8,
+          "occ": 14,
+          "rate": 0.0275
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 28,
+          "rate": 0.0927
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 20,
+          "rate": 0.0484
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 6,
+          "rate": 0.0438
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.519,
+      "zero_buckets": 2,
+      "homogeneity_p_exact": 0.0005,
+      "detectable_rate_ratio": 2.29,
+      "kwords_for_4x": 435.4,
+      "homogeneity_chi2": 12.281,
+      "homogeneity_p_chi2": 0.0005,
+      "homogeneity_dof": 1,
+      "homogeneity_p": 0.0005,
+      "rho_rate_vs_length": 0.311,
+      "mdr_per_1k": {
+        "50000": 0.16,
+        "200000": 0.11,
+        "1000000": 0.087
+      }
+    },
+    {
+      "lens": "subculture_register",
+      "occurrences": 24,
+      "kwords": 1022.3,
+      "rate_per_1k": 0.0235,
+      "ci95": [
+        0.015,
+        0.0349
+      ],
+      "vmr": 1.0,
+      "overdispersed": false,
+      "ci95_quasi": [
+        0.015,
+        0.0349
+      ],
+      "band_rates": [
+        0.0156,
+        0.035,
+        0.025,
+        0.0175
+      ],
+      "band_detail": [
+        {
+          "kwords": 256.2,
+          "occ": 4,
+          "rate": 0.0156,
+          "ci95": [
+            0.0043,
+            0.04
+          ]
+        },
+        {
+          "kwords": 257.3,
+          "occ": 9,
+          "rate": 0.035,
+          "ci95": [
+            0.016,
+            0.0664
+          ]
+        },
+        {
+          "kwords": 280.3,
+          "occ": 7,
+          "rate": 0.025,
+          "ci95": [
+            0.01,
+            0.0515
+          ]
+        },
+        {
+          "kwords": 228.5,
+          "occ": 4,
+          "rate": 0.0175,
+          "ci95": [
+            0.0048,
+            0.0448
+          ]
+        }
+      ],
+      "band_swing": 0.0194,
+      "bands_excluding_pooled": [],
+      "half_detail": [
+        {
+          "kwords": 513.5,
+          "occ": 13,
+          "rate": 0.0253
+        },
+        {
+          "kwords": 508.8,
+          "occ": 11,
+          "rate": 0.0216
+        }
+      ],
+      "bucket_rates": {
+        "corpus/_calibration-cache": {
+          "n": 20,
+          "kwords": 153.2,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/_news-control": {
+          "n": 95,
+          "kwords": 301.9,
+          "occ": 6,
+          "rate": 0.0199
+        },
+        "corpus/advocacy-comments.jsonl": {
+          "n": 38,
+          "kwords": 16.7,
+          "occ": 0,
+          "rate": 0.0
+        },
+        "corpus/advocacy-specimens.jsonl": {
+          "n": 18,
+          "kwords": 413.5,
+          "occ": 11,
+          "rate": 0.0266
+        },
+        "corpus/ai-governance-shoptalk.jsonl": {
+          "n": 46,
+          "kwords": 137.0,
+          "occ": 7,
+          "rate": 0.0511
+        }
+      },
+      "bucket_chi2": null,
+      "bucket_p": null,
+      "bucket_concentration": 0.458,
+      "zero_buckets": 2,
+      "homogeneity_p_exact": 0.8389,
+      "detectable_rate_ratio": 3.92,
+      "kwords_for_4x": 979.7,
+      "homogeneity_chi2": 0.149,
+      "homogeneity_p_chi2": 0.6997,
+      "homogeneity_dof": 1,
+      "homogeneity_p": 0.8389,
+      "rho_rate_vs_length": 0.231,
+      "mdr_per_1k": {
+        "50000": 0.12,
+        "200000": 0.07,
+        "1000000": 0.048
+      }
+    }
+  ]
+}

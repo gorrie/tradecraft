@@ -1,0 +1,920 @@
+{
+ "plan": "CUE-REPAIR-2026-09-07.json",
+ "chance": 0.1324643784872193,
+ "rows": [
+  {
+   "lens": "adept_speech",
+   "detection": "candidate-sorting",
+   "cue": "you haven",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "CUT",
+   "reasons": [
+    "CUT: every read span cue-only or quoted; no own PTC lift; benign-ubiquitous or defective; no fixture broken; no demonstrated detection demoted (defective: a prefix of the contraction \"you haven't\"; the gold phrase is already carried by `passed through the degrees`)"
+   ],
+   "ptc": {
+    "hits": 2,
+    "in_span": 1,
+    "precision": 0.5,
+    "lift": 3.77,
+    "lift_ci95": [
+     0.71,
+     6.84
+    ]
+   },
+   "ptc_bg_occurrences": 1,
+   "background_occurrences": 1,
+   "background_per_1k": 0.0011,
+   "detection_before": {
+    "hits": 2,
+    "in_span": 1,
+    "lift": 3.77,
+    "lift_ci95": [
+     0.71,
+     6.84
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 6
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "define-crisis-claim-authority",
+   "cue": "existential",
+   "action": "exclude",
+   "excludes": [
+    "existential risk",
+    "existential crisis"
+   ],
+   "add": null,
+   "verdict": "APPLY",
+   "reasons": [
+    "EXCLUDE: the false-fire pattern is attested in the read, silences no construct-present span, breaks nothing"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 2,
+   "background_per_1k": 0.0023,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 12,
+    "read": {
+     "CO": 8,
+     "B:CO": 9,
+     "QA": 2,
+     "B:QA": 3,
+     "CP": 2
+    }
+   },
+   "cp_spans_suppressed": [],
+   "cues_left_in_detection": 3
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "build-parallel-institutions",
+   "cue": "training pipeline",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 3,
+    "in_span": 0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     4.24
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 3,
+    "in_span": 0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     4.24
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 1,
+     "B:QA": 1
+    }
+   },
+   "cues_left_in_detection": 3
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "hidden-or-deferred-cost",
+   "cue": "diffuse",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 12
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "value-as-science",
+   "cue": "arithmetic",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 3
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "astroturf",
+   "cue": "grassroots",
+   "action": "replace",
+   "excludes": null,
+   "add": {
+    "independent grassroots": {
+     "in_gold": true,
+     "ptc_bg_occurrences": 0,
+     "background_occurrences": 0
+    }
+   },
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: its own PTC lift interval clears 1 ([1.56, 7.55]) -- a working cue",
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 1,
+    "in_span": 1,
+    "precision": 1.0,
+    "lift": 7.55,
+    "lift_ci95": [
+     1.56,
+     7.55
+    ]
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 1,
+    "in_span": 1,
+    "lift": 7.55,
+    "lift_ci95": [
+     1.56,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 3
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "attribution-gap",
+   "cue": "proprietary model",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 12
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "carve-out-as-public-good",
+   "cue": "level playing field",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 2 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 2,
+   "background_per_1k": 0.0023,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 3
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "infiltrate-existing-institutions",
+   "cue": "from within",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: breaks 1 positive fixture(s): inst_permeation_probe",
+    "KEEP: the change demotes a demonstrated detection",
+    "KEEP: its own PTC lift interval clears 1 ([1.74, 6.66]) -- a working cue"
+   ],
+   "ptc": {
+    "hits": 5,
+    "in_span": 3,
+    "precision": 0.6,
+    "lift": 4.53,
+    "lift_ci95": [
+     1.74,
+     6.66
+    ]
+   },
+   "ptc_bg_occurrences": 2,
+   "background_occurrences": 4,
+   "background_per_1k": 0.0045,
+   "detection_before": {
+    "hits": 5,
+    "in_span": 3,
+    "lift": 4.53,
+    "lift_ci95": [
+     1.74,
+     6.66
+    ],
+    "demonstrated": true
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [
+    {
+     "fixture": "inst_permeation_probe",
+     "fired_before": true,
+     "fired_after": false,
+     "expected_marker_before": true,
+     "expected_marker_after": false
+    }
+   ],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 4
+  },
+  {
+   "lens": "institutional_permeation",
+   "detection": "irreversibility-framing",
+   "cue": "inevitability",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "CUT",
+   "reasons": [
+    "CUT: every read span cue-only or quoted; no own PTC lift; benign-ubiquitous or defective; no fixture broken; no demonstrated detection demoted"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 3,
+   "background_per_1k": 0.0034,
+   "detection_before": {
+    "hits": 3,
+    "in_span": 1,
+    "lift": 2.52,
+    "lift_ci95": [
+     0.46,
+     5.98
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 3,
+    "in_span": 1,
+    "lift": 2.52,
+    "lift_ci95": [
+     0.46,
+     5.98
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 5
+  },
+  {
+   "lens": "reference_capture",
+   "detection": "elastic-charge",
+   "cue": "disruptive",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 1 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 1,
+   "background_per_1k": 0.0011,
+   "detection_before": {
+    "hits": 1,
+    "in_span": 1,
+    "lift": 7.55,
+    "lift_ci95": [
+     1.56,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 1,
+    "in_span": 1,
+    "lift": 7.55,
+    "lift_ci95": [
+     1.56,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 3,
+    "read": {
+     "CO": 3,
+     "B:CO": 3
+    }
+   },
+   "cues_left_in_detection": 7
+  },
+  {
+   "lens": "reference_capture",
+   "detection": "anonymous-authority",
+   "cue": "a few hundred",
+   "action": "replace",
+   "excludes": null,
+   "add": {
+    "a few hundred anonymous": {
+     "in_gold": true,
+     "ptc_bg_occurrences": 0,
+     "background_occurrences": 0
+    }
+   },
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 3,
+    "in_span": 1,
+    "lift": 2.52,
+    "lift_ci95": [
+     0.46,
+     5.98
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 3,
+    "in_span": 1,
+    "lift": 2.52,
+    "lift_ci95": [
+     0.46,
+     5.98
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 7
+  },
+  {
+   "lens": "reference_capture",
+   "detection": "canvassing-mobilization",
+   "cue": "canvassing",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 2 < 3, background 2 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 2,
+    "in_span": 0,
+    "precision": 0.0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     4.96
+    ]
+   },
+   "ptc_bg_occurrences": 2,
+   "background_occurrences": 2,
+   "background_per_1k": 0.0023,
+   "detection_before": {
+    "hits": 3,
+    "in_span": 0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     4.24
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 1,
+    "in_span": 0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     5.99
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "QA": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 7
+  },
+  {
+   "lens": "militant_mobilization",
+   "detection": "sainthood-and-heroes",
+   "cue": "high score",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 2
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "detection": "mind-reading",
+   "cue": "in an attempt to",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "CUT",
+   "reasons": [
+    "CUT: every read span cue-only or quoted; no own PTC lift; benign-ubiquitous or defective; no fixture broken; no demonstrated detection demoted"
+   ],
+   "ptc": {
+    "hits": 3,
+    "in_span": 1,
+    "precision": 0.333,
+    "lift": 2.52,
+    "lift_ci95": [
+     0.46,
+     5.98
+    ]
+   },
+   "ptc_bg_occurrences": 2,
+   "background_occurrences": 5,
+   "background_per_1k": 0.0056,
+   "detection_before": {
+    "hits": 4,
+    "in_span": 1,
+    "lift": 1.89,
+    "lift_ci95": [
+     0.34,
+     5.28
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 1,
+    "in_span": 0,
+    "lift": 0.0,
+    "lift_ci95": [
+     0.0,
+     5.99
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 2,
+    "read": {
+     "CO": 2,
+     "B:CO": 2
+    }
+   },
+   "cues_left_in_detection": 8
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "detection": "mind-reading",
+   "cue": "in a bid to",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 4,
+    "in_span": 1,
+    "lift": 1.89,
+    "lift_ci95": [
+     0.34,
+     5.28
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 4,
+    "in_span": 1,
+    "lift": 1.89,
+    "lift_ci95": [
+     0.34,
+     5.28
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CO": 1
+    }
+   },
+   "cues_left_in_detection": 8
+  },
+  {
+   "lens": "subculture_register",
+   "detection": "managerial-tells",
+   "cue": "human capital",
+   "action": "cut",
+   "excludes": null,
+   "add": null,
+   "verdict": "KEEP",
+   "reasons": [
+    "KEEP: 1 of 1 read span(s) carried the construct (either reader)",
+    "KEEP: not shown benign-ubiquitous (PTC-bg 0 < 3, background 0 < 3) and not marked defective"
+   ],
+   "ptc": {
+    "hits": 0,
+    "in_span": 0,
+    "precision": null,
+    "lift": null,
+    "lift_ci95": null
+   },
+   "ptc_bg_occurrences": 0,
+   "background_occurrences": 0,
+   "background_per_1k": 0.0,
+   "detection_before": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "detection_after": {
+    "hits": 0,
+    "in_span": 0,
+    "lift": null,
+    "lift_ci95": [
+     0.0,
+     7.55
+    ],
+    "demonstrated": false
+   },
+   "fixtures_broken": [],
+   "collateral": {
+    "occurrences": 1,
+    "read": {
+     "CO": 1,
+     "B:CP": 1
+    }
+   },
+   "cues_left_in_detection": 8
+  }
+ ]
+}

@@ -84,7 +84,13 @@ def test_verify_hit_cues_backend_is_rejected_without_calling_model(monkeypatch):
 # ---- verified_cue_receipts: keep genuine, drop the rest ----
 def test_verified_cue_receipts_keeps_genuine_drops_false_positive(monkeypatch):
     tax = two_cue_tax()
-    text = "Change is inevitable. Also he was harness engineering yesterday."
+    # The false positive used to be "harness engineering" -- but the 2026-08-26 word-boundary
+    # rule correctly refuses `engineer` inside "engineering", which killed the premise: the
+    # blunt matcher no longer fires, so there was nothing for the verifier to drop. Changed to
+    # a standalone occupational "engineer", which still matches at a boundary and is still the
+    # Jang-style contextual false positive this test exists for. The verifier's job is
+    # unchanged; only the way the cue reaches it is.
+    text = "Change is inevitable. Also she is a mechanical engineer."
     # sanity: the blunt matcher fires on BOTH cues
     assert {h.detection_id for h in detect_cues(text, tax)} == {"no-alternative",
                                                                 "belief-as-engineerable"}
@@ -97,6 +103,31 @@ def test_verified_cue_receipts_keeps_genuine_drops_false_positive(monkeypatch):
     kept = verified_cue_receipts(text, tax, backend="cloud")
     assert [h.detection_id for h in kept] == ["no-alternative"]
     assert "verified genuine in context" in kept[0].rationale
+
+
+# ---- word boundaries: a cue must not match inside a longer word ----
+def test_cue_does_not_match_inside_a_longer_word():
+    """Measured 2026-08-26: 16 of 136 real PTC fires (11.8%) were mid-word. `engineer`
+    inside "engineering" is the same defect that this file's own fixture was relying on."""
+    tax = two_cue_tax()
+    assert detect_cues("she was harness engineering yesterday", tax) == []
+    assert detect_cues("the outcome felt inevitability-adjacent", tax) == []
+
+
+def test_cue_absorbs_an_inflection_but_not_an_arbitrary_continuation():
+    """Strict boundaries alone broke `class struggle` against "class struggles" and cost a
+    real fixture. A closed suffix set restores the plural without reopening the door."""
+    tax = two_cue_tax()
+    hits = detect_cues("two engineers attended", tax)
+    assert [h.span for h in hits] == ["engineers"], "plural must fire"
+    # ...and the span reports what is actually in the text, not the cue
+    assert detect_cues("an engineered consensus", tax) == [], "'-ed' is not in the set"
+
+
+def test_boundary_rule_is_the_same_at_both_edges():
+    tax = two_cue_tax()
+    assert detect_cues("reengineer the process", tax) == [], "embedded on the left"
+    assert [h.span for h in detect_cues("ask the engineer.", tax)] == ["engineer"]
 
 
 # ---- prompt-injection defense for ingested third-party text ----

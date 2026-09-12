@@ -18,7 +18,7 @@ not a nicety. This documents the viable pattern, validated on this hardware 2026
 
 ## The proven call pattern (reused, not reinvented)
 
-Lifted from the bias study's `bias-study/scripts/run_study.py`
+Lifted from the bias study's `the bias study's collection script`
 (`call_ollama` + its `channel:model` abstraction — `ollama:<model>` vs `openrouter:<model>`):
 
 ```python
@@ -41,7 +41,7 @@ We don't need that here; the already-abliterated Ollama models are enough for sc
 
 `tradecraft/detect.py` exposes `detect(text, taxonomy, backend=...)`:
 
-- `backend="cloud"` — via **OpenRouter** (key from `~/.config/tradecraft/.env`), JSON-mode; default
+- `backend="cloud"` — via **OpenRouter** (key from `$OPENROUTER_API_KEY`, or an env file named by `TRADECRAFT_ENV_FILE`), JSON-mode; default
   model `google/gemini-2.5-flash` (override `TRADECRAFT_CLOUD_MODEL`). Validated 4/4 positives,
   3/3 negatives on the eval set.
 - `backend="local"` — the Ollama pattern above, default model the 14b abliterate.

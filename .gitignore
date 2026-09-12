@@ -10,3 +10,4 @@ venv/
 agent_output/
 .hugo-check-*/
 .hugo-verify-*/
+corpus/_html-cache/

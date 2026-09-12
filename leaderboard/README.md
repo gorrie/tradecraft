@@ -27,6 +27,23 @@ the whole framework exists to avoid.
 | `receipts` | list of source URLs (**required — the defamation gate; a record with none is a build error**) |
 | `note` | context |
 
+### Submission receipts (`data/queue.jsonl`) — the same shape, adjudicated before it counts
+
+A receipt from `/tech/receipt-collector/` **is a ledger record with the adjudicator's fields null**:
+`schema: "leaderboard-receipt/1"`, `institution` (the subject), `span` (the quoted claim),
+`receipts` (`[source_url, archive_url]`), `assurance` (the tier), `note`, `date`, `submitter`,
+and `lens / marker / move / actor / severity / self_correction` all `null` — a receipt never scores
+itself. `tools/import_receipts.py` takes submissions into **`data/queue.jsonl`, never into this
+ledger**: each queue record wraps the receipt with an id, its origin, the mechanical checks
+(schema; source URL resolves; archive URL is a real Wayback capture) and, once a human has ruled,
+the adjudication (`accepted` | `rejected`, by whom, why). `--accept` requires the adjudicator to
+supply lens / marker / move / actor / severity and passes the new record through `score.validate`
+before appending it here; `--reject --reason` records why. Nothing is deleted from the queue.
+`counts --write` publishes `website/data/receipt_queue.json` (submitted / queued / accepted /
+rejected, by reason) for the collector page; `import_receipts.py --check` gates it
+(`receipt-queue-sync`). Intake is local until the public mirror is current and the author opens
+it; `intake --github` exists for that day and is read-only.
+
 ## Scoring
 `record_score = severity × assurance_weight × (1 − self_correction)`
 Institution **rank = Σ of FACT-tier record_scores only.** Attributed + rumor are summed into a separate

@@ -1,0 +1,3098 @@
+{
+ "model": "huihui_ai/qwen2.5-abliterate:14b",
+ "corpus_articles": 371,
+ "seed": 20260907,
+ "judgeable_hits": 5,
+ "lenses": [
+  {
+   "lens": "inevitability_framing",
+   "llm_only": true,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 422,
+    "inside": 211,
+    "precision": 0.5,
+    "chance": 0.3541,
+    "lift": 1.412,
+    "lift_ci": [
+     1.278,
+     1.546
+    ],
+    "mean_hit_chars": 125,
+    "spans_recovered": 238,
+    "techniques": {
+     "Loaded_Language": 85,
+     "Doubt": 29,
+     "Exaggeration,Minimisation": 25,
+     "Flag-Waving": 21,
+     "Repetition": 21,
+     "Appeal_to_fear-prejudice": 20,
+     "Name_Calling,Labeling": 19,
+     "Causal_Oversimplification": 14,
+     "Black-and-White_Fallacy": 12,
+     "Appeal_to_Authority": 11,
+     "Thought-terminating_Cliches": 9,
+     "Slogans": 5,
+     "Whataboutism,Straw_Men,Red_Herring": 2,
+     "Bandwagon,Reductio_ad_hitlerum": 2
+    }
+   },
+   "cues": {
+    "hits": 5,
+    "inside": 3,
+    "precision": 0.6,
+    "chance": 0.301,
+    "lift": 1.993,
+    "lift_ci": [
+     0.767,
+     2.932
+    ],
+    "mean_hit_chars": 16,
+    "spans_recovered": 3,
+    "techniques": {
+     "Repetition": 3,
+     "Appeal_to_fear-prejudice": 1
+    }
+   },
+   "llm_unlocatable_spans": 247,
+   "llm_unlocatable_rate": 0.369,
+   "spans_recovered_llm_only": 237,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "interval spans chance",
+   "detections_demonstrated_llm": 3,
+   "detections": [
+    {
+     "detection": "no-alternative",
+     "hits": 180,
+     "inside": 79,
+     "lift": 1.36,
+     "lift_ci": [
+      1.14,
+      1.59
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 28,
+      "Doubt": 14,
+      "Exaggeration,Minimisation": 10,
+      "Appeal_to_Authority": 7,
+      "Repetition": 7,
+      "Name_Calling,Labeling": 6,
+      "Thought-terminating_Cliches": 6,
+      "Black-and-White_Fallacy": 6,
+      "Causal_Oversimplification": 5,
+      "Appeal_to_fear-prejudice": 4,
+      "Flag-Waving": 4,
+      "Slogans": 3,
+      "Whataboutism,Straw_Men,Red_Herring": 2
+     }
+    },
+    {
+     "detection": "historys-side",
+     "hits": 150,
+     "inside": 85,
+     "lift": 1.53,
+     "lift_ci": [
+      1.31,
+      1.74
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 37,
+      "Exaggeration,Minimisation": 11,
+      "Flag-Waving": 11,
+      "Doubt": 9,
+      "Appeal_to_fear-prejudice": 9,
+      "Repetition": 9,
+      "Name_Calling,Labeling": 9,
+      "Causal_Oversimplification": 5,
+      "Appeal_to_Authority": 4,
+      "Bandwagon,Reductio_ad_hitlerum": 2,
+      "Thought-terminating_Cliches": 1,
+      "Black-and-White_Fallacy": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "adapt-or-perish",
+     "hits": 92,
+     "inside": 47,
+     "lift": 1.38,
+     "lift_ci": [
+      1.11,
+      1.64
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 20,
+      "Appeal_to_fear-prejudice": 7,
+      "Doubt": 6,
+      "Flag-Waving": 6,
+      "Repetition": 5,
+      "Black-and-White_Fallacy": 5,
+      "Name_Calling,Labeling": 4,
+      "Causal_Oversimplification": 4,
+      "Exaggeration,Minimisation": 4,
+      "Thought-terminating_Cliches": 2,
+      "Slogans": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "distributed_accountability",
+   "llm_only": true,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 455,
+    "inside": 166,
+    "precision": 0.3648,
+    "chance": 0.3722,
+    "lift": 0.98,
+    "lift_ci": [
+     0.865,
+     1.102
+    ],
+    "mean_hit_chars": 139,
+    "spans_recovered": 203,
+    "techniques": {
+     "Loaded_Language": 55,
+     "Name_Calling,Labeling": 28,
+     "Doubt": 22,
+     "Exaggeration,Minimisation": 22,
+     "Flag-Waving": 21,
+     "Repetition": 21,
+     "Appeal_to_fear-prejudice": 15,
+     "Appeal_to_Authority": 10,
+     "Causal_Oversimplification": 9,
+     "Whataboutism,Straw_Men,Red_Herring": 8,
+     "Bandwagon,Reductio_ad_hitlerum": 5,
+     "Black-and-White_Fallacy": 5,
+     "Thought-terminating_Cliches": 4,
+     "Slogans": 3
+    }
+   },
+   "cues": {
+    "hits": 2,
+    "inside": 0,
+    "precision": 0.0,
+    "chance": 0.315,
+    "lift": 0.0,
+    "lift_ci": [
+     0.0,
+     2.088
+    ],
+    "mean_hit_chars": 22,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 237,
+   "llm_unlocatable_rate": 0.342,
+   "spans_recovered_llm_only": 203,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 1,
+   "detections": [
+    {
+     "detection": "authority-to-define-true",
+     "hits": 160,
+     "inside": 51,
+     "lift": 0.9,
+     "lift_ci": [
+      0.71,
+      1.12
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 22,
+      "Name_Calling,Labeling": 10,
+      "Causal_Oversimplification": 6,
+      "Exaggeration,Minimisation": 6,
+      "Flag-Waving": 6,
+      "Doubt": 5,
+      "Repetition": 5,
+      "Appeal_to_fear-prejudice": 3,
+      "Appeal_to_Authority": 3,
+      "Black-and-White_Fallacy": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Slogans": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1
+     }
+    },
+    {
+     "detection": "diffuse-agency",
+     "hits": 124,
+     "inside": 31,
+     "lift": 0.72,
+     "lift_ci": [
+      0.52,
+      0.95
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 11,
+      "Flag-Waving": 6,
+      "Doubt": 5,
+      "Exaggeration,Minimisation": 5,
+      "Whataboutism,Straw_Men,Red_Herring": 4,
+      "Name_Calling,Labeling": 4,
+      "Repetition": 4,
+      "Appeal_to_fear-prejudice": 2,
+      "Appeal_to_Authority": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Thought-terminating_Cliches": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "disagreement-as-sin",
+     "hits": 98,
+     "inside": 55,
+     "lift": 1.37,
+     "lift_ci": [
+      1.13,
+      1.6
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 15,
+      "Name_Calling,Labeling": 12,
+      "Doubt": 10,
+      "Exaggeration,Minimisation": 9,
+      "Repetition": 8,
+      "Flag-Waving": 7,
+      "Appeal_to_fear-prejudice": 7,
+      "Appeal_to_Authority": 4,
+      "Black-and-White_Fallacy": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 2,
+      "Slogans": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "settled-beyond-question",
+     "hits": 44,
+     "inside": 18,
+     "lift": 1.05,
+     "lift_ci": [
+      0.71,
+      1.43
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 4,
+      "Repetition": 2,
+      "Causal_Oversimplification": 2,
+      "Thought-terminating_Cliches": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Flag-Waving": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Doubt": 1,
+      "Appeal_to_Authority": 1,
+      "Black-and-White_Fallacy": 1,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "crowd-is-truth",
+     "hits": 29,
+     "inside": 11,
+     "lift": 0.98,
+     "lift_ci": [
+      0.59,
+      1.45
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 3,
+      "Repetition": 2,
+      "Name_Calling,Labeling": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Doubt": 1,
+      "Slogans": 1,
+      "Exaggeration,Minimisation": 1,
+      "Appeal_to_fear-prejudice": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "cognitive_capture",
+   "llm_only": true,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 356,
+    "inside": 153,
+    "precision": 0.4298,
+    "chance": 0.3325,
+    "lift": 1.293,
+    "lift_ci": [
+     1.141,
+     1.449
+    ],
+    "mean_hit_chars": 140,
+    "spans_recovered": 193,
+    "techniques": {
+     "Loaded_Language": 74,
+     "Name_Calling,Labeling": 27,
+     "Doubt": 20,
+     "Exaggeration,Minimisation": 20,
+     "Appeal_to_fear-prejudice": 15,
+     "Flag-Waving": 13,
+     "Causal_Oversimplification": 10,
+     "Repetition": 9,
+     "Whataboutism,Straw_Men,Red_Herring": 6,
+     "Appeal_to_Authority": 5,
+     "Black-and-White_Fallacy": 4,
+     "Bandwagon,Reductio_ad_hitlerum": 3,
+     "Thought-terminating_Cliches": 2
+    }
+   },
+   "cues": {
+    "hits": 0,
+    "inside": 0,
+    "precision": null,
+    "chance": null,
+    "lift": null,
+    "lift_ci": null,
+    "mean_hit_chars": null,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 119,
+   "llm_unlocatable_rate": 0.251,
+   "spans_recovered_llm_only": 193,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 2,
+   "detections": [
+    {
+     "detection": "tailor-to-the-individual",
+     "hits": 122,
+     "inside": 47,
+     "lift": 1.18,
+     "lift_ci": [
+      0.93,
+      1.45
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 26,
+      "Name_Calling,Labeling": 14,
+      "Exaggeration,Minimisation": 6,
+      "Appeal_to_fear-prejudice": 5,
+      "Flag-Waving": 5,
+      "Repetition": 5,
+      "Causal_Oversimplification": 3,
+      "Doubt": 3,
+      "Appeal_to_Authority": 2,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "outsource-the-thinking",
+     "hits": 103,
+     "inside": 38,
+     "lift": 1.35,
+     "lift_ci": [
+      1.03,
+      1.7
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 13,
+      "Doubt": 5,
+      "Name_Calling,Labeling": 4,
+      "Exaggeration,Minimisation": 4,
+      "Appeal_to_fear-prejudice": 3,
+      "Causal_Oversimplification": 2,
+      "Appeal_to_Authority": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 2,
+      "Flag-Waving": 2,
+      "Thought-terminating_Cliches": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "agree-over-accurate",
+     "hits": 84,
+     "inside": 48,
+     "lift": 1.52,
+     "lift_ci": [
+      1.24,
+      1.79
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 25,
+      "Doubt": 9,
+      "Exaggeration,Minimisation": 9,
+      "Name_Calling,Labeling": 7,
+      "Appeal_to_fear-prejudice": 5,
+      "Repetition": 4,
+      "Whataboutism,Straw_Men,Red_Herring": 3,
+      "Flag-Waving": 3,
+      "Causal_Oversimplification": 3,
+      "Black-and-White_Fallacy": 2,
+      "Appeal_to_Authority": 1,
+      "Thought-terminating_Cliches": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1
+     }
+    },
+    {
+     "detection": "opinion-shaping-suggestions",
+     "hits": 23,
+     "inside": 10,
+     "lift": 1.15,
+     "lift_ci": [
+      0.68,
+      1.68
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 6,
+      "Causal_Oversimplification": 2,
+      "Doubt": 1,
+      "Flag-Waving": 1,
+      "Name_Calling,Labeling": 1,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "optimize-against-preference",
+     "hits": 21,
+     "inside": 10,
+     "lift": 1.31,
+     "lift_ci": [
+      0.78,
+      1.85
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 4,
+      "Doubt": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Flag-Waving": 2,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "attachment-engineering",
+     "hits": 3,
+     "inside": 0,
+     "lift": 0.0,
+     "lift_ci": [
+      0.0,
+      1.75
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {}
+    }
+   ]
+  },
+  {
+   "lens": "counterproductivity",
+   "llm_only": true,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 427,
+    "inside": 197,
+    "precision": 0.4614,
+    "chance": 0.3724,
+    "lift": 1.239,
+    "lift_ci": [
+     1.113,
+     1.366
+    ],
+    "mean_hit_chars": 140,
+    "spans_recovered": 240,
+    "techniques": {
+     "Loaded_Language": 94,
+     "Name_Calling,Labeling": 33,
+     "Doubt": 29,
+     "Repetition": 26,
+     "Flag-Waving": 20,
+     "Exaggeration,Minimisation": 13,
+     "Appeal_to_fear-prejudice": 12,
+     "Causal_Oversimplification": 11,
+     "Appeal_to_Authority": 9,
+     "Slogans": 9,
+     "Thought-terminating_Cliches": 5,
+     "Whataboutism,Straw_Men,Red_Herring": 5,
+     "Black-and-White_Fallacy": 3,
+     "Bandwagon,Reductio_ad_hitlerum": 2
+    }
+   },
+   "cues": {
+    "hits": 0,
+    "inside": 0,
+    "precision": null,
+    "chance": null,
+    "lift": null,
+    "lift_ci": null,
+    "mean_hit_chars": null,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 166,
+   "llm_unlocatable_rate": 0.28,
+   "spans_recovered_llm_only": 240,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 3,
+   "detections": [
+    {
+     "detection": "institution-as-obstacle",
+     "hits": 194,
+     "inside": 85,
+     "lift": 1.21,
+     "lift_ci": [
+      1.02,
+      1.4
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 35,
+      "Name_Calling,Labeling": 15,
+      "Doubt": 12,
+      "Repetition": 10,
+      "Flag-Waving": 10,
+      "Causal_Oversimplification": 6,
+      "Appeal_to_Authority": 5,
+      "Whataboutism,Straw_Men,Red_Herring": 5,
+      "Exaggeration,Minimisation": 5,
+      "Slogans": 4,
+      "Black-and-White_Fallacy": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Thought-terminating_Cliches": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 2
+     }
+    },
+    {
+     "detection": "cure-becomes-disease",
+     "hits": 156,
+     "inside": 79,
+     "lift": 1.3,
+     "lift_ci": [
+      1.1,
+      1.5
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 42,
+      "Repetition": 14,
+      "Doubt": 11,
+      "Name_Calling,Labeling": 11,
+      "Flag-Waving": 10,
+      "Appeal_to_fear-prejudice": 9,
+      "Exaggeration,Minimisation": 6,
+      "Slogans": 5,
+      "Causal_Oversimplification": 3,
+      "Appeal_to_Authority": 2,
+      "Thought-terminating_Cliches": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "expert-dependence",
+     "hits": 53,
+     "inside": 21,
+     "lift": 0.96,
+     "lift_ci": [
+      0.67,
+      1.29
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 10,
+      "Name_Calling,Labeling": 7,
+      "Doubt": 3,
+      "Thought-terminating_Cliches": 2,
+      "Causal_Oversimplification": 2,
+      "Exaggeration,Minimisation": 2,
+      "Appeal_to_Authority": 1,
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "more-yields-less",
+     "hits": 16,
+     "inside": 6,
+     "lift": 1.19,
+     "lift_ci": [
+      0.59,
+      1.95
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 3,
+      "Doubt": 2,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "compulsory-only-option",
+     "hits": 8,
+     "inside": 6,
+     "lift": 2.05,
+     "lift_ci": [
+      1.12,
+      2.54
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 4,
+      "Appeal_to_Authority": 1,
+      "Repetition": 1,
+      "Doubt": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "legibility",
+   "llm_only": true,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 656,
+    "inside": 233,
+    "precision": 0.3552,
+    "chance": 0.3501,
+    "lift": 1.015,
+    "lift_ci": [
+     0.913,
+     1.121
+    ],
+    "mean_hit_chars": 138,
+    "spans_recovered": 288,
+    "techniques": {
+     "Loaded_Language": 107,
+     "Name_Calling,Labeling": 41,
+     "Repetition": 31,
+     "Flag-Waving": 29,
+     "Exaggeration,Minimisation": 29,
+     "Appeal_to_fear-prejudice": 15,
+     "Causal_Oversimplification": 15,
+     "Doubt": 15,
+     "Appeal_to_Authority": 13,
+     "Slogans": 10,
+     "Black-and-White_Fallacy": 6,
+     "Whataboutism,Straw_Men,Red_Herring": 6,
+     "Bandwagon,Reductio_ad_hitlerum": 3,
+     "Thought-terminating_Cliches": 2
+    }
+   },
+   "cues": {
+    "hits": 2,
+    "inside": 0,
+    "precision": 0.0,
+    "chance": 0.05,
+    "lift": 0.0,
+    "lift_ci": [
+     0.0,
+     13.153
+    ],
+    "mean_hit_chars": 14,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 293,
+   "llm_unlocatable_rate": 0.309,
+   "spans_recovered_llm_only": 288,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 1,
+   "detections": [
+    {
+     "detection": "render-visible",
+     "hits": 271,
+     "inside": 115,
+     "lift": 1.25,
+     "lift_ci": [
+      1.08,
+      1.42
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 53,
+      "Flag-Waving": 21,
+      "Name_Calling,Labeling": 19,
+      "Exaggeration,Minimisation": 17,
+      "Repetition": 15,
+      "Causal_Oversimplification": 8,
+      "Appeal_to_Authority": 8,
+      "Doubt": 6,
+      "Whataboutism,Straw_Men,Red_Herring": 4,
+      "Appeal_to_fear-prejudice": 4,
+      "Slogans": 4,
+      "Black-and-White_Fallacy": 3,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "erase-local-knowledge",
+     "hits": 185,
+     "inside": 59,
+     "lift": 0.82,
+     "lift_ci": [
+      0.65,
+      0.99
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 33,
+      "Name_Calling,Labeling": 11,
+      "Repetition": 7,
+      "Causal_Oversimplification": 6,
+      "Exaggeration,Minimisation": 6,
+      "Appeal_to_fear-prejudice": 5,
+      "Doubt": 4,
+      "Appeal_to_Authority": 2,
+      "Slogans": 2,
+      "Flag-Waving": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Thought-terminating_Cliches": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1
+     }
+    },
+    {
+     "detection": "design-over-organic",
+     "hits": 81,
+     "inside": 37,
+     "lift": 1.11,
+     "lift_ci": [
+      0.86,
+      1.37
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 16,
+      "Name_Calling,Labeling": 9,
+      "Repetition": 5,
+      "Appeal_to_fear-prejudice": 4,
+      "Flag-Waving": 4,
+      "Exaggeration,Minimisation": 2,
+      "Appeal_to_Authority": 2,
+      "Black-and-White_Fallacy": 2,
+      "Doubt": 2,
+      "Slogans": 2,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "mandatory-registration",
+     "hits": 73,
+     "inside": 10,
+     "lift": 0.58,
+     "lift_ci": [
+      0.32,
+      1.0
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Doubt": 2,
+      "Exaggeration,Minimisation": 2,
+      "Flag-Waving": 1,
+      "Appeal_to_fear-prejudice": 1,
+      "Appeal_to_Authority": 1,
+      "Repetition": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "id-as-precondition",
+     "hits": 18,
+     "inside": 7,
+     "lift": 1.1,
+     "lift_ci": [
+      0.58,
+      1.74
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Repetition": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Black-and-White_Fallacy": 1,
+      "Flag-Waving": 1,
+      "Slogans": 1,
+      "Name_Calling,Labeling": 1,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "manage-to-the-metric",
+     "hits": 14,
+     "inside": 4,
+     "lift": 0.74,
+     "lift_ci": [
+      0.3,
+      1.41
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Exaggeration,Minimisation": 1,
+      "Loaded_Language": 1,
+      "Name_Calling,Labeling": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "impose-uniformity",
+     "hits": 14,
+     "inside": 1,
+     "lift": 0.28,
+     "lift_ci": [
+      0.05,
+      1.24
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Repetition": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "narrative_management",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 518,
+    "inside": 199,
+    "precision": 0.3842,
+    "chance": 0.3322,
+    "lift": 1.156,
+    "lift_ci": [
+     1.033,
+     1.285
+    ],
+    "mean_hit_chars": 127,
+    "spans_recovered": 243,
+    "techniques": {
+     "Loaded_Language": 84,
+     "Name_Calling,Labeling": 48,
+     "Doubt": 25,
+     "Exaggeration,Minimisation": 25,
+     "Repetition": 15,
+     "Appeal_to_fear-prejudice": 15,
+     "Flag-Waving": 12,
+     "Causal_Oversimplification": 12,
+     "Appeal_to_Authority": 9,
+     "Whataboutism,Straw_Men,Red_Herring": 7,
+     "Slogans": 6,
+     "Black-and-White_Fallacy": 6,
+     "Bandwagon,Reductio_ad_hitlerum": 5,
+     "Thought-terminating_Cliches": 1
+    }
+   },
+   "cues": {
+    "hits": 4,
+    "inside": 1,
+    "precision": 0.25,
+    "chance": 0.1487,
+    "lift": 1.681,
+    "lift_ci": [
+     0.306,
+     4.702
+    ],
+    "mean_hit_chars": 22,
+    "spans_recovered": 1,
+    "techniques": {
+     "Appeal_to_fear-prejudice": 1
+    }
+   },
+   "llm_unlocatable_spans": 225,
+   "llm_unlocatable_rate": 0.303,
+   "spans_recovered_llm_only": 242,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 2,
+   "detections": [
+    {
+     "detection": "assert-disputed-label",
+     "hits": 151,
+     "inside": 67,
+     "lift": 1.38,
+     "lift_ci": [
+      1.14,
+      1.62
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 32,
+      "Name_Calling,Labeling": 15,
+      "Repetition": 8,
+      "Appeal_to_fear-prejudice": 7,
+      "Doubt": 6,
+      "Exaggeration,Minimisation": 6,
+      "Flag-Waving": 5,
+      "Causal_Oversimplification": 3,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 2,
+      "Appeal_to_Authority": 2,
+      "Black-and-White_Fallacy": 2,
+      "Slogans": 2
+     }
+    },
+    {
+     "detection": "impute-bias-affiliation",
+     "hits": 94,
+     "inside": 47,
+     "lift": 1.22,
+     "lift_ci": [
+      0.98,
+      1.46
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 17,
+      "Name_Calling,Labeling": 14,
+      "Doubt": 9,
+      "Exaggeration,Minimisation": 7,
+      "Causal_Oversimplification": 6,
+      "Whataboutism,Straw_Men,Red_Herring": 4,
+      "Appeal_to_Authority": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 2,
+      "Black-and-White_Fallacy": 2,
+      "Flag-Waving": 2,
+      "Slogans": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "attack-the-source",
+     "hits": 85,
+     "inside": 37,
+     "lift": 1.25,
+     "lift_ci": [
+      0.96,
+      1.55
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 14,
+      "Name_Calling,Labeling": 12,
+      "Doubt": 8,
+      "Exaggeration,Minimisation": 7,
+      "Flag-Waving": 3,
+      "Repetition": 2,
+      "Appeal_to_Authority": 1,
+      "Black-and-White_Fallacy": 1,
+      "Causal_Oversimplification": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "passive-actor-erasure",
+     "hits": 67,
+     "inside": 13,
+     "lift": 0.63,
+     "lift_ci": [
+      0.38,
+      0.98
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 6,
+      "Appeal_to_fear-prejudice": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Black-and-White_Fallacy": 1,
+      "Appeal_to_Authority": 1,
+      "Repetition": 1,
+      "Name_Calling,Labeling": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "soften-relabel",
+     "hits": 65,
+     "inside": 20,
+     "lift": 1.04,
+     "lift_ci": [
+      0.71,
+      1.45
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 10,
+      "Exaggeration,Minimisation": 4,
+      "Name_Calling,Labeling": 4,
+      "Repetition": 3,
+      "Flag-Waving": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Appeal_to_Authority": 2,
+      "Causal_Oversimplification": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "unproven-blame",
+     "hits": 25,
+     "inside": 6,
+     "lift": 0.62,
+     "lift_ci": [
+      0.3,
+      1.13
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Causal_Oversimplification": 1,
+      "Appeal_to_Authority": 1,
+      "Name_Calling,Labeling": 1,
+      "Exaggeration,Minimisation": 1,
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "record-destruction",
+     "hits": 18,
+     "inside": 6,
+     "lift": 2.19,
+     "lift_ci": [
+      1.07,
+      3.7
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Appeal_to_fear-prejudice": 2,
+      "Loaded_Language": 2,
+      "Doubt": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1
+     }
+    },
+    {
+     "detection": "anonymous-official-sourcing",
+     "hits": 8,
+     "inside": 1,
+     "lift": 0.55,
+     "lift_ci": [
+      0.1,
+      2.07
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 1
+     }
+    },
+    {
+     "detection": "designate-deplatform",
+     "hits": 3,
+     "inside": 1,
+     "lift": 0.93,
+     "lift_ci": [
+      0.17,
+      2.2
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "demand-credentials",
+     "hits": 2,
+     "inside": 1,
+     "lift": 1.32,
+     "lift_ci": [
+      0.25,
+      2.4
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Name_Calling,Labeling": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "militant_mobilization",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 632,
+    "inside": 336,
+    "precision": 0.5316,
+    "chance": 0.3419,
+    "lift": 1.555,
+    "lift_ci": [
+     1.441,
+     1.668
+    ],
+    "mean_hit_chars": 110,
+    "spans_recovered": 367,
+    "techniques": {
+     "Loaded_Language": 129,
+     "Name_Calling,Labeling": 79,
+     "Exaggeration,Minimisation": 46,
+     "Appeal_to_fear-prejudice": 40,
+     "Doubt": 37,
+     "Flag-Waving": 34,
+     "Repetition": 22,
+     "Causal_Oversimplification": 17,
+     "Slogans": 12,
+     "Black-and-White_Fallacy": 11,
+     "Appeal_to_Authority": 11,
+     "Whataboutism,Straw_Men,Red_Herring": 9,
+     "Bandwagon,Reductio_ad_hitlerum": 5,
+     "Thought-terminating_Cliches": 4
+    }
+   },
+   "cues": {
+    "hits": 4,
+    "inside": 3,
+    "precision": 0.75,
+    "chance": 0.3125,
+    "lift": 2.4,
+    "lift_ci": [
+     0.962,
+     3.054
+    ],
+    "mean_hit_chars": 13,
+    "spans_recovered": 3,
+    "techniques": {
+     "Loaded_Language": 3,
+     "Appeal_to_fear-prejudice": 1
+    }
+   },
+   "llm_unlocatable_spans": 593,
+   "llm_unlocatable_rate": 0.484,
+   "spans_recovered_llm_only": 367,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 6,
+   "detections": [
+    {
+     "detection": "reframe-target-as-vermin-or-nazi",
+     "hits": 236,
+     "inside": 136,
+     "lift": 1.81,
+     "lift_ci": [
+      1.61,
+      2.0
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 51,
+      "Name_Calling,Labeling": 43,
+      "Exaggeration,Minimisation": 19,
+      "Appeal_to_fear-prejudice": 13,
+      "Repetition": 11,
+      "Doubt": 10,
+      "Causal_Oversimplification": 9,
+      "Flag-Waving": 8,
+      "Slogans": 7,
+      "Whataboutism,Straw_Men,Red_Herring": 4,
+      "Appeal_to_Authority": 4,
+      "Bandwagon,Reductio_ad_hitlerum": 3,
+      "Black-and-White_Fallacy": 2,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "time-is-now-we-know-where",
+     "hits": 99,
+     "inside": 51,
+     "lift": 1.38,
+     "lift_ci": [
+      1.12,
+      1.64
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 22,
+      "Name_Calling,Labeling": 8,
+      "Appeal_to_fear-prejudice": 8,
+      "Doubt": 6,
+      "Flag-Waving": 6,
+      "Exaggeration,Minimisation": 5,
+      "Repetition": 5,
+      "Appeal_to_Authority": 4,
+      "Black-and-White_Fallacy": 3,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "by-any-means",
+     "hits": 93,
+     "inside": 40,
+     "lift": 1.43,
+     "lift_ci": [
+      1.11,
+      1.77
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 15,
+      "Exaggeration,Minimisation": 9,
+      "Name_Calling,Labeling": 8,
+      "Doubt": 5,
+      "Flag-Waving": 5,
+      "Causal_Oversimplification": 3,
+      "Repetition": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Black-and-White_Fallacy": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "no-principal-to-charge",
+     "hits": 75,
+     "inside": 28,
+     "lift": 1.09,
+     "lift_ci": [
+      0.8,
+      1.43
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Doubt": 9,
+      "Loaded_Language": 7,
+      "Flag-Waving": 5,
+      "Name_Calling,Labeling": 4,
+      "Exaggeration,Minimisation": 3,
+      "Repetition": 2,
+      "Thought-terminating_Cliches": 2,
+      "Appeal_to_Authority": 2,
+      "Black-and-White_Fallacy": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "year-zero",
+     "hits": 50,
+     "inside": 32,
+     "lift": 1.53,
+     "lift_ci": [
+      1.2,
+      1.81
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 16,
+      "Appeal_to_fear-prejudice": 7,
+      "Flag-Waving": 7,
+      "Doubt": 4,
+      "Exaggeration,Minimisation": 3,
+      "Name_Calling,Labeling": 2,
+      "Causal_Oversimplification": 2,
+      "Slogans": 1,
+      "Black-and-White_Fallacy": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "burn-it-down",
+     "hits": 48,
+     "inside": 32,
+     "lift": 1.69,
+     "lift_ci": [
+      1.33,
+      1.98
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 14,
+      "Appeal_to_fear-prejudice": 10,
+      "Exaggeration,Minimisation": 4,
+      "Name_Calling,Labeling": 4,
+      "Flag-Waving": 3,
+      "Repetition": 2,
+      "Doubt": 2,
+      "Slogans": 2,
+      "Causal_Oversimplification": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "sainthood-and-heroes",
+     "hits": 31,
+     "inside": 17,
+     "lift": 1.47,
+     "lift_ci": [
+      1.01,
+      1.9
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Name_Calling,Labeling": 10,
+      "Loaded_Language": 4,
+      "Exaggeration,Minimisation": 3,
+      "Black-and-White_Fallacy": 1,
+      "Doubt": 1,
+      "Appeal_to_Authority": 1,
+      "Causal_Oversimplification": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "rollback_asymmetry",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 85,
+    "inside": 27,
+    "precision": 0.3176,
+    "chance": 0.2481,
+    "lift": 1.281,
+    "lift_ci": [
+     0.921,
+     1.704
+    ],
+    "mean_hit_chars": 124,
+    "spans_recovered": 33,
+    "techniques": {
+     "Loaded_Language": 9,
+     "Exaggeration,Minimisation": 5,
+     "Flag-Waving": 5,
+     "Name_Calling,Labeling": 4,
+     "Slogans": 3,
+     "Appeal_to_fear-prejudice": 2,
+     "Repetition": 2,
+     "Thought-terminating_Cliches": 2,
+     "Appeal_to_Authority": 1,
+     "Black-and-White_Fallacy": 1
+    }
+   },
+   "cues": {
+    "hits": 3,
+    "inside": 1,
+    "precision": 0.3333,
+    "chance": 0.105,
+    "lift": 3.175,
+    "lift_ci": [
+     0.586,
+     7.546
+    ],
+    "mean_hit_chars": 16,
+    "spans_recovered": 1,
+    "techniques": {
+     "Black-and-White_Fallacy": 1,
+     "Thought-terminating_Cliches": 1
+    }
+   },
+   "llm_unlocatable_spans": 92,
+   "llm_unlocatable_rate": 0.52,
+   "spans_recovered_llm_only": 32,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 1,
+   "detections": [
+    {
+     "detection": "no-repeal-mechanism",
+     "hits": 36,
+     "inside": 5,
+     "lift": 0.78,
+     "lift_ci": [
+      0.34,
+      1.6
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Appeal_to_fear-prejudice": 2,
+      "Appeal_to_Authority": 1,
+      "Repetition": 1,
+      "Exaggeration,Minimisation": 1,
+      "Loaded_Language": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "new-normal-floor",
+     "hits": 30,
+     "inside": 15,
+     "lift": 1.62,
+     "lift_ci": [
+      1.08,
+      2.17
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 4,
+      "Exaggeration,Minimisation": 3,
+      "Flag-Waving": 3,
+      "Slogans": 3,
+      "Name_Calling,Labeling": 3,
+      "Black-and-White_Fallacy": 1,
+      "Thought-terminating_Cliches": 1,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "renewal-as-formality",
+     "hits": 10,
+     "inside": 1,
+     "lift": 0.62,
+     "lift_ci": [
+      0.11,
+      2.49
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 1
+     }
+    },
+    {
+     "detection": "acquis-style",
+     "hits": 6,
+     "inside": 4,
+     "lift": 1.28,
+     "lift_ci": [
+      0.58,
+      1.73
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Flag-Waving": 2,
+      "Loaded_Language": 1,
+      "Exaggeration,Minimisation": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "ratchet-named",
+     "hits": 3,
+     "inside": 2,
+     "lift": 2.88,
+     "lift_ci": [
+      0.9,
+      4.05
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Loaded_Language": 2
+     }
+    }
+   ]
+  },
+  {
+   "lens": "adept_speech",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 230,
+    "inside": 116,
+    "precision": 0.5043,
+    "chance": 0.3467,
+    "lift": 1.455,
+    "lift_ci": [
+     1.27,
+     1.639
+    ],
+    "mean_hit_chars": 121,
+    "spans_recovered": 127,
+    "techniques": {
+     "Loaded_Language": 41,
+     "Doubt": 17,
+     "Flag-Waving": 16,
+     "Name_Calling,Labeling": 16,
+     "Causal_Oversimplification": 13,
+     "Repetition": 11,
+     "Exaggeration,Minimisation": 10,
+     "Appeal_to_Authority": 9,
+     "Appeal_to_fear-prejudice": 8,
+     "Whataboutism,Straw_Men,Red_Herring": 4,
+     "Slogans": 3,
+     "Black-and-White_Fallacy": 2,
+     "Thought-terminating_Cliches": 1
+    }
+   },
+   "cues": {
+    "hits": 1,
+    "inside": 0,
+    "precision": 0.0,
+    "chance": 0.02,
+    "lift": 0.0,
+    "lift_ci": [
+     0.0,
+     39.673
+    ],
+    "mean_hit_chars": 14,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 149,
+   "llm_unlocatable_rate": 0.393,
+   "spans_recovered_llm_only": 127,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 1,
+   "detections": [
+    {
+     "detection": "eyes-to-see",
+     "hits": 137,
+     "inside": 79,
+     "lift": 1.61,
+     "lift_ci": [
+      1.37,
+      1.83
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 28,
+      "Flag-Waving": 12,
+      "Doubt": 11,
+      "Name_Calling,Labeling": 10,
+      "Exaggeration,Minimisation": 7,
+      "Causal_Oversimplification": 6,
+      "Appeal_to_Authority": 6,
+      "Repetition": 6,
+      "Appeal_to_fear-prejudice": 5,
+      "Slogans": 3,
+      "Whataboutism,Straw_Men,Red_Herring": 3,
+      "Thought-terminating_Cliches": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "candidate-sorting",
+     "hits": 48,
+     "inside": 17,
+     "lift": 1.01,
+     "lift_ci": [
+      0.67,
+      1.41
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Repetition": 4,
+      "Causal_Oversimplification": 4,
+      "Flag-Waving": 3,
+      "Name_Calling,Labeling": 3,
+      "Appeal_to_Authority": 2,
+      "Exaggeration,Minimisation": 2,
+      "Doubt": 2,
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "gnosis-as-evidence",
+     "hits": 24,
+     "inside": 13,
+     "lift": 1.48,
+     "lift_ci": [
+      0.96,
+      1.97
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Name_Calling,Labeling": 3,
+      "Causal_Oversimplification": 3,
+      "Doubt": 3,
+      "Exaggeration,Minimisation": 1,
+      "Repetition": 1,
+      "Appeal_to_fear-prejudice": 1,
+      "Flag-Waving": 1
+     }
+    },
+    {
+     "detection": "light-ascent-veil",
+     "hits": 8,
+     "inside": 2,
+     "lift": 0.9,
+     "lift_ci": [
+      0.26,
+      2.14
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2
+     }
+    },
+    {
+     "detection": "withholding",
+     "hits": 6,
+     "inside": 3,
+     "lift": 1.34,
+     "lift_ci": [
+      0.5,
+      2.17
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Doubt": 1,
+      "Loaded_Language": 1,
+      "Appeal_to_Authority": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1
+     }
+    },
+    {
+     "detection": "ineffability-claim",
+     "hits": 5,
+     "inside": 1,
+     "lift": 1.18,
+     "lift_ci": [
+      0.21,
+      3.7
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "the-masters",
+     "hits": 2,
+     "inside": 1,
+     "lift": 2.33,
+     "lift_ci": [
+      0.44,
+      4.21
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Black-and-White_Fallacy": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "costly_signal",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 545,
+    "inside": 206,
+    "precision": 0.378,
+    "chance": 0.3354,
+    "lift": 1.127,
+    "lift_ci": [
+     1.009,
+     1.251
+    ],
+    "mean_hit_chars": 132,
+    "spans_recovered": 251,
+    "techniques": {
+     "Loaded_Language": 83,
+     "Name_Calling,Labeling": 34,
+     "Repetition": 26,
+     "Exaggeration,Minimisation": 25,
+     "Flag-Waving": 25,
+     "Doubt": 23,
+     "Appeal_to_fear-prejudice": 18,
+     "Appeal_to_Authority": 13,
+     "Causal_Oversimplification": 11,
+     "Black-and-White_Fallacy": 7,
+     "Slogans": 7,
+     "Whataboutism,Straw_Men,Red_Herring": 6,
+     "Thought-terminating_Cliches": 3,
+     "Bandwagon,Reductio_ad_hitlerum": 2
+    }
+   },
+   "cues": {
+    "hits": 0,
+    "inside": 0,
+    "precision": null,
+    "chance": null,
+    "lift": null,
+    "lift_ci": null,
+    "mean_hit_chars": null,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 252,
+   "llm_unlocatable_rate": 0.316,
+   "spans_recovered_llm_only": 251,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 1,
+   "detections": [
+    {
+     "detection": "price-accepted",
+     "hits": 312,
+     "inside": 138,
+     "lift": 1.35,
+     "lift_ci": [
+      1.19,
+      1.52
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 54,
+      "Flag-Waving": 21,
+      "Exaggeration,Minimisation": 21,
+      "Name_Calling,Labeling": 17,
+      "Repetition": 16,
+      "Appeal_to_fear-prejudice": 14,
+      "Doubt": 14,
+      "Causal_Oversimplification": 10,
+      "Appeal_to_Authority": 9,
+      "Black-and-White_Fallacy": 7,
+      "Slogans": 5,
+      "Thought-terminating_Cliches": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1
+     }
+    },
+    {
+     "detection": "price-paid-reference",
+     "hits": 159,
+     "inside": 38,
+     "lift": 0.74,
+     "lift_ci": [
+      0.55,
+      0.96
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 16,
+      "Repetition": 7,
+      "Name_Calling,Labeling": 7,
+      "Whataboutism,Straw_Men,Red_Herring": 4,
+      "Appeal_to_Authority": 3,
+      "Doubt": 3,
+      "Appeal_to_fear-prejudice": 2,
+      "Exaggeration,Minimisation": 2,
+      "Flag-Waving": 2,
+      "Slogans": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "retroactive-satire",
+     "hits": 74,
+     "inside": 30,
+     "lift": 1.08,
+     "lift_ci": [
+      0.8,
+      1.39
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 13,
+      "Name_Calling,Labeling": 10,
+      "Doubt": 6,
+      "Repetition": 3,
+      "Exaggeration,Minimisation": 2,
+      "Thought-terminating_Cliches": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Flag-Waving": 2,
+      "Slogans": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Appeal_to_Authority": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "network_brokerage",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 0,
+    "inside": 0,
+    "precision": null,
+    "chance": null,
+    "lift": null,
+    "lift_ci": null,
+    "mean_hit_chars": null,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "cues": {
+    "hits": 0,
+    "inside": 0,
+    "precision": null,
+    "chance": null,
+    "lift": null,
+    "lift_ci": null,
+    "mean_hit_chars": null,
+    "spans_recovered": 0,
+    "techniques": {}
+   },
+   "llm_unlocatable_spans": 0,
+   "llm_unlocatable_rate": null,
+   "spans_recovered_llm_only": 0,
+   "llm_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "cues_verdict": "untestable on PTC (fewer than 5 locatable hits)",
+   "detections_demonstrated_llm": 0,
+   "detections": []
+  },
+  {
+   "lens": "institutional_permeation",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 585,
+    "inside": 197,
+    "precision": 0.3368,
+    "chance": 0.3568,
+    "lift": 0.944,
+    "lift_ci": [
+     0.84,
+     1.054
+    ],
+    "mean_hit_chars": 138,
+    "spans_recovered": 233,
+    "techniques": {
+     "Loaded_Language": 90,
+     "Name_Calling,Labeling": 35,
+     "Repetition": 30,
+     "Flag-Waving": 19,
+     "Causal_Oversimplification": 15,
+     "Doubt": 15,
+     "Appeal_to_fear-prejudice": 10,
+     "Exaggeration,Minimisation": 10,
+     "Appeal_to_Authority": 8,
+     "Thought-terminating_Cliches": 7,
+     "Black-and-White_Fallacy": 7,
+     "Slogans": 6,
+     "Whataboutism,Straw_Men,Red_Herring": 3,
+     "Bandwagon,Reductio_ad_hitlerum": 3
+    }
+   },
+   "cues": {
+    "hits": 15,
+    "inside": 7,
+    "precision": 0.4667,
+    "chance": 0.229,
+    "lift": 2.038,
+    "lift_ci": [
+     1.083,
+     3.052
+    ],
+    "mean_hit_chars": 10,
+    "spans_recovered": 6,
+    "techniques": {
+     "Loaded_Language": 3,
+     "Name_Calling,Labeling": 1,
+     "Black-and-White_Fallacy": 1,
+     "Thought-terminating_Cliches": 1,
+     "Appeal_to_fear-prejudice": 1,
+     "Doubt": 1
+    }
+   },
+   "llm_unlocatable_spans": 243,
+   "llm_unlocatable_rate": 0.293,
+   "spans_recovered_llm_only": 231,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "above chance, interval excludes it",
+   "detections_demonstrated_llm": 2,
+   "detections": [
+    {
+     "detection": "infiltrate-existing-institutions",
+     "hits": 127,
+     "inside": 34,
+     "lift": 0.71,
+     "lift_ci": [
+      0.52,
+      0.92
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 18,
+      "Name_Calling,Labeling": 8,
+      "Repetition": 7,
+      "Causal_Oversimplification": 3,
+      "Flag-Waving": 2,
+      "Thought-terminating_Cliches": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "carve-out-as-public-good",
+     "hits": 124,
+     "inside": 41,
+     "lift": 0.95,
+     "lift_ci": [
+      0.73,
+      1.2
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 23,
+      "Causal_Oversimplification": 5,
+      "Repetition": 5,
+      "Name_Calling,Labeling": 5,
+      "Black-and-White_Fallacy": 4,
+      "Flag-Waving": 4,
+      "Exaggeration,Minimisation": 3,
+      "Appeal_to_fear-prejudice": 3,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Appeal_to_Authority": 1,
+      "Slogans": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "indefinite-horizon",
+     "hits": 63,
+     "inside": 19,
+     "lift": 1.2,
+     "lift_ci": [
+      0.81,
+      1.69
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 10,
+      "Repetition": 3,
+      "Doubt": 2,
+      "Name_Calling,Labeling": 2,
+      "Slogans": 2,
+      "Flag-Waving": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Thought-terminating_Cliches": 1
+     }
+    },
+    {
+     "detection": "neutrality-claim",
+     "hits": 44,
+     "inside": 15,
+     "lift": 0.87,
+     "lift_ci": [
+      0.56,
+      1.25
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Name_Calling,Labeling": 3,
+      "Repetition": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Causal_Oversimplification": 1,
+      "Thought-terminating_Cliches": 1,
+      "Flag-Waving": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Appeal_to_Authority": 1,
+      "Slogans": 1,
+      "Exaggeration,Minimisation": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "define-crisis-claim-authority",
+     "hits": 35,
+     "inside": 21,
+     "lift": 1.69,
+     "lift_ci": [
+      1.23,
+      2.1
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 10,
+      "Name_Calling,Labeling": 5,
+      "Doubt": 3,
+      "Appeal_to_Authority": 3,
+      "Flag-Waving": 3,
+      "Repetition": 2,
+      "Causal_Oversimplification": 2,
+      "Exaggeration,Minimisation": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "value-as-science",
+     "hits": 35,
+     "inside": 10,
+     "lift": 0.77,
+     "lift_ci": [
+      0.44,
+      1.21
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Name_Calling,Labeling": 4,
+      "Loaded_Language": 3,
+      "Exaggeration,Minimisation": 1,
+      "Appeal_to_fear-prejudice": 1,
+      "Causal_Oversimplification": 1,
+      "Repetition": 1,
+      "Flag-Waving": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "build-parallel-institutions",
+     "hits": 25,
+     "inside": 2,
+     "lift": 0.24,
+     "lift_ci": [
+      0.07,
+      0.76
+     ],
+     "judgeable": true,
+     "verdict": "below chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 1,
+      "Appeal_to_fear-prejudice": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "no-success-condition",
+     "hits": 24,
+     "inside": 16,
+     "lift": 1.61,
+     "lift_ci": [
+      1.13,
+      1.99
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 7,
+      "Repetition": 4,
+      "Flag-Waving": 4,
+      "Appeal_to_fear-prejudice": 3,
+      "Name_Calling,Labeling": 3,
+      "Appeal_to_Authority": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "irreversibility-framing",
+     "hits": 23,
+     "inside": 9,
+     "lift": 1.29,
+     "lift_ci": [
+      0.73,
+      1.96
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Repetition": 4,
+      "Thought-terminating_Cliches": 2,
+      "Name_Calling,Labeling": 1,
+      "Loaded_Language": 1,
+      "Black-and-White_Fallacy": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "hidden-or-deferred-cost",
+     "hits": 20,
+     "inside": 10,
+     "lift": 1.28,
+     "lift_ci": [
+      0.77,
+      1.79
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Doubt": 4,
+      "Appeal_to_Authority": 1
+     }
+    },
+    {
+     "detection": "belief-as-engineerable",
+     "hits": 19,
+     "inside": 9,
+     "lift": 1.07,
+     "lift_ci": [
+      0.62,
+      1.54
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 3,
+      "Doubt": 2,
+      "Causal_Oversimplification": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Thought-terminating_Cliches": 1,
+      "Black-and-White_Fallacy": 1,
+      "Exaggeration,Minimisation": 1,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "target-the-leverage-point",
+     "hits": 16,
+     "inside": 4,
+     "lift": 0.64,
+     "lift_ci": [
+      0.26,
+      1.27
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Flag-Waving": 2,
+      "Name_Calling,Labeling": 2,
+      "Loaded_Language": 1
+     }
+    },
+    {
+     "detection": "intermediary-laundering",
+     "hits": 14,
+     "inside": 1,
+     "lift": 0.23,
+     "lift_ci": [
+      0.04,
+      1.03
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "astroturf",
+     "hits": 11,
+     "inside": 4,
+     "lift": 1.36,
+     "lift_ci": [
+      0.57,
+      2.41
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Name_Calling,Labeling": 2,
+      "Exaggeration,Minimisation": 1,
+      "Loaded_Language": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "choice-architecture",
+     "hits": 5,
+     "inside": 2,
+     "lift": 0.76,
+     "lift_ci": [
+      0.22,
+      1.46
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Doubt": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "sourcing_asymmetry",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 203,
+    "inside": 77,
+    "precision": 0.3793,
+    "chance": 0.37,
+    "lift": 1.025,
+    "lift_ci": [
+     0.853,
+     1.21
+    ],
+    "mean_hit_chars": 141,
+    "spans_recovered": 92,
+    "techniques": {
+     "Loaded_Language": 26,
+     "Name_Calling,Labeling": 23,
+     "Exaggeration,Minimisation": 12,
+     "Repetition": 7,
+     "Doubt": 6,
+     "Appeal_to_fear-prejudice": 5,
+     "Causal_Oversimplification": 4,
+     "Flag-Waving": 3,
+     "Whataboutism,Straw_Men,Red_Herring": 3,
+     "Appeal_to_Authority": 2,
+     "Slogans": 1,
+     "Black-and-White_Fallacy": 1,
+     "Bandwagon,Reductio_ad_hitlerum": 1
+    }
+   },
+   "cues": {
+    "hits": 31,
+    "inside": 3,
+    "precision": 0.0968,
+    "chance": 0.1658,
+    "lift": 0.584,
+    "lift_ci": [
+     0.202,
+     1.502
+    ],
+    "mean_hit_chars": 17,
+    "spans_recovered": 3,
+    "techniques": {
+     "Loaded_Language": 1,
+     "Doubt": 1,
+     "Causal_Oversimplification": 1
+    }
+   },
+   "llm_unlocatable_spans": 89,
+   "llm_unlocatable_rate": 0.305,
+   "spans_recovered_llm_only": 92,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "interval spans chance",
+   "detections_demonstrated_llm": 0,
+   "detections": [
+    {
+     "detection": "pejorative-actor-label",
+     "hits": 55,
+     "inside": 26,
+     "lift": 1.16,
+     "lift_ci": [
+      0.85,
+      1.48
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Name_Calling,Labeling": 11,
+      "Loaded_Language": 8,
+      "Exaggeration,Minimisation": 3,
+      "Appeal_to_fear-prejudice": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 2,
+      "Doubt": 2,
+      "Repetition": 1,
+      "Black-and-White_Fallacy": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "single-source-consensus",
+     "hits": 40,
+     "inside": 12,
+     "lift": 0.95,
+     "lift_ci": [
+      0.58,
+      1.45
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 4,
+      "Appeal_to_Authority": 2,
+      "Repetition": 2,
+      "Doubt": 1,
+      "Appeal_to_fear-prejudice": 1,
+      "Causal_Oversimplification": 1,
+      "Name_Calling,Labeling": 1,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "unanswered-accusation",
+     "hits": 35,
+     "inside": 15,
+     "lift": 1.04,
+     "lift_ci": [
+      0.68,
+      1.44
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Name_Calling,Labeling": 4,
+      "Flag-Waving": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Doubt": 2,
+      "Exaggeration,Minimisation": 2,
+      "Repetition": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "unsourced-assertion",
+     "hits": 25,
+     "inside": 9,
+     "lift": 1.0,
+     "lift_ci": [
+      0.56,
+      1.54
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 5,
+      "Name_Calling,Labeling": 3,
+      "Exaggeration,Minimisation": 2,
+      "Flag-Waving": 1
+     }
+    },
+    {
+     "detection": "manufactured-parity",
+     "hits": 20,
+     "inside": 7,
+     "lift": 0.95,
+     "lift_ci": [
+      0.49,
+      1.54
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Name_Calling,Labeling": 2,
+      "Exaggeration,Minimisation": 2,
+      "Slogans": 1,
+      "Repetition": 1,
+      "Causal_Oversimplification": 1
+     }
+    },
+    {
+     "detection": "honorific-framing",
+     "hits": 16,
+     "inside": 4,
+     "lift": 0.66,
+     "lift_ci": [
+      0.27,
+      1.3
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Exaggeration,Minimisation": 2,
+      "Loaded_Language": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "declined-to-comment",
+     "hits": 7,
+     "inside": 1,
+     "lift": 0.57,
+     "lift_ci": [
+      0.1,
+      2.06
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 1,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "mind-reading",
+     "hits": 5,
+     "inside": 3,
+     "lift": 1.35,
+     "lift_ci": [
+      0.52,
+      1.99
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Doubt": 1,
+      "Repetition": 1,
+      "Name_Calling,Labeling": 1
+     }
+    }
+   ]
+  },
+  {
+   "lens": "reference_capture",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 325,
+    "inside": 124,
+    "precision": 0.3815,
+    "chance": 0.3426,
+    "lift": 1.114,
+    "lift_ci": [
+     0.964,
+     1.271
+    ],
+    "mean_hit_chars": 138,
+    "spans_recovered": 147,
+    "techniques": {
+     "Loaded_Language": 52,
+     "Name_Calling,Labeling": 33,
+     "Doubt": 21,
+     "Repetition": 14,
+     "Exaggeration,Minimisation": 12,
+     "Appeal_to_Authority": 8,
+     "Causal_Oversimplification": 6,
+     "Appeal_to_fear-prejudice": 5,
+     "Slogans": 4,
+     "Flag-Waving": 4,
+     "Black-and-White_Fallacy": 3,
+     "Bandwagon,Reductio_ad_hitlerum": 3,
+     "Whataboutism,Straw_Men,Red_Herring": 1
+    }
+   },
+   "cues": {
+    "hits": 18,
+    "inside": 9,
+    "precision": 0.5,
+    "chance": 0.1392,
+    "lift": 3.593,
+    "lift_ci": [
+     2.086,
+     5.1
+    ],
+    "mean_hit_chars": 10,
+    "spans_recovered": 9,
+    "techniques": {
+     "Name_Calling,Labeling": 6,
+     "Bandwagon,Reductio_ad_hitlerum": 1,
+     "Exaggeration,Minimisation": 1,
+     "Loaded_Language": 1
+    }
+   },
+   "llm_unlocatable_spans": 173,
+   "llm_unlocatable_rate": 0.347,
+   "spans_recovered_llm_only": 144,
+   "llm_verdict": "interval spans chance",
+   "cues_verdict": "above chance, interval excludes it",
+   "detections_demonstrated_llm": 2,
+   "detections": [
+    {
+     "detection": "authority-overruled",
+     "hits": 101,
+     "inside": 35,
+     "lift": 1.03,
+     "lift_ci": [
+      0.78,
+      1.32
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 14,
+      "Name_Calling,Labeling": 7,
+      "Doubt": 6,
+      "Repetition": 6,
+      "Appeal_to_Authority": 4,
+      "Causal_Oversimplification": 2,
+      "Exaggeration,Minimisation": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Black-and-White_Fallacy": 1
+     }
+    },
+    {
+     "detection": "resist-deanonymization",
+     "hits": 71,
+     "inside": 22,
+     "lift": 1.01,
+     "lift_ci": [
+      0.7,
+      1.39
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 9,
+      "Name_Calling,Labeling": 7,
+      "Doubt": 5,
+      "Slogans": 1,
+      "Exaggeration,Minimisation": 1,
+      "Black-and-White_Fallacy": 1,
+      "Repetition": 1,
+      "Appeal_to_Authority": 1
+     }
+    },
+    {
+     "detection": "faction-selective-tolerance",
+     "hits": 69,
+     "inside": 40,
+     "lift": 1.39,
+     "lift_ci": [
+      1.11,
+      1.66
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 17,
+      "Name_Calling,Labeling": 11,
+      "Doubt": 7,
+      "Exaggeration,Minimisation": 5,
+      "Repetition": 4,
+      "Causal_Oversimplification": 4,
+      "Appeal_to_Authority": 3,
+      "Appeal_to_fear-prejudice": 3,
+      "Flag-Waving": 3,
+      "Black-and-White_Fallacy": 1,
+      "Slogans": 1,
+      "Bandwagon,Reductio_ad_hitlerum": 1
+     }
+    },
+    {
+     "detection": "elastic-charge",
+     "hits": 28,
+     "inside": 7,
+     "lift": 0.74,
+     "lift_ci": [
+      0.37,
+      1.28
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Doubt": 2,
+      "Repetition": 2,
+      "Loaded_Language": 2,
+      "Bandwagon,Reductio_ad_hitlerum": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "permanent-exclusion-no-exit",
+     "hits": 18,
+     "inside": 5,
+     "lift": 0.77,
+     "lift_ci": [
+      0.35,
+      1.42
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Name_Calling,Labeling": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Exaggeration,Minimisation": 1,
+      "Loaded_Language": 1
+     }
+    },
+    {
+     "detection": "canvassing-mobilization",
+     "hits": 14,
+     "inside": 5,
+     "lift": 1.28,
+     "lift_ci": [
+      0.59,
+      2.2
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 3,
+      "Repetition": 1,
+      "Name_Calling,Labeling": 1,
+      "Exaggeration,Minimisation": 1,
+      "Flag-Waving": 1
+     }
+    },
+    {
+     "detection": "coordinated-bloc-editing",
+     "hits": 6,
+     "inside": 1,
+     "lift": 0.51,
+     "lift_ci": [
+      0.09,
+      1.73
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 1
+     }
+    },
+    {
+     "detection": "penalty-without-adjudication",
+     "hits": 5,
+     "inside": 4,
+     "lift": 2.46,
+     "lift_ci": [
+      1.16,
+      2.97
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Loaded_Language": 3,
+      "Slogans": 1,
+      "Exaggeration,Minimisation": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "client-image-management",
+     "hits": 4,
+     "inside": 2,
+     "lift": 1.18,
+     "lift_ci": [
+      0.35,
+      2.01
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Exaggeration,Minimisation": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "govt-clearinghouse",
+     "hits": 4,
+     "inside": 1,
+     "lift": 0.77,
+     "lift_ci": [
+      0.14,
+      2.14
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Doubt": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "sockpuppet-ring",
+     "hits": 2,
+     "inside": 1,
+     "lift": 1.38,
+     "lift_ci": [
+      0.26,
+      2.5
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "state-corp-ip-edits",
+     "hits": 2,
+     "inside": 1,
+     "lift": 1.5,
+     "lift_ci": [
+      0.28,
+      2.72
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "anonymous-authority",
+     "hits": 1,
+     "inside": 0,
+     "lift": 0.0,
+     "lift_ci": [
+      0.0,
+      11.34
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {}
+    }
+   ]
+  },
+  {
+   "lens": "subculture_register",
+   "llm_only": false,
+   "articles": 371,
+   "of": 371,
+   "errors": 0,
+   "chance_chars": 0.1325,
+   "llm": {
+    "hits": 140,
+    "inside": 64,
+    "precision": 0.4571,
+    "chance": 0.2577,
+    "lift": 1.774,
+    "lift_ci": [
+     1.463,
+     2.094
+    ],
+    "mean_hit_chars": 37,
+    "spans_recovered": 62,
+    "techniques": {
+     "Loaded_Language": 12,
+     "Name_Calling,Labeling": 12,
+     "Appeal_to_fear-prejudice": 10,
+     "Slogans": 9,
+     "Appeal_to_Authority": 7,
+     "Flag-Waving": 6,
+     "Causal_Oversimplification": 5,
+     "Doubt": 4,
+     "Repetition": 4,
+     "Exaggeration,Minimisation": 2,
+     "Black-and-White_Fallacy": 2,
+     "Whataboutism,Straw_Men,Red_Herring": 1,
+     "Thought-terminating_Cliches": 1
+    }
+   },
+   "cues": {
+    "hits": 14,
+    "inside": 8,
+    "precision": 0.5714,
+    "chance": 0.1864,
+    "lift": 3.065,
+    "lift_ci": [
+     1.748,
+     4.217
+    ],
+    "mean_hit_chars": 17,
+    "spans_recovered": 8,
+    "techniques": {
+     "Slogans": 5,
+     "Appeal_to_fear-prejudice": 2,
+     "Name_Calling,Labeling": 1,
+     "Doubt": 1,
+     "Repetition": 1
+    }
+   },
+   "llm_unlocatable_spans": 332,
+   "llm_unlocatable_rate": 0.703,
+   "spans_recovered_llm_only": 59,
+   "llm_verdict": "above chance, interval excludes it",
+   "cues_verdict": "above chance, interval excludes it",
+   "detections_demonstrated_llm": 3,
+   "detections": [
+    {
+     "detection": "maganr-tells",
+     "hits": 28,
+     "inside": 18,
+     "lift": 3.24,
+     "lift_ci": [
+      2.31,
+      3.99
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Slogans": 7,
+      "Flag-Waving": 5,
+      "Name_Calling,Labeling": 3,
+      "Loaded_Language": 2,
+      "Black-and-White_Fallacy": 2,
+      "Appeal_to_fear-prejudice": 1,
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "tradcath-tells",
+     "hits": 27,
+     "inside": 12,
+     "lift": 1.38,
+     "lift_ci": [
+      0.85,
+      1.94
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Appeal_to_Authority": 4,
+      "Loaded_Language": 3,
+      "Appeal_to_fear-prejudice": 2,
+      "Name_Calling,Labeling": 2,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "csj-tells",
+     "hits": 21,
+     "inside": 6,
+     "lift": 1.25,
+     "lift_ci": [
+      0.6,
+      2.19
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Appeal_to_Authority": 2,
+      "Whataboutism,Straw_Men,Red_Herring": 1,
+      "Thought-terminating_Cliches": 1,
+      "Name_Calling,Labeling": 1,
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "jihadist-tells",
+     "hits": 18,
+     "inside": 11,
+     "lift": 1.82,
+     "lift_ci": [
+      1.15,
+      2.38
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Causal_Oversimplification": 4,
+      "Loaded_Language": 3,
+      "Name_Calling,Labeling": 3,
+      "Appeal_to_fear-prejudice": 2,
+      "Exaggeration,Minimisation": 1
+     }
+    },
+    {
+     "detection": "disinfo-tells",
+     "hits": 13,
+     "inside": 5,
+     "lift": 2.4,
+     "lift_ci": [
+      1.11,
+      4.03
+     ],
+     "judgeable": true,
+     "verdict": "above chance, interval excludes it",
+     "techniques": {
+      "Doubt": 2,
+      "Appeal_to_Authority": 1,
+      "Repetition": 1,
+      "Loaded_Language": 1,
+      "Name_Calling,Labeling": 1
+     }
+    },
+    {
+     "detection": "marxist-situationist-tells",
+     "hits": 12,
+     "inside": 6,
+     "lift": 1.73,
+     "lift_ci": [
+      0.88,
+      2.58
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 2,
+      "Appeal_to_fear-prejudice": 2,
+      "Name_Calling,Labeling": 2,
+      "Causal_Oversimplification": 1,
+      "Repetition": 1,
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "qanon-tells",
+     "hits": 6,
+     "inside": 1,
+     "lift": 0.8,
+     "lift_ci": [
+      0.14,
+      2.69
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Doubt": 1
+     }
+    },
+    {
+     "detection": "chrnat-tells",
+     "hits": 5,
+     "inside": 2,
+     "lift": 2.63,
+     "lift_ci": [
+      0.77,
+      5.06
+     ],
+     "judgeable": true,
+     "verdict": "interval spans chance",
+     "techniques": {
+      "Loaded_Language": 1,
+      "Flag-Waving": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "radfem-tells",
+     "hits": 4,
+     "inside": 1,
+     "lift": 1.31,
+     "lift_ci": [
+      0.24,
+      3.66
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Appeal_to_fear-prejudice": 1,
+      "Slogans": 1
+     }
+    },
+    {
+     "detection": "managerial-tells",
+     "hits": 3,
+     "inside": 0,
+     "lift": 0.0,
+     "lift_ci": [
+      0.0,
+      2.15
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {}
+    },
+    {
+     "detection": "degrowth-tells",
+     "hits": 1,
+     "inside": 1,
+     "lift": 3.7,
+     "lift_ci": [
+      0.76,
+      3.7
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Appeal_to_fear-prejudice": 1
+     }
+    },
+    {
+     "detection": "ethnonat-tells",
+     "hits": 1,
+     "inside": 1,
+     "lift": 3.03,
+     "lift_ci": [
+      0.63,
+      3.03
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {
+      "Repetition": 1
+     }
+    },
+    {
+     "detection": "rationalist-tells",
+     "hits": 1,
+     "inside": 0,
+     "lift": 0.0,
+     "lift_ci": [
+      0.0,
+      2.27
+     ],
+     "judgeable": false,
+     "verdict": "too thin to judge",
+     "techniques": {}
+    }
+   ]
+  }
+ ],
+ "note": "Lift is in-span precision over the length-matched permutation null (compare_find_stages.chance_for). Intervals are Wilson 95%. A lens with fewer than judgeable_hits locatable LLM hits is untestable on PTC, not failed. Nothing here changes a lens state; see the PREREG."
+}

@@ -17,11 +17,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt pytest pytest-cov
+      # 100% on the code that SHIPS. Scope and exclusions live in .coveragerc, with the reason
+      # for each written next to it -- embed_find.py is out because it was MEASURED AT CHANCE
+      # on 2026-08-27, nothing on the shipping path calls it, and its numpy /
+      # sentence-transformers dependencies are deliberately absent from requirements.txt, so it
+      # cannot even be imported here. The gate number itself stays at 100 and is not to be
+      # lowered; the trigger to delete the exclusion is that module being fixed or removed.
       - name: Tests + 100% coverage gate (deterministic)
-        run: pytest -q --cov=tradecraft --cov-report=term-missing --cov-fail-under=100
+        run: pytest -q --cov=tradecraft --cov-config=.coveragerc --cov-report=term-missing --cov-fail-under=100
       - name: Lenses load + demo (offline, no API key)
         run: |
           python -m tradecraft.cli lenses
           python -m tradecraft.cli demo
       - name: Eval — known-positive corpus (offline cues floor, strict)
         run: python eval/run_eval.py cues --strict
+
+      # Gate 24, both halves. Every lens must hold the resolution object its state requires:
+      # an index floor for a lens that fires often enough to have one, a background firing
+      # rate for a lens too rare for that. A lens with neither has no ruler, and a reading
+      # with no ruler is the defect this whole project exists to indict.
+      - name: Resolution — every lens holds a floor or a background rate
+        run: |
+          python eval/lens_floor.py --check
+          python eval/background_rate.py --check

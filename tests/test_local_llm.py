@@ -32,13 +32,14 @@ def test_key_from_env_file(monkeypatch, tmp_path):
     monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
     envp = tmp_path / ".env"
     envp.write_text('OPENROUTER_API_KEY="k-file"\n', encoding="utf-8")
-    monkeypatch.setattr(os.path, "expanduser", lambda p: str(envp))
+    # The env file is operator-named via TRADECRAFT_ENV_FILE, not a hardcoded home path.
+    monkeypatch.setenv("TRADECRAFT_ENV_FILE", str(envp))
     assert L._openrouter_key() == "k-file"
 
 
 def test_key_missing_raises(monkeypatch):
     monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
-    monkeypatch.setattr(os.path, "expanduser", lambda p: "/nonexistent/.env")
+    monkeypatch.setenv("TRADECRAFT_ENV_FILE", "/nonexistent/.env")
     with pytest.raises(RuntimeError, match="OPENROUTER_API_KEY"):
         L._openrouter_key()
 

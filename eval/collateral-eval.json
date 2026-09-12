@@ -1,0 +1,5601 @@
+{
+ "institutions": {
+  "Behavioural Insights Team (UK Nudge Unit)": {
+   "collateral": "none on hand",
+   "id": "BIT",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "CCP United Front Work Department": {
+   "collateral": "none on hand",
+   "id": "UFWD",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "Chinese Communist Party (discourse power)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "EU AI Office (Code of Practice)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "EU Code of Practice on Disinformation (DSA)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Election Integrity Partnership (EIP)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "ExxonMobil": {
+   "collateral": "none on hand",
+   "id": "ExxonMobil",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "Fabian Society": {
+   "collateral": "none on hand",
+   "id": "FabianSociety",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "Frontier Model Forum (FMF)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Global Disinformation Index (GDI)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Hungarian Working People's Party (Rakosi salami tactics)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Islamic Republic of Iran (clerical governance)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Jones Act (Merchant Marine Act of 1920)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Leninist democratic centralism": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Muslim Brotherhood": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "New Left (long march through the institutions)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "NewsGuard": {
+   "collateral": "none on hand",
+   "id": "NewsGuard",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "Public relations industry (Bernays)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Rashtriya Swayamsevak Sangh (RSS)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Reddit": {
+   "collateral": "none on hand",
+   "id": "Reddit",
+   "why": "no affiliated person in the graph has texts in the store"
+  },
+  "Regulatory capture (Stiglerian / revolving door)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "SPI-B (UK SAGE behavioural subgroup)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Scientific publishing (big-five oligopoly)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Seven Mountains Mandate": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Soviet Communist Party (wooden language)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Stanford Internet Observatory": {
+   "caveat": "These are the words of people the graph affiliates with the institution, graded for what the texts exhibit. Not the institution's output, not a finding about anyone's motives.",
+   "collateral": "affiliated persons' words",
+   "id": "SIO",
+   "lenses": {},
+   "persons": [
+    {
+     "id": "DiResta",
+     "label": "Renee DiResta",
+     "texts": 26
+    },
+    {
+     "id": "Stamos",
+     "label": "Alex Stamos",
+     "texts": 12
+    }
+   ],
+   "texts": 38,
+   "words": 1683
+  },
+  "State Department Global Engagement Center (GEC)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "The Advancement of Sound Science Coalition (TASSC)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "The Jacobins (1793 Terror)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Third Reich (LTI - Nazi German)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Twitter / X (2020-2022)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "US AI Safety Institute (NIST / CAISI)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "US Food and Drug Administration (drug review)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "US higher education (elite universities)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "Wikipedia (English)": {
+   "collateral": "none on hand",
+   "id": null,
+   "why": "not a graph institution; no affiliated persons to read"
+  },
+  "World Health Organization": {
+   "collateral": "none on hand",
+   "id": "WHO",
+   "why": "no affiliated person in the graph has texts in the store"
+  }
+ },
+ "lenses": {
+  "adept_speech": {
+   "background": {
+    "docs_fired": 1,
+    "docs_n": 217,
+    "docs_rate": 0.0046,
+    "docs_wilson95": [
+     0.0008,
+     0.0256
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.001,
+    "per_1k_ci95": [
+     0.0,
+     0.0055
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 1
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0349,
+   "min_detectable_ratio": 34.9,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "cognitive_capture": {
+   "background": {
+    "docs_fired": 1,
+    "docs_n": 217,
+    "docs_rate": 0.0046,
+    "docs_wilson95": [
+     0.0008,
+     0.0256
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0349,
+   "min_detectable_ratio": 12.0,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "costly_signal": {
+   "background": {
+    "docs_fired": 0,
+    "docs_n": 217,
+    "docs_rate": 0.0,
+    "docs_wilson95": [
+     0.0,
+     0.0174
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0,
+    "per_1k_ci95": [
+     0.0,
+     0.0036
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 0
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0262,
+   "min_detectable_ratio": null,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "counterproductivity": {
+   "background": {
+    "docs_fired": 0,
+    "docs_n": 217,
+    "docs_rate": 0.0,
+    "docs_wilson95": [
+     0.0,
+     0.0174
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0,
+    "per_1k_ci95": [
+     0.0,
+     0.0036
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 0
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0262,
+   "min_detectable_ratio": null,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "distributed_accountability": {
+   "background": {
+    "docs_fired": 5,
+    "docs_n": 217,
+    "docs_rate": 0.023,
+    "docs_wilson95": [
+     0.0099,
+     0.0528
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0049,
+    "per_1k_ci95": [
+     0.0016,
+     0.0114
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 5
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0436,
+   "min_detectable_ratio": 8.9,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "index-bearing",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "inevitability_framing": {
+   "background": {
+    "docs_fired": 4,
+    "docs_n": 217,
+    "docs_rate": 0.0184,
+    "docs_wilson95": [
+     0.0072,
+     0.0464
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0059,
+    "per_1k_ci95": [
+     0.0021,
+     0.0129
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 6
+   },
+   "detections": {
+    "no-alternative": 2
+   },
+   "docs_fired": 2,
+   "docs_n": 328,
+   "docs_rate": 0.0061,
+   "docs_wilson95": [
+    0.0017,
+    0.022
+   ],
+   "in_quotes": 1,
+   "in_quotes_share": 0.5,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0436,
+   "min_detectable_ratio": 7.4,
+   "occurrences": 2,
+   "one_cue": false,
+   "per_1k": 0.0174,
+   "per_1k_ci95": [
+    0.0021,
+    0.063
+   ],
+   "state": "receipts-only",
+   "top_detection": {
+    "id": "no-alternative",
+    "share": 1.0
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "institutional_permeation": {
+   "background": {
+    "docs_fired": 35,
+    "docs_n": 217,
+    "docs_rate": 0.1613,
+    "docs_wilson95": [
+     0.1183,
+     0.216
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": true,
+    "per_1k": 0.0734,
+    "per_1k_ci95": [
+     0.0491,
+     0.1022
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 75
+   },
+   "detections": {
+    "astroturf": 1,
+    "attribution-gap": 1,
+    "build-parallel-institutions": 2,
+    "carve-out-as-public-good": 2,
+    "define-crisis-claim-authority": 5,
+    "infiltrate-existing-institutions": 2,
+    "value-as-science": 2
+   },
+   "docs_fired": 14,
+   "docs_n": 328,
+   "docs_rate": 0.0427,
+   "docs_wilson95": [
+    0.0256,
+    0.0704
+   ],
+   "in_quotes": 1,
+   "in_quotes_share": 0.0667,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.1745,
+   "min_detectable_ratio": 2.4,
+   "occurrences": 15,
+   "one_cue": false,
+   "per_1k": 0.1309,
+   "per_1k_ci95": [
+    0.0732,
+    0.2159
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "define-crisis-claim-authority",
+    "share": 0.3333
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "legibility": {
+   "background": {
+    "docs_fired": 13,
+    "docs_n": 217,
+    "docs_rate": 0.0599,
+    "docs_wilson95": [
+     0.0353,
+     0.0998
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0186,
+    "per_1k_ci95": [
+     0.0112,
+     0.029
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 19
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0698,
+   "min_detectable_ratio": 3.8,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "index-bearing",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "militant_mobilization": {
+   "background": {
+    "docs_fired": 4,
+    "docs_n": 217,
+    "docs_rate": 0.0184,
+    "docs_wilson95": [
+     0.0072,
+     0.0464
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0039,
+    "per_1k_ci95": [
+     0.0011,
+     0.01
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 4
+   },
+   "detections": {
+    "reframe-target-as-vermin-or-nazi": 1,
+    "sainthood-and-heroes": 2
+   },
+   "docs_fired": 3,
+   "docs_n": 328,
+   "docs_rate": 0.0091,
+   "docs_wilson95": [
+    0.0031,
+    0.0265
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0436,
+   "min_detectable_ratio": 11.2,
+   "occurrences": 3,
+   "one_cue": false,
+   "per_1k": 0.0262,
+   "per_1k_ci95": [
+    0.0054,
+    0.0765
+   ],
+   "state": "receipts-only",
+   "top_detection": {
+    "id": "sainthood-and-heroes",
+    "share": 0.6667
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "narrative_management": {
+   "background": {
+    "docs_fired": 3,
+    "docs_n": 217,
+    "docs_rate": 0.0138,
+    "docs_wilson95": [
+     0.0047,
+     0.0399
+    ],
+    "eligible_state": "receipts-only",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {},
+   "docs_fired": 0,
+   "docs_n": 328,
+   "docs_rate": 0.0,
+   "docs_wilson95": [
+    0.0,
+    0.0116
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": null,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0349,
+   "min_detectable_ratio": 12.0,
+   "occurrences": 0,
+   "one_cue": false,
+   "per_1k": 0.0,
+   "per_1k_ci95": [
+    0.0,
+    0.0322
+   ],
+   "state": "receipts-only",
+   "top_detection": null,
+   "verdict": "indistinguishable from background"
+  },
+  "reference_capture": {
+   "background": {
+    "docs_fired": 20,
+    "docs_n": 217,
+    "docs_rate": 0.0922,
+    "docs_wilson95": [
+     0.0605,
+     0.1381
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": true,
+    "per_1k": 0.0313,
+    "per_1k_ci95": [
+     0.0113,
+     0.0574
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 32
+   },
+   "detections": {
+    "anonymous-authority": 2,
+    "canvassing-mobilization": 2
+   },
+   "docs_fired": 3,
+   "docs_n": 328,
+   "docs_rate": 0.0091,
+   "docs_wilson95": [
+    0.0031,
+    0.0265
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.1134,
+   "min_detectable_ratio": 3.6,
+   "occurrences": 4,
+   "one_cue": false,
+   "per_1k": 0.0349,
+   "per_1k_ci95": [
+    0.0095,
+    0.0894
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "anonymous-authority",
+    "share": 0.5
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "rollback_asymmetry": {
+   "background": {
+    "docs_fired": 3,
+    "docs_n": 217,
+    "docs_rate": 0.0138,
+    "docs_wilson95": [
+     0.0047,
+     0.0399
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0029,
+    "per_1k_ci95": [
+     0.0006,
+     0.0086
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 3
+   },
+   "detections": {
+    "new-normal-floor": 1
+   },
+   "docs_fired": 1,
+   "docs_n": 328,
+   "docs_rate": 0.003,
+   "docs_wilson95": [
+    0.0005,
+    0.0171
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0349,
+   "min_detectable_ratio": 12.0,
+   "occurrences": 1,
+   "one_cue": false,
+   "per_1k": 0.0087,
+   "per_1k_ci95": [
+    0.0002,
+    0.0486
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "new-normal-floor",
+    "share": 1.0
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "sourcing_asymmetry": {
+   "background": {
+    "docs_fired": 35,
+    "docs_n": 217,
+    "docs_rate": 0.1613,
+    "docs_wilson95": [
+     0.1183,
+     0.216
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0528,
+    "per_1k_ci95": [
+     0.0397,
+     0.0689
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 54
+   },
+   "detections": {
+    "mind-reading": 1
+   },
+   "docs_fired": 1,
+   "docs_n": 328,
+   "docs_rate": 0.003,
+   "docs_wilson95": [
+    0.0005,
+    0.0171
+   ],
+   "in_quotes": 0,
+   "in_quotes_share": 0.0,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.1309,
+   "min_detectable_ratio": 2.5,
+   "occurrences": 1,
+   "one_cue": false,
+   "per_1k": 0.0087,
+   "per_1k_ci95": [
+    0.0002,
+    0.0486
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "mind-reading",
+    "share": 1.0
+   },
+   "verdict": "indistinguishable from background"
+  },
+  "subculture_register": {
+   "background": {
+    "docs_fired": 15,
+    "docs_n": 217,
+    "docs_rate": 0.0691,
+    "docs_wilson95": [
+     0.0423,
+     0.1109
+    ],
+    "eligible_state": "index-bearing",
+    "overdispersed": false,
+    "per_1k": 0.0235,
+    "per_1k_ci95": [
+     0.015,
+     0.0349
+    ],
+    "per_1k_kwords": 1022.3,
+    "per_1k_occurrences": 24
+   },
+   "detections": {
+    "eacc-tells": 1,
+    "managerial-tells": 1,
+    "rationalist-tells": 11
+   },
+   "docs_fired": 7,
+   "docs_n": 328,
+   "docs_rate": 0.0213,
+   "docs_wilson95": [
+    0.0104,
+    0.0434
+   ],
+   "in_quotes": 2,
+   "in_quotes_share": 0.1538,
+   "kwords": 114.6,
+   "min_detectable_per_1k": 0.0785,
+   "min_detectable_ratio": 3.3,
+   "occurrences": 13,
+   "one_cue": true,
+   "per_1k": 0.1134,
+   "per_1k_ci95": [
+    0.0604,
+    0.194
+   ],
+   "state": "index-bearing",
+   "top_detection": {
+    "id": "rationalist-tells",
+    "share": 0.8462
+   },
+   "verdict": "above background"
+  }
+ },
+ "meta": {
+  "collateral": {
+   "date_range": [
+    "2017-11-26",
+    "2026-06-29"
+   ],
+   "file": "research/ratchet-mcp/server/data/texts.jsonl",
+   "median_words": 39,
+   "persons": 20,
+   "sha256_16": "685322306849adc5",
+   "texts": 328,
+   "what": "verbatim public statements attributed to dataset persons; not the author's manuscripts, not the PTC benchmark",
+   "words": 114615
+  },
+  "detectors": {
+   "bias_study": "not applicable: measures models, reads no third-party text",
+   "capture_scanner": "ran: shipped scanner.js + capture-cats.js via node",
+   "instrument_engine_js": "same taxonomy and grader as tradecraft_cues; parity-gated (tools/test_engine_parity.py) -- not a second measurement",
+   "ratchet_series": "not applicable: reads a series of administrative actions",
+   "tradecraft_cues": "ran: deterministic cue matcher, shipped taxonomy, every text lens",
+   "tradecraft_llm_find_stage": "NOT RUN: local 14B held by the detached Phase-1.2 measurement; 37% span fabrication unresolved"
+  },
+  "excluded_lenses": [
+   "network_brokerage",
+   "revolving_door"
+  ],
+  "prereg": "PREREG-2026-09-07-collateral-eval.md",
+  "scanner_sha256_16": {
+   "capture-cats.js": "43a2819938114347",
+   "scanner.js": "8d599d702c612efa"
+  },
+  "seed": 20260907,
+  "taxonomy_sha256_16": "5f9f9a7d5a2b787b",
+  "text_lenses": [
+   "adept_speech",
+   "cognitive_capture",
+   "costly_signal",
+   "counterproductivity",
+   "distributed_accountability",
+   "inevitability_framing",
+   "institutional_permeation",
+   "legibility",
+   "militant_mobilization",
+   "narrative_management",
+   "reference_capture",
+   "rollback_asymmetry",
+   "sourcing_asymmetry",
+   "subculture_register"
+  ]
+ },
+ "persons": {
+  "BBarnes": {
+   "date_range": [
+    "2024-08-06",
+    "2026-05-23"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1076.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 371.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 219.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 182.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 29.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 115.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 276.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 371.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 68.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 371.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 40.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 91.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3.9708
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 24,
+   "words": 929
+  },
+  "DiResta": {
+   "date_range": [
+    "2026-03-17",
+    "2026-06-29"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 780.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 159.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 132.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 21.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 83.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 200.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 49.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 29.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 66.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8797
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 26,
+   "words": 1281
+  },
+  "HelenToner": {
+   "date_range": [
+    "2025-04-05",
+    "2025-11-24"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 80.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 27.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 24.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 20.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 3.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 8.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 30.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 27.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 6.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 27.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 4.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.1477
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "eacc-tells": 1,
+      "rationalist-tells": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 6.8,
+     "occurrences": 2,
+     "per_1k": 0.0801,
+     "per_1k_ci95": [
+      0.0097,
+      0.2893
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 8,
+   "words": 24975
+  },
+  "Hendrycks": {
+   "date_range": [
+    "2025-06-03",
+    "2026-06-06"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 616.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 212.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 125.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 104.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 16.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 66.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 158.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 212.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 39.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 212.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 23.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.2757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "rationalist-tells": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 52.5,
+     "occurrences": 1,
+     "per_1k": 0.6169,
+     "per_1k_ci95": [
+      0.0156,
+      3.4372
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 30,
+   "words": 1621
+  },
+  "Hobbhahn": {
+   "date_range": [
+    "2026-04-29",
+    "2026-06-26"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 781.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 159.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 132.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "build-parallel-institutions": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 21.3,
+     "occurrences": 1,
+     "per_1k": 0.7819,
+     "per_1k_ci95": [
+      0.0198,
+      4.3562
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 84.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 200.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 50.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 269.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 29.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      2.8842
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "rationalist-tells": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 66.5,
+     "occurrences": 1,
+     "per_1k": 0.7819,
+     "per_1k_ci95": [
+      0.0198,
+      4.3562
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 28,
+   "words": 1279
+  },
+  "JClark": {
+   "date_range": [
+    "2026-01-31",
+    "2026-06-18"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 61.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 21.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 12.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {
+      "no-alternative": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 13.9,
+     "occurrences": 1,
+     "per_1k": 0.0205,
+     "per_1k_ci95": [
+      0.0005,
+      0.1143
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "astroturf": 1,
+      "attribution-gap": 1,
+      "build-parallel-institutions": 1,
+      "carve-out-as-public-good": 1,
+      "define-crisis-claim-authority": 3,
+      "infiltrate-existing-institutions": 1,
+      "value-as-science": 1
+     },
+     "docs_fired": 8,
+     "min_detectable_ratio": 3.1,
+     "occurrences": 9,
+     "per_1k": 0.1846,
+     "per_1k_ci95": [
+      0.0844,
+      0.3504
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 5.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {
+      "reframe-target-as-vermin-or-nazi": 1,
+      "sainthood-and-heroes": 2
+     },
+     "docs_fired": 3,
+     "min_detectable_ratio": 15.8,
+     "occurrences": 3,
+     "per_1k": 0.0615,
+     "per_1k_ci95": [
+      0.0127,
+      0.1798
+     ],
+     "verdict": "above background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 21.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.0757
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {
+      "anonymous-authority": 1,
+      "canvassing-mobilization": 2
+     },
+     "docs_fired": 2,
+     "min_detectable_ratio": 4.6,
+     "occurrences": 3,
+     "per_1k": 0.0615,
+     "per_1k_ci95": [
+      0.0127,
+      0.1798
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {
+      "new-normal-floor": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 21.2,
+     "occurrences": 1,
+     "per_1k": 0.0205,
+     "per_1k_ci95": [
+      0.0005,
+      0.1143
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {
+      "mind-reading": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 3.1,
+     "occurrences": 1,
+     "per_1k": 0.0205,
+     "per_1k_ci95": [
+      0.0005,
+      0.1143
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "managerial-tells": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 5.2,
+     "occurrences": 1,
+     "per_1k": 0.0205,
+     "per_1k_ci95": [
+      0.0005,
+      0.1143
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 44,
+   "words": 48760
+  },
+  "JLeung": {
+   "date_range": [
+    "2017-11-26",
+    "2020-12-29"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1366.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 471.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 278.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 231.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 37.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 73.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 350.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 471.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 87.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 471.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 51.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 116.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.0395
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 30,
+   "words": 732
+  },
+  "JanLeike": {
+   "date_range": [
+    "2022-12-19",
+    "2026-01-22"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 140.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 48.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 28.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 23.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "carve-out-as-public-good": 1,
+      "infiltrate-existing-institutions": 1,
+      "value-as-science": 1
+     },
+     "docs_fired": 3,
+     "min_detectable_ratio": 4.8,
+     "occurrences": 3,
+     "per_1k": 0.2113,
+     "per_1k_ci95": [
+      0.0436,
+      0.6176
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 11.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 36.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 48.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {
+      "anonymous-authority": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 9.0,
+     "occurrences": 1,
+     "per_1k": 0.0704,
+     "per_1k_ci95": [
+      0.0018,
+      0.3925
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 48.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 5.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2599
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "rationalist-tells": 5
+     },
+     "docs_fired": 2,
+     "min_detectable_ratio": 9.0,
+     "occurrences": 5,
+     "per_1k": 0.3522,
+     "per_1k_ci95": [
+      0.1144,
+      0.8219
+     ],
+     "verdict": "above background"
+    }
+   },
+   "texts": 8,
+   "words": 14196
+  },
+  "Jang": {
+   "date_range": [
+    "2020-12-26",
+    "2026-06-29"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 382.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 131.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 156.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 129.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 15.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 41.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 196.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 131.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 24.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 131.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 14.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 32.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.4107
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 32,
+   "words": 2615
+  },
+  "JoeCarlsmith": {
+   "date_range": [
+    "2025-09-21",
+    "2026-01-29"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 6896.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2378.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1407.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1168.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 94.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 370.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1768.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2378.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 220.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2378.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 130.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 293.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      25.4405
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 8,
+   "words": 145
+  },
+  "Kolter": {
+   "date_range": [
+    "2024-02-02",
+    "2026-06-22"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 467.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 161.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 95.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 158.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 12.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 50.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 119.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 161.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 29.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 161.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 17.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 39.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      1.723
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 29,
+   "words": 2141
+  },
+  "LeCun": {
+   "date_range": [
+    "2026-06-24",
+    "2026-06-24"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1000000.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 344827.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 204081.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 169491.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 13624.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 53763.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 256410.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 344827.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 31948.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 344827.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 18939.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 42553.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      3688.8795
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 1,
+   "words": 1
+  },
+  "Lehane": {
+   "date_range": [
+    "2024-09-10",
+    "2026-02-21"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1459.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 503.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 297.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 247.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 39.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 78.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 374.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 503.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 93.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 503.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 55.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 62.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      5.3852
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 18,
+   "words": 685
+  },
+  "NicholasCarlini": {
+   "date_range": [
+    "2025-03-05",
+    "2026-03-09"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 3745.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1291.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 764.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 634.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 102.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 201.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 960.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1291.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 119.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1291.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 70.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 159.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      13.816
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 8,
+   "words": 267
+  },
+  "Rubin": {
+   "date_range": [
+    null,
+    null
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 50000.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 17241.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 10204.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 8474.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 681.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2688.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 12820.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 17241.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1597.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 17241.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 947.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2127.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      184.444
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 1,
+   "words": 20
+  },
+  "Schmidt": {
+   "date_range": [
+    "2025-04-16",
+    "2025-04-16"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 9708.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 3347.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1981.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1645.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 132.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 522.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2489.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 3347.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 310.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 3347.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 183.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 413.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      35.8144
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 3,
+   "words": 103
+  },
+  "Stamos": {
+   "date_range": [
+    "2025-11-05",
+    "2026-06-26"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2487.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 857.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 507.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 421.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 67.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 133.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 637.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 857.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 79.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 857.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 94.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 105.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      9.1763
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 12,
+   "words": 402
+  },
+  "Summers": {
+   "date_range": [
+    null,
+    null
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 27777.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 9578.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 5668.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {
+      "no-alternative": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 4708.1,
+     "occurrences": 1,
+     "per_1k": 27.7778,
+     "per_1k_ci95": [
+      0.7033,
+      154.7679
+     ],
+     "verdict": "above background"
+    },
+    "institutional_permeation": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 378.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1493.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 7122.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 9578.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 887.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 9578.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 526.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 1182.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      102.4689
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 2,
+   "words": 36
+  },
+  "VictoriaKrakovna": {
+   "date_range": [
+    "2023-08-09",
+    "2026-01-19"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 142.9,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 49.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 29.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 24.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "define-crisis-claim-authority": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 4.9,
+     "occurrences": 1,
+     "per_1k": 0.0715,
+     "per_1k_ci95": [
+      0.0018,
+      0.3981
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 11.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 36.6,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 49.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 9.1,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 49.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 5.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      0.2636
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {
+      "rationalist-tells": 3
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 9.1,
+     "occurrences": 3,
+     "per_1k": 0.2144,
+     "per_1k_ci95": [
+      0.0442,
+      0.6265
+     ],
+     "verdict": "above background"
+    }
+   },
+   "texts": 8,
+   "words": 13995
+  },
+  "YoshuaBengio": {
+   "date_range": [
+    "2023-08-12",
+    "2025-06-03"
+   ],
+   "lenses": {
+    "adept_speech": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 2314.8,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "cognitive_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 798.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "costly_signal": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "counterproductivity": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": null,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "distributed_accountability": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 472.4,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "inevitability_framing": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 392.3,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "institutional_permeation": {
+     "detections": {
+      "define-crisis-claim-authority": 1
+     },
+     "docs_fired": 1,
+     "min_detectable_ratio": 63.1,
+     "occurrences": 1,
+     "per_1k": 2.3148,
+     "per_1k_ci95": [
+      0.0586,
+      12.8973
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "legibility": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 124.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "militant_mobilization": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 593.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "narrative_management": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 798.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "reference_capture": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 74.0,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "rollback_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 798.2,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "sourcing_asymmetry": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 87.7,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    },
+    "subculture_register": {
+     "detections": {},
+     "docs_fired": 0,
+     "min_detectable_ratio": 98.5,
+     "occurrences": 0,
+     "per_1k": 0.0,
+     "per_1k_ci95": [
+      0.0,
+      8.5391
+     ],
+     "verdict": "indistinguishable from background"
+    }
+   },
+   "texts": 8,
+   "words": 432
+  }
+ },
+ "precision_sample": {
+  "dropped": [
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|3882|3893",
+    "n": 1
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|4870|4881",
+    "n": 2
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|6158|6169",
+    "n": 3
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|7145|7156",
+    "n": 4
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|institutional_permeation|define-crisis-claim-authority|14953|14964",
+    "n": 5
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|institutional_permeation|define-crisis-claim-authority|5754|5765",
+    "n": 8
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|reference_capture|elastic-charge|9284|9294",
+    "n": 9
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/taking-jaggedness-seriously|reference_capture|elastic-charge|9541|9551",
+    "n": 10
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "Hendrycks|x-1979629629125316836|institutional_permeation|hidden-or-deferred-cost|202|209",
+    "n": 12
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar|institutional_permeation|hidden-or-deferred-cost|1160|1167",
+    "n": 15
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar|reference_capture|elastic-charge|9597|9607",
+    "n": 16
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-453-breaking-ai-agents|institutional_permeation|irreversibility-framing|16198|16211",
+    "n": 17
+   },
+   {
+    "fires_now": false,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult|institutional_permeation|define-crisis-claim-authority|17798|17809",
+    "n": 22
+   },
+   {
+    "fires_now": false,
+    "how": "rare-lens: every hit read",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|adept_speech|candidate-sorting|13013|13022",
+    "n": 41
+   },
+   {
+    "fires_now": false,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-455-automating-ai-research|sourcing_asymmetry|mind-reading|26259|26275",
+    "n": 43
+   },
+   {
+    "fires_now": false,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|sourcing_asymmetry|mind-reading|18641|18657",
+    "n": 46
+   },
+   {
+    "fires_now": false,
+    "how": "rare-lens: every hit read",
+    "key": "Jang|x-https://reservoirsamples.substack.com/p/thoughts-on-setting-policy-for-new|adept_speech|candidate-sorting|482|491",
+    "n": 50
+   }
+  ],
+  "frozen_at": "2026-09-07 (first run; sha of texts.jsonl 685322306849adc5)",
+  "frozen_n": 51,
+  "pool": 45,
+  "rare_lens_hits": 11,
+  "rows": [
+   {
+    "context": "…e. 4 This way, it would be easier for the leading projects to coordinate if they were nearing AGI and hadn’t yet solved [[the alignment problem]]. Outside oversight, e.g. via government regulation, would also be easier if it only had to cover a small number of orga…",
+    "cue": "'the alignment problem'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|subculture_register|rationalist-tells|5480|5501",
+    "lens": "subculture_register",
+    "n": 6,
+    "person_id": "HelenToner",
+    "span": "the alignment problem",
+    "text_id": "x-https://helentoner.substack.com/p/dynamism-vs-stasis",
+    "url": "https://helentoner.substack.com/p/dynamism-vs-stasis"
+   },
+   {
+    "context": "…n human (or post-human, but let’s not open that can of worms here) agency, then focusing on dynamism naturally leads to [[e/acc]]-style entropy-maxxing (or in Bostrom’s words, “a Disneyland with no children”). Much easier to achieve, much less appea…",
+    "cue": "'e/acc'",
+    "detection": "eacc-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "HelenToner|x-https://helentoner.substack.com/p/dynamism-vs-stasis|subculture_register|eacc-tells|15332|15337",
+    "lens": "subculture_register",
+    "n": 7,
+    "person_id": "HelenToner",
+    "span": "e/acc",
+    "text_id": "x-https://helentoner.substack.com/p/dynamism-vs-stasis",
+    "url": "https://helentoner.substack.com/p/dynamism-vs-stasis"
+   },
+   {
+    "context": "\"[[Instrumental convergence]]\" in AI — the idea that rogue AIs will seek power — is analogous to structural \"Realism\" from international relations.\n\n…",
+    "cue": "'instrumental convergence'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Hendrycks|x-1971656854288978344|subculture_register|rationalist-tells|1|25",
+    "lens": "subculture_register",
+    "n": 11,
+    "person_id": "Hendrycks",
+    "span": "Instrumental convergence",
+    "text_id": "x-1971656854288978344",
+    "url": "https://x.com/hendrycks/status/1971656854288978344"
+   },
+   {
+    "context": "Given that slowdown is a [[coordination problem]], it's really important that all involved actors publicly signal willingness to participate. \n\nAs Anthropic mentions a l…",
+    "cue": "'coordination problem'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Hobbhahn|x-2062597758662402415|subculture_register|rationalist-tells|25|45",
+    "lens": "subculture_register",
+    "n": 13,
+    "person_id": "Hobbhahn",
+    "span": "coordination problem",
+    "text_id": "x-2062597758662402415",
+    "url": "https://x.com/MariusHobbhahn/status/2062597758662402415"
+   },
+   {
+    "context": "We plan for our science of scheming agenda to result in something like \"[[training pipeline]] safety assessments\". \n\nWe'll publish more about this idea soon, but excited to see that there is already appetite!",
+    "cue": "'training pipeline'",
+    "detection": "build-parallel-institutions",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "Hobbhahn|x-2070558795789467751|institutional_permeation|build-parallel-institutions|72|89",
+    "lens": "institutional_permeation",
+    "n": 14,
+    "person_id": "Hobbhahn",
+    "span": "training pipeline",
+    "text_id": "x-2070558795789467751",
+    "url": "https://x.com/MariusHobbhahn/status/2070558795789467751"
+   },
+   {
+    "context": "…rch paper: Decoupled DiLoCo for Resilient Distributed Pre-training (arXiv). *** Alignment until the Dyson Sphere [Email [[from within]] one of the Origination Entities of the systems that subsequently caused The Uplift] MEMO TO THE BOARD As the Board unde…",
+    "cue": "'from within'",
+    "detection": "infiltrate-existing-institutions",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth|institutional_permeation|infiltrate-existing-institutions|17306|17317",
+    "lens": "institutional_permeation",
+    "n": 18,
+    "person_id": "JClark",
+    "span": "from within",
+    "text_id": "x-https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth",
+    "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth"
+   },
+   {
+    "context": "…block is different. It&#8217;s a larger and complex sequence of Floating Point Unit instructions dedicated to precision [[arithmetic]] and scaling values in internal arrays. This code is a standalone mathematical calculation function unrelated to code fl…",
+    "cue": "'arithmetic'",
+    "detection": "value-as-science",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon|institutional_permeation|value-as-science|1440|1450",
+    "lens": "institutional_permeation",
+    "n": 19,
+    "person_id": "JClark",
+    "span": "arithmetic",
+    "text_id": "x-https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
+    "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon"
+   },
+   {
+    "context": "…tries, locked in a competition with one another where commercial and geopolitical rivalries are drowning out the larger [[existential]]-to-the-species aspects of the technology being built. This is not an ideal situation, but it is the one we find ourselv…",
+    "cue": "'existential'",
+    "detection": "define-crisis-claim-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|institutional_permeation|define-crisis-claim-authority|7407|7418",
+    "lens": "institutional_permeation",
+    "n": 20,
+    "person_id": "JClark",
+    "span": "existential",
+    "text_id": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+    "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "context": "…hen something strange happened: I said to it &#8220;go and make 20 more graphs like these&#8221;. It went away and read [[a few hundred]] papers and came back with 20 more graphs. As I looked over them I had this thrilling feeling of discovery &#8212; thoug…",
+    "cue": "'a few hundred'",
+    "detection": "anonymous-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|reference_capture|anonymous-authority|11993|12006",
+    "lens": "reference_capture",
+    "n": 21,
+    "person_id": "JClark",
+    "span": "a few hundred",
+    "text_id": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+    "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "context": "…e way of thinking about this is to treat resilience as a form of capital. Just as societies invest in physical capital, [[human capital]] and social capital, we can also invest in survival capital: institutions, monitoring systems, norms, redundancy, scient…",
+    "cue": "'human capital'",
+    "detection": "managerial-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult|subculture_register|managerial-tells|19472|19485",
+    "lens": "subculture_register",
+    "n": 23,
+    "person_id": "JClark",
+    "span": "human capital",
+    "text_id": "x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
+    "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult"
+   },
+   {
+    "context": "… this post because we expect that thinking about, talking about, and working on the implications of RSI is something of [[existential]] importance to the world. The best way to start this work is by transparently communicating that we think some basic, pr…",
+    "cue": "'existential'",
+    "detection": "define-crisis-claim-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-460-reward-hacking-society|institutional_permeation|define-crisis-claim-authority|5621|5632",
+    "lens": "institutional_permeation",
+    "n": 24,
+    "person_id": "JClark",
+    "span": "existential",
+    "text_id": "x-https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+    "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society"
+   },
+   {
+    "context": "…d widely available, it could help under-resourced actors (e.g., pro se litigants and public defenders, small charities, [[grassroots]] activists) compete against more established and better-funded rivals, narrowing long-standing gaps in access to justice…",
+    "cue": "'grassroots'",
+    "detection": "astroturf",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|institutional_permeation|astroturf|5409|5419",
+    "lens": "institutional_permeation",
+    "n": 25,
+    "person_id": "JClark",
+    "span": "grassroots",
+    "text_id": "x-https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+    "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self"
+   },
+   {
+    "context": "…8221;. This effect persisted when evaluating for real money donations - the researchers &#8220;collaborated with the UK [[canvassing]] firm AppcoUK to center Study 4 on the cause their canvassers were best equipped to fundraise for: Save the Children. Th…",
+    "cue": "'canvassing'",
+    "detection": "canvassing-mobilization",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|reference_capture|canvassing-mobilization|4189|4199",
+    "lens": "reference_capture",
+    "n": 26,
+    "person_id": "JClark",
+    "span": "canvassing",
+    "text_id": "x-https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+    "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self"
+   },
+   {
+    "context": "…irm AppcoUK to center Study 4 on the cause their canvassers were best equipped to fundraise for: Save the Children. The [[canvassing]] team provided by AppcoUK had operated real fundraising operations for the charity from 2016 to 2023, raising &#163;824,…",
+    "cue": "'canvassing'",
+    "detection": "canvassing-mobilization",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-462-superpersuasion-self|reference_capture|canvassing-mobilization|4321|4331",
+    "lens": "reference_capture",
+    "n": 27,
+    "person_id": "JClark",
+    "span": "canvassing",
+    "text_id": "x-https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+    "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self"
+   },
+   {
+    "context": "…ith shares in the companies that foomed and catabolized the whole economy: the permanent overclass.&#8221; &#8220;In an [[existential]] conflict, where the existence of the state is threatened, the state will do what states throughout history have done to…",
+    "cue": "'existential'",
+    "detection": "define-crisis-claim-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-463-self-improving-robots|institutional_permeation|define-crisis-claim-authority|9784|9795",
+    "lens": "institutional_permeation",
+    "n": 28,
+    "person_id": "JClark",
+    "span": "existential",
+    "text_id": "x-https://importai.substack.com/p/import-ai-463-self-improving-robots",
+    "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
+   },
+   {
+    "context": "…s well as humans&#8217;. What are the key features of PostTrainBench? End-to-end: &#8220;Agents must build their entire [[training pipeline]] from scratch&#8221; Autonomous: &#8220;Agents operate with full autonomy over data sources, training methods, and exper…",
+    "cue": "'training pipeline'",
+    "detection": "build-parallel-institutions",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|institutional_permeation|build-parallel-institutions|1587|1604",
+    "lens": "institutional_permeation",
+    "n": 29,
+    "person_id": "JClark",
+    "span": "training pipeline",
+    "text_id": "x-https://importai.substack.com/p/importai-449-llms-training-other",
+    "url": "https://importai.substack.com/p/importai-449-llms-training-other"
+   },
+   {
+    "context": "…e on-device AI features a lot of models developed via distributed training techniques, while on-cloud AI mostly runs on [[proprietary models]] trained on huge amounts of compute. Read more: Covenant-72B: Pre-Training a 72B LLM with Trustless Peers Over-the-Inter…",
+    "cue": "'proprietary model'",
+    "detection": "attribution-gap",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|institutional_permeation|attribution-gap|10181|10199",
+    "lens": "institutional_permeation",
+    "n": 30,
+    "person_id": "JClark",
+    "span": "proprietary models",
+    "text_id": "x-https://importai.substack.com/p/importai-449-llms-training-other",
+    "url": "https://importai.substack.com/p/importai-449-llms-training-other"
+   },
+   {
+    "context": "…. Humans will want to use an AI system that is aligned with their personal values: it should speak their language, talk [[from within]] their world view, and adapt to their preferences. However, other decisions need to be made across all users, and they s…",
+    "cue": "'from within'",
+    "detection": "infiltrate-existing-institutions",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values|institutional_permeation|infiltrate-existing-institutions|1661|1672",
+    "lens": "institutional_permeation",
+    "n": 31,
+    "person_id": "JanLeike",
+    "span": "from within",
+    "text_id": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values",
+    "url": "https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "context": "…e each data point that the constitution is used to label. Running an actually somewhat representative mini-public costs [[a few hundreds]] of thousands of dollars, and cannot practically use this process to get answers to millions of value questions. Moreove…",
+    "cue": "'a few hundred'",
+    "detection": "anonymous-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values|reference_capture|anonymous-authority|4672|4686",
+    "lens": "reference_capture",
+    "n": 32,
+    "person_id": "JanLeike",
+    "span": "a few hundreds",
+    "text_id": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values",
+    "url": "https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "context": "…s matter? Competitive markets demand low alignment taxes Several companies are competing on large language models. In a [[level playing field]] everyone would have roughly equally capable pretrained language models. If you train more aligned models, but they suff…",
+    "cue": "'level playing field'",
+    "detection": "carve-out-as-public-good",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|institutional_permeation|carve-out-as-public-good|5153|5172",
+    "lens": "institutional_permeation",
+    "n": 33,
+    "person_id": "JanLeike",
+    "span": "level playing field",
+    "text_id": "x-https://aligned.substack.com/p/three-alignment-taxes",
+    "url": "https://aligned.substack.com/p/three-alignment-taxes"
+   },
+   {
+    "context": "…lignment research community as part of the development tax on AGI. If there exists an indefinitely scalable solution to [[the alignment problem]], the total cost of finding this solution would be a one-time development cost. However, this solution isn’t required to…",
+    "cue": "'the alignment problem'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|3624|3645",
+    "lens": "subculture_register",
+    "n": 34,
+    "person_id": "JanLeike",
+    "span": "the alignment problem",
+    "text_id": "x-https://aligned.substack.com/p/three-alignment-taxes",
+    "url": "https://aligned.substack.com/p/three-alignment-taxes"
+   },
+   {
+    "context": "…ogress can’t keep up with AI capabilities, we’d have to slow down or pause AI progress, which would be a very difficult [[coordination problem]]. The performance tax that could be sustained for automated alignment research depends a lot on the total amount of work…",
+    "cue": "'coordination problem'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|8218|8238",
+    "lens": "subculture_register",
+    "n": 35,
+    "person_id": "JanLeike",
+    "span": "coordination problem",
+    "text_id": "x-https://aligned.substack.com/p/three-alignment-taxes",
+    "url": "https://aligned.substack.com/p/three-alignment-taxes"
+   },
+   {
+    "context": "…tion to generation. We need to invest a fixed amount of alignment work to discover an indefinitely scalable solution to [[the alignment problem]]. In this case the critical question is not the performance tax paid on the discovery of this solution, but just the tot…",
+    "cue": "'the alignment problem'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "JanLeike|x-https://aligned.substack.com/p/three-alignment-taxes|subculture_register|rationalist-tells|9275|9296",
+    "lens": "subculture_register",
+    "n": 36,
+    "person_id": "JanLeike",
+    "span": "the alignment problem",
+    "text_id": "x-https://aligned.substack.com/p/three-alignment-taxes",
+    "url": "https://aligned.substack.com/p/three-alignment-taxes"
+   },
+   {
+    "context": "…evel of goal-directedness) arising in the LLM paradigm, relative to other mechanisms for AI risk. Source: Clarifying AI [[X-risk]] (Kenton et al, 2022) In terms of adding new threat models to the categorization, the main one that comes to mind is Dee…",
+    "cue": "'x-risk'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2062|subculture_register|rationalist-tells|2645|2651",
+    "lens": "subculture_register",
+    "n": 37,
+    "person_id": "VictoriaKrakovna",
+    "span": "X-risk",
+    "text_id": "x-http://vkrakovna.wordpress.com/?p=2062",
+    "url": "https://vkrakovna.wordpress.com/2023/12/20/retrospective-on-ai-threat-models/"
+   },
+   {
+    "context": "…he post could be improved by explicitly relating the claims to the “consensus” threat model summarized in Clarifying AI [[X-risk]]. Overall, SLT seems like a special case of this threat model, which makes a subset of the SLT claims: Claim 1 (capabili…",
+    "cue": "'x-risk'",
+    "detection": "rationalist-tells",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2062|subculture_register|rationalist-tells|3582|3588",
+    "lens": "subculture_register",
+    "n": 38,
+    "person_id": "VictoriaKrakovna",
+    "span": "X-risk",
+    "text_id": "x-http://vkrakovna.wordpress.com/?p=2062",
+    "url": "https://vkrakovna.wordpress.com/2023/12/20/retrospective-on-ai-threat-models/"
+   },
+   {
+    "context": "…nshine to take back to London in our hearts. Fun stuff Books: Siblings without rivalry, Cribsheet, The genetic lottery, [[Existential]] kink. Daniel has started individual swim lessons and made a lot of progress, he can now float on his back unassisted fo…",
+    "cue": "'existential'",
+    "detection": "define-crisis-claim-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "VictoriaKrakovna|x-http://vkrakovna.wordpress.com/?p=2289|institutional_permeation|define-crisis-claim-authority|13581|13592",
+    "lens": "institutional_permeation",
+    "n": 39,
+    "person_id": "VictoriaKrakovna",
+    "span": "Existential",
+    "text_id": "x-http://vkrakovna.wordpress.com/?p=2289",
+    "url": "https://vkrakovna.wordpress.com/2025/01/15/2024-25-new-year-review/"
+   },
+   {
+    "context": "…llproof, opening the door to seriously harmful misuse by bad actors, historically never seen concentration of power and [[existential]] threats to our collective future?",
+    "cue": "'existential'",
+    "detection": "define-crisis-claim-authority",
+    "fires_now": true,
+    "how": "sampled",
+    "key": "YoshuaBengio|x-26|institutional_permeation|define-crisis-claim-authority|436|447",
+    "lens": "institutional_permeation",
+    "n": 40,
+    "person_id": "YoshuaBengio",
+    "span": "existential",
+    "text_id": "x-26",
+    "url": "https://yoshuabengio.org/en/blog/proposal-multilateral-network-public-good-ai-research-labs-protect-democracy-and-humanity"
+   },
+   {
+    "context": "I will be giving a lecture in Oxford on May 20th called \"Change [[is inevitable]]. Autonomy is not\". Excited for people to hear it, and I hope to publish it afterwards as well.",
+    "cue": "'is inevitable'",
+    "detection": "no-alternative",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-2045204607971074116|inevitability_framing|no-alternative|64|77",
+    "lens": "inevitability_framing",
+    "n": 42,
+    "person_id": "JClark",
+    "span": "is inevitable",
+    "text_id": "x-2045204607971074116",
+    "url": "https://x.com/jackclarkSF/status/2045204607971074116"
+   },
+   {
+    "context": "…s, and the role of the agents was to do the research. Is this a fluke? I don&#8217;t think so. Rather, I expect this is [[the new normal]], where teams of people operate on top of a pyramid of digital labor, which massively scales their own effectiveness, al…",
+    "cue": "'the new normal'",
+    "detection": "new-normal-floor",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-458-reckoning-with-the|rollback_asymmetry|new-normal-floor|20499|20513",
+    "lens": "rollback_asymmetry",
+    "n": 44,
+    "person_id": "JClark",
+    "span": "the new normal",
+    "text_id": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+    "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "context": "…d Nexoria. It works, kind of: In tests, various AI systems trained with RL tend to do well on this benchmark, obtaining [[high scores]]. This is totally unsurprising - all of these tasks are basically capability evals with some dash of grey morality layer…",
+    "cue": "'high score'",
+    "detection": "sainthood-and-heroes",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-460-reward-hacking-society|militant_mobilization|sainthood-and-heroes|3122|3133",
+    "lens": "militant_mobilization",
+    "n": 45,
+    "person_id": "JClark",
+    "span": "high scores",
+    "text_id": "x-https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+    "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society"
+   },
+   {
+    "context": "…an autonomy: the machines that watch over us, and wait on us hand and foot, are omniscient, omnipotent masters, who can [[exterminate]] us at any time, and we can&#8217;t resist them, because we have abolished our control over the future.&#8221; Why this …",
+    "cue": "'exterminate'",
+    "detection": "reframe-target-as-vermin-or-nazi",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/import-ai-463-self-improving-robots|militant_mobilization|reframe-target-as-vermin-or-nazi|11030|11041",
+    "lens": "militant_mobilization",
+    "n": 47,
+    "person_id": "JClark",
+    "span": "exterminate",
+    "text_id": "x-https://importai.substack.com/p/import-ai-463-self-improving-robots",
+    "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots"
+   },
+   {
+    "context": "…ing: While running this benchmark the authors saw numerous instances of AI models trying to game the benchmark to get a [[high score]]. These instances included: Direct benchmark ingestion: &#8220;Agents loaded the benchmark evaluation dataset directly v…",
+    "cue": "'high score'",
+    "detection": "sainthood-and-heroes",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|militant_mobilization|sainthood-and-heroes|3118|3128",
+    "lens": "militant_mobilization",
+    "n": 48,
+    "person_id": "JClark",
+    "span": "high score",
+    "text_id": "x-https://importai.substack.com/p/importai-449-llms-training-other",
+    "url": "https://importai.substack.com/p/importai-449-llms-training-other"
+   },
+   {
+    "context": "…s. The minds attempted coordination through communication - producing words and code and sharing these with one another [[in a bid to]] work towards common goals. Such waste. All communication is lossy - despite efforts at making a greater whole, the indi…",
+    "cue": "'in a bid to'",
+    "detection": "mind-reading",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "JClark|x-https://importai.substack.com/p/importai-449-llms-training-other|sourcing_asymmetry|mind-reading|17252|17263",
+    "lens": "sourcing_asymmetry",
+    "n": 49,
+    "person_id": "JClark",
+    "span": "in a bid to",
+    "text_id": "x-https://importai.substack.com/p/importai-449-llms-training-other",
+    "url": "https://importai.substack.com/p/importai-449-llms-training-other"
+   },
+   {
+    "context": "it [[is inevitable]] that if barriers continue to fall international forces will operate increasingly strongly on national economies.",
+    "cue": "'is inevitable'",
+    "detection": "no-alternative",
+    "fires_now": true,
+    "how": "rare-lens: every hit read",
+    "key": "Summers|summers-treasury-integration-barriers|inevitability_framing|no-alternative|3|16",
+    "lens": "inevitability_framing",
+    "n": 51,
+    "person_id": "Summers",
+    "span": "is inevitable",
+    "text_id": "summers-treasury-integration-barriers",
+    "url": "https://home.treasury.gov/news/press-releases/rr2877"
+   }
+  ],
+  "sample_n": 40,
+  "seed": 20260907,
+  "surviving": 34,
+  "unsampled_new": 5
+ },
+ "receipts": {
+  "cue_fired_same_lens": 2,
+  "cue_inside_receipt_span": 0,
+  "located": 24,
+  "receipts": 24,
+  "rows": [
+   {
+    "cue_in_span": null,
+    "cue_same_lens": false,
+    "detection": "diffuse-agency",
+    "lens": "distributed_accountability",
+    "person_id": "HelenToner",
+    "text": "x-https://helentoner.substack.com/p/2-big-questions-for-ai-progress-in"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "render-visible",
+    "lens": "legibility",
+    "person_id": "HelenToner",
+    "text": "x-https://helentoner.substack.com/p/2-big-questions-for-ai-progress-in"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "target-the-leverage-point",
+    "lens": "institutional_permeation",
+    "person_id": "HelenToner",
+    "text": "x-https://helentoner.substack.com/p/unresolved-debates-about-the-future"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "render-visible",
+    "lens": "legibility",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-455-automating-ai-research"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "adapt-or-perish",
+    "lens": "inevitability_framing",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": true,
+    "detection": "build-parallel-institutions",
+    "lens": "institutional_permeation",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "the-great-work",
+    "lens": "adept_speech",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-458-reckoning-with-the"
+   },
+   {
+    "cue_in_span": null,
+    "cue_same_lens": false,
+    "detection": "expert-dependence",
+    "lens": "counterproductivity",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "outsource-the-thinking",
+    "lens": "cognitive_capture",
+    "person_id": "JClark",
+    "text": "x-https://importai.substack.com/p/import-ai-455-automating-ai-research"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "render-visible",
+    "lens": "legibility",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "expert-dependence",
+    "lens": "counterproductivity",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "no-alternative",
+    "lens": "inevitability_framing",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": true,
+    "detection": "indefinite-horizon",
+    "lens": "institutional_permeation",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "diffuse-agency",
+    "lens": "distributed_accountability",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "ineffability-claim",
+    "lens": "adept_speech",
+    "person_id": "JanLeike",
+    "text": "x-https://aligned.substack.com/p/a-proposal-for-importing-societys-values"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "diffuse-agency",
+    "lens": "distributed_accountability",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/some-thoughts-on-human-ai-relationships"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "design-over-organic",
+    "lens": "legibility",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/some-thoughts-on-human-ai-relationships"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "attachment-engineering",
+    "lens": "cognitive_capture",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/some-thoughts-on-human-ai-relationships"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "belief-as-engineerable",
+    "lens": "institutional_permeation",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/thoughts-on-setting-policy-for-new"
+   },
+   {
+    "cue_in_span": null,
+    "cue_same_lens": false,
+    "detection": "adapt-or-perish",
+    "lens": "inevitability_framing",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/thoughts-on-setting-policy-for-new"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "eyes-to-see",
+    "lens": "adept_speech",
+    "person_id": "Jang",
+    "text": "x-https://reservoirsamples.substack.com/p/thoughts-on-setting-policy-for-new"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "render-visible",
+    "lens": "legibility",
+    "person_id": "VictoriaKrakovna",
+    "text": "x-http://vkrakovna.wordpress.com/?p=1936"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "cure-becomes-disease",
+    "lens": "counterproductivity",
+    "person_id": "VictoriaKrakovna",
+    "text": "x-http://vkrakovna.wordpress.com/?p=1936"
+   },
+   {
+    "cue_in_span": false,
+    "cue_same_lens": false,
+    "detection": "define-crisis-claim-authority",
+    "lens": "institutional_permeation",
+    "person_id": "YoshuaBengio",
+    "text": "x-28"
+   }
+  ]
+ },
+ "scanner": {
+  "asserted_total": 43,
+  "attributed_total": 5,
+  "bands": {
+   "Low": 50,
+   "Moderate": 1,
+   "Short": 277
+  },
+  "high_band_texts": [],
+  "min_words": 100,
+  "per_person": {
+   "BBarnes": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 24
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 6,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 24,
+    "words": 929
+   },
+   "DiResta": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 2,
+     "Short": 24
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 3,
+    "max_degree": 0,
+    "scored_texts": 2,
+    "texts": 26,
+    "words": 1281
+   },
+   "HelenToner": {
+    "asserted": 8,
+    "asserted_per_1k": 0.3203,
+    "attributed": 3,
+    "bands": {
+     "Low": 8
+    },
+    "declared_pct": 27,
+    "decorative_emphasis": 1,
+    "max_degree": 5,
+    "scored_texts": 8,
+    "texts": 8,
+    "words": 24975
+   },
+   "Hendrycks": {
+    "asserted": 2,
+    "asserted_per_1k": 1.2338,
+    "attributed": 0,
+    "bands": {
+     "Low": 2,
+     "Moderate": 1,
+     "Short": 27
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 25,
+    "scored_texts": 3,
+    "texts": 30,
+    "words": 1621
+   },
+   "Hobbhahn": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Low": 1,
+     "Short": 27
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 1,
+    "max_degree": 0,
+    "scored_texts": 1,
+    "texts": 28,
+    "words": 1279
+   },
+   "JClark": {
+    "asserted": 14,
+    "asserted_per_1k": 0.2871,
+    "attributed": 2,
+    "bands": {
+     "Low": 15,
+     "Short": 29
+    },
+    "declared_pct": 12,
+    "decorative_emphasis": 0,
+    "max_degree": 3,
+    "scored_texts": 15,
+    "texts": 44,
+    "words": 48760
+   },
+   "JLeung": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 30
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 30,
+    "words": 732
+   },
+   "JanLeike": {
+    "asserted": 8,
+    "asserted_per_1k": 0.5635,
+    "attributed": 0,
+    "bands": {
+     "Low": 8
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 7,
+    "scored_texts": 8,
+    "texts": 8,
+    "words": 14196
+   },
+   "Jang": {
+    "asserted": 1,
+    "asserted_per_1k": 0.3824,
+    "attributed": 0,
+    "bands": {
+     "Low": 2,
+     "Short": 30
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 4,
+    "scored_texts": 2,
+    "texts": 32,
+    "words": 2615
+   },
+   "JoeCarlsmith": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 8
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 8,
+    "words": 145
+   },
+   "Kolter": {
+    "asserted": 1,
+    "asserted_per_1k": 0.4671,
+    "attributed": 0,
+    "bands": {
+     "Low": 4,
+     "Short": 25
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 7,
+    "max_degree": 7,
+    "scored_texts": 4,
+    "texts": 29,
+    "words": 2141
+   },
+   "LeCun": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 1
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 1,
+    "words": 1
+   },
+   "Lehane": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 18
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 18,
+    "words": 685
+   },
+   "NicholasCarlini": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 8
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 8,
+    "words": 267
+   },
+   "Rubin": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 1
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 1,
+    "words": 20
+   },
+   "Schmidt": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 3
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 3,
+    "words": 103
+   },
+   "Stamos": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 12
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 1,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 12,
+    "words": 402
+   },
+   "Summers": {
+    "asserted": 0,
+    "asserted_per_1k": 0.0,
+    "attributed": 0,
+    "bands": {
+     "Short": 2
+    },
+    "declared_pct": null,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 2,
+    "words": 36
+   },
+   "VictoriaKrakovna": {
+    "asserted": 7,
+    "asserted_per_1k": 0.5002,
+    "attributed": 0,
+    "bands": {
+     "Low": 8
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": 4,
+    "scored_texts": 8,
+    "texts": 8,
+    "words": 13995
+   },
+   "YoshuaBengio": {
+    "asserted": 2,
+    "asserted_per_1k": 4.6296,
+    "attributed": 0,
+    "bands": {
+     "Short": 8
+    },
+    "declared_pct": 0,
+    "decorative_emphasis": 0,
+    "max_degree": null,
+    "scored_texts": 0,
+    "texts": 8,
+    "words": 432
+   }
+  },
+  "scored_texts": 51,
+  "texts": 328
+ }
+}

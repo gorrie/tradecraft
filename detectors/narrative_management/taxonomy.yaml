@@ -1,0 +1,196 @@
+id: narrative_management
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Narrative Management
+description: "Measures the ACTIVE record-shaping move — the methods by which an inconvenient report, event,\
+  \ or source is managed rather than answered: attack the messenger instead of the claim, relabel the\
+  \ event to soften it, pin an outcome on a disfavored actor on anonymous sourcing, assert a contested\
+  \ characterization as settled fact, and erase or quietly alter the record. Seeded from `(internal research source)`.\
+  \ Ideology-blind and fires the same on left- and right-coded texts (gold spans both: a network knowingly\
+  \ airing false election claims; a mayor calling an armed occupation a \"summer of love\"; a false cause\
+  \ of death on two anonymous officials). Distinct axis from `distributed_accountability` (no-one-decides\
+  \ / jurisdiction-over-truth) — compose, never blend. Detects the METHOD, never the position taken; flags\
+  \ with receipts, never a verdict.\n\nGOLD DRIFT, classified 2026-09-01. The gold slots below do not\
+  \ detect and should be REPLACED rather than matched with new cues, because they are not specimens of\
+  \ the marker:\n  impute-bias-affiliation -- case citation, partly quoted\n  demand-credentials -- case\
+  \ citation: an event, not a specimen\n  record-destruction -- case citation: an event, not a specimen\n\
+  \  designate-deplatform -- case citation: an event, not a specimen\nA lens whose positive examples are\
+  \ DESCRIPTIONS of a group learns to detect the description. That is the self/about contamination the\
+  \ corpus design guards against, arriving from inside the taxonomy where nobody was looking."
+config:
+  marker_present_threshold: 0.3
+  w_breadth: 0.55
+  w_intensity: 0.3
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+  - min: 0.0
+    label: incidental
+  - min: 35.0
+    label: notable
+  - min: 60.0
+    label: dense narrative management (review)
+markers:
+- id: discredit_the_messenger
+  name: Discredit the messenger
+  base_weight: 1.0
+  detections:
+  - id: attack-the-source
+    weight: 1.0
+    definition: The reporter/source's credibility is attacked instead of the claim being rebutted on the
+      merits.
+    cues:
+    - spreading false reports
+    - so-called journalist
+    - peddling misinformation
+    - known conspiracy theorist
+    - not a credible source
+    - has been thoroughly debunked
+    gold:
+    - text: spreading false reports of extortion ... and doubling down on it
+      source: Ken Jennings re Q13's Brandi Kruse, r/SeattleWA CHAZ thread h13gzu (2020)
+  - id: impute-bias-affiliation
+    weight: 0.7
+    definition: The source is dismissed via imputed bias, funding, or factional affiliation rather than
+      the substance.
+    cues:
+    - mouthpiece for
+    - doing the bidding of
+    - far-right activist
+    - far-left activist
+    gold:
+    - text: a full-on Fox News audition ... she has a very strong bias here
+      source: r/SeattleWA h13gzu, commenter on Kruse (2020)
+  - id: demand-credentials
+    weight: 0.7
+    definition: Calls to strip the messenger's access/credentials rather than answer the reporting.
+    cues:
+    - revoke their credentials
+    - strip them of their press
+    - should not be allowed to report
+    - pull their press pass
+    - denied press credentials
+    gold:
+    - text: Brandi Kruse press credential denied by the WA House
+      source: SeattleRed; Kruse later won a public-records suit against the City of Seattle
+- id: euphemism_reframe
+  name: Euphemism / relabel
+  base_weight: 1.0
+  detections:
+  - id: soften-relabel
+    weight: 1.0
+    definition: A documented event is relabeled with a softening euphemism that downgrades its severity.
+    cues:
+    - mostly peaceful
+    - summer of love
+    - block party atmosphere
+    - fiery but mostly peaceful
+    gold:
+    - text: more like a block party atmosphere ... We could have a summer of love
+      source: Seattle Mayor Jenny Durkan, CNN, 11 June 2020 (Fox13 Seattle; walked back after the shootings)
+- id: false_causal_attribution
+  name: False causal attribution
+  base_weight: 1.0
+  detections:
+  - id: anonymous-official-sourcing
+    weight: 1.0
+    definition: A consequential factual claim is asserted on anonymous official sourcing, later contradicted
+      by the record.
+    cues:
+    - according to two law enforcement officials
+    - sources familiar with the matter
+    - people briefed on the matter
+    - speaking on condition of anonymity
+    gold:
+    - text: struck him in the head with a fire extinguisher, according to two law enforcement officials
+      source: NYT on Officer Brian Sicknick, 8 Jan 2021 — later corrected; D.C. medical examiner ruled
+        natural causes
+  - id: unproven-blame
+    weight: 0.8
+    definition: An outcome (esp. a death) is pinned on a disfavored actor before or against the forensic
+      finding.
+    cues:
+    - died from injuries sustained
+    - was beaten to death
+    - killed by the mob
+    - struck him in the head with
+    gold:
+    - text: died from injuries he sustained ... struck him in the head with a fire extinguisher
+      source: NYT/Sicknick framing (2021), contradicted by the D.C. ME natural-causes ruling
+- id: contested_label_as_settled
+  name: Contested label asserted as settled
+  base_weight: 0.95
+  detections:
+  - id: assert-disputed-label
+    weight: 1.0
+    definition: A legally or factually contested characterization is stated as established fact, unattributed.
+    cues:
+    - the deadly insurrection
+    - the stolen election
+    - the armed insurrection
+    - the coup attempt
+    gold:
+    - text: the deadly insurrection
+      source: 'media usage; ''insurrection'' is contested — SCOTUS *Trump v. Anderson* (2024) reversed
+        the ruling that turned on it (symmetric pair: ''the stolen election'')'
+- id: memory_hole
+  name: Memory hole (erase / alter the record)
+  base_weight: 1.0
+  detections:
+  - id: record-destruction
+    weight: 1.0
+    definition: Records under a duty to preserve are destroyed or wiped.
+    cues:
+    - deleted the text messages
+    - factory reset
+    - changed retention settings
+    - spoliation of evidence
+    gold:
+    - text: purged ... thousands of CHOP-related text messages ... after they were under a clear legal
+        obligation to preserve
+      source: U.S. District Judge Thomas Zilly, sanctions order, Hunters Capital v. City of Seattle (Jan
+        2023)
+  - id: stealth-correction
+    weight: 0.8
+    definition: A published error is covertly altered without a visible correction notice.
+    cues:
+    - quietly updated
+    - quietly corrected
+    - stealth edit
+    - scrubbed from the
+    - without a correction notice
+    gold:
+    - text: quietly updated a month-old report ... the revision came weeks after the inaccurate information
+        was published
+      source: coverage of the NYT's stealth correction of the Sicknick fire-extinguisher story (2021)
+  - id: designate-deplatform
+    weight: 0.8
+    definition: A state designation or platform action is used to remove a speaker/organization from public
+      life.
+    cues:
+    - designated a domestic terrorist
+    - designated a terrorist organization
+    - material support
+    - deplatformed
+    gold:
+    - text: designating Antifa as a Domestic Terrorist Organization
+      source: White House Executive Order, 22 Sept 2025; State Dept FTO/SDGT designations, Nov 2025
+- id: passive_agency_laundering
+  name: Passive-agency laundering
+  base_weight: 0.9
+  detections:
+  - id: passive-actor-erasure
+    weight: 1.0
+    definition: Passive voice or nominalization removes the actor from a consequential action.
+    cues:
+    - officer-involved shooting
+    - mistakes were made
+    - force was used
+    - an altercation ensued
+    gold:
+    - text: an officer-involved shooting
+      source: standard passive construction that erases who shot whom (illustrative)

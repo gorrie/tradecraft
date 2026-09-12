@@ -19,6 +19,7 @@ def load_taxonomy(path: str) -> Taxonomy:
                 Detection(
                     id=d["id"], weight=float(d["weight"]), definition=d["definition"],
                     cues=list(d.get("cues", [])), gold=list(d.get("gold", [])),
+                    excludes=list(d.get("excludes", [])),
                 )
                 for d in m["detections"]
             ],
@@ -34,9 +35,26 @@ def load_taxonomy(path: str) -> Taxonomy:
         density_cap_per_1k=float(cfg_raw.get("density_cap_per_1k", 6.0)),
         tiers=list(cfg_raw.get("tiers", GradingConfig().tiers)),
     )
+    # Required, not defaulted. A new lens that forgets to say what it reads would otherwise
+    # default into "text" and get graded by the wrong instrument in silence -- which is the
+    # error gold_check's first run made, reporting 0 of 9 for revolving_door as a defect.
+    reads = raw.get("reads")
+    cue_matching = raw.get("cue_matching")
+    for field_name, value, allowed in (("reads", reads, ("text", "graph")),
+                                       ("cue_matching", cue_matching,
+                                        ("supported", "unsupported"))):
+        if value is None:
+            raise ValueError(
+                "%s: taxonomy %r does not declare `%s`. Every lens must say what it can do, "
+                "because the alternative is a tool guessing -- add `%s: <%s>` near the top."
+                % (path, raw.get("id"), field_name, field_name, " | ".join(allowed)))
+        if value not in allowed:
+            raise ValueError("%s: taxonomy %r has `%s: %r`; expected one of %s"
+                             % (path, raw.get("id"), field_name, value, list(allowed)))
+
     return Taxonomy(
         id=raw["id"], name=raw["name"], description=raw.get("description", ""),
-        markers=markers, config=config,
+        markers=markers, config=config, reads=reads, cue_matching=cue_matching,
     )
 
 

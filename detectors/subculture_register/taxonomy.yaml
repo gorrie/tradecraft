@@ -1,0 +1,677 @@
+id: subculture_register
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Subculture Register (true-believer tells)
+description: 'Fingerprints DISCOURSE-COMMUNITY membership from the coined idiom and oddities a camp''s
+  true believers use or allude to — the shibboleths that are near-exclusive to one register and effectively
+  absent from general prose ("false consciousness," "compulsory heterosexuality," "malinformation," "day
+  of the rope," "society of the spectacle," "north star metric," "update my priors"). This is the precision
+  half of the tool: unlike a repurposed common word, a coined tell IS the membership marker, so it is
+  a high-precision signal by construction. METHOD NOT IDEOLOGY, and DESCRIPTIVE not evaluative (load-bearing):
+  the lens reports WHICH register a text speaks, never that the register is good or bad, and it is built
+  SYMMETRICALLY — a marker for every camp (revolutionary-left, accelerationist-right, radical-feminist,
+  critical-social-justice, the disinformation apparatus, managerial-technocratic, rationalist/AI-safety,
+  and more as the corpus study lands them). Detections for everyone. A single tell is a flag for a human,
+  never a verdict. Each cue is a coined, near-exclusive phrase; benign-ubiquitous words are deliberately
+  excluded (that is the whole point — see BACKLOG-shibboleth-corpus-study.md and eval/RESULTS-2026-08-01-fp-sweep.md).
+  Seeded + widened 2026-08-01 from fetched real primaries — Marx/Engels (Communist Manifesto), Debord
+  (Society of the Spectacle), Bonanno (Armed Joy), de Cleyre (Direct Action), Hanisch (The Personal Is
+  Political), McIntosh (Invisible Knapsack), Bostrom (Existential Risks) — plus documented coinages for
+  camps not yet fetched. The corpus study (BACKLOG) deepens each camp toward ≥2 recall-validated works.
+  Tags: [PRIMARY] = mined from a fetched primary work; [COINAGE] = documented origin of the term.
+
+  '
+config:
+  marker_present_threshold: 0.3
+  w_breadth: 0.55
+  w_intensity: 0.3
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+  - min: 0.0
+    label: incidental
+  - min: 35.0
+    label: register present
+  - min: 60.0
+    label: dense in-group register (review)
+markers:
+- id: revolutionary_left
+  name: Revolutionary-left / Marxist / Situationist register
+  base_weight: 1.0
+  detections:
+  - id: marxist-situationist-tells
+    weight: 1.0
+    definition: 'Coined idiom of the revolutionary-left canon — classical-Marxist, Leninist, and Situationist
+      tells that a benign writer does not reach for.
+
+      '
+    cues:
+    - class struggle
+    - false consciousness
+    - dictatorship of the proletariat
+    - seize the means
+    - propaganda of the deed
+    - vanguard party
+    - society of the spectacle
+    - heighten the contradictions
+    - bourgeoisie
+    - proletariat
+    - means of production
+    - class consciousness
+    - surplus value
+    - commodity fetishism
+    - wage labour
+    - wage-labour
+    - the proletarians
+    - pseudo-need
+    - spectacular society
+    # Two cues ADDED 2026-09-03 from the camp's own canon (Marx & Engels, 74,628 words: the
+    # Manifesto, Wage-Labor and Capital, The Poverty of Philosophy) against Adam Smith as the
+    # discipline-matched control. Both occur ZERO times in 418,000 words of Smith, so they are
+    # Marxist register rather than classical political economy.
+    # `means of production` above was independently re-surfaced by the same run, which is a
+    # small validation that the method finds real cues rather than only novel ones.
+    # Numbers: eval/RESULTS-2026-09-03-revleft-canon-mine.md.
+    - productive forces
+    - petty bourgeois
+    gold:
+    - text: class struggle
+      source: Alfredo M. Bonanno, Armed Joy (1977) — theanarchistlibrary.org, mined 2026-08-01 [PRIMARY]
+    - text: the society of the spectacle
+      source: Guy Debord, La société du spectacle (1967) — Situationist coinage [COINAGE]
+    - text: The bourgeoisie, during its rule of scarce one hundred years, has created more
+        massive and more colossal productive forces than have all preceding generations together.
+      source: FOUND IN THE WILD — Marx & Engels, Manifesto of the Communist Party (1848), pt 1,
+        via en.wikisource.org. Public domain.
+    - text: the petty bourgeois, under the yoke of feudal absolutism, managed to develop into a
+        bourgeois
+      source: FOUND IN THE WILD — Marx & Engels, Manifesto of the Communist Party (1848), pt 1,
+        via en.wikisource.org. Public domain.
+- id: accelerationist_right
+  name: Accelerationist-right register (DOCTRINE-only; defamation care)
+  base_weight: 1.0
+  detections:
+  - id: accelerationist-tells
+    weight: 1.0
+    definition: 'Meme-doctrine tells of the accelerationist-right canon. DOCTRINE-only exemplars (published
+      texts / memes), never an accusation against a named living person. Flag, not verdict. DEFAMATION
+      NOTE: "the great replacement" / "white genocide" are the camp''s OWN conspiracy tells; a text can
+      also QUOTE or CRITIQUE them (opposite-speaker), so a hit is a flag for a human to read in context,
+      never a verdict that the author endorses the belief.
+
+      '
+    cues:
+    - day of the rope
+    - there is no political solution
+    - read siege
+    - siege-pilled
+    - clown world
+    - the boogaloo
+    - the great replacement
+    - white genocide
+    - helicopter rides
+    - rahowa
+    gold:
+    - text: the Day of the Rope
+      source: William Pierce, The Turner Diaries (1978) — accelerationist end-state text [COINAGE]
+    - text: leaderless, un-commanded cell doctrine glorified as SIEGE-posting
+      source: James Mason, SIEGE — accelerationist canon, cross-ref research-lawfare.md §3i [PRIMARY]
+- id: radical_feminist
+  name: Radical / second-wave feminist register
+  base_weight: 1.0
+  detections:
+  - id: radfem-tells
+    weight: 1.0
+    definition: 'Coined idiom of the radical / second-wave feminist canon — terms with a documented origin
+      in the movement''s own foundational texts.
+
+      '
+    cues:
+    - the personal is political
+    - compulsory heterosexuality
+    - male gaze
+    - sex class
+    - consciousness-raising
+    - the master's tools
+    - male supremacy
+    - pro-woman line
+    - rape culture
+    gold:
+    - text: the personal is political
+      source: Carol Hanisch, 'The Personal Is Political' (1969/1970) — movement coinage [COINAGE]
+    - text: compulsory heterosexuality
+      source: Adrienne Rich, 'Compulsory Heterosexuality and Lesbian Existence' (1980) [COINAGE]
+- id: critical_social_justice
+  name: Critical-social-justice / academic register
+  base_weight: 1.0
+  detections:
+  - id: csj-tells
+    weight: 1.0
+    definition: 'Coined idiom of the critical-social-justice register — theory-derived terms used as in-group
+      markers. (Some, e.g. "lived experience," are leaking into general use; monitored.)
+
+      '
+    cues:
+    - center the voices
+    - epistemic violence
+    - settler colonial
+    - cis-heteropatriarchy
+    - problematize
+    - decolonize
+    - lived experience
+    - white privilege
+    - invisible knapsack
+    - intersectionality
+    - white fragility
+    - microaggression
+    - conferred dominance
+    gold:
+    - text: epistemic violence
+      source: Gayatri Spivak, 'Can the Subaltern Speak?' (1988) — theory coinage [COINAGE]
+- id: disinformation_apparatus
+  name: Disinformation-apparatus register
+  base_weight: 1.0
+  detections:
+  - id: disinfo-tells
+    weight: 1.0
+    definition: 'The counter-disinformation industry''s OWN coinages (as distinct from a critic''s label
+      for it). The actor says "malinformation"; the critic says "censorship" — only the former is the
+      tell.
+
+      '
+    cues:
+    - malinformation
+    - cognitive infrastructure
+    - prebunking
+    - coordinated inauthentic behavior
+    - the information environment
+    - information disorder
+    - influence operations
+    - firehose of falsehood
+    gold:
+    - text: malinformation
+      source: Wardle & Derakhshan, 'Information Disorder' (Council of Europe / First Draft, 2017) [COINAGE]
+- id: managerial_technocratic
+  name: Managerial / technocratic register
+  base_weight: 1.0
+  detections:
+  - id: managerial-tells
+    weight: 1.0
+    definition: 'Coined idiom of the managerial-technocratic register — governance / consultancy neologisms.
+
+      '
+    cues:
+    - stakeholder capitalism
+    - north star metric
+    - double materiality
+    - shareholder value
+    - ESG
+    - public-private partnership
+    - social license
+    - human capital
+    - smart city
+    gold:
+    - text: stakeholder capitalism
+      source: Klaus Schwab / World Economic Forum — the Davos governance coinage [COINAGE]
+- id: rationalist_ai_safety
+  name: Rationalist / AI-safety register
+  base_weight: 1.0
+  detections:
+  - id: rationalist-tells
+    weight: 1.0
+    definition: 'Coined idiom of the rationalist / AI-safety register — LessWrong-lineage in-group vocabulary.
+
+      '
+    cues:
+    - x-risk
+    - the light cone
+    - update my priors
+    - steelman
+    - coordination problem
+    - the alignment problem
+    - instrumental convergence
+    - orthogonality thesis
+    - paperclip maximizer
+    - longtermism
+    - posthumanity
+    gold:
+    - text: x-risk
+      source: Nick Bostrom, existential-risk literature — rationalist/AI-safety coinage [COINAGE]
+- id: jihadist_militant
+  name: Jihadist / Islamist-militant register (DOCTRINE-only; defamation care)
+  base_weight: 1.0
+  detections:
+  - id: jihadist-tells
+    weight: 1.0
+    definition: 'Doctrinal idiom of the jihadist-militant canon, sourced to the gate-verified research-lawfare.md
+      §3i record (al-Suri, leaderless jihad) — the SAME corpus and rigor the militant lens uses, no lighter
+      treatment. DEFAMATION NOTE: ordinary Muslim religious vocabulary is NOT this register; these are
+      the militant-doctrinal terms, and a hit is a flag for a human to read in context, never a verdict
+      about anyone''s faith.
+
+      '
+    cues:
+    - dar al-harb
+    - individual jihad
+    - leaderless jihad
+    - taghut
+    gold:
+    - text: a call to spontaneous, un-commanded 'individual jihad' with no chargeable organization
+      source: Abu Musab al-Suri, The Global Islamic Resistance Call (~2004) — research-lawfare.md §3i
+        [PRIMARY]
+- id: ethnonationalist
+  name: Ethnonationalist / identitarian register (DOCTRINE-only; defamation care)
+  base_weight: 1.0
+  detections:
+  - id: ethnonat-tells
+    weight: 1.0
+    definition: 'Coined idiom of the ethnonationalist / identitarian canon. DEFAMATION NOTE: opposite-speaker
+      is common (journalists and critics quote these); a hit is a flag, never a verdict.
+
+      '
+    cues:
+    - the fourteen words
+    - blood and soil
+    - remigration
+    - ethnostate
+    - heritage america
+    gold:
+    - text: the Fourteen Words
+      source: David Lane — documented white-nationalist slogan [COINAGE]
+- id: manosphere_mra
+  name: Manosphere / red-pill / MRA register
+  base_weight: 1.0
+  detections:
+  - id: manosphere-tells
+    weight: 1.0
+    definition: 'Coined idiom of the manosphere / red-pill canon — in-group vocabulary of the men''s-rights
+      / incel / pickup discourse.
+
+      '
+    cues:
+    - hypergamy
+    - AWALT
+    - looksmaxxing
+    - blackpill
+    - sexual market value
+    - gynocentric
+    gold:
+    - text: hypergamy
+      source: manosphere / red-pill lexicon — documented coinage [COINAGE]
+- id: gender_critical
+  name: Gender-critical register
+  base_weight: 1.0
+  detections:
+  - id: gc-tells
+    weight: 1.0
+    definition: 'Coined idiom of the gender-critical canon.
+
+      '
+    cues:
+    - adult human female
+    - autogynephilia
+    - peak trans
+    - trans identified male
+    gold:
+    - text: adult human female
+      source: gender-critical movement slogan — documented coinage [COINAGE]
+- id: qanon_conspiracist
+  name: QAnon / conspiracist register
+  base_weight: 1.0
+  detections:
+  - id: qanon-tells
+    weight: 1.0
+    definition: 'Coined idiom of the QAnon / conspiracist canon.
+
+      '
+    cues:
+    - the great awakening
+    - where we go one we go all
+    - wwg1wga
+    - trust the plan
+    - adrenochrome
+    gold:
+    - text: Where We Go One We Go All (WWG1WGA)
+      source: QAnon movement slogan — documented coinage [COINAGE]
+- id: neoreactionary
+  name: Neoreactionary / dark-enlightenment register
+  base_weight: 1.0
+  detections:
+  - id: nrx-tells
+    weight: 1.0
+    definition: 'Coined idiom of the neoreactionary (NRx) canon. ("the Cathedral" — Moldbug''s central
+      tell — is deliberately OMITTED from the floor because case-insensitive matching fires it on ordinary
+      architecture/religion prose; it needs case-sensitive matching, see BACKLOG capability gap.)
+
+      '
+    cues:
+    - dark enlightenment
+    - human biodiversity
+    - neoreaction
+    - gnon
+    - passivism
+    gold:
+    - text: the Dark Enlightenment
+      source: Nick Land / Curtis Yarvin (Moldbug) — NRx coinage [COINAGE]
+- id: effective_altruism
+  name: Effective-altruism register
+  base_weight: 1.0
+  detections:
+  - id: ea-tells
+    weight: 1.0
+    definition: 'Coined idiom of the effective-altruism canon (distinct from rationalist/AI-safety, though
+      the two overlap at longtermism).
+
+      '
+    cues:
+    - earning to give
+    - earn to give
+    - shut up and multiply
+    - counterfactual impact
+    - cause prioritization
+    - moral circle
+    gold:
+    - text: earning to give
+      source: 80,000 Hours / effective-altruism lexicon — documented coinage [COINAGE]
+- id: tankie_mlm
+  name: Tankie / Marxist-Leninist-Maoist register
+  base_weight: 1.0
+  detections:
+  - id: tankie-tells
+    weight: 1.0
+    definition: 'Coined idiom of the Marxist-Leninist / Maoist ("tankie") sub-camp — distinct from the
+      anarchist wing of revolutionary_left; the two overlap and a text may fire both.
+
+      '
+    cues:
+    - actually existing socialism
+    - dialectical materialism
+    - critical support
+    - marxism-leninism-maoism
+    # Three cues ADDED 2026-09-03 by running the shibboleth method over Lenin's own canon
+    # (Imperialism + Left-Wing Communism, 73,130 words) against Marx and Engels as the
+    # discipline-matched control (74,628 words). Numbers in
+    # eval/RESULTS-2026-09-03-lenin-canon-mine.md.
+    #
+    # They are kept on a basis that does NOT depend on the control being complete, which
+    # matters because a control is always missing something -- the Marx set here has no
+    # Critique of the Gotha Programme, and that single gap is why `dictatorship of the
+    # proletariat` measured 0 in the control and was NOT taken. These three are
+    # CHRONOLOGICALLY IMPOSSIBLE in classical Marxism: Marx died in 1883, Hilferding coined
+    # finance capital in 1910, the Second International was founded in 1889, and the Left
+    # Communists were a 1918 faction. No amount of missing Marx could put them in his corpus.
+    # Lenin's own text dates one of them for us: "the period of the Second International --
+    # that is, of the twenty-five years between 1889 and 1914".
+    - finance capital
+    - second international
+    - left communists
+    gold:
+    - text: actually existing socialism
+      source: Marxist-Leninist apologetic lexicon — documented coinage [COINAGE]
+    - text: '"An increasing proportion of industrial capital," says Hilferding, "does not belong
+        to the industrialists who employ it."'
+      source: FOUND IN THE WILD — V. I. Lenin, Imperialism, the Last Stage of Capitalism (1926
+        edn), ch. 3, via en.wikisource.org. Public domain.
+    - text: In this matter of defining imperialism it is chiefly with Karl Kautsky, the principal
+        Marxist theoretician of the period of the Second International—that is, of the
+        twenty-five years between 1889 and 1914—that issue must be joined
+      source: FOUND IN THE WILD — V. I. Lenin, Imperialism, the Last Stage of Capitalism (1926
+        edn), ch. 7, via en.wikisource.org. Public domain.
+    - text: The German Left Communists with the greatest contempt—and the greatest
+        lightmindedness—reply to this question in the negative.
+      source: 'FOUND IN THE WILD — V. I. Lenin, Left-Wing Communism: an Infantile Disorder
+        (1920), via en.wikisource.org. Public domain.'
+- id: tradcath_integralist
+  name: Traditionalist-Catholic / integralist register
+  base_weight: 1.0
+  detections:
+  - id: tradcath-tells
+    weight: 1.0
+    definition: 'Coined idiom of the traditionalist-Catholic / integralist canon.
+
+      '
+    cues:
+    - integralism
+    - confessional state
+    - error has no rights
+    - social kingship
+    - sedevacantist
+    gold:
+    - text: error has no rights
+      source: integralist maxim — documented coinage [COINAGE]
+- id: crypto_sovereign_libertarian
+  name: Crypto / sovereign-libertarian register
+  base_weight: 1.0
+  detections:
+  - id: cryptolib-tells
+    weight: 1.0
+    definition: 'Coined idiom of the crypto / sovereign-libertarian canon. ("fiat" omitted — collides
+      with the car brand and ordinary "fiat currency" usage.)
+
+      '
+    cues:
+    - taxation is theft
+    - sound money
+    - praxeology
+    - not your keys not your coins
+    - have fun staying poor
+    - end the fed
+    - HODL
+    gold:
+    - text: taxation is theft
+      source: libertarian / anarcho-capitalist slogan — documented coinage [COINAGE]
+- id: eco_radical_primitivist
+  name: Eco-radical / anti-civ / primitivist register
+  base_weight: 1.0
+  detections:
+  - id: ecoprim-tells
+    weight: 1.0
+    definition: 'Coined idiom of the anti-civ / green-anarchist / primitivist canon. ("rewilding" omitted
+      — now mainstream conservation vocabulary.)
+
+      '
+    cues:
+    - anti-civ
+    - green anarchy
+    - back to the pleistocene
+    - the technosphere
+    - uncle ted
+    gold:
+    - text: back to the Pleistocene
+      source: anarcho-primitivist (Zerzan / Green Anarchy) slogan — documented coinage [COINAGE]
+- id: transhumanist_eacc
+  name: Transhumanist / e/acc register
+  base_weight: 1.0
+  detections:
+  - id: eacc-tells
+    weight: 1.0
+    definition: 'Coined idiom of the transhumanist / effective-accelerationist (e/acc) canon.
+
+      '
+    cues:
+    - e/acc
+    - effective accelerationism
+    - longevity escape velocity
+    - techno-optimism
+    - decels
+    gold:
+    - text: e/acc
+      source: effective-accelerationism (e/acc) movement tag — documented coinage [COINAGE]
+- id: degrowth
+  name: Degrowth / post-growth register
+  base_weight: 1.0
+  detections:
+  - id: degrowth-tells
+    weight: 1.0
+    definition: 'Coined idiom of the degrowth / post-growth canon.
+
+      '
+    cues:
+    - degrowth
+    - post-growth
+    - metabolic rift
+    - buen vivir
+    - imperial mode of living
+    gold:
+    - text: degrowth
+      source: degrowth / post-growth ecological-economics lexicon — documented coinage [COINAGE]
+- id: christian_nationalist
+  name: Christian-nationalist / dominionist register
+  base_weight: 1.0
+  detections:
+  - id: chrnat-tells
+    weight: 1.0
+    definition: 'Coined idiom of the Christian-nationalist / dominionist canon. ("spiritual warfare" /
+      "biblical worldview" omitted — too broadly evangelical to be exclusive.)
+
+      '
+    cues:
+    - seven mountain mandate
+    - theonomy
+    - dominionism
+    - postmillennial
+    gold:
+    - text: the Seven Mountain Mandate
+      source: dominionist / New Apostolic Reformation doctrine — documented coinage [COINAGE]
+- id: georgist
+  name: Georgist / land-value-tax register
+  base_weight: 1.0
+  detections:
+  - id: georgist-tells
+    weight: 1.0
+    definition: 'Coined idiom of the Georgist / geoist canon.
+
+      '
+    cues:
+    - land value tax
+    - the single tax
+    - unearned increment
+    - georgism
+    # `natural opportunities` ADDED 2026-09-03, the only survivor of a full run of the
+    # shibboleth method against George's own canon. George's coined term of art for land as a
+    # factor of production -- he stops to define it ("the term land includes all natural
+    # opportunities and forces"), which is what a camp's term of art looks like from inside.
+    # Recall: 15 occurrences in Progress and Poverty across chapters II, VII, VIII and IX, plus
+    # 1 in his North American Review essay, so it recurs across two of his works as the method
+    # requires. Precision: 0 of 115 benign control documents, and -- the arm that mattered --
+    # 0 occurrences in 418,000 words of Adam Smith, the discipline-matched negative. Twenty-one
+    # other mined candidates were rejected; see eval/RESULTS-2026-09-03-georgist-canon-mine.md.
+    - natural opportunities
+    gold:
+    - text: the single tax
+      source: Henry George, Progress and Poverty (1879) — Georgist coinage [COINAGE]
+    - text: The term land includes all natural opportunities and forces; the term labour, all
+        human exertion; and the term capital, all wealth used to produce more wealth.
+      source: FOUND IN THE WILD — Henry George, Progress and Poverty (1879), ch. VII, via
+        en.wikisource.org "Progress and Poverty (George, unsourced)/Chapter VII". Public
+        domain. George defining his own term of art, which is the clearest form the tell takes.
+- id: mmt_monetary
+  name: Modern Monetary Theory register
+  base_weight: 1.0
+  detections:
+  - id: mmt-tells
+    weight: 1.0
+    definition: 'Coined idiom of the Modern Monetary Theory (MMT) canon.
+
+      '
+    cues:
+    - monetary sovereignty
+    - the currency issuer
+    - sectoral balances
+    - taxes don't fund spending
+    gold:
+    - text: the currency issuer
+      source: MMT (Mosler / Kelton / Wray) lexicon — documented coinage [COINAGE]
+- id: sovereign_citizen
+  name: Sovereign-citizen / pseudolaw register
+  base_weight: 1.0
+  detections:
+  - id: sovcit-tells
+    weight: 1.0
+    definition: 'Coined idiom of the sovereign-citizen / pseudolaw canon. ("admiralty law" / "strawman"
+      omitted — both collide with genuine maritime law and ordinary usage.)
+
+      '
+    cues:
+    - legal name fraud
+    - flesh and blood man
+    - traveling not driving
+    gold:
+    - text: legal name fraud
+      source: sovereign-citizen / freeman-on-the-land pseudolaw lexicon — documented coinage [COINAGE]
+- id: antinatalist
+  name: Antinatalist register
+  base_weight: 1.0
+  detections:
+  - id: antinatalist-tells
+    weight: 1.0
+    definition: 'Coined idiom of the antinatalist canon.
+
+      '
+    cues:
+    - better never to have been
+    - efilism
+    - antinatalism
+    gold:
+    - text: better never to have been
+      source: David Benatar, Better Never to Have Been (2006) — antinatalist coinage [COINAGE]
+- id: prepper_survivalist
+  name: Prepper / survivalist register
+  base_weight: 1.0
+  detections:
+  - id: prepper-tells
+    weight: 1.0
+    definition: 'Coined idiom of the prepper / survivalist canon. ("the golden horde" omitted — collides
+      with the historical Mongol Golden Horde.)
+
+      '
+    cues:
+    - bug out bag
+    - TEOTWAWKI
+    - when the balloon goes up
+    gold:
+    - text: TEOTWAWKI
+      source: prepper / survivalist lexicon ('the end of the world as we know it') — documented coinage
+        [COINAGE]
+- id: maga_new_right
+  name: MAGA / populist new-right register
+  base_weight: 1.0
+  detections:
+  - id: maganr-tells
+    weight: 1.0
+    definition: 'Coined idiom of the MAGA / populist new-right canon. ("the deep state" omitted — shared
+      with QAnon and now mainstream; "america first" omitted — historical + descriptive dual-use.) "RINO"
+      CUT (rhinoceros abbreviation); enriched with exclusive slogans instead.
+
+      "drain the swamp" is KEPT, with a literal-drainage exclusion. This definition previously
+      recorded it as CUT while the cue sat in the list below and supplied the detection''s only
+      gold example — a three-way disagreement between definition, cues and gold, corrected
+      2026-09-03 in favour of the cue. Measured before deciding: across PTC''s 371 articles it
+      supplies 7 of this detection''s 11 hits and 4 of its 8 in-span landings, and this is the
+      strongest detection in the entire taxonomy (lift 5.49) and the best Slogans detector we
+      have. Cutting it would have halved our best instrument to fix one negative fixture.
+
+      '
+    cues:
+    - the uniparty
+    - stop the steal
+    - let's go brandon
+    - make america great again
+    - drain the swamp
+    # Literal wetland drainage is a real sense of the phrase and it fired the lens on
+    # sub_neg_literal_drain_swamp -- "the county hired workers to drain the swamp behind the
+    # school to stop the mosquitoes". Match-local, so a metaphorical use elsewhere in the same
+    # document still fires. Measured against all 7 PTC occurrences before landing: 0 are
+    # suppressed, so the political sense is untouched and the 4 in-span landings survive.
+    excludes:
+    - mosquito
+    - wetland
+    - drainage
+    - stagnant water
+    gold:
+    - text: drain the swamp
+      source: Trump-era populist-right slogan — documented coinage [COINAGE]

@@ -1,0 +1,104 @@
+# Movement classification for ratchet_series.
+#
+# Each pattern classifies a DOCUMENT TITLE as forward (the click), back (the un-click), or
+# neither. Titles are used because the Federal Register titles its actions plainly and because
+# a title is cheap, auditable, and does not require reading 6,000 characters of body text to
+# decide which way a rule moved.
+#
+# DISCIPLINE. This file decides DIRECTION, never merit. "Rescission of Conservation and
+# Landscape Health Rule" is a back movement; whether rescinding it was wise is not a question
+# this detector asks or can answer. A reader who thinks the rescission was good and a reader who
+# thinks it was vandalism must both get the same classification out of this file, or it is
+# measuring politics.
+#
+# AMBIGUITY IS EXPLICIT. Patterns that could go either way live under `ambiguous` and are
+# counted as neither, with a note. A threshold increase widens an exemption and narrows a
+# requirement, and which one matters depends on the measure. Guessing would manufacture
+# asymmetry, which is the one thing this detector must not do.
+#
+# PROCEDURAL IS NOT DIRECTIONAL. `procedural` holds patterns that describe the AGENCY'S OWN
+# HOUSEKEEPING rather than the measure: how long the agency has to finish a review, when a
+# meeting is held, when a comment period closes. These are not ambiguous -- they are not
+# movements at all -- and they are listed separately so that is visible rather than inferred.
+# Checked before everything else, counted as neither.
+
+forward:
+  - pattern: "extension of"
+    note: an effective date, a temporary provision, or an authorisation pushed further out
+  - pattern: "temporary extension"
+  - pattern: "further extension"
+  - pattern: "extension of the compliance date"
+  - pattern: "extension of postponement"
+  - pattern: "to permanent status"
+    note: a pilot or temporary programme converted to permanence
+  - pattern: "made permanent"
+  - pattern: "permanent rule"
+  - pattern: "removal of sunset"
+  - pattern: "removal of the sunset provision"
+  - pattern: "delay of effective date"
+    note: postponing a rule's end, or postponing an obligation, both push the state forward
+  - pattern: "expansion of"
+  - pattern: "expanding the"
+  - pattern: "addition of"
+    note: scope added to an existing schedule or list
+  - pattern: "designation of"
+
+back:
+  - pattern: "rescission of"
+  - pattern: "revocation of"
+  - pattern: "removal of regulations"
+  - pattern: "removal of the"
+    note: narrower than `removal of regulations`; still a withdrawal of an existing provision
+  - pattern: "withdrawal of"
+  - pattern: "repeal of"
+  - pattern: "termination of"
+  - pattern: "expiration of"
+  - pattern: "sunset of"
+  - pattern: "allowed to expire"
+  - pattern: "reduction of"
+  - pattern: "narrowing of"
+
+# The agency's own clock, not the measure's. Counted as NEITHER.
+#
+# 2026-09-01, measured: on docket A-549-502 (one Thai steel-pipe antidumping case, 92
+# documents, 1994-2026) ALL NINETEEN forward movements were "Notice of Extension of Time Limit
+# for Antidumping Duty Administrative Review" -- the deadline for Commerce to finish its own
+# review, extended because the agency needed longer. Not one of them changed the measure's
+# scope, duration or effective date. `extension of` in the forward list matched every one, and
+# the series read +0.152, p = 0.487.
+#
+# Note what removing them does: 0 forward, 14 back, p = 0.0001. That is a result moving hard
+# toward what this project wanted -- a negative control that moves BACKWARD -- which is exactly
+# when a rule change deserves the most suspicion. It is made here on the reading of the
+# documents alone, the whole sweep is re-run below rather than only the measure that benefits,
+# and it needs an independent check before it carries any claim.
+procedural:
+  - pattern: "extension of time limit"
+    note: the agency's deadline to complete a review, not a change to the measure
+  - pattern: "extension of the time limit"
+    note: same
+  - pattern: "extension of time period for"
+    note: same
+  - pattern: "extension of comment period"
+    note: how long the public may file, not what the rule does
+  - pattern: "reopening of comment period"
+    note: same
+  - pattern: "extension of the comment period"
+    note: same
+
+# Counted as NEITHER. Present so that a reader can see they were considered rather than missed.
+ambiguous:
+  - pattern: "increase of monetary thresholds"
+    note: raises an exemption floor (fewer covered) while raising a limit (more permitted)
+  - pattern: "cost of living adjustment"
+    note: mechanical indexation, no directional content
+  - pattern: "technical correction"
+  - pattern: "technical amendment"
+  - pattern: "correcting amendment"
+  - pattern: "renumbering"
+  - pattern: "modification of"
+    note: direction depends entirely on what was modified; requires body text
+  - pattern: "amendment to"
+    note: same
+  - pattern: "revisions to"
+    note: same

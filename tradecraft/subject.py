@@ -64,6 +64,7 @@ def grade_text(
         tax_by_lens, hits_by_lens,
         token_count=adapters.token_estimate(text),
         doc_id=doc_id, subject=subject, url=url, date=date,
+        text=text,
     )
 
 

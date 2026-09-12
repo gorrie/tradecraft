@@ -1,0 +1,200 @@
+id: sourcing_asymmetry
+# Capability declaration. Moved here 2026-09-01 from three hardcoded sets in
+# eval/gold_check.py, tools/harvest_gold.py and tools/export_web.py -- one of which
+# silently decided which engine features got parity-tested. A lens declares what it
+# can do; tools ask the lens.
+reads: text               # reads prose
+cue_matching: supported        # cue matching is a valid floor backend for these markers
+name: Sourcing Asymmetry
+description: "Measures the BALANCE of a single document — the in-text analog of a coverage \"blindspot\"\
+  \ applied to the voices inside one piece rather than outlets across a feed. Where `narrative_management`\
+  \ catches the active record-shaping MOVE, this catches the quieter defect: a contested matter presented\
+  \ one-sidedly. Whose sources are quoted, whose actors are named, whose accusations go unanswered, whether\
+  \ evaluative labels do the arguing that facts should. Symmetric by construction and TWO-DIRECTIONAL:\
+  \ it fires on one-sidedness (accusation with no rebuttal sought; all-aligned experts; \"declined to\
+  \ comment\" as closure) AND on manufactured false balance (a settled finding downgraded to \"some say\
+  \ / the debate continues\"). Borrows the AllSides text-level rubric (bias by omission, loaded language,\
+  \ opinion-as-fact, unsubstantiated claims) rather than Ground News's outlet-average — we read the text,\
+  \ we do not import a commercial lean label. Distinct axis from `narrative_management` (compose, never\
+  \ blend). Detects the METHOD of imbalance, never the position taken; flags with receipts, never a verdict,\
+  \ never a left/right label.\n\nGOLD DRIFT, classified 2026-09-01. The gold slots below do not detect\
+  \ and should be REPLACED rather than matched with new cues, because they are not specimens of the marker:\n\
+  \  pejorative-actor-label -- cue fragment with ellipses, not a sentence\nA lens whose positive examples\
+  \ are DESCRIPTIONS of a group learns to detect the description. That is the self/about contamination\
+  \ the corpus design guards against, arriving from inside the taxonomy where nobody was looking.\n\n\
+  Cue removed 2026-09-01 the same day it was added: \"everyone knows\" matched \"as everyone knows, one\
+  \ can not possibly go to mass on a Sunday without...\" -- conversational filler in a religious article,\
+  \ not an unsourced contested claim. Second over-broad cue caught by the control corpus in one session,\
+  \ after \"registered with the\" fired on a regatta. The narrower siblings (\"no serious person disputes\"\
+  , \"it is widely understood that\") are kept.\n\nReal-world gold added 2026-09-01 by tools/harvest_gold.py,\
+  \ read and judged by hand before promotion. Entries marked FOUND IN THE WILD carry a source document;\
+  \ entries marked illustrative were composed. The distinction matters: a lens that detects only composed\
+  \ examples has been checked for self-consistency and not for precision."
+config:
+  marker_present_threshold: 0.3
+  w_breadth: 0.55
+  w_intensity: 0.3
+  w_density: 0.15
+  density_cap_per_1k: 6.0
+  tiers:
+  - min: 0.0
+    label: incidental
+  - min: 35.0
+    label: notable
+  - min: 60.0
+    label: one-sided sourcing (review)
+markers:
+- id: one_sided_sourcing
+  name: One-sided sourcing
+  base_weight: 1.0
+  detections:
+  - id: unanswered-accusation
+    weight: 1.0
+    definition: An accusation or adverse characterization is leveled and no response, rebuttal, or answering
+      voice is sought or included.
+    cues:
+    - critics say
+    - critics argue
+    - critics charge
+    - opponents say
+    - detractors say
+    - widely condemned
+    - sparked outrage
+    - faced backlash
+    - was condemned by
+    gold:
+    - text: critics say ... widely condemned
+      source: (illustrative) the recurring construction where the accusing side speaks and the accused
+        is not given voice — cf. the early Covington Catholic coverage (Jan 2019) later corrected across
+        outlets
+  - id: single-source-consensus
+    weight: 0.8
+    definition: The appearance of consensus is built from same-aligned voices ("experts agree") without
+      a dissenting or opposing source.
+    cues:
+    - experts agree
+    - experts say
+    - analysts agree
+    - observers say
+    - many believe
+    - it is widely believed
+    - there is broad consensus
+    - scientists agree
+    gold:
+    - text: experts agree
+      source: (illustrative) manufactured-consensus construction; AllSides 'analysis presented as fact'
+        / bias-by-omission
+    - text: Experts say as the death tolls hit 124 and more than 1,300 are left infected.
+      source: FOUND IN THE WILD — news corpus, corpus/_news-control/news011.txt. 'Experts say' carrying
+        a factual claim with no expert named.
+- id: refusal_as_closure
+  name: Refusal-to-comment as closure
+  base_weight: 0.9
+  detections:
+  - id: declined-to-comment
+    weight: 1.0
+    definition: A one-line "declined to comment" is used to CLOSE the other side out rather than to report
+      a genuine attempt to reach it — the accused's absence stands in for their answer.
+    cues:
+    - did not respond to requests for comment
+    - could not be reached for comment
+    - did not immediately respond
+    - refused to comment
+    - has not responded
+    - declined to comment
+    - did not respond to a request
+    - could not be reached
+    gold:
+    - text: declined to comment
+      source: (illustrative) the boilerplate that lets a one-sided piece appear to have sought balance
+    - text: Mallory, who declined to comment for this article, did not respond to calls
+      source: FOUND IN THE WILD — news corpus, corpus/_news-control/news003.txt. A named subject given
+        no voice in a piece about her.
+- id: loaded_labeling
+  name: Loaded labeling (pejorative / honorific)
+  base_weight: 1.0
+  detections:
+  - id: pejorative-actor-label
+    weight: 1.0
+    definition: An evaluative or pejorative label attached to one actor does the arguing that evidence
+      should — the label carries the verdict.
+    cues:
+    - cronies
+    - maga extremist
+    - fringe group
+    - fringe figure
+    gold:
+    - text: so-called ... radical ... far-right
+      source: (illustrative) label-as-argument; AllSides 'sensationalism / spin words / slant'
+  - id: honorific-framing
+    weight: 0.7
+    definition: An honorific or credibility-conferring label is applied to the favored side ("widely respected",
+      "nonpartisan") to pre-load the reader's trust.
+    cues:
+    - widely respected
+    - highly respected
+    - nonpartisan
+    - independent watchdog
+    - esteemed
+    - renowned expert
+    - acclaimed
+    gold:
+    - text: a widely respected, nonpartisan watchdog
+      source: (illustrative) the mirror image of the pejorative — credibility conferred by adjective,
+        not shown
+- id: unsubstantiated_attribution
+  name: Unsubstantiated attribution
+  base_weight: 0.9
+  detections:
+  - id: mind-reading
+    weight: 1.0
+    definition: A subject's private motive, intent, or belief is asserted as fact without evidence (AllSides
+      "mind-reading").
+    cues:
+    - in a bid to
+    - designed to appease
+    - hoping to distract
+    - to shore up his base
+    - to shore up her base
+    - pandering to
+    - clearly intended to
+    - in order to placate
+    gold:
+    - text: clearly designed to appease his base
+      source: (illustrative) motive asserted, not sourced; AllSides 'mind-reading / opinion stated as
+        fact'
+  - id: unsourced-assertion
+    weight: 0.7
+    definition: A contested claim is smuggled past the reader with a rhetorical certainty marker instead
+      of a source.
+    cues:
+    - it is well known that
+    - as we all know
+    - it goes without saying
+    - make no mistake
+    - it is widely understood that
+    - no serious person disputes
+    gold:
+    - text: everyone knows the real motive
+      source: (illustrative) certainty marker substituting for a citation
+- id: false_balance
+  name: Manufactured false balance
+  base_weight: 0.9
+  detections:
+  - id: manufactured-parity
+    weight: 1.0
+    definition: A settled or heavily-evidenced finding is downgraded to one of two co-equal opinions ("some
+      say / others disagree / the debate continues"), manufacturing a second side where the record does
+      not support parity. The symmetric twin of omission — imbalance in the other direction.
+    cues:
+    - others disagree
+    - the debate continues
+    - there are two sides
+    - opinions are divided
+    - the jury is still out
+    - critics on both sides
+    - the truth is somewhere in between
+    gold:
+    - text: some say otherwise, but the debate continues
+      source: (illustrative) false-balance construction; treating an evidenced finding as merely contested
+        opinion

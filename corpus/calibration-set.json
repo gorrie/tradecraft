@@ -1,0 +1,146 @@
+{
+ "purpose": "Documents used to ESTIMATE hit rates and cue liveness before the labelled corpus is built. Every document_number here is EXCLUDED from the labelled corpus: sizing a study on the documents you then test with turns a power calculation into a fishing licence. Committed before the labelled fetch so the exclusion is checkable.",
+ "source": "US Federal Register API, type=RULE, public domain, no auth",
+ "documents": [
+  {
+   "document_number": "2026-17445",
+   "title": "List of Approved Spent Fuel Storage Casks: TN Americas, LLC Standardized NUHOMS\u00ae Horizontal Modular Storage System for Irradiated Nuclear Fuel, Certificate of Compliance No. 1004, Renewed Amendment No. 19",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17445.txt",
+   "words": 5492
+  },
+  {
+   "document_number": "2026-17442",
+   "title": "Critical Position Pay Authority",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17442.txt",
+   "words": 4728
+  },
+  {
+   "document_number": "2026-17440",
+   "title": "Loan Performance Categories and Financial Reporting",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17440.txt",
+   "words": 413
+  },
+  {
+   "document_number": "2026-17437",
+   "title": "International Trademark Classification Changes",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17437.txt",
+   "words": 3355
+  },
+  {
+   "document_number": "2026-17429",
+   "title": "Schedules of Controlled Substances: Temporary Placement of Mitragynine Pseudoindoxyl, MGM-15, and MGM-16 in Schedule I",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17429.txt",
+   "words": 8941
+  },
+  {
+   "document_number": "2026-17428",
+   "title": "Telemarketing Sales Rule Fees",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17428.txt",
+   "words": 1042
+  },
+  {
+   "document_number": "2026-17426",
+   "title": "Iranian Transactions and Sanctions Regulations",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17426.txt",
+   "words": 1087
+  },
+  {
+   "document_number": "2026-17400",
+   "title": "Significant New Use Rules on Certain Chemical Substances (24-5.5e)",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17400.txt",
+   "words": 16067
+  },
+  {
+   "document_number": "2026-17391",
+   "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to the Duckabush Estuary Restoration Project in Washington",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17391.txt",
+   "words": 12406
+  },
+  {
+   "document_number": "2026-17390",
+   "title": "Automated Commercial Environment (ACE) Electronic Export Manifest for Rail Cargo",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17390.txt",
+   "words": 49491
+  },
+  {
+   "document_number": "2026-17389",
+   "title": "Safety Zone; Lake St. Clair; New Baltimore, MI",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17389.txt",
+   "words": 1481
+  },
+  {
+   "document_number": "2026-17381",
+   "title": "Rescinding Regulations for Loans for Minority Business Enterprises Seeking DOE Contracts and Assistance",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17381.txt",
+   "words": 540
+  },
+  {
+   "document_number": "2026-17378",
+   "title": "Special Local Regulation; Lake Erie, Kelleys Island, OH",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17378.txt",
+   "words": 2299
+  },
+  {
+   "document_number": "2026-17375",
+   "title": "Safety Zone; Spring Lake, Fruitport, MI",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17375.txt",
+   "words": 1369
+  },
+  {
+   "document_number": "2026-17366",
+   "title": "Rescinding Portions of the National Foundation on the Arts and Humanities Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17366.txt",
+   "words": 8143
+  },
+  {
+   "document_number": "2026-17238",
+   "title": "Ballot Mail for Federal Elections",
+   "publication_date": "2026-08-26",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/26/2026-17238.txt",
+   "words": 28677
+  },
+  {
+   "document_number": "2026-17354",
+   "title": "Establishment of Four Customs-Enforcement Areas",
+   "publication_date": "2026-08-25",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/25/2026-17354.txt",
+   "words": 3268
+  },
+  {
+   "document_number": "2026-17353",
+   "title": "Final Waiver and Extension of the Project Period With Funding-Elementary and Secondary Education Act of 1965, as Amended, Title VI, Part B, Native Hawaiian Education",
+   "publication_date": "2026-08-25",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/25/2026-17353.txt",
+   "words": 1278
+  },
+  {
+   "document_number": "2026-17339",
+   "title": "Amendment of Restricted Areas R-2505, R-2524, R-2508, and R-2515 in California",
+   "publication_date": "2026-08-25",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/25/2026-17339.txt",
+   "words": 2529
+  },
+  {
+   "document_number": "2026-17338",
+   "title": "Reduction in Force Appeals; Correction",
+   "publication_date": "2026-08-25",
+   "raw_text_url": "https://www.federalregister.gov/documents/full_text/text/2026/08/25/2026-17338.txt",
+   "words": 553
+  }
+ ]
+}

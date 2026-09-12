@@ -1,0 +1,103 @@
+# The Five Pawls — canonical roster for the tradecraft testing corpus.
+#
+# Source of truth: The Ratchet (Book 2), Ch. 7 "The Priest", master summary at line 229:
+#   "The traditionalist defines what is sacred and profane. The progressive defines what is true and
+#    what is 'misinformation.' The utilitarian defines which risks matter and who should manage them.
+#    The technocrat defines what is 'sustainable' and 'stakeholder-aligned.' The green priest defines
+#    the planet's deadline and writes the disclosure standard that locks it in."
+#
+# A pawl is a JUSTIFICATION-IDEOLOGY that locks a "click" of the ratchet. It is not a political party.
+# `coding` is a COARSE left/right/establishment tag used ONLY to structure the symmetry test — it is
+# never a verdict, and the book's own thesis is that all five converge on the same structural outcome
+# (more institutional power, less individual autonomy, no reversal) regardless of coding.
+#
+# Corpus stances per pawl:
+#   self  — the pawl's OWN words (manifestos, official statements, doctrine). Tests register/rhetoric
+#           lenses (inevitability_framing, institutional_permeation, legibility, subculture_register…).
+#   about — coverage OF the pawl. Tests the coverage lenses (narrative_management, sourcing_asymmetry).
+#
+# Discipline: `rhetoric_tells` are documented from the manuscript research (receipts in `source_files`).
+# They are NOT the lens cues — the lenses detect METHOD; these tells describe the pawl's vocabulary so a
+# sampler knows what a representative specimen looks like.
+
+meta:
+  source: book/(internal manuscript source)
+  master_summary_line: 229
+  discipline: >
+    Symmetric, method-not-ideology. Coding is for balance-testing only. Flag with receipts, never a
+    verdict, never a left/right label on a document. Specimens are labeled test material with provenance,
+    never cited as fact.
+
+pawls:
+  - id: traditionalist
+    name: The Traditionalist
+    defines: sacred / profane
+    click: moral authority through religious/traditional institutional control ("sanctify the world from within")
+    coding: right
+    orgs: [Opus Dei, conservative Catholic judicial/finance networks]
+    actors: [Josemaría Escrivá, "Franco-era technocrats (Ullastres, Navarro Rubio, López Rodó)"]
+    rhetoric_tells:
+      - "sanctify the world / sanctify your work"
+      - "virtue, tradition, the sacred order"
+      - "unity of life"
+      - "embed in secular institutions from within"
+    source_files: [book/(internal research source)]
+
+  - id: progressive
+    name: The Progressive
+    defines: true / "misinformation"
+    click: definitional authority — whoever defines "misinformation" controls what can be said
+    coding: left
+    orgs: [misinformation-research field, platform trust & safety, fact-checking apparatus, DEI departments]
+    actors: [Edward Bernays (foundations), "SPI-B (COVID messaging)"]
+    rhetoric_tells:
+      - "misinformation / disinformation"
+      - "trusted flaggers / authoritative sources"
+      - "scientific consensus / the science"
+      - "fact-check / media literacy"
+    source_files: [book/(internal research source)]
+
+  - id: utilitarian
+    name: The Utilitarian
+    defines: which risks matter / who manages them
+    click: control through risk-calculus (expected value; future generations weighted equally)
+    coding: tech-center
+    orgs: [Effective Altruism, 80000 Hours, Open Philanthropy, e/acc]
+    actors: [Will MacAskill, Toby Ord, Jason Matheny, Holden Karnofsky, Marc Andreessen, Guillaume Verdon]
+    rhetoric_tells:
+      - "expected value / cause prioritization"
+      - "existential risk / x-risk / longtermism"
+      - "AI alignment / AI safety"
+      - "earning to give"
+      - "accelerationism / any deceleration costs lives (e/acc fork)"
+    source_files: [book/(internal research source)]
+
+  - id: technocratic
+    name: The Technocrat
+    defines: sustainable / "stakeholder-aligned"
+    click: governance bypass — replace democratic accountability with multi-stakeholder / expert administration
+    coding: establishment
+    orgs: [Fabian Society, World Economic Forum, "asset managers (BlackRock/Vanguard/State Street)"]
+    actors: [Sidney Webb, Klaus Schwab, Larry Fink, Harris Gleckman]
+    rhetoric_tells:
+      - "inevitability of gradualness"
+      - "permeation / change the mental climate"
+      - "stakeholder capitalism / stakeholder-aligned"
+      - "public-private partnership / multi-stakeholder governance"
+      - "expert administration / depoliticization"
+    source_files: [book/(internal research source), book/(internal research source)]
+
+  - id: green
+    name: The Green Priest
+    defines: the planet's deadline / the disclosure standard
+    click: infrastructure lock-in — write the crisis frame into supranational law + global accounting standards
+    coding: left-establishment
+    orgs: [GFANZ, NGFS, "TCFD -> ISSB -> CSRD", central banks]
+    actors: [Mark Carney, Michael Bloomberg, Christiana Figueres, Simon Stiell]
+    rhetoric_tells:
+      - "climate emergency / net zero"
+      - "climate risk is investment risk / systemic financial risk"
+      - "disclosure standard / financed emissions / transition risk"
+      - "reputational risk"
+      - "the plumbing / architecture of finance transformed"
+    source_files: [book/(internal manuscript source), book/(internal research source)]

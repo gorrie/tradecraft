@@ -1,0 +1,115 @@
+{
+  "seed": 20260902,
+  "nodes": 182,
+  "subjects": [
+    "FrontierModelForum",
+    "OpenAI",
+    "Anthropic",
+    "ChrisMeserole",
+    "Brookings",
+    "CalPERS",
+    "California",
+    "OpenPhilanthropy",
+    "AISafetyFund",
+    "MichaelSellitto"
+  ],
+  "trials": 12,
+  "perturbations": {
+    "relabel": {
+      "n": 10,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": true
+    },
+    "flip-edges": {
+      "n": 10,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": true
+    },
+    "drop-far-leaf": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": false
+    },
+    "add-far-leaf": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 28.23,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": false
+    }
+  },
+  "invariance_failures": 0,
+  "lenses": {
+    "network_brokerage": {
+      "subjects": 10,
+      "trials": 12,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "mde_note": "degenerate null: median and p90 both 0, so what this lens can resolve is bounded by index quantisation, not by measured noise",
+      "null": "edge-perturb",
+      "note": "Unrelated corpus growth: a peripheral dossier landing or not landing. Relabelling and edge-flipping are invariants and move nothing."
+    },
+    "revolving_door": {
+      "subjects": 10,
+      "trials": 12,
+      "threshold_p95": 0.0,
+      "mde": null,
+      "mde_note": "degenerate null: median and p90 both 0, so what this lens can resolve is bounded by index quantisation, not by measured noise",
+      "null": "edge-perturb",
+      "note": "Unrelated dossier growth: another person's career-move edge landing or not. Relabelling and edge REORDERING are invariants; edge FLIPPING is not tested because this lens is directional and flipping changes the meaning."
+    }
+  },
+  "_note": "Graph-lens floors. network_brokerage from eval/graph_floor.py (undirected adjacency); revolving_door from eval/revolving_floor.py (directional, typed move edges). The two nulls are NOT interchangeable: edge-flip is an invariant for the first and a change of meaning for the second.",
+  "revolving_door_perturbations": {
+    "relabel": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": true
+    },
+    "shuffle-edges": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": true
+    },
+    "drop-far-move": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": false
+    },
+    "add-far-move": {
+      "n": 120,
+      "median": 0.0,
+      "p90": 0.0,
+      "max": 0.0,
+      "threshold": 0.0,
+      "mde": 0.5,
+      "invariance": false
+    }
+  }
+}

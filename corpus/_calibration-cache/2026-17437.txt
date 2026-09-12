@@ -1,0 +1,439 @@
+Federal Register, Volume 91 Issue 164 (Wednesday, August 26, 2026)
+
+
+[Federal Register Volume 91, Number 164 (Wednesday, August 26, 2026)]
+[Rules and Regulations]
+[Pages 54963-54966]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2026-17437]
+
+
+
+[[Page 54963]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF COMMERCE
+
+Patent and Trademark Office
+
+37 CFR Part 6
+
+[Docket No. PTO-T-2026-0463]
+RIN 0651-AD96
+
+
+International Trademark Classification Changes
+
+AGENCY: United States Patent and Trademark Office, Department of 
+Commerce.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The United States Patent and Trademark Office (USPTO) issues 
+this final rule to incorporate classification changes adopted by the 
+Nice Agreement Concerning the International Classification of Goods and 
+Services for the Purposes of the Registration of Marks (Nice 
+Agreement). These changes are listed in the International 
+Classification of Goods and Services for the Purposes of the 
+Registration of Marks (13th ed., ver. 2027) (Nice Classification), 
+which is published by the World Intellectual Property Organization 
+(WIPO), and will become effective on January 1, 2027.
+
+DATES: This rule is effective on January 1, 2027.
+
+FOR FURTHER INFORMATION CONTACT: Jessica Ludeman, Office of the Deputy 
+Commissioner for Trademark Examination Policy, at 571-272-7183 or 
+[email&#160;protected].
+
+SUPPLEMENTARY INFORMATION: This final rule incorporates classification 
+changes adopted by the Nice Agreement that will become effective on 
+January 1, 2027. Specifically, this rule amends two class headings to 
+more clearly define the types of goods appropriate to the class.
+    The USPTO is revising 37 CFR 6.1 to incorporate classification 
+changes and modifications, as listed in the Nice Classification, 
+published by WIPO, that will become effective on January 1, 2027. The 
+Nice Agreement is a multilateral treaty, administered by WIPO, that 
+establishes the international classification of goods and services for 
+the purpose of registering trademarks and service marks. As of 
+September 1, 1973, this international classification system is the 
+controlling system used by the United States, and it applies, for all 
+statutory purposes, to all applications filed on or after September 1, 
+1973, and their resulting registrations. 37 CFR 2.85(a). Every 
+signatory to the Nice Agreement must use the international 
+classification system. Nice Agreement art. 1, June 15, 1957, 550 
+U.N.T.S. 45 (amended on Sept. 28, 1979).
+    Each state party to the Nice Agreement is represented in the 
+Committee of Experts of the Nice Union (Committee of Experts), which 
+meets annually to vote on proposed changes to the Nice Classification. 
+Any state that is a party to the Nice Agreement may submit proposals 
+for consideration by the other members of the Committee of Experts, in 
+accordance with agreed-upon rules of procedure. Proposals are currently 
+submitted annually to an electronic forum on the WIPO website, where 
+they are commented on, modified, and compiled for further discussion 
+and voting at the annual Committee of Experts meeting.
+    In 2013, the Committee of Experts began annual revisions to the 
+Nice Classification. The annual revisions, which are published 
+electronically and enter into force on January 1 each year, are 
+referred to as versions and identified by an edition number and the 
+year of the effective date (e.g., ``Nice Classification, 10th ed., ver. 
+2013'' or ``NCL 10-2013''). Each annual version includes changes 
+adopted by the Committee of Experts since the adoption of the previous 
+version, consisting of: (1) the addition of new goods and services to, 
+and the deletion of goods and services from, the Alphabetical List; and 
+(2) any modifications to the wording in the Alphabetical List, the 
+class headings, or the explanatory notes that do not involve the 
+transfer of goods or services from one class to another.
+    As of January 1, 2023, new editions of the Nice Classification are 
+published electronically every three years. They include all changes 
+adopted since the previous annual version, as well as goods or services 
+transferred from one class to another and new classes that have been 
+created since the previous edition.
+    The 36th session of the Committee of Experts, comprised of member 
+states and WIPO, took place from April 27-May 1, 2026, at WIPO 
+headquarters in Geneva, Switzerland. The revisions contained in this 
+final rule consist of modifications to class headings that were 
+incorporated into the Nice Agreement through voting during the session.
+    Under the Nice Classification, there are 34 classes of goods and 11 
+classes of services, each with a class heading. Class headings 
+generally indicate the fields to which goods and services belong. Based 
+on the annual revisions to the Nice Classification, this rule amends 
+descriptions of existing goods in two class headings to more clearly 
+define the types of goods appropriate to the class. As a signatory to 
+the Nice Agreement, the United States adopts these revisions pursuant 
+to Article 1.
+
+Discussion of Regulatory Changes
+
+    The USPTO amends Sec.  6.1 to revise Class 6 to replace the comma 
+following ``alloys'' with a semicolon.
+    The USPTO amends Sec.  6.1 to revise Class 9 to replace ``divers''' 
+in ``divers' masks'' and ``divers'' in ``ear plugs for divers, nose 
+clips for divers'' with ``diving'' and to replace ``gloves for divers'' 
+with ``diving gloves.''
+
+Rulemaking Requirements
+
+    A. Administrative Procedure Act: This final rule revises the 
+regulations to reflect modifications to class headings, which indicate 
+the classes to which goods and services belong, that were incorporated 
+into the Nice Agreement. The changes in this final rule do not change 
+the substantive criteria for the registration of a trademark. 
+Therefore, the changes in this rulemaking involve rules of agency 
+practice and procedure and/or interpretive rules and do not require 
+notice-and-comment rulemaking pursuant to 5 U.S.C. 553(b)(B). See Perez 
+v. Mortg. Bankers Ass'n, 575 U.S. 92, 97, 101 (2015) (explaining that 
+interpretive rules ``advise the public of the agency's construction of 
+the statutes and rules which it administers'' and do not require 
+notice-and-comment when issued or amended); Cooper Techs. Co. v. Dudas, 
+536 F.3d 1330, 1336-37 (Fed. Cir. 2008) (stating that 5 U.S.C. 553, and 
+thus 35 U.S.C. 2(b)(2)(B), do not require notice-and-comment rulemaking 
+for ``interpretative rules, general statements of policy, or rules of 
+agency organization, procedure, or practice''); In re Chestek PLLC, 92 
+F.4th 1105, 1110 (Fed. Cir. 2024) (noting that rule changes that ``do[ 
+] not alter the substantive standards by which the USPTO evaluates 
+trademark applications'' are procedural in nature and thus ``exempted 
+from notice-and-comment rulemaking.''); and JEM Broadcasting Co. v. 
+F.C.C., 22 F.3d 320, 328 (D.C. Cir. 1994) (``[T]he `critical feature' 
+of the procedural exception [in 5 U.S.C. 553(b)(A)] `is that it covers 
+agency actions that do not themselves alter the rights or interests of 
+parties, although [they] may alter the manner in which the parties 
+present themselves or their viewpoints to the agency.''' (quoting 
+Batterton v. Marshall, 648 F.2d 694, 707 (D.C. Cir. 1980))).
+    B. Regulatory Flexibility Act: As prior notice and an opportunity 
+for public comment are not required pursuant to 5 U.S.C. 553 or any 
+other law, neither a Regulatory Flexibility Act analysis nor a 
+certification under the Regulatory
+
+[[Page 54964]]
+
+Flexibility Act (5 U.S.C. 601 et seq.) is required. See 5 U.S.C. 603.
+    C. Executive Order 12866 (Regulatory Planning and Review): This 
+rulemaking has been determined to be not significant for purposes of 
+Executive Order 12866 (Sept. 30, 1993).
+    D. Executive Order 13563 (Improving Regulation and Regulatory 
+Review): The USPTO has complied with Executive Order 13563 (Jan. 18, 
+2011). Specifically, and as discussed above, the USPTO has, to the 
+extent feasible and applicable: (1) made a reasoned determination that 
+the benefits justify the costs of the rule; (2) tailored the rule to 
+impose the least burden on society consistent with obtaining the 
+regulatory objectives; (3) selected a regulatory approach that 
+maximizes net benefits; (4) specified performance objectives; (5) 
+identified and assessed available alternatives; (6) involved the public 
+in an open exchange of information and perspectives among experts in 
+relevant disciplines, affected stakeholders in the private sector, and 
+the public as a whole, and provided online access to the rulemaking 
+docket; (7) attempted to promote coordination, simplification, and 
+harmonization across government agencies and identified goals designed 
+to promote innovation; (8) considered approaches that reduce burdens 
+and maintain flexibility and freedom of choice for the public; and (9) 
+ensured the objectivity of scientific and technological information and 
+processes.
+    E. Executive Order 14192 (Deregulation): This regulation is not an 
+Executive Order 14192 regulatory action because it has been determined 
+to be not significant under Executive Order 12866.
+    F. Executive Order 13132 (Federalism): This rulemaking pertains 
+strictly to federal agency procedures and does not contain policies 
+with federalism implications sufficient to warrant preparation of a 
+Federalism Assessment under Executive Order 13132 (Aug. 4, 1999).
+    G. Executive Order 13175 (Tribal Consultation): This rulemaking 
+will not: (1) have substantial direct effects on one or more Indian 
+tribes, (2) impose substantial direct compliance costs on Indian tribal 
+governments, or (3) preempt tribal law. Therefore, a tribal summary 
+impact statement is not required under Executive Order 13175 (Nov. 6, 
+2000).
+    H. Executive Order 13211 (Energy Effects): This rulemaking is not a 
+significant energy action under Executive Order 13211 because this 
+rulemaking is not likely to have a significant adverse effect on the 
+supply, distribution, or use of energy. Therefore, a Statement of 
+Energy Effects is not required under Executive Order 13211 (May 18, 
+2001).
+    I. Executive Order 12988 (Civil Justice Reform): This rulemaking 
+meets applicable standards to minimize litigation, eliminate ambiguity, 
+and reduce burden as set forth in sections 3(a) and 3(b)(2) of 
+Executive Order 12988 (Feb. 5, 1996).
+    J. Executive Order 13045 (Protection of Children): This rulemaking 
+does not concern an environmental risk to health or safety that may 
+disproportionately affect children under Executive Order 13045 (Apr. 
+21, 1997).
+    K. Executive Order 12630 (Taking of Private Property): This 
+rulemaking will not effect a taking of private property or otherwise 
+have taking implications under Executive Order 12630 (Mar. 15, 1988).
+    L. Congressional Review Act: Under the Congressional Review Act 
+provisions of the Small Business Regulatory Enforcement Fairness Act of 
+1996 (5 U.S.C. 801 et seq.), the USPTO will submit a report containing 
+the final rule and other required information to the United States 
+Senate, the United States House of Representatives, and the Comptroller 
+General of the Government Accountability Office. The changes in this 
+rulemaking are not expected to result in an annual effect on the 
+economy of $100 million or more; a major increase in costs or prices; 
+or significant adverse effects on competition, employment, investment, 
+productivity, innovation, or the ability of United States-based 
+enterprises to compete with foreign-based enterprises in domestic and 
+export markets. Therefore, this rulemaking is not expected to result in 
+a ``major rule'' as defined in 5 U.S.C. 804(2).
+    M. Unfunded Mandates Reform Act of 1995: The changes set forth in 
+this rulemaking do not involve a Federal intergovernmental mandate that 
+will result in the expenditure by state, local, and tribal governments, 
+in the aggregate, of $100 million (as adjusted) or more in any one 
+year, or a Federal private sector mandate that will result in the 
+expenditure by the private sector of $100 million (as adjusted) or more 
+in any one year, and will not significantly or uniquely affect small 
+governments. Therefore, no actions are necessary under the provisions 
+of the Unfunded Mandates Reform Act of 1995. See 2 U.S.C. 1501 et seq.
+    N. National Environmental Policy Act of 1969: This rulemaking will 
+not have any effect on the quality of the environment and is thus 
+categorically excluded from review under the National Environmental 
+Policy Act of 1969. See 42 U.S.C. 4321 et seq.
+    O. National Technology Transfer and Advancement Act of 1995: The 
+requirements of section 12(d) of the National Technology Transfer and 
+Advancement Act of 1995 (15 U.S.C. 272 note) are not applicable because 
+this rulemaking does not contain provisions that involve the use of 
+technical standards.
+    P. Paperwork Reduction Act of 1995: This final rule does not 
+involve information collection requirements that are subject to review 
+by the Office of Management and Budget (OMB) under the Paperwork 
+Reduction Act of 1995 (44 U.S.C. 3501 et seq.).
+    Notwithstanding any other provision of law, no person is required 
+to respond to, nor shall any person be subject to a penalty for failure 
+to comply with, a collection of information subject to the requirements 
+of the Paperwork Reduction Act unless that collection of information 
+has a currently valid OMB control number.
+    Q. E-Government Act Compliance: The USPTO is committed to 
+compliance with the E-Government Act to promote the use of the internet 
+and other information technologies, to provide increased opportunities 
+for citizen access to Government information and services, and for 
+other purposes.
+
+List of Subjects in 37 CFR Part 6
+
+    Administrative practice and procedure, Courts, Lawyers, Trademarks.
+
+    For the reasons given in the preamble and under the authority 
+contained in 15 U.S.C. 1112 and 1123 and 35 U.S.C. 2, as amended, the 
+USPTO is amending 37 CFR part 6 as follows:
+
+PART 6--CLASSIFICATION OF GOODS AND SERVICES UNDER THE TRADEMARK 
+ACT
+
+0
+1. The authority citation for part 6 continues to read as follows:
+
+    Authority:  Secs. 30, 41, 60 Stat. 436, 440; 15 U.S.C. 1112, 
+1123; 35 U.S.C. 2, unless otherwise noted.
+
+0
+2. Revise Sec.  6.1 to read as follows:
+
+
+Sec.  6.1  International schedule of classes of goods and services.
+
+Goods
+
+    1. Chemicals for use in industry, science and photography, as well 
+as in agriculture, horticulture and forestry; unprocessed artificial 
+resins, unprocessed plastics; fire extinguishing and fire prevention 
+compositions; tempering and soldering preparations; substances for 
+tanning animal skins and
+
+[[Page 54965]]
+
+hides; adhesives for use in industry; compost, manures, fertilizers; 
+biological preparations for use in industry and science.
+    2. Paints, varnishes, lacquers; preservatives against rust and 
+against deterioration of wood; colorants, dyes; inks for printing, 
+marking and engraving; raw natural resins; metals in foil and powder 
+form for use in painting, decorating, printing and art.
+    3. Non-medicated cosmetics and toiletry preparations; non-medicated 
+dentifrices; perfumes; bleaching preparations and other substances for 
+laundry use; cleaning, polishing and abrasive preparations.
+    4. Industrial oils and greases, wax; lubricants; dust absorbing, 
+wetting and binding compositions; fuels and illuminants; candles and 
+wicks for lighting.
+    5. Pharmaceuticals, medical and veterinary preparations; sanitary 
+preparations for medical purposes; dietetic food and substances adapted 
+for medical or veterinary purposes, food for babies; dietary 
+supplements for human beings and animals; adhesive plasters, materials 
+for dressings; material for filling teeth, dental wax; disinfectants; 
+preparations for destroying vermin; fungicides, herbicides.
+    6. Common metals and their alloys; ores; metal materials for 
+building and construction; transportable buildings of metal; non-
+electric cables and wires of common metal; small items of metal 
+hardware; metal containers for storage or transport; safes.
+    7. Machines, machine tools, power-operated tools; motors and 
+engines, except for land vehicles; machine coupling and transmission 
+components, except for land vehicles; agricultural implements, other 
+than hand-operated hand tools; incubators for eggs; automatic vending 
+machines.
+    8. Hand-operated hand tools and implements; cutlery; side arms, 
+except firearms; razors.
+    9. Scientific, research, navigation, surveying, photographic, 
+cinematographic, audiovisual, optical, weighing, measuring, signalling, 
+detecting, testing, inspecting, life-saving and teaching apparatus and 
+instruments; apparatus and instruments for conducting, switching, 
+transforming, accumulating, regulating or controlling the distribution 
+or use of electricity; apparatus and instruments for recording, 
+transmitting, reproducing or processing sound, images or data; recorded 
+and downloadable multimedia files, computer software, blank digital or 
+analogue recording and storage media; mechanisms for coin-operated 
+apparatus; cash registers, calculating devices; computers and computer 
+peripheral devices; diving suits, diving masks, ear plugs for diving, 
+nose clips for diving, diving gloves, breathing apparatus for 
+underwater swimming; fire-extinguishing apparatus.
+    10. Surgical, medical, dental and veterinary apparatus and 
+instruments; artificial limbs, eyes and teeth; spectacles, contact 
+lenses and sunglasses; orthopaedic articles; suture materials; 
+therapeutic and assistive devices adapted for persons with 
+disabilities; massage apparatus; apparatus, devices and articles for 
+nursing infants; sexual activity apparatus, devices and articles.
+    11. Apparatus and installations for lighting, heating, cooling, 
+steam generating, cooking, drying, ventilating, water supply and 
+sanitary purposes.
+    12. Vehicles; apparatus for locomotion by land, air or water.
+    13. Firearms; ammunition and projectiles; explosives; fireworks.
+    14. Precious metals and their alloys; jewellery, precious and semi-
+precious stones; horological and chronometric instruments.
+    15. Musical instruments; music stands and stands for musical 
+instruments; conductors' batons.
+    16. Paper and cardboard; printed matter; bookbinding material; 
+photographs; stationery and office requisites, except furniture; 
+adhesives for stationery or household purposes; drawing materials and 
+materials for artists; paintbrushes; instructional and teaching 
+materials; plastic sheets, films and bags for wrapping and packaging; 
+printers' type, printing blocks.
+    17. Unprocessed and semi-processed rubber, gutta-percha, gum, 
+asbestos, mica and substitutes for all these materials; plastics and 
+resins in extruded form for use in manufacture; packing, stopping and 
+insulating materials; flexible pipes, tubes and hoses, not of metal.
+    18. Leather and imitations of leather; animal skins and hides; 
+luggage and carrying bags; umbrellas and parasols; walking sticks; 
+whips, harness and saddlery; collars, leashes and clothing for animals.
+    19. Materials, not of metal, for building and construction; rigid 
+pipes, not of metal, for building; asphalt, pitch, tar and bitumen; 
+transportable buildings, not of metal; monuments, not of metal.
+    20. Furniture, mirrors, picture frames; containers, not of metal, 
+for storage or transport; unworked or semi-worked bone, horn, whalebone 
+or mother-of-pearl; shells; meerschaum; yellow amber.
+    21. Household or kitchen utensils and containers; cookware and 
+tableware, except forks, knives and spoons; combs and sponges; brushes, 
+except paintbrushes; brush-making materials; articles for cleaning 
+purposes; unworked or semi-worked glass, except building glass; 
+glassware, porcelain and earthenware.
+    22. Ropes and string; nets; tents and tarpaulins; awnings of 
+textile or synthetic materials; sails; sacks for the transport and 
+storage of materials in bulk; padding, cushioning and stuffing 
+materials, except of paper, cardboard, rubber or plastics; raw fibrous 
+textile materials and substitutes therefor.
+    23. Yarns and threads for textile use.
+    24. Textiles and substitutes for textiles; household linen; 
+curtains of textile or plastic.
+    25. Clothing, footwear, headwear.
+    26. Lace and embroidery, and haberdashery ribbons and bows; 
+buttons, hooks and eyes, pins and needles; artificial flowers; hair 
+decorations; false hair.
+    27. Carpets, rugs, mats and matting, linoleum and other materials 
+for covering existing floors; wall hangings, not of textile.
+    28. Games, toys and playthings; video game apparatus; gymnastic and 
+sporting articles; decorations for Christmas trees.
+    29. Meat, fish, poultry and game; meat extracts for culinary 
+purposes; preserved, frozen, dried and cooked fruits, vegetables and 
+seaweeds; jellies, jams, compotes; eggs; milk, cheese, butter, yogurt 
+and other milk products; oils and fats for food.
+    30. Coffee, tea, cocoa and substitutes therefor; rice, pasta and 
+noodles; tapioca and sago; flour and preparations made from cereals; 
+bread, pastries and confectionery; chocolate; ice cream, sorbets and 
+other edible ices; sugar, honey, treacle; yeast, baking-powder; salt, 
+seasonings, spices, preserved herbs; vinegar, sauces and other 
+condiments; ice (frozen water).
+    31. Raw and unprocessed agricultural, aquacultural, horticultural 
+and forestry products; raw and unprocessed grains and seeds; fresh 
+fruits and vegetables, fresh herbs; natural plants and flowers; bulbs, 
+seedlings and seeds for planting; live animals; foodstuffs and 
+beverages for animals; malt.
+    32. Beers; non-alcoholic beverages; mineral and aerated waters; 
+fruit beverages and fruit juices; syrups and other preparations for 
+making non-alcoholic beverages.
+    33. Alcoholic beverages, except beers; alcoholic preparations for 
+making beverages.
+    34. Tobacco and tobacco substitutes; cigarettes and cigars; 
+electronic
+
+[[Page 54966]]
+
+cigarettes and oral vaporizers for smokers; smokers' articles; matches.
+
+Services
+
+    35. Advertising; business management, organization and 
+administration; office functions.
+    36. Financial, monetary and banking services; insurance services; 
+real estate services.
+    37. Construction services; installation and repair services; mining 
+extraction, oil and gas drilling.
+    38. Telecommunications services.
+    39. Transport; packaging and storage of goods; travel arrangement.
+    40. Treatment of materials; recycling of waste and trash; air 
+purification and treatment of water; printing services; food and drink 
+preservation.
+    41. Education; providing of training; entertainment; sporting and 
+cultural activities.
+    42. Scientific and technological services and research and design 
+relating thereto; industrial analysis, industrial research and 
+industrial design services; quality control and authentication 
+services; design and development of computer hardware and software.
+    43. Services for providing food and drink; temporary accommodation.
+    44. Medical services; veterinary services; hygienic and beauty care 
+for human beings or animals; agriculture, aquaculture, horticulture and 
+forestry services.
+    45. Legal services; security services for the physical protection 
+of tangible property and individuals; dating services, online social 
+networking services; funerary services; babysitting.
+
+John A. Squires,
+Under Secretary of Commerce for Intellectual Property and Director of 
+the United States Patent and Trademark Office.
+[FR Doc. 2026-17437 Filed 8-25-26; 8:45 am]
+BILLING CODE 3510-16-P

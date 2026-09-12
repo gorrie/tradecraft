@@ -1,0 +1,22 @@
+{
+ "ptc": {
+  "matches_after": 99,
+  "rejected": 0,
+  "rejected_detail": {}
+ },
+ "background": {
+  "matches_after": 163,
+  "rejected": 0,
+  "rejected_detail": {}
+ },
+ "fixtures": {
+  "matches_after": 242,
+  "rejected": 0,
+  "rejected_detail": {}
+ },
+ "collateral": {
+  "matches_after": 51,
+  "rejected": 0,
+  "rejected_detail": {}
+ }
+}
